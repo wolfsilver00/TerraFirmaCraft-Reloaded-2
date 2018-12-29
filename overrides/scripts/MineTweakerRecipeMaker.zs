@@ -26,7 +26,9 @@ recipes.remove(<tconstruct:soil>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<minecraft:water_bucket>, [<ore:listAllwater>]);
+recipes.addShapeless(<minecraft:water_bucket>, [<forge:bucketfilled>.withTag({FluidName: "salt_water", Amount: 1000})]);
+recipes.addShapeless(<minecraft:water_bucket>, [<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000})]);
+recipes.addShapeless(<minecraft:water_bucket>, [<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000})]);
 
 recipes.addShapeless(<refinedstorage:quartz_enriched_iron> * 9, [<refinedstorage:quartz_enriched_iron_block>]);
 recipes.addShapeless(<refinedstorage:quartz_enriched_iron> * 4, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemQuartz>]);

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TerraFirmaCraft Reloaded 2",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "verph",
   "files": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2648622,
+      "fileID": 2652749,
       "required": true
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "projectID": 255232,
-      "fileID": 2616338,
+      "fileID": 2651697,
       "required": true
     },
     {
@@ -132,11 +132,6 @@
     {
       "projectID": 257225,
       "fileID": 2556034,
-      "required": true
-    },
-    {
-      "projectID": 268819,
-      "fileID": 2512819,
       "required": true
     },
     {
@@ -196,12 +191,12 @@
     },
     {
       "projectID": 246996,
-      "fileID": 2595869,
+      "fileID": 2651700,
       "required": true
     },
     {
       "projectID": 237065,
-      "fileID": 2602932,
+      "fileID": 2652853,
       "required": true
     },
     {
@@ -221,7 +216,7 @@
     },
     {
       "projectID": 287683,
-      "fileID": 2642594,
+      "fileID": 2653043,
       "required": true
     },
     {
@@ -241,12 +236,12 @@
     },
     {
       "projectID": 250363,
-      "fileID": 2642313,
+      "fileID": 2652766,
       "required": true
     },
     {
       "projectID": 243121,
-      "fileID": 2646070,
+      "fileID": 2652981,
       "required": true
     },
     {
@@ -356,17 +351,17 @@
     },
     {
       "projectID": 231868,
-      "fileID": 2632476,
+      "fileID": 2652469,
       "required": true
     },
     {
       "projectID": 64578,
-      "fileID": 2641194,
+      "fileID": 2652322,
       "required": true
     },
     {
       "projectID": 304346,
-      "fileID": 2641193,
+      "fileID": 2652321,
       "required": true
     },
     {
@@ -402,11 +397,6 @@
     {
       "projectID": 250277,
       "fileID": 2648892,
-      "required": true
-    },
-    {
-      "projectID": 59751,
-      "fileID": 2638806,
       "required": true
     },
     {
@@ -446,7 +436,7 @@
     },
     {
       "projectID": 231951,
-      "fileID": 2646183,
+      "fileID": 2652289,
       "required": true
     },
     {
@@ -506,12 +496,12 @@
     },
     {
       "projectID": 266515,
-      "fileID": 2644510,
+      "fileID": 2651369,
       "required": true
     },
     {
       "projectID": 277938,
-      "fileID": 2643102,
+      "fileID": 2651232,
       "required": true
     },
     {
@@ -547,6 +537,11 @@
     {
       "projectID": 283644,
       "fileID": 2631823,
+      "required": true
+    },
+    {
+      "projectID": 59751,
+      "fileID": 2653258,
       "required": true
     }
   ],

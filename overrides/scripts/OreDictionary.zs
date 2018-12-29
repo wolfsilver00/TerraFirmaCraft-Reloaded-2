@@ -5,7 +5,8 @@ var listAllwater = <ore:listAllwater>;
     listAllwater.addItems([
 	<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "salt_water", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000})
+	<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}),
+	<claybucket:claybucket:1>
 	]);
 
 var dyeYellow = <ore:dyeYellow>;
