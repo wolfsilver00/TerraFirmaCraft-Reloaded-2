@@ -489,62 +489,60 @@ var oreIridium = <ore:oreIridium>;
 // ================================================================================
 //#Change Casting	
 
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth>, <tconstruct:cast_custom>, <liquid:bismuth> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth>, <tconstruct:cast_custom>, <liquid:bismuth>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth_bronze>, <tconstruct:cast_custom>, <liquid:bismuth_bronze> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth_bronze>, <tconstruct:cast_custom>, <liquid:bismuth_bronze>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_bronze>, <tconstruct:cast_custom>, <liquid:black_bronze> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_bronze>, <tconstruct:cast_custom>, <liquid:black_bronze>, 144, false, 40);
 
 	mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:5>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/brass>, <tconstruct:cast_custom>, <liquid:brass> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/brass>, <tconstruct:cast_custom>, <liquid:brass>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:163>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bronze>, <tconstruct:cast_custom>, <liquid:bronze> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bronze>, <tconstruct:cast_custom>, <liquid:bronze>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:128>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/copper>, <tconstruct:cast_custom>, <liquid:copper> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/copper>, <tconstruct:cast_custom>, <liquid:copper>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<minecraft:gold_ingot>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/gold>, <tconstruct:cast_custom>, <liquid:gold> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/gold>, <tconstruct:cast_custom>, <liquid:gold>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:131>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/lead>, <tconstruct:cast_custom>, <liquid:lead> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/lead>, <tconstruct:cast_custom>, <liquid:lead>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:133>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/nickel>, <tconstruct:cast_custom>, <liquid:nickel> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/nickel>, <tconstruct:cast_custom>, <liquid:nickel>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<tinkerscompendium:ingot_rosegold>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/rose_gold>, <tconstruct:cast_custom>, <liquid:rosegold> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/rose_gold>, <tconstruct:cast_custom>, <liquid:rosegold>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:130>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/silver>, <tconstruct:cast_custom>, <liquid:silver> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/silver>, <tconstruct:cast_custom>, <liquid:silver>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:129>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/tin>, <tconstruct:cast_custom>, <liquid:tin> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/tin>, <tconstruct:cast_custom>, <liquid:tin>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/zinc>, <tconstruct:cast_custom>, <liquid:zinc> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/zinc>, <tconstruct:cast_custom>, <liquid:zinc>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/sterling_silver>, <tconstruct:cast_custom>, <liquid:sterling_silver> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/sterling_silver>, <tconstruct:cast_custom>, <liquid:sterling_silver>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<minecraft:iron_ingot>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/wrought_iron>, <tconstruct:cast_custom>, <liquid:iron> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/wrought_iron>, <tconstruct:cast_custom>, <liquid:iron>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:4>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/pig_iron>, <tconstruct:cast_custom>, <liquid:pigiron> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/pig_iron>, <tconstruct:cast_custom>, <liquid:pigiron>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:160>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/steel>, <tconstruct:cast_custom>, <liquid:steel> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/steel>, <tconstruct:cast_custom>, <liquid:steel>, 144, false, 40);
 	
 	mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:134>);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/platinum>, <tconstruct:cast_custom>, <liquid:platinum> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/platinum>, <tconstruct:cast_custom>, <liquid:platinum>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_steel>, <tconstruct:cast_custom>, <liquid:black_steel> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_steel>, <tconstruct:cast_custom>, <liquid:black_steel>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/blue_steel>, <tconstruct:cast_custom>, <liquid:blue_steel> * 144, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/blue_steel>, <tconstruct:cast_custom>, <liquid:blue_steel>, 144, false, 40);
 	
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/red_steel>, <tconstruct:cast_custom>, <liquid:red_steel> * 144, 40);
-
-	
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/red_steel>, <tconstruct:cast_custom>, <liquid:red_steel>, 144, false, 40);	
 	
 	
 // ================================================================================
@@ -705,22 +703,6 @@ var oreIridium = <ore:oreIridium>;
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/scythe_blade/blue_steel>, <tfc:mold/scythe_blade>, <liquid:blue_steel>, 100, false, 40);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/scythe_blade/red_steel>, <tfc:mold/scythe_blade>, <liquid:red_steel>, 100, false, 40);
 	
-
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/red_steel>, <tconstruct:cast_custom>, <liquid:red_steel>, 144);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/blue_steel>, <tconstruct:cast_custom>, <liquid:blue_steel>, 144);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_steel>, <tconstruct:cast_custom>, <liquid:black_steel>, 144);
-	
-	//mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/red_steel>, <tconstruct:cast_custom>, <liquid:titanium>, 144);
-	//mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/blue_steel>, <tconstruct:cast_custom>, <liquid:tungsten>, 144);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_steel>, <tconstruct:cast_custom>, <liquid:refinediron>, 144);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_bronze>, <tconstruct:cast_custom>, <liquid:black_bronze>, 144);
-	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth_bronze>, <tconstruct:cast_custom>, <liquid:bismuth_bronze>, 144);
-	
-	//mods.tconstruct.Casting.addTableRecipe(<quadrum:mithril_ingot>, <tconstruct:cast_custom>, <liquid:mithril>, 144);
-	//mods.tconstruct.Casting.addTableRecipe(<quadrum:iridium_ingot>, <tconstruct:cast_custom>, <liquid:iridium>, 144);
-	//mods.tconstruct.Casting.addTableRecipe(<quadrum:orichalcum_ingot>, <tconstruct:cast_custom>, <liquid:orichalcum>, 144);
-	//mods.tconstruct.Casting.addTableRecipe(<quadrum:titanium_ingot>, <tconstruct:cast_custom>, <liquid:titanium>, 144);
-	//mods.tconstruct.Casting.addTableRecipe(<quadrum:tungsten_ingot>, <tconstruct:cast_custom>, <liquid:tungsten>, 144);
 
 
 
