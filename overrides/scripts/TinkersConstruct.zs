@@ -328,18 +328,18 @@
 
 //Bismuth
 
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 576, <ore:doubleSheetBismuth>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 288, <ore:sheetBismuth>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 288, <ore:doubleIngotBismuth>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 144, <ore:ingotBismuth>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 144, <ore:scrapBismuth>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 144, <ore:dustBismuth>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 16, <ore:nuggetBismuth>);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 576, <ore:doubleSheetBismuth>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 288, <ore:sheetBismuth>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 288, <ore:doubleIngotBismuth>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 144, <ore:ingotBismuth>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 144, <ore:scrapBismuth>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 144, <ore:dustBismuth>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 16, <ore:nuggetBismuth>, 400);
 	
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 70, <ore:oreBismuthiniteRich>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 50, <ore:oreBismuthiniteNormal>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 30, <ore:oreBismuthinitePoor>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 20, <ore:oreBismuthiniteSmall>);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 70, <ore:oreBismuthiniteRich>, 430);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 50, <ore:oreBismuthiniteNormal>, 420);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 30, <ore:oreBismuthinitePoor>, 410);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth> * 20, <ore:oreBismuthiniteSmall>, 400);
 
 //Zinc
 
@@ -368,53 +368,53 @@
 
 //Bismuth Bronze
 
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 576, <ore:doubleSheetBismuthBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 288, <ore:sheetBismuthBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 288, <ore:doubleIngotBismuthBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 144, <ore:ingotBismuthBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 144, <ore:scrapBismuthBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 144, <ore:dustBismuthBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 16, <ore:nuggetBismuthBronze>);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 576, <ore:doubleSheetBismuthBronze>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 288, <ore:sheetBismuthBronze>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 288, <ore:doubleIngotBismuthBronze>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 144, <ore:ingotBismuthBronze>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 144, <ore:scrapBismuthBronze>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 144, <ore:dustBismuthBronze>, 400);
+	mods.tconstruct.Melting.addRecipe(<liquid:bismuth_bronze> * 16, <ore:nuggetBismuthBronze>, 400);
 
 //Blue Steel
 
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 576, <ore:doubleSheetBlueSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 288, <ore:sheetBlueSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 288, <ore:doubleIngotBlueSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 144, <ore:ingotBlueSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 144, <ore:scrapBlueSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 144, <ore:dustBlueSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 16, <ore:nuggetBlueSteel>);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 576, <ore:doubleSheetBlueSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 288, <ore:sheetBlueSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 288, <ore:doubleIngotBlueSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 144, <ore:ingotBlueSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 144, <ore:scrapBlueSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 144, <ore:dustBlueSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:blue_steel> * 16, <ore:nuggetBlueSteel>, 1000);
 
 //Red Steel
 
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 576, <ore:doubleSheetRedSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 288, <ore:sheetRedSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 288, <ore:doubleIngotRedSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 144, <ore:ingotRedSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 144, <ore:scrapRedSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 144, <ore:dustRedSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 16, <ore:nuggetRedSteel>);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 576, <ore:doubleSheetRedSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 288, <ore:sheetRedSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 288, <ore:doubleIngotRedSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 144, <ore:ingotRedSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 144, <ore:scrapRedSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 144, <ore:dustRedSteel>, 1000);
+	mods.tconstruct.Melting.addRecipe(<liquid:red_steel> * 16, <ore:nuggetRedSteel>, 1000);
 
 //Black Bronze
 
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 576, <ore:doubleSheetBlackBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 288, <ore:sheetBlackBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 288, <ore:doubleIngotBlackBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 144, <ore:ingotBlackBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 144, <ore:scrapBlackBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 144, <ore:dustBlackBronze>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 16, <ore:nuggetBlackBronze>);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 576, <ore:doubleSheetBlackBronze>, 500);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 288, <ore:sheetBlackBronze>, 500);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 288, <ore:doubleIngotBlackBronze>, 500);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 144, <ore:ingotBlackBronze>, 500);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 144, <ore:scrapBlackBronze>, 500);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 144, <ore:dustBlackBronze>, 500);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_bronze> * 16, <ore:nuggetBlackBronze>, 500);
 	
 //Black Steel
 
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 576, <ore:doubleSheetBlackSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 288, <ore:sheetBlackSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 288, <ore:doubleIngotBlackSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 144, <ore:ingotBlackSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 144, <ore:scrapBlackSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 144, <ore:dustBlackSteel>);
-	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 16, <ore:nuggetBlackSteel>);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 576, <ore:doubleSheetBlackSteel>, 800);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 288, <ore:sheetBlackSteel>, 800);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 288, <ore:doubleIngotBlackSteel>, 800);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 144, <ore:ingotBlackSteel>, 800);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 144, <ore:scrapBlackSteel>, 800);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 144, <ore:dustBlackSteel>, 800);
+	mods.tconstruct.Melting.addRecipe(<liquid:black_steel> * 16, <ore:nuggetBlackSteel>, 800);
 
 //Microcline (Mithril)
 
@@ -703,6 +703,157 @@ var oreIridium = <ore:oreIridium>;
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/scythe_blade/blue_steel>, <tfc:mold/scythe_blade>, <liquid:blue_steel>, 100, false, 40);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/scythe_blade/red_steel>, <tfc:mold/scythe_blade>, <liquid:red_steel>, 100, false, 40);
 	
+//Titanium Tool Parts
 
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_tool_rod>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:titanium>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sharpening_kit>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sharpening_kit"}), <liquid:titanium>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:rivets>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:rivets"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_binding>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_binding"}), <liquid:titanium>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:armor_plate>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:armor_plate"}), <liquid:titanium>, 576, false, 180);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:cross_guard>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:cross_guard"}), <liquid:titanium>, 144, false, 60);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:chest_core>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:chest_core"}), <liquid:titanium>, 864, false, 260);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:pan_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:titanium>, 432, false, 140);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:leggings_core>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}), <liquid:titanium>, 720, false, 220);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:wide_guard>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:wide_guard"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sword_blade>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sword_blade"}), <liquid:titanium>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:polishing_kit>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}), <liquid:titanium>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_plate>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_plate"}), <liquid:titanium>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:clasp>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:clasp"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:excavator_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:excavator_head"}), <liquid:titanium>, 1152, false, 360);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:helmet_core>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}), <liquid:titanium>, 576, false, 180);
 
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:broad_axe_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:broad_axe_head"}), <liquid:titanium>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:binding>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:binding"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sign_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sign_head"}), <liquid:titanium>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:chainmail>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:chainmail"}), <liquid:titanium>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tcomplement:sledge_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tcomplement:sledge_head"}), <liquid:titanium>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:hammer_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hammer_head"}), <liquid:titanium>, 1152, false, 360);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:armor_plate>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}), <liquid:titanium>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:axe_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:axe_head"}), <liquid:titanium>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:armor_trim>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}), <liquid:titanium>, 144, false, 60);
 
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:titanium>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:shovel_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shovel_head"}), <liquid:titanium>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:boots_core>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "conarm:boots_core"}), <liquid:titanium>, 576, false, 180);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:filigree>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:filigree"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:hand_guard>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hand_guard"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:knife_blade>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:knife_blade"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tool_rod>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:titanium>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_limb>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_limb"}), <liquid:titanium>, 432, false, 140);
+	//mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_string"}), <liquid:titanium>, 144, false, 40);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:kama_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:kama_head"}), <liquid:titanium>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:shard>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shard"}), <liquid:titanium>, 72, false, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:titanium>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:titanium>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:titanium>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "titanium"}), <tconstruct:cast_custom>, <liquid:titanium>, 144, false, 40);
+
+//Tungsten Tool Parts
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_tool_rod>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:tungsten>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sharpening_kit>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sharpening_kit"}), <liquid:tungsten>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:rivets>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:rivets"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_binding>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_binding"}), <liquid:tungsten>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:armor_plate>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:armor_plate"}), <liquid:tungsten>, 576, false, 180);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:cross_guard>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:cross_guard"}), <liquid:tungsten>, 144, false, 60);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:chest_core>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:chest_core"}), <liquid:tungsten>, 864, false, 260);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:pan_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:tungsten>, 432, false, 140);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:leggings_core>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}), <liquid:tungsten>, 720, false, 220);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:wide_guard>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:wide_guard"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sword_blade>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sword_blade"}), <liquid:tungsten>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:polishing_kit>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}), <liquid:tungsten>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_plate>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_plate"}), <liquid:tungsten>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:clasp>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:clasp"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:excavator_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:excavator_head"}), <liquid:tungsten>, 1152, false, 360);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:helmet_core>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}), <liquid:tungsten>, 576, false, 180);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:broad_axe_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:broad_axe_head"}), <liquid:tungsten>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:binding>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:binding"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sign_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sign_head"}), <liquid:tungsten>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:chainmail>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:chainmail"}), <liquid:tungsten>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tcomplement:sledge_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tcomplement:sledge_head"}), <liquid:tungsten>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:hammer_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hammer_head"}), <liquid:tungsten>, 1152, false, 360);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:armor_plate>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}), <liquid:tungsten>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:axe_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:axe_head"}), <liquid:tungsten>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:armor_trim>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}), <liquid:tungsten>, 144, false, 60);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:tungsten>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:shovel_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shovel_head"}), <liquid:tungsten>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:boots_core>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "conarm:boots_core"}), <liquid:tungsten>, 576, false, 180);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:filigree>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:filigree"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:hand_guard>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hand_guard"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:knife_blade>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:knife_blade"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tool_rod>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:tungsten>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_limb>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_limb"}), <liquid:tungsten>, 432, false, 140);
+	//mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_string"}), <liquid:tungsten>, 144, false, 40);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:kama_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:kama_head"}), <liquid:tungsten>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:shard>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shard"}), <liquid:tungsten>, 72, false, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:tungsten>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:tungsten>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:tungsten>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "tungsten"}), <tconstruct:cast_custom>, <liquid:tungsten>, 144, false, 40);
+
+//Chrome Tool Parts
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_tool_rod>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:chrome>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sharpening_kit>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sharpening_kit"}), <liquid:chrome>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:rivets>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:rivets"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_binding>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_binding"}), <liquid:chrome>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:armor_plate>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:armor_plate"}), <liquid:chrome>, 576, false, 180);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:cross_guard>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:cross_guard"}), <liquid:chrome>, 144, false, 60);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:chest_core>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:chest_core"}), <liquid:chrome>, 864, false, 260);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:pan_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:chrome>, 432, false, 140);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:leggings_core>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}), <liquid:chrome>, 720, false, 220);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:wide_guard>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:wide_guard"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sword_blade>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sword_blade"}), <liquid:chrome>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:polishing_kit>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}), <liquid:chrome>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_plate>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_plate"}), <liquid:chrome>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:clasp>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:clasp"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:excavator_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:excavator_head"}), <liquid:chrome>, 1152, false, 360);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:helmet_core>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}), <liquid:chrome>, 576, false, 180);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:broad_axe_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:broad_axe_head"}), <liquid:chrome>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:binding>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:binding"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:sign_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sign_head"}), <liquid:chrome>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:chainmail>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:chainmail"}), <liquid:chrome>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tcomplement:sledge_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tcomplement:sledge_head"}), <liquid:chrome>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:hammer_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hammer_head"}), <liquid:chrome>, 1152, false, 360);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:armor_plate>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}), <liquid:chrome>, 432, false, 140);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:axe_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:axe_head"}), <liquid:chrome>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:armor_trim>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}), <liquid:chrome>, 144, false, 60);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:chrome>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:shovel_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shovel_head"}), <liquid:chrome>, 288, false, 100);
+	//mods.tconstruct.Casting.addTableRecipe(<conarm:boots_core>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "conarm:boots_core"}), <liquid:chrome>, 576, false, 180);
+	mods.tconstruct.Casting.addTableRecipe(<tinkerscompendium:filigree>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tinkerscompendium:filigree"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:hand_guard>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hand_guard"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:knife_blade>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:knife_blade"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tool_rod>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:chrome>, 144, false, 60);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_limb>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_limb"}), <liquid:chrome>, 432, false, 140);
+	//mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_string"}), <liquid:chrome>, 144, false, 40);
+
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:kama_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:kama_head"}), <liquid:chrome>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:shard>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shard"}), <liquid:chrome>, 72, false, 40);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:chrome>, 288, false, 100);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:chrome>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:chrome>, 1152, false, 360);
+	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "chrome"}), <tconstruct:cast_custom>, <liquid:chrome>, 144, false, 40);
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
