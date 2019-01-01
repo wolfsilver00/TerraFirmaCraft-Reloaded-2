@@ -233,6 +233,7 @@ recipes.addShapeless(<tfc:metal/nugget/blue_steel> * 9, [<ore:ingotBlueSteel>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:sponge>, [[<ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>], [<ore:blockSlimeCongealed>, <ore:blockWool>, <ore:blockSlimeCongealed>], [<ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>]]);
 recipes.addShaped(<tfc:ceramics/unfired/fire_brick> * 2, [[<tfc:ceramics/fire_clay>, <tfc:ceramics/fire_clay>], [<tfc:ceramics/fire_clay>, <tfc:ceramics/fire_clay>]]);
 recipes.addShaped(<tfc:ceramics/fire_clay>, [[<ore:dustKaolinitePowder>, <ore:dustGraphite>, <ore:dustKaolinitePowder>], [<ore:dustGraphite>, <ore:itemClay>, <ore:dustGraphite>], [<ore:dustKaolinitePowder>, <ore:dustGraphite>, <ore:dustKaolinitePowder>]]);
 

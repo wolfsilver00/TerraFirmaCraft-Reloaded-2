@@ -6,6 +6,11 @@
   },
   {
     "fluidName": "lava",
+    "input": "ore:blockSlime",
+    "output": "tconstruct:slime_congealed:4"
+  },
+  {
+    "fluidName": "lava",
     "input": "ore:dustRedstone",
     "output": "minecraft:netherrack:0"
   },

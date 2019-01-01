@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "mob": "Skeleton",
+    "player": true,
+    "item": "tconstruct:materials:17",
+    "itemcount": "0-1/1-2/2-3"
+  }
+]

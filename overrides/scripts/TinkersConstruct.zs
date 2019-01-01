@@ -747,8 +747,6 @@ var oreIridium = <ore:oreIridium>;
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:titanium>, 288, false, 100);
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:titanium>, 1152, false, 360);
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "titanium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:titanium>, 1152, false, 360);
-	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "titanium"}), <tconstruct:cast_custom>, <liquid:titanium>, 144, false, 40);
-
 //Tungsten Tool Parts
 
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:tough_tool_rod>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:tungsten>, 432, false, 140);
@@ -793,7 +791,6 @@ var oreIridium = <ore:oreIridium>;
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:tungsten>, 288, false, 100);
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:tungsten>, 1152, false, 360);
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "tungsten"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:tungsten>, 1152, false, 360);
-	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "tungsten"}), <tconstruct:cast_custom>, <liquid:tungsten>, 144, false, 40);
 
 //Chrome Tool Parts
 
@@ -839,7 +836,6 @@ var oreIridium = <ore:oreIridium>;
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:chrome>, 288, false, 100);
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:chrome>, 1152, false, 360);
 	mods.tconstruct.Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "chrome"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:chrome>, 1152, false, 360);
-	mods.tconstruct.Casting.addTableRecipe(<tconstruct:bow_string>.withTag({Material: "chrome"}), <tconstruct:cast_custom>, <liquid:chrome>, 144, false, 40);
 
 	
 	
