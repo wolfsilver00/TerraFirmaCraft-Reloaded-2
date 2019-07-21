@@ -1,8 +1,14 @@
 [
   {
-    "mob": "Skeleton",
-    "player": true,
-    "item": "tconstruct:materials:17",
-    "itemcount": "0-1/1-2/2-3"
+    "mob": "minecraft:cow",
+    "remove": "minecraft:leather"
+  },
+  {
+    "mob": "betteranimalsplus:reindeer",
+    "remove": "minecraft:leather"
+  },
+  {
+    "mob": "betteranimalsplus:goat",
+    "remove": "minecraft:leather"
   }
 ]

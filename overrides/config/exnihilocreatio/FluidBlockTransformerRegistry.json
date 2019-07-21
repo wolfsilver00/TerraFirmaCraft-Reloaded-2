@@ -5,9 +5,14 @@
     "output": "minecraft:clay:0"
   },
   {
+    "fluidName": "water",
+    "input": "ore:blockSlime",
+    "output": "minecraft:sponge"
+  },
+  {
     "fluidName": "lava",
     "input": "ore:blockSlime",
-    "output": "tconstruct:slime_congealed:4"
+    "output": "tconstruct:slime:4"
   },
   {
     "fluidName": "lava",
@@ -26,8 +31,16 @@
   },
   {
     "fluidName": "milk",
+    "input": "tfc:plants/porcini",
+    "output": "tconstruct:slime:0",
+    "toSpawn": "Slime",
+    "spawnCount": 4,
+    "spawnRange": 4
+  },
+  {
+    "fluidName": "milk",
     "input": "minecraft:brown_mushroom:0",
-    "output": "minecraft:slime:0",
+    "output": "tconstruct:slime:0",
     "toSpawn": "Slime",
     "spawnCount": 4,
     "spawnRange": 4
@@ -35,7 +48,7 @@
   {
     "fluidName": "milk",
     "input": "minecraft:red_mushroom:0",
-    "output": "minecraft:slime:0",
+    "output": "tconstruct:slime:0",
     "toSpawn": "Slime",
     "spawnCount": 4,
     "spawnRange": 4

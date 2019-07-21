@@ -1,17 +1,11 @@
 // ================================================================================
 //#Ore Dictionary
-	
-var listAllwater = <ore:listAllwater>;
-    listAllwater.addItems([
-	<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "salt_water", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}),
-	<claybucket:claybucket:1>
-	]);
+
 
 var dyeYellow = <ore:dyeYellow>;
     dyeYellow.addItems([
-	<tfc:powder/limonite_powder>
+	<tfc:powder/limonite_powder>,
+	<tfc:powder/sulfur_powder>
 	]);
 
 var dyeRed = <ore:dyeRed>;
@@ -24,57 +18,49 @@ var dyeGreen = <ore:dyeGreen>;
 	<tfc:powder/malachite_powder>
 	]);
 
-var oreUranium = <ore:oreUranium>;
-    oreUranium.addItems([
-	<tfc:ore/pitchblende>
+var dyeBlue = <ore:dyeBlue>;
+    dyeBlue.addItems([
+	<tfc:powder/lapis_lazuli_powder>
 	]);
 
-var dustHOPGraphite = <ore:dustHOPGraphite>;
-    dustHOPGraphite.addItems([
-	<tfc:powder/graphite_powder>
+var dyeBlack = <ore:dyeBlack>;
+    dyeBlack.addItems([
+	<tfc:powder/coke>
 	]);
 
-var dustGraphite = <ore:dustGraphite>;
-    dustGraphite.addItems([
-	<tfc:powder/graphite_powder>
+var fiberHemp = <ore:fiberHemp>;
+    fiberHemp.addItems([
+	<tfc:crop/product/jute_fiber>
 	]);
 
-var ingotDarkSteel = <ore:ingotDarkSteel>;
-    ingotDarkSteel.addItems([
-	<tfc:metal/ingot/black_steel>
+var fabricHemp = <ore:fabricHemp>;
+    fabricHemp.addItems([
+	<tfc:crop/product/burlap_cloth>
 	]);
-
-var ingotBlackSteel = <ore:ingotBlackSteel>;
-    ingotBlackSteel.addItems([
-	<enderio:item_alloy_ingot:6>
+	
+var gemCoal = <ore:gemCoal>;
+    gemCoal.addItems([
+		<minecraft:coal>
 	]);
-
-var ingotPigiron = <ore:ingotPigiron>;
-    ingotPigiron.addItems([
-	<tfc:metal/ingot/pig_iron>
-	]);
-
-var ingotIron = <ore:ingotIron>;
-    ingotIron.addItems([
-	<tfc:metal/ingot/wrought_iron>
+	
+var gemAnthracite = <ore:gemAnthracite>;
+    gemAnthracite.addItems([
+		<minecraft:coal>
 	]);
 	
 var coal = <ore:coal>;
     coal.addItems([
+		<minecraft:coal>,
 		<tfc:ore/lignite>,
 		<tfc:ore/bituminous_coal>
 	]);
 	
 var itemCoal = <ore:itemCoal>;
     itemCoal.addItems([
+		<minecraft:coal>,
+		<minecraft:coal:1>,
 		<tfc:ore/lignite>,
-		<tfc:ore/bituminous_coal>,
-		<tfc:ore/graphite>
-	]);
-
-var dirt = <ore:dirt>;
-    dirt.addItems([
-	<tfc:peat>
+		<tfc:ore/bituminous_coal>
 	]);
 
 var dustSaltpeter = <ore:dustSaltpeter>;
@@ -82,249 +68,49 @@ var dustSaltpeter = <ore:dustSaltpeter>;
 	<tfc:powder/saltpeter_powder>
 	]);
 
-var plateBismuth = <ore:plateBismuth>;
-    plateBismuth.addItems([
-		<tfc:metal/sheet/bismuth>
+var dustHOPGraphite = <ore:dustHOPGraphite>;
+    dustHOPGraphite.addItems([
+	<tfc:powder/graphite_powder>
 	]);
 
-var plateBismuthBronze = <ore:plateBismuthBronze>;
-    plateBismuthBronze.addItems([
-		<tfc:metal/sheet/bismuth_bronze>
+var oreUranium = <ore:oreUranium>;
+    oreUranium.addItems([
+	<tfc:ore/pitchblende>
 	]);
 
-var plateBlackBronze = <ore:plateBlackBronze>;
-    plateBlackBronze.addItems([
-		<tfc:metal/sheet/black_bronze>
+var oreAluminium = <ore:oreAluminium>;
+    oreAluminium.addItems([
+	<tfc:ore/petrified_wood>
 	]);
 
-var plateBrass = <ore:plateBrass>;
-    plateBrass.addItems([
-		<tfc:metal/sheet/brass>
-	]);
-	
-var plateBronze = <ore:plateBronze>;
-    plateBronze.addItems([
-		<tfc:metal/sheet/bronze>
+var oreAluminum = <ore:oreAluminum>;
+    oreAluminum.addItems([
+	<tfc:ore/petrified_wood>
 	]);
 
-var plateCopper = <ore:plateCopper>;
-    plateCopper.addItems([
-		<tfc:metal/sheet/copper>
+var oreBauxite = <ore:oreBauxite>;
+    oreBauxite.addItems([
+	<tfc:ore/petrified_wood>
 	]);
 
-var plateGold = <ore:plateGold>;
-    plateGold.addItems([
-		<tfc:metal/sheet/gold>
+var oreCobalt = <ore:oreCobalt>;
+    oreCobalt.addItems([
+	<tfc:ore/microcline>
 	]);
 
-var plateLead = <ore:plateLead>;
-    plateLead.addItems([
-		<tfc:metal/sheet/lead>
+var oreArdite = <ore:oreArdite>;
+    oreArdite.addItems([
+	<tfc:ore/serpentine>
 	]);
 
-var plateNickel = <ore:plateNickel>;
-    plateNickel.addItems([
-		<tfc:metal/sheet/nickel>
+var nuggetIron = <ore:nuggetIron>;
+    nuggetIron.addItems([
+	<tfc:metal/nugget/wrought_iron>
 	]);
 
-var plateRoseGold = <ore:plateRoseGold>;
-    plateRoseGold.addItems([
-		<tfc:metal/sheet/rose_gold>
-	]);
-
-var plateRosegold = <ore:plateRosegold>;
-    plateRosegold.addItems([
-		<tfc:metal/sheet/rose_gold>
-	]);
-
-var plateSilver = <ore:plateSilver>;
-    plateSilver.addItems([
-		<tfc:metal/sheet/silver>
-	]);
-
-var plateTin = <ore:plateTin>;
-    plateTin.addItems([
-		<tfc:metal/sheet/tin>
-	]);
-
-var plateZinc = <ore:plateZinc>;
-    plateZinc.addItems([
-		<tfc:metal/sheet/zinc>
-	]);
-
-var plateSterlingSilver = <ore:plateSterlingSilver>;
-    plateSterlingSilver.addItems([
-		<tfc:metal/sheet/sterling_silver>
-	]);
-
-var plateIron = <ore:plateIron>;
-    plateIron.addItems([
-		<tfc:metal/sheet/wrought_iron>
-	]);
-
-var platePigIron = <ore:platePigIron>;
-    platePigIron.addItems([
-		<tfc:metal/sheet/pig_iron>
-	]);
-
-var platePigiron = <ore:platePigiron>;
-    platePigiron.addItems([
-		<tfc:metal/sheet/pig_iron>
-	]);
-
-var plateSteel = <ore:plateSteel>;
-    plateSteel.addItems([
-		<tfc:metal/sheet/steel>
-	]);
-
-var platePlatinum = <ore:platePlatinum>;
-    platePlatinum.addItems([
-		<tfc:metal/sheet/platinum>
-	]);
-
-var plateBlackSteel = <ore:plateBlackSteel>;
-    plateBlackSteel.addItems([
-		<tfc:metal/sheet/black_steel>
-	]);
-
-var plateBlueSteel = <ore:plateBlueSteel>;
-    plateBlueSteel.addItems([
-		<tfc:metal/sheet/blue_steel>
-	]);
-
-var plateRedSteel = <ore:plateRedSteel>;
-    plateRedSteel.addItems([
-		<tfc:metal/sheet/red_steel>
-	]);
-
-var plateDenseBismuth = <ore:plateDenseBismuth>;
-    plateDenseBismuth.addItems([
-		<tfc:metal/double_sheet/bismuth>
-	]);
-
-var plateDenseBismuthBronze = <ore:plateDenseBismuthBronze>;
-    plateDenseBismuthBronze.addItems([
-		<tfc:metal/double_sheet/bismuth_bronze>
-	]);
-
-var plateDenseBlackBronze = <ore:plateDenseBlackBronze>;
-    plateDenseBlackBronze.addItems([
-		<tfc:metal/double_sheet/black_bronze>
-	]);
-
-var plateDenseBrass = <ore:plateDenseBrass>;
-    plateDenseBrass.addItems([
-		<tfc:metal/double_sheet/brass>
-	]);
-	
-var plateDenseBronze = <ore:plateDenseBronze>;
-    plateDenseBronze.addItems([
-		<tfc:metal/double_sheet/bronze>
-	]);
-
-var plateDenseCopper = <ore:plateDenseCopper>;
-    plateDenseCopper.addItems([
-		<tfc:metal/double_sheet/copper>
-	]);
-
-var plateDenseGold = <ore:plateDenseGold>;
-    plateDenseGold.addItems([
-		<tfc:metal/double_sheet/gold>
-	]);
-
-var plateDenseLead = <ore:plateDenseLead>;
-    plateDenseLead.addItems([
-		<tfc:metal/double_sheet/lead>
-	]);
-
-var plateDenseNickel = <ore:plateDenseNickel>;
-    plateDenseNickel.addItems([
-		<tfc:metal/double_sheet/nickel>
-	]);
-
-var plateDenseRoseGold = <ore:plateDenseRoseGold>;
-    plateDenseRoseGold.addItems([
-		<tfc:metal/double_sheet/rose_gold>
-	]);
-
-var plateDenseRosegold = <ore:plateDenseRosegold>;
-    plateDenseRosegold.addItems([
-		<tfc:metal/double_sheet/rose_gold>
-	]);
-
-var plateDenseSilver = <ore:plateDenseSilver>;
-    plateDenseSilver.addItems([
-		<tfc:metal/double_sheet/silver>
-	]);
-
-var plateDenseTin = <ore:plateDenseTin>;
-    plateDenseTin.addItems([
-		<tfc:metal/double_sheet/tin>
-	]);
-
-var plateDenseZinc = <ore:plateDenseZinc>;
-    plateDenseZinc.addItems([
-		<tfc:metal/double_sheet/zinc>
-	]);
-
-var plateDenseSterlingSilver = <ore:plateDenseSterlingSilver>;
-    plateDenseSterlingSilver.addItems([
-		<tfc:metal/double_sheet/sterling_silver>
-	]);
-
-var plateDenseIron = <ore:plateDenseIron>;
-    plateDenseIron.addItems([
-		<tfc:metal/double_sheet/wrought_iron>
-	]);
-
-var plateDensePigIron = <ore:plateDensePigIron>;
-    plateDensePigIron.addItems([
-		<tfc:metal/double_sheet/pig_iron>
-	]);
-
-var plateDensePigiron = <ore:plateDensePigiron>;
-    plateDensePigiron.addItems([
-		<tfc:metal/double_sheet/pig_iron>
-	]);
-
-var plateDenseSteel = <ore:plateDenseSteel>;
-    plateDenseSteel.addItems([
-		<tfc:metal/double_sheet/steel>
-	]);
-
-var plateDensePlatinum = <ore:plateDensePlatinum>;
-    plateDensePlatinum.addItems([
-		<tfc:metal/double_sheet/platinum>
-	]);
-
-var plateDenseBlackSteel = <ore:plateDenseBlackSteel>;
-    plateDenseBlackSteel.addItems([
-		<tfc:metal/double_sheet/black_steel>
-	]);
-
-var plateDenseBlueSteel = <ore:plateDenseBlueSteel>;
-    plateDenseBlueSteel.addItems([
-		<tfc:metal/double_sheet/blue_steel>
-	]);
-
-var plateDenseRedSteel = <ore:plateDenseRedSteel>;
-    plateDenseRedSteel.addItems([
-		<tfc:metal/double_sheet/red_steel>
-	]);
-
-var plateIridium = <ore:plateIridium>;
-    plateIridium.addItems([
-		<ic2:crafting:4>
-	]);
-
-var oreIridium = <ore:oreIridium>;
-    oreIridium.addItems([
-		<ic2:misc_resource:1>
-	]);
-
-var nuggetIridium = <ore:nuggetIridium>;
-    nuggetIridium.addItems([
-		<ic2:misc_resource:2>
+var ingotPigiron = <ore:ingotPigiron>;
+    ingotPigiron.addItems([
+	<tfc:metal/ingot/pig_iron>
 	]);
 
 var tfcLeaves = <ore:tfcLeaves>;
@@ -396,3 +182,235 @@ var chestWood = <ore:chestWood>;
 		<tfc:wood/chest/kapok>
 	]);
 
+var plantShimmerleaf = <ore:plantShimmerleaf>;
+    plantShimmerleaf.addItems([
+		<tfc:plants/blue_orchid>,
+		<tfc:plants/grape_hyacinth>,
+		<tfc:plants/sapphire_tower>,
+		<tfc:plants/yucca>,
+		<tfc:plants/snapdragon_white>,
+		<tfc:plants/trillium>,
+		<thaumcraft:shimmerleaf>
+	]);
+
+var plantCinderpearl = <ore:plantCinderpearl>;
+    plantCinderpearl.addItems([
+		<tfc:plants/butterfly_milkweed>,
+		<tfc:plants/nasturtium>,
+		<tfc:plants/snapdragon_red>,
+		<tfc:plants/tropical_milkweed>,
+		<tfc:plants/guzmania>,
+		<tfc:plants/vriesea>,
+		<thaumcraft:cinderpearl>
+	]);
+
+var ingotIron = <ore:ingotIron>;
+    ingotIron.addItems([
+		<tfc:metal/ingot/wrought_iron>
+	]);
+
+var plateBismuth = <ore:plateBismuth>;
+    plateBismuth.addItems([
+		<tfc:metal/sheet/bismuth>
+	]);
+
+var plateBismuthBronze = <ore:plateBismuthBronze>;
+    plateBismuthBronze.addItems([
+		<tfc:metal/sheet/bismuth_bronze>
+	]);
+
+var plateBlackBronze = <ore:plateBlackBronze>;
+    plateBlackBronze.addItems([
+		<tfc:metal/sheet/black_bronze>
+	]);
+
+var plateBrass = <ore:plateBrass>;
+    plateBrass.addItems([
+		<tfc:metal/sheet/brass>
+	]);
+
+var plateBronze = <ore:plateBronze>;
+    plateBronze.addItems([
+		<tfc:metal/sheet/bronze>
+	]);
+
+var plateCopper = <ore:plateCopper>;
+    plateCopper.addItems([
+		<tfc:metal/sheet/copper>
+	]);
+
+var plateGold = <ore:plateGold>;
+    plateGold.addItems([
+		<tfc:metal/sheet/gold>
+	]);
+
+var plateLead = <ore:plateLead>;
+    plateLead.addItems([
+		<tfc:metal/sheet/lead>
+	]);
+
+var plateNickel = <ore:plateNickel>;
+    plateNickel.addItems([
+		<tfc:metal/sheet/nickel>
+	]);
+
+var plateRoseGold = <ore:plateRoseGold>;
+    plateRoseGold.addItems([
+		<tfc:metal/sheet/rose_gold>
+	]);
+
+var plateSilver = <ore:plateSilver>;
+    plateSilver.addItems([
+		<tfc:metal/sheet/silver>
+	]);
+
+var plateTin = <ore:plateTin>;
+    plateTin.addItems([
+		<tfc:metal/sheet/tin>
+	]);
+
+var plateZinc = <ore:plateZinc>;
+    plateZinc.addItems([
+		<tfc:metal/sheet/zinc>
+	]);
+
+var plateSterlingSilver = <ore:plateSterlingSilver>;
+    plateSterlingSilver.addItems([
+		<tfc:metal/sheet/sterling_silver>
+	]);
+
+var plateIron = <ore:plateIron>;
+    plateIron.addItems([
+		<tfc:metal/sheet/wrought_iron>
+	]);
+
+var platePigIron = <ore:platePigIron>;
+    platePigIron.addItems([
+		<tfc:metal/sheet/pig_iron>
+	]);
+
+var plateSteel = <ore:plateSteel>;
+    plateSteel.addItems([
+		<tfc:metal/sheet/steel>
+	]);
+
+var platePlatinum = <ore:platePlatinum>;
+    platePlatinum.addItems([
+		<tfc:metal/sheet/platinum>
+	]);
+
+var plateBlackSteel = <ore:plateBlackSteel>;
+    plateBlackSteel.addItems([
+		<tfc:metal/sheet/black_steel>
+	]);
+
+var plateBlueSteel = <ore:plateBlueSteel>;
+    plateBlueSteel.addItems([
+		<tfc:metal/sheet/blue_steel>
+	]);
+
+var plateRedSteel = <ore:plateRedSteel>;
+    plateRedSteel.addItems([
+		<tfc:metal/sheet/red_steel>
+	]);
+
+var lumberGreatwood = <ore:lumberGreatwood>;
+    lumberGreatwood.addItems([
+		<contenttweaker:lumber_greatwood>
+	]);
+
+var lumberSilverwood = <ore:lumberSilverwood>;
+    lumberSilverwood.addItems([
+		<contenttweaker:lumber_silverwood>
+	]);
+
+var planer = <ore:planer>;
+    planer.addItems([
+		<contenttweaker:bismuth_bronze_planer>,
+		<contenttweaker:black_bronze_planer>,
+		<contenttweaker:black_steel_planer>,
+		<contenttweaker:blue_steel_planer>,
+		<contenttweaker:bronze_planer>,
+		<contenttweaker:copper_planer>,
+		<contenttweaker:wrought_iron_planer>,
+		<contenttweaker:red_steel_planer>,
+		<contenttweaker:steel_planer>
+	]);
+
+var listAllwater = <ore:listAllwater>;
+    listAllwater.addItems([
+		<claybucket:claybucket:1>,
+		<forge:bucketfilled>.withTag({FluidName: "dist_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "salt_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000})
+	]);
+
+var listAllmushroom = <ore:listAllmushroom>;
+    listAllmushroom.addItems([
+		<tfc:plants/porcini>
+	]);
+
+
+//=====================================================================================================================================================================
+//Ores
+
+var oreAmber = <ore:oreAmber>;
+    oreAmber.addItems([
+		<contenttweaker:ore_amber_andesite>,
+        <contenttweaker:ore_amber_basalt>,
+        <contenttweaker:ore_amber_chalk>,
+        <contenttweaker:ore_amber_chert>,
+        <contenttweaker:ore_amber_claystone>,
+        <contenttweaker:ore_amber_conglomerate>,
+        <contenttweaker:ore_amber_dacite>,
+        <contenttweaker:ore_amber_diorite>,
+        <contenttweaker:ore_amber_dolomite>,
+        <contenttweaker:ore_amber_gabbro>,
+        <contenttweaker:ore_amber_gneiss>,
+        <contenttweaker:ore_amber_granite>,
+        <contenttweaker:ore_amber_limestone>,
+        <contenttweaker:ore_amber_marble>,
+        <contenttweaker:ore_amber_phyllite>,
+        <contenttweaker:ore_amber_quartzite>,
+        <contenttweaker:ore_amber_rhyolite>,
+        <contenttweaker:ore_amber_rock_salt>,
+        <contenttweaker:ore_amber_schist>,
+        <contenttweaker:ore_amber_shale>,
+        <contenttweaker:ore_amber_slate>
+	]);
+
+var oreCinnabar = <ore:oreCinnabar>;
+    oreCinnabar.addItems([
+		<contenttweaker:ore_cinnabar_andesite>,
+		<contenttweaker:ore_cinnabar_basalt>,
+		<contenttweaker:ore_cinnabar_dacite>,
+		<contenttweaker:ore_cinnabar_quartzite>,
+		<contenttweaker:ore_cinnabar_rhyolite>,
+		<contenttweaker:ore_cinnabar_shale>
+	]);
+
+var oreQuartz = <ore:oreQuartz>;
+    oreQuartz.addItems([
+		<contenttweaker:ore_quartz_andesite>,
+        <contenttweaker:ore_quartz_basalt>,
+        <contenttweaker:ore_quartz_chalk>,
+        <contenttweaker:ore_quartz_chert>,
+        <contenttweaker:ore_quartz_claystone>,
+        <contenttweaker:ore_quartz_conglomerate>,
+        <contenttweaker:ore_quartz_dacite>,
+        <contenttweaker:ore_quartz_diorite>,
+        <contenttweaker:ore_quartz_dolomite>,
+        <contenttweaker:ore_quartz_gabbro>,
+        <contenttweaker:ore_quartz_gneiss>,
+        <contenttweaker:ore_quartz_granite>,
+        <contenttweaker:ore_quartz_limestone>,
+        <contenttweaker:ore_quartz_marble>,
+        <contenttweaker:ore_quartz_phyllite>,
+        <contenttweaker:ore_quartz_quartzite>,
+        <contenttweaker:ore_quartz_rhyolite>,
+        <contenttweaker:ore_quartz_rock_salt>,
+        <contenttweaker:ore_quartz_schist>,
+        <contenttweaker:ore_quartz_shale>,
+        <contenttweaker:ore_quartz_slate>
+	]);

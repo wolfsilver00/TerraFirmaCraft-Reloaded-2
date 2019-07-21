@@ -1,0 +1,28 @@
+{
+	"name" : "tower",
+	"tower" : {
+		"type" : "ENIKO",
+		"theme" : {
+			"base" : "CRYPT",
+			"primary" : {
+				"walls" : {
+					"type" : "LAYERS",
+					"data" : [
+						{"name" : "immersiveengineering:treated_wood", "meta" : 0},
+						{"name" : "immersiveengineering:treated_wood", "meta" : 0},
+						{"name" : "immersiveengineering:treated_wood", "meta" : 2},
+						{"name" : "immersiveengineering:treated_wood", "meta" : 2}
+					]
+				},
+				"pillar" : {"name" : "thaumcraft:log_greatwood", "meta" : 0},
+				"stair" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0},
+				"floor" : {"name" : "thaumcraft:stairs_greatwood", "meta" : 5}
+			},
+			"secondary" : {
+				"walls" : {"name" : "thaumcraft:plank_greatwood", "meta" : 5},
+				"pillar" : {"name" : "thaumcraft:log_greatwood", "meta" : 1},
+				"stair" : {"name" : "thaumcraft:stairs_greatwood", "meta" : 0}
+			}
+		}
+	}
+}

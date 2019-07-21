@@ -1,0 +1,12 @@
+#priority 1000
+#loader contenttweaker
+
+import mods.contenttweaker.CreativeTab;
+import mods.contenttweaker.VanillaFactory;
+
+
+//=====================================================================================================================================================================
+//Tabs
+
+//val zsTab = VanillaFactory.createCreativeTab("decorations", <tfc:ore/lapis_lazuli>);
+//zsTab.register();

@@ -24,8 +24,8 @@
                 "gui" : "singleplayer"
             },
             "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
         },
        
         "multiplayer":
@@ -47,8 +47,8 @@
                 "gui" : "multiplayer"
             },
             "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
         },
        
         "public server":
@@ -71,8 +71,8 @@
                 "ip" : "37.59.222.55:25567"
             },
             "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
         },
            
         "options":
@@ -94,8 +94,8 @@
                 "gui" : "options"
             },
             "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
         },
        
         "curseforge":
@@ -119,9 +119,7 @@
             },
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click",
-            "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+            "shadow" : false
         },
        
         "discord":
@@ -145,9 +143,7 @@
             },
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click",
-            "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+            "shadow" : false
         },
        
         "languages":
@@ -171,9 +167,7 @@
             },
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click",
-            "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+            "shadow" : false
         },
        
         "patreon":
@@ -197,9 +191,7 @@
             },
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click",
-            "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+            "shadow" : false
         },
        
         "paypal":
@@ -223,9 +215,7 @@
             },
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click",
-            "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+            "shadow" : false
         },
        
         "quit":
@@ -248,9 +238,7 @@
             },
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click",
-            "shadow" : false,
-			"hoverSound" : "menu:hover",
-			"pressSound" : "menu:click"
+            "shadow" : false
         }
     },
    

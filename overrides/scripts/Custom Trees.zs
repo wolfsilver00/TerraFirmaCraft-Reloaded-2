@@ -1,0 +1,307 @@
+#loader preinit
+import mods.treetweaker.TreeFactory;
+
+
+//Jacaranda Tree
+//var jacaranda = TreeFactory.createTree("jacaranda");
+//jacaranda.setTreeType("LARGE_OAK");
+//jacaranda.setLog("contenttweaker:jacaranda_log");
+//jacaranda.setLeaf("contenttweaker:jacaranda_leaves");
+//jacaranda.setGenFrequency(5);
+//jacaranda.setGenAttempts(1);
+//jacaranda.setMinHeight(6);
+//jacaranda.setExtraHeight(15);
+//jacaranda.setGenBiome("tfc:plains");
+//jacaranda.setDimWhitelist(0);
+//jacaranda.addSapling();
+//jacaranda.register();
+
+
+//Ash Tree
+var ash = TreeFactory.createTree("ash");
+ash.setTreeType("LARGE_OAK");
+ash.extraThick=true;
+ash.setLog("tfc:wood/log/ash:1");
+ash.setLeaf("tfc:wood/leaves/ash:1");
+ash.setGenFrequency(5);
+ash.setGenAttempts(1);
+ash.setMinHeight(6);
+ash.setExtraHeight(25);
+//ash.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+ash.setBaseBlock("tfc:grass/schist");
+ash.setGenBiomeByTag("PLAINS");
+ash.setDimWhitelist(0);
+ash.addSapling();
+ash.register();
+
+
+//Aspen Tree
+var aspen = TreeFactory.createTree("aspen");
+aspen.setTreeType("LARGE_OAK");
+aspen.extraThick=true;
+aspen.setLog("tfc:wood/log/aspen:1");
+aspen.setLeaf("tfc:wood/leaves/aspen:1");
+aspen.setGenFrequency(5);
+aspen.setGenAttempts(1);
+aspen.setMinHeight(6);
+aspen.setExtraHeight(25);
+//aspen.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+aspen.setBaseBlock("tfc:grass/phyllite");
+aspen.setGenBiomeByTag("PLAINS");
+aspen.setDimWhitelist(0);
+aspen.addSapling();
+aspen.register();
+
+
+//Birch Tree
+var birch = TreeFactory.createTree("birch");
+birch.setTreeType("LARGE_OAK");
+birch.extraThick=true;
+birch.setLog("tfc:wood/log/birch:1");
+birch.setLeaf("tfc:wood/leaves/birch:1");
+birch.setGenFrequency(5);
+birch.setGenAttempts(1);
+birch.setMinHeight(6);
+birch.setExtraHeight(25);
+//birch.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+birch.setBaseBlock("tfc:grass/shale");
+birch.setGenBiomeByTag("PLAINS");
+birch.setDimWhitelist(0);
+birch.addSapling();
+birch.register();
+
+
+//Blackwood Tree
+var blackwood = TreeFactory.createTree("blackwood");
+blackwood.setTreeType("LARGE_OAK");
+blackwood.extraThick=true;
+blackwood.setLog("tfc:wood/log/blackwood:1");
+blackwood.setLeaf("tfc:wood/leaves/blackwood:1");
+blackwood.setGenFrequency(5);
+blackwood.setGenAttempts(1);
+blackwood.setMinHeight(6);
+blackwood.setExtraHeight(25);
+//blackwood.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+blackwood.setBaseBlock("tfc:grass/quartzite");
+blackwood.setGenBiomeByTag("HILLS");
+blackwood.setDimWhitelist(0);
+blackwood.addSapling();
+blackwood.register();
+
+
+//Chestnut Tree
+var chestnut = TreeFactory.createTree("chestnut");
+chestnut.setTreeType("LARGE_OAK");
+chestnut.extraThick=true;
+chestnut.setLog("tfc:wood/log/chestnut:1");
+chestnut.setLeaf("tfc:wood/leaves/chestnut:1");
+chestnut.setGenFrequency(5);
+chestnut.setGenAttempts(1);
+chestnut.setMinHeight(6);
+chestnut.setExtraHeight(25);
+//chestnut.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+chestnut.setBaseBlock("tfc:grass/marble");
+chestnut.setGenBiomeByTag("PLAINS");
+chestnut.setDimWhitelist(0);
+chestnut.addSapling();
+chestnut.register();
+
+
+//Douglas Fir Tree
+var douglas_fir = TreeFactory.createTree("douglas_fir");
+douglas_fir.setTreeType("LARGE_SPRUCE");
+douglas_fir.setLog("tfc:wood/log/douglas_fir:1");
+douglas_fir.setLeaf("tfc:wood/leaves/douglas_fir:1");
+douglas_fir.setGenFrequency(10);
+douglas_fir.setGenAttempts(1);
+douglas_fir.setMinHeight(6);
+douglas_fir.setExtraHeight(15);
+//douglas_fir.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+douglas_fir.setBaseBlock("tfc:grass/chalk");
+douglas_fir.setGenBiomeByTag("MOUNTAIN");
+douglas_fir.setDimWhitelist(0);
+douglas_fir.addSapling();
+douglas_fir.register();
+
+
+//Hickory Tree
+var hickory = TreeFactory.createTree("hickory");
+hickory.setTreeType("LARGE_OAK");
+hickory.extraThick=true;
+hickory.setLog("tfc:wood/log/hickory:1");
+hickory.setLeaf("tfc:wood/leaves/hickory:1");
+hickory.setGenFrequency(5);
+hickory.setGenAttempts(1);
+hickory.setMinHeight(6);
+hickory.setExtraHeight(25);
+//hickory.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+hickory.setBaseBlock("tfc:grass/conglomerate");
+hickory.setGenBiomeByTag("HILLS");
+hickory.setDimWhitelist(0);
+hickory.addSapling();
+hickory.register();
+
+
+//Maple Tree
+var maple = TreeFactory.createTree("maple");
+maple.setTreeType("LARGE_OAK");
+maple.extraThick=true;
+maple.setLog("tfc:wood/log/maple:1");
+maple.setLeaf("tfc:wood/leaves/maple:1");
+maple.setGenFrequency(5);
+maple.setGenAttempts(1);
+maple.setMinHeight(6);
+maple.setExtraHeight(25);
+maple.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+maple.setBaseBlock("tfc:grass/gneiss");
+maple.setGenBiomeByTag("PLAINS");
+maple.setDimWhitelist(0);
+maple.addSapling();
+maple.register();
+
+
+//Oak Tree
+var oak = TreeFactory.createTree("oak");
+oak.setTreeType("LARGE_OAK");
+oak.extraThick=true;
+oak.setLog("tfc:wood/log/oak:1");
+oak.setLeaf("tfc:wood/leaves/oak:1");
+oak.setGenFrequency(5);
+oak.setGenAttempts(1);
+oak.setMinHeight(6);
+oak.setExtraHeight(25);
+//oak.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+oak.setBaseBlock("tfc:grass/gabbro");
+oak.setGenBiomeByTag("PLAINS");
+oak.setDimWhitelist(0);
+oak.addSapling();
+oak.register();
+
+
+//Pine Tree
+var pine = TreeFactory.createTree("pine");
+pine.setTreeType("LARGE_PINE");
+pine.extraThick=true;
+pine.setLog("tfc:wood/log/pine:1");
+pine.setLeaf("tfc:wood/leaves/pine:1");
+pine.setGenFrequency(8);
+pine.setGenAttempts(1);
+pine.setMinHeight(6);
+pine.setExtraHeight(25);
+//pine.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+pine.setBaseBlock("tfc:grass/dacite");
+pine.setGenBiomeByTag("MOUNTAIN");
+pine.setDimWhitelist(0);
+pine.addSapling();
+pine.register();
+
+
+//Spruce Tree
+var spruce = TreeFactory.createTree("spruce");
+spruce.setTreeType("LARGE_SPRUCE");
+spruce.extraThick=true;
+spruce.setLog("tfc:wood/log/spruce:1");
+spruce.setLeaf("tfc:wood/leaves/spruce:1");
+spruce.setGenFrequency(15);
+spruce.setGenAttempts(1);
+spruce.setMinHeight(6);
+spruce.setExtraHeight(25);
+//spruce.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+spruce.setBaseBlock("tfc:grass/dacite");
+spruce.setGenBiomeByTag("MOUNTAIN");
+spruce.setDimWhitelist(0);
+spruce.addSapling();
+spruce.register();
+
+
+//Rosewood Tree
+var rosewood = TreeFactory.createTree("rosewood");
+rosewood.setTreeType("LARGE_OAK");
+rosewood.extraThick=true;
+rosewood.setLog("tfc:wood/log/rosewood:1");
+rosewood.setLeaf("tfc:wood/leaves/rosewood:1");
+rosewood.setGenFrequency(5);
+rosewood.setGenAttempts(1);
+rosewood.setMinHeight(6);
+rosewood.setExtraHeight(25);
+//rosewood.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+rosewood.setBaseBlock("tfc:grass/claystone");
+rosewood.setGenBiomeByTag("HILLS");
+rosewood.setDimWhitelist(0);
+rosewood.addSapling();
+rosewood.register();
+
+
+//Sycamore Tree
+var sycamore = TreeFactory.createTree("sycamore");
+sycamore.setTreeType("LARGE_OAK");
+sycamore.extraThick=true;
+sycamore.setLog("tfc:wood/log/sycamore:1");
+sycamore.setLeaf("tfc:wood/leaves/sycamore:1");
+sycamore.setGenFrequency(5);
+sycamore.setGenAttempts(1);
+sycamore.setMinHeight(6);
+sycamore.setExtraHeight(25);
+//sycamore.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+sycamore.setBaseBlock("tfc:grass/dolomite");
+sycamore.setGenBiomeByTag("PLAINS");
+sycamore.setDimWhitelist(0);
+sycamore.addSapling();
+sycamore.register();
+
+
+//White Cedar Tree
+var white_cedar = TreeFactory.createTree("white_cedar");
+white_cedar.setTreeType("LARGE_OAK");
+white_cedar.extraThick=true;
+white_cedar.setLog("tfc:wood/log/white_cedar:1");
+white_cedar.setLeaf("tfc:wood/leaves/white_cedar:1");
+white_cedar.setGenFrequency(5);
+white_cedar.setGenAttempts(1);
+white_cedar.setMinHeight(6);
+white_cedar.setExtraHeight(25);
+//white_cedar.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+white_cedar.setBaseBlock("tfc:grass/limestone");
+white_cedar.setGenBiomeByTag("PLAINS");
+white_cedar.setDimWhitelist(0);
+white_cedar.addSapling();
+white_cedar.register();
+
+
+//Pink Cherry Tree
+var pink_cherry = TreeFactory.createTree("pink_cherry");
+pink_cherry.setTreeType("LARGE_OAK");
+pink_cherry.extraThick=false;
+pink_cherry.setLog("spookytree:spookytree_log");
+pink_cherry.setLeaf("redbudtree:redbudtree_leaves");
+pink_cherry.setGenFrequency(2);
+pink_cherry.setGenAttempts(10);
+pink_cherry.setMinHeight(6);
+pink_cherry.setExtraHeight(20);
+//pink_cherry.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+pink_cherry.setBaseBlock("tfc:grass/chert");
+pink_cherry.setGenBiome("tfc:high_plains");
+pink_cherry.setDimWhitelist(0);
+pink_cherry.addSapling();
+pink_cherry.register();
+
+
+//White Cherry Tree
+var white_cherry = TreeFactory.createTree("white_cherry");
+white_cherry.setTreeType("LARGE_OAK");
+white_cherry.extraThick=false;
+white_cherry.setLog("spookytree:spookytree_log");
+white_cherry.setLeaf("spookytree:spookytree_leaves");
+white_cherry.setGenFrequency(2);
+white_cherry.setGenAttempts(10);
+white_cherry.setMinHeight(6);
+white_cherry.setExtraHeight(20);
+//white_cherry.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+white_cherry.setBaseBlock("tfc:grass/chert");
+white_cherry.setGenBiome("tfc:high_plains");
+white_cherry.setDimWhitelist(0);
+white_cherry.addSapling();
+white_cherry.register();
+
+
+//3274023677968028995

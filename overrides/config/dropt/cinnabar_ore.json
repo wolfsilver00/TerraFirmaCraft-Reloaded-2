@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "contenttweaker:ore_cinnabar_andesite:*",
+            "contenttweaker:ore_cinnabar_basalt:*",
+            "contenttweaker:ore_cinnabar_dacite:*",
+            "contenttweaker:ore_cinnabar_quartzite:*",
+            "contenttweaker:ore_cinnabar_rhyolite:*",
+            "contenttweaker:ore_cinnabar_shale:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "thaumcraft:quicksilver"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

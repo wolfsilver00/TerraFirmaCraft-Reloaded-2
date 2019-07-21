@@ -1,0 +1,159 @@
+[
+  {
+    "mob": "minecraft:pig",
+    "item": "tfc:food/pork",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "minecraft:pig",
+    "item": "minecraft:bone",
+    "itemcount": "1-2/1-4/1-6/1-8"
+  },
+  {
+    "mob": "minecraft:pig",
+    "item": "tfc:hide/raw/large",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:cow",
+    "item": "tfc:food/beef",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "minecraft:cow",
+    "item": "minecraft:bone",
+    "itemcount": "1-2/1-4/1-6/1-8"
+  },
+  {
+    "mob": "minecraft:cow",
+    "item": "tfc:hide/raw/large",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:sheep",
+    "item": "tfc:food/mutton",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "minecraft:sheep",
+    "item": "minecraft:bone",
+    "itemcount": "1-2/1-4/1-6/1-8"
+  },
+  {
+    "mob": "minecraft:sheep",
+    "item": "tfc:hide/sheepskin/large",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:horse",
+    "item": "tfc:food/horse_meat",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "minecraft:horse",
+    "item": "minecraft:bone",
+    "itemcount": "1-2/1-4/1-6/1-8"
+  },
+  {
+    "mob": "minecraft:horse",
+    "item": "tfc:hide/raw/large",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:chicken",
+    "item": "tfc:food/chicken",
+    "itemcount": "1-2/2-3/3-4"
+  },
+  {
+    "mob": "minecraft:chicken",
+    "item": "minecraft:bone",
+    "itemcount": "1-1/1-2/1-3/1-4"
+  },
+  {
+    "mob": "betteranimalsplus:deer",
+    "item": "tfc:food/venison",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "betteranimalsplus:deer",
+    "item": "minecraft:bone",
+    "itemcount": "1-2/1-4/1-6/1-8"
+  },
+  {
+    "mob": "betteranimalsplus:deer",
+    "item": "tfc:hide/raw/large",
+    "itemcount": "1"
+  },
+  {
+    "mob": "betteranimalsplus:reindeer",
+    "item": "tfc:food/venison",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "betteranimalsplus:reindeer",
+    "item": "minecraft:bone",
+    "itemcount": "1-2/1-4/1-6/1-8"
+  },
+  {
+    "mob": "betteranimalsplus:reindeer",
+    "item": "tfc:hide/raw/large",
+    "itemcount": "1"
+  },
+  {
+    "mob": "betteranimalsplus:goat",
+    "item": "tfc:food/mutton",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "betteranimalsplus:goat",
+    "item": "minecraft:bone",
+    "itemcount": "1-1/1-2/1-3/1-4"
+  },
+  {
+    "mob": "betteranimalsplus:goat",
+    "item": "tfc:hide/raw/medium",
+    "itemcount": "1"
+  },
+  {
+    "mob": "betteranimalsplus:pheasant",
+    "item": "tfc:food/pheasant",
+    "itemcount": "3-13/3-16/3-19"
+  },
+  {
+    "mob": "betteranimalsplus:pheasant",
+    "item": "minecraft:bone",
+    "itemcount": "1-1/1-2/1-3/1-4"
+  },
+  {
+    "mob": "minecraft:pig",
+    "remove": "minecraft:porkchop"
+  },
+  {
+    "mob": "minecraft:cow",
+    "remove": "minecraft:beef"
+  },
+  {
+    "mob": "minecraft:sheep",
+    "remove": "minecraft:mutton"
+  },
+  {
+    "mob": "minecraft:chicken",
+    "remove": "minecraft:chicken"
+  },
+  {
+    "mob": "betteranimalsplus:deer",
+    "remove": "betteranimalsplus:venisonraw"
+  },
+  {
+    "mob": "betteranimalsplus:reindeer",
+    "remove": "betteranimalsplus:venisonraw"
+  },
+  {
+    "mob": "betteranimalsplus:goat",
+    "remove": "minecraft:mutton"
+  },
+  {
+    "mob": "betteranimalsplus:pheasant",
+    "remove": "betteranimalsplus:pheasantraw"
+  }
+]

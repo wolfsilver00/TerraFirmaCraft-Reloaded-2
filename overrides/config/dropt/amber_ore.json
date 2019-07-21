@@ -1,0 +1,47 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "contenttweaker:ore_amber_andesite:*",
+            "contenttweaker:ore_amber_basalt:*",
+            "contenttweaker:ore_amber_chalk:*",
+            "contenttweaker:ore_amber_chert:*",
+            "contenttweaker:ore_amber_claystone:*",
+            "contenttweaker:ore_amber_conglomerate:*",
+            "contenttweaker:ore_amber_dacite:*",
+            "contenttweaker:ore_amber_diorite:*",
+            "contenttweaker:ore_amber_dolomite:*",
+            "contenttweaker:ore_amber_gabbro:*",
+            "contenttweaker:ore_amber_gneiss:*",
+            "contenttweaker:ore_amber_granite:*",
+            "contenttweaker:ore_amber_limestone:*",
+            "contenttweaker:ore_amber_marble:*",
+            "contenttweaker:ore_amber_phyllite:*",
+            "contenttweaker:ore_amber_quartzite:*",
+            "contenttweaker:ore_amber_rhyolite:*",
+            "contenttweaker:ore_amber_rock_salt:*",
+            "contenttweaker:ore_amber_schist:*",
+            "contenttweaker:ore_amber_shale:*",
+            "contenttweaker:ore_amber_slate:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "thaumcraft:amber"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

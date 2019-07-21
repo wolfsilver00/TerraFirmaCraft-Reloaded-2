@@ -1,0 +1,50 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "spookytree:spookytree_leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "treetweaker:white_cherry"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "blocks": {
+          "blocks": [
+            "spookytree:spookytree_leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+#Jacaranda
+tile.contenttweaker.jacaranda_log.name=Jacaranda Log
+tile.contenttweaker.jacaranda_leaves.name=Jacaranda Leaves
+tile.contenttweaker.jacaranda_planks.name=Jacaranda Planks
+tile.contenttweaker.jacaranda_sapling.name=Jacaranda Sapling
+tile.contenttweaker.lavender.name=Lavender
+item.contenttweaker.jacaranda_lumber.name=Jacaranda Lumber
+item.contenttweaker.persimmon.name=Persimmon
+
+#Wood - Vertical Planks
+tile.contenttweaker.vertical_planks_acacia.name=Vertical Acacia Planks
+tile.contenttweaker.vertical_planks_ash.name=Vertical Ash Planks
+tile.contenttweaker.vertical_planks_aspen.name=Vertical Aspen Planks
+tile.contenttweaker.vertical_planks_birch.name=Vertical Birch Planks
+tile.contenttweaker.vertical_planks_blackwood.name=Vertical Blackwood Planks
+tile.contenttweaker.vertical_planks_chestnut.name=Vertical Chestnut Planks
+tile.contenttweaker.vertical_planks_douglas_fir.name=Vertical Douglas Fir Planks
+tile.contenttweaker.vertical_planks_greatwood.name=Vertical Greatwood Planks
+tile.contenttweaker.vertical_planks_hickory.name=Vertical Hickory Planks
+tile.contenttweaker.vertical_planks_kapok.name=Vertical Kapok Planks
+tile.contenttweaker.vertical_planks_maple.name=Vertical Maple Planks
+tile.contenttweaker.vertical_planks_oak.name=Vertical Oak Planks
+tile.contenttweaker.vertical_planks_palm.name=Vertical Palm Planks
+tile.contenttweaker.vertical_planks_pine.name=Vertical Pine Planks
+tile.contenttweaker.vertical_planks_rosewood.name=Vertical Rosewood Planks
+tile.contenttweaker.vertical_planks_sequoia.name=Vertical Sequoia Planks
+tile.contenttweaker.vertical_planks_silverwood.name=Vertical Silverwood Planks
+tile.contenttweaker.vertical_planks_spruce.name=Vertical Spruce Planks
+tile.contenttweaker.vertical_planks_sycamore.name=Vertical Sycamore Planks
+tile.contenttweaker.vertical_planks_white_cedar.name=Vertical White Cedar Planks
+tile.contenttweaker.vertical_planks_white_elm.name=Vertical White Elm Planks
+tile.contenttweaker.vertical_planks_willow.name=Vertical Willow Planks
+
+#Wood - Large Planks
+tile.contenttweaker.large_planks_acacia.name=Large Acacia Planks
+tile.contenttweaker.large_planks_ash.name=Large Ash Planks
+tile.contenttweaker.large_planks_aspen.name=Large Aspen Planks
+tile.contenttweaker.large_planks_birch.name=Large Birch Planks
+tile.contenttweaker.large_planks_blackwood.name=Large Blackwood Planks
+tile.contenttweaker.large_planks_chestnut.name=Large Chestnut Planks
+tile.contenttweaker.large_planks_douglas_fir.name=Large Douglas Fir Planks
+tile.contenttweaker.large_planks_greatwood.name=Large Greatwood Planks
+tile.contenttweaker.large_planks_hickory.name=Large Hickory Planks
+tile.contenttweaker.large_planks_kapok.name=Large Kapok Planks
+tile.contenttweaker.large_planks_maple.name=Large Maple Planks
+tile.contenttweaker.large_planks_oak.name=Large Oak Planks
+tile.contenttweaker.large_planks_palm.name=Large Palm Planks
+tile.contenttweaker.large_planks_pine.name=Large Pine Planks
+tile.contenttweaker.large_planks_rosewood.name=Large Rosewood Planks
+tile.contenttweaker.large_planks_sequoia.name=Large Sequoia Planks
+tile.contenttweaker.large_planks_silverwood.name=Large Silverwood Planks
+tile.contenttweaker.large_planks_spruce.name=Large Spruce Planks
+tile.contenttweaker.large_planks_sycamore.name=Large Sycamore Planks
+tile.contenttweaker.large_planks_white_cedar.name=Large White Cedar Planks
+tile.contenttweaker.large_planks_white_elm.name=Large White Elm Planks
+tile.contenttweaker.large_planks_willow.name=Large Willow Planks
+
+#Wood - Parquet Planks
+tile.contenttweaker.parquet_acacia.name=Acacia Parquet Planks
+tile.contenttweaker.parquet_ash.name=Ash Parquet Planks
+tile.contenttweaker.parquet_aspen.name=Aspen Parquet Planks
+tile.contenttweaker.parquet_birch.name=Birch Parquet Planks
+tile.contenttweaker.parquet_blackwood.name=Blackwood Parquet Planks
+tile.contenttweaker.parquet_chestnut.name=Chestnut Parquet Planks
+tile.contenttweaker.parquet_douglas_fir.name=Douglas Fir Parquet Planks
+tile.contenttweaker.parquet_greatwood.name=Greatwood Parquet Planks
+tile.contenttweaker.parquet_hickory.name=Hickory Parquet Planks
+tile.contenttweaker.parquet_kapok.name=Kapok Parquet Planks
+tile.contenttweaker.parquet_maple.name=Maple Parquet Planks
+tile.contenttweaker.parquet_oak.name=Oak Parquet Planks
+tile.contenttweaker.parquet_palm.name=Palm Parquet Planks
+tile.contenttweaker.parquet_pine.name=Pine Parquet Planks
+tile.contenttweaker.parquet_rosewood.name=Rosewood Parquet Planks
+tile.contenttweaker.parquet_sequoia.name=Sequoia Parquet Planks
+tile.contenttweaker.parquet_silverwood.name=Silverwood Parquet Planks
+tile.contenttweaker.parquet_spruce.name=Spruce Parquet Planks
+tile.contenttweaker.parquet_sycamore.name=Sycamore Parquet Planks
+tile.contenttweaker.parquet_white_cedar.name=White Cedar Parquet Planks
+tile.contenttweaker.parquet_white_elm.name=White Elm Parquet Planks
+tile.contenttweaker.parquet_willow.name=Willow Parquet Planks
+
+#Wood - Panelled Outlined Planks
+tile.contenttweaker.outline_panel_acacia.name=Panelled Outlined Acacia Planks
+
+#Wood - Outlined Planks
+tile.contenttweaker.outline_acacia.name=Outlined Acacia Planks
+tile.contenttweaker.outline_ash.name=Outlined Ash Planks
+tile.contenttweaker.outline_aspen.name=Outlined Aspen Planks
+tile.contenttweaker.outline_birch.name=Outlined Birch Planks
+tile.contenttweaker.outline_blackwood.name=Outlined Blackwood Planks
+tile.contenttweaker.outline_chestnut.name=Outlined Chestnut Planks
+tile.contenttweaker.outline_douglas_fir.name=Outlined Douglas Fir Planks
+tile.contenttweaker.outline_greatwood.name=Outlined Greatwood Planks
+tile.contenttweaker.outline_hickory.name=Outlined Hickory Planks
+tile.contenttweaker.outline_kapok.name=Outlined Kapok Planks
+tile.contenttweaker.outline_maple.name=Outlined Maple Planks
+tile.contenttweaker.outline_oak.name=Outlined Oak Planks
+tile.contenttweaker.outline_palm.name=Outlined Palm Planks
+tile.contenttweaker.outline_pine.name=Outlined Pine Planks
+tile.contenttweaker.outline_rosewood.name=Outlined Rosewood Planks
+tile.contenttweaker.outline_sequoia.name=Outlined Sequoia Planks
+tile.contenttweaker.outline_silverwood.name=Outlined Silverwood Planks
+tile.contenttweaker.outline_spruce.name=Outlined Spruce Planks
+tile.contenttweaker.outline_sycamore.name=Outlined Sycamore Planks
+tile.contenttweaker.outline_white_cedar.name=Outlined White Cedar Planks
+tile.contenttweaker.outline_white_elm.name=Outlined White Elm Planks
+tile.contenttweaker.outline_willow.name=Outlined Willow Planks
+
+#Stone - Pillar
+tile.contenttweaker.pillar_andesite.name=Andesite Pillar
+tile.contenttweaker.pillar_basalt.name=Basalt Pillar
+tile.contenttweaker.pillar_chalk.name=Chalk Pillar
+tile.contenttweaker.pillar_chert.name=Chert Pillar
+tile.contenttweaker.pillar_claystone.name=Claystone Pillar
+tile.contenttweaker.pillar_conglomerate.name=Conglomerate Pillar
+tile.contenttweaker.pillar_dacite.name=Dacite Pillar
+tile.contenttweaker.pillar_diorite.name=Diorite Pillar
+tile.contenttweaker.pillar_dolomite.name=Dolomite Pillar
+tile.contenttweaker.pillar_gabbro.name=Gabbro Pillar
+tile.contenttweaker.pillar_gneiss.name=Gneiss Pillar
+tile.contenttweaker.pillar_granite.name=Granite Pillar
+tile.contenttweaker.pillar_limestone.name=Limestone Pillar
+tile.contenttweaker.pillar_marble.name=Marble Pillar
+tile.contenttweaker.pillar_phyllite.name=Phyllite Pillar
+tile.contenttweaker.pillar_quartzite.name=Quartzite Pillar
+tile.contenttweaker.pillar_rhyolite.name=Rhyolite Pillar
+tile.contenttweaker.pillar_rock_salt.name=Rock Salt Pillar
+tile.contenttweaker.pillar_schist.name=Schist Pillar
+tile.contenttweaker.pillar_shale.name=Shale Pillar
+tile.contenttweaker.pillar_slate.name=Slate Pillar
+
+#Stone - Fancy Tile
+tile.contenttweaker.tile_fancy_andesite.name=Fancy Andesite Tile
+tile.contenttweaker.tile_fancy_basalt.name=Fancy Basalt Tile
+tile.contenttweaker.tile_fancy_chalk.name=Fancy Chalk Tile
+tile.contenttweaker.tile_fancy_chert.name=Fancy Chert Tile
+tile.contenttweaker.tile_fancy_claystone.name=Fancy Claystone Tile
+tile.contenttweaker.tile_fancy_conglomerate.name=Fancy Conglomerate Tile
+tile.contenttweaker.tile_fancy_dacite.name=Fancy Dacite Tile
+tile.contenttweaker.tile_fancy_diorite.name=Fancy Diorite Tile
+tile.contenttweaker.tile_fancy_dolomite.name=Fancy Dolomite Tile
+tile.contenttweaker.tile_fancy_gabbro.name=Fancy Gabbro Tile
+tile.contenttweaker.tile_fancy_gneiss.name=Fancy Gneiss Tile
+tile.contenttweaker.tile_fancy_granite.name=Fancy Granite Tile
+tile.contenttweaker.tile_fancy_limestone.name=Fancy Limestone Tile
+tile.contenttweaker.tile_fancy_marble.name=Fancy Marble Tile
+tile.contenttweaker.tile_fancy_phyllite.name=Fancy Phyllite Tile
+tile.contenttweaker.tile_fancy_quartzite.name=Fancy Quartzite Tile
+tile.contenttweaker.tile_fancy_rhyolite.name=Fancy Rhyolite Tile
+tile.contenttweaker.tile_fancy_rock_salt.name=Fancy Rock Salt Tile
+tile.contenttweaker.tile_fancy_schist.name=Fancy Schist Tile
+tile.contenttweaker.tile_fancy_shale.name=Fancy Shale Tile
+tile.contenttweaker.tile_fancy_slate.name=Fancy Slate Tile
+
+#Stone - Tile
+tile.contenttweaker.tile_andesite.name=Andesite Tile
+tile.contenttweaker.tile_basalt.name=Basalt Tile
+tile.contenttweaker.tile_chalk.name=Chalk Tile
+tile.contenttweaker.tile_chert.name=Chert Tile
+tile.contenttweaker.tile_claystone.name=Claystone Tile
+tile.contenttweaker.tile_conglomerate.name=Conglomerate Tile
+tile.contenttweaker.tile_dacite.name=Dacite Tile
+tile.contenttweaker.tile_diorite.name=Diorite Tile
+tile.contenttweaker.tile_dolomite.name=Dolomite Tile
+tile.contenttweaker.tile_gabbro.name=Gabbro Tile
+tile.contenttweaker.tile_gneiss.name=Gneiss Tile
+tile.contenttweaker.tile_granite.name=Granite Tile
+tile.contenttweaker.tile_limestone.name=Limestone Tile
+tile.contenttweaker.tile_marble.name=Marble Tile
+tile.contenttweaker.tile_phyllite.name=Phyllite Tile
+tile.contenttweaker.tile_quartzite.name=Quartzite Tile
+tile.contenttweaker.tile_rhyolite.name=Rhyolite Tile
+tile.contenttweaker.tile_rock_salt.name=Rock Salt Tile
+tile.contenttweaker.tile_schist.name=Schist Tile
+tile.contenttweaker.tile_shale.name=Shale Tile
+tile.contenttweaker.tile_slate.name=Slate Tile
+
+#Stone - Road
+tile.contenttweaker.road_andesite.name=Andesite Road
+tile.contenttweaker.road_basalt.name=Basalt Road
+tile.contenttweaker.road_chalk.name=Chalk Road
+tile.contenttweaker.road_chert.name=Chert Road
+tile.contenttweaker.road_claystone.name=Claystone Road
+tile.contenttweaker.road_conglomerate.name=Conglomerate Road
+tile.contenttweaker.road_dacite.name=Dacite Road
+tile.contenttweaker.road_diorite.name=Diorite Road
+tile.contenttweaker.road_dolomite.name=Dolomite Road
+tile.contenttweaker.road_gabbro.name=Gabbro Road
+tile.contenttweaker.road_gneiss.name=Gneiss Road
+tile.contenttweaker.road_granite.name=Granite Road
+tile.contenttweaker.road_limestone.name=Limestone Road
+tile.contenttweaker.road_marble.name=Marble Road
+tile.contenttweaker.road_phyllite.name=Phyllite Road
+tile.contenttweaker.road_quartzite.name=Quartzite Road
+tile.contenttweaker.road_rhyolite.name=Rhyolite Road
+tile.contenttweaker.road_rock_salt.name=Rock Salt Road
+tile.contenttweaker.road_schist.name=Schist Road
+tile.contenttweaker.road_shale.name=Shale Road
+tile.contenttweaker.road_slate.name=Slate Road
+
+#Stone - Circle
+tile.contenttweaker.circle_andesite.name=Andesite Circle
+tile.contenttweaker.circle_basalt.name=Basalt Circle
+tile.contenttweaker.circle_chalk.name=Chalk Circle
+tile.contenttweaker.circle_chert.name=Chert Circle
+tile.contenttweaker.circle_claystone.name=Claystone Circle
+tile.contenttweaker.circle_conglomerate.name=Conglomerate Circle
+tile.contenttweaker.circle_dacite.name=Dacite Circle
+tile.contenttweaker.circle_diorite.name=Diorite Circle
+tile.contenttweaker.circle_dolomite.name=Dolomite Circle
+tile.contenttweaker.circle_gabbro.name=Gabbro Circle
+tile.contenttweaker.circle_gneiss.name=Gneiss Circle
+tile.contenttweaker.circle_granite.name=Granite Circle
+tile.contenttweaker.circle_limestone.name=Limestone Circle
+tile.contenttweaker.circle_marble.name=Marble Circle
+tile.contenttweaker.circle_phyllite.name=Phyllite Circle
+tile.contenttweaker.circle_quartzite.name=Quartzite Circle
+tile.contenttweaker.circle_rhyolite.name=Rhyolite Circle
+tile.contenttweaker.circle_rock_salt.name=Rock Salt Circle
+tile.contenttweaker.circle_schist.name=Schist Circle
+tile.contenttweaker.circle_shale.name=Shale Circle
+tile.contenttweaker.circle_slate.name=Slate Circle
+
+#Stone - Outlined
+tile.contenttweaker.outline_andesite.name=Outlined Andesite
+tile.contenttweaker.outline_basalt.name=Outlined Basalt
+tile.contenttweaker.outline_chalk.name=Outlined Chalk
+tile.contenttweaker.outline_chert.name=Outlined Chert
+tile.contenttweaker.outline_claystone.name=Outlined Claystone
+tile.contenttweaker.outline_conglomerate.name=Outlined Conglomerate
+tile.contenttweaker.outline_dacite.name=Outlined Dacite
+tile.contenttweaker.outline_diorite.name=Outlined Diorite
+tile.contenttweaker.outline_dolomite.name=Outlined Dolomite
+tile.contenttweaker.outline_gabbro.name=Outlined Gabbro
+tile.contenttweaker.outline_gneiss.name=Outlined Gneiss
+tile.contenttweaker.outline_granite.name=Outlined Granite
+tile.contenttweaker.outline_limestone.name=Outlined Limestone
+tile.contenttweaker.outline_marble.name=Outlined Marble
+tile.contenttweaker.outline_phyllite.name=Outlined Phyllite
+tile.contenttweaker.outline_quartzite.name=Outlined Quartzite
+tile.contenttweaker.outline_rhyolite.name=Outlined Rhyolite
+tile.contenttweaker.outline_rock_salt.name=Outlined Rock Salt
+tile.contenttweaker.outline_schist.name=Outlined Schist
+tile.contenttweaker.outline_shale.name=Outlined Shale
+tile.contenttweaker.outline_slate.name=Outlined Slate
+
+#Stone - Small Outlined
+tile.contenttweaker.outline_small_andesite.name=Small Outlined Andesite
+tile.contenttweaker.outline_small_basalt.name=Small Outlined Basalt
+tile.contenttweaker.outline_small_chalk.name=Small Outlined Chalk
+tile.contenttweaker.outline_small_chert.name=Small Outlined Chert
+tile.contenttweaker.outline_small_claystone.name=Small Outlined Claystone
+tile.contenttweaker.outline_small_conglomerate.name=Small Outlined Conglomerate
+tile.contenttweaker.outline_small_dacite.name=Small Outlined Dacite
+tile.contenttweaker.outline_small_diorite.name=Small Outlined Diorite
+tile.contenttweaker.outline_small_dolomite.name=Small Outlined Dolomite
+tile.contenttweaker.outline_small_gabbro.name=Small Outlined Gabbro
+tile.contenttweaker.outline_small_gneiss.name=Small Outlined Gneiss
+tile.contenttweaker.outline_small_granite.name=Small Outlined Granite
+tile.contenttweaker.outline_small_limestone.name=Small Outlined Limestone
+tile.contenttweaker.outline_small_marble.name=Small Outlined Marble
+tile.contenttweaker.outline_small_phyllite.name=Small Outlined Phyllite
+tile.contenttweaker.outline_small_quartzite.name=Small Outlined Quartzite
+tile.contenttweaker.outline_small_rhyolite.name=Small Outlined Rhyolite
+tile.contenttweaker.outline_small_rock_salt.name=Small Outlined Rock Salt
+tile.contenttweaker.outline_small_schist.name=Small Outlined Schist
+tile.contenttweaker.outline_small_shale.name=Small Outlined Shale
+tile.contenttweaker.outline_small_slate.name=Small Outlined Slate
+
+#Amber Ores
+tile.contenttweaker.ore_amber_andesite.name=Andesite Amber
+tile.contenttweaker.ore_amber_basalt.name=Basalt Amber
+tile.contenttweaker.ore_amber_chalk.name=Chalk Amber
+tile.contenttweaker.ore_amber_chert.name=Chert Amber
+tile.contenttweaker.ore_amber_claystone.name=Claystone Amber
+tile.contenttweaker.ore_amber_conglomerate.name=Conglomerate Amber
+tile.contenttweaker.ore_amber_dacite.name=Dacite Amber
+tile.contenttweaker.ore_amber_diorite.name=Diorite Amber
+tile.contenttweaker.ore_amber_dolomite.name=Dolomite Amber
+tile.contenttweaker.ore_amber_gabbro.name=Gabbro Amber
+tile.contenttweaker.ore_amber_gneiss.name=Gneiss Amber
+tile.contenttweaker.ore_amber_granite.name=Granite Amber
+tile.contenttweaker.ore_amber_limestone.name=Limestone Amber
+tile.contenttweaker.ore_amber_marble.name=Marble Amber
+tile.contenttweaker.ore_amber_phyllite.name=Phyllite Amber
+tile.contenttweaker.ore_amber_quartzite.name=Quartzite Amber
+tile.contenttweaker.ore_amber_rhyolite.name=Rhyolite Amber
+tile.contenttweaker.ore_amber_rock_salt.name=Rock Salt Amber
+tile.contenttweaker.ore_amber_schist.name=Schist Amber
+tile.contenttweaker.ore_amber_shale.name=Shale Amber
+tile.contenttweaker.ore_amber_slate.name=Slate Amber
+
+#Cinnabar Ores
+tile.contenttweaker.ore_cinnabar_andesite.name=Andesite Cinnabar
+tile.contenttweaker.ore_cinnabar_basalt.name=Basalt Cinnabar
+tile.contenttweaker.ore_cinnabar_dacite.name=Dacite Cinnabar
+tile.contenttweaker.ore_cinnabar_quartzite.name=Quartzite Cinnabar
+tile.contenttweaker.ore_cinnabar_rhyolite.name=Rhyolite Cinnabar
+tile.contenttweaker.ore_cinnabar_shale.name=Shale Cinnabar
+
+#Quartz Ores
+tile.contenttweaker.ore_quartz_andesite.name=Andesite Quartz
+tile.contenttweaker.ore_quartz_basalt.name=Basalt Quartz
+tile.contenttweaker.ore_quartz_chalk.name=Chalk Quartz
+tile.contenttweaker.ore_quartz_chert.name=Chert Quartz
+tile.contenttweaker.ore_quartz_claystone.name=Claystone Quartz
+tile.contenttweaker.ore_quartz_conglomerate.name=Conglomerate Quartz
+tile.contenttweaker.ore_quartz_dacite.name=Dacite Quartz
+tile.contenttweaker.ore_quartz_diorite.name=Diorite Quartz
+tile.contenttweaker.ore_quartz_dolomite.name=Dolomite Quartz
+tile.contenttweaker.ore_quartz_gabbro.name=Gabbro Quartz
+tile.contenttweaker.ore_quartz_gneiss.name=Gneiss Quartz
+tile.contenttweaker.ore_quartz_granite.name=Granite Quartz
+tile.contenttweaker.ore_quartz_limestone.name=Limestone Quartz
+tile.contenttweaker.ore_quartz_marble.name=Marble Quartz
+tile.contenttweaker.ore_quartz_phyllite.name=Phyllite Quartz
+tile.contenttweaker.ore_quartz_quartzite.name=Quartzite Quartz
+tile.contenttweaker.ore_quartz_rhyolite.name=Rhyolite Quartz
+tile.contenttweaker.ore_quartz_rock_salt.name=Rock Salt Quartz
+tile.contenttweaker.ore_quartz_schist.name=Schist Quartz
+tile.contenttweaker.ore_quartz_shale.name=Shale Quartz
+tile.contenttweaker.ore_quartz_slate.name=Slate Quartz
+
+#Bricks
+tile.contenttweaker.brick_basketweave_bottom.name=Brick Basketweave Bottom
+tile.contenttweaker.brick_basketweave_top.name=Brick Basketweave Top
+tile.contenttweaker.brick_bond_dark_left.name=Dark Left Brick Bond
+tile.contenttweaker.brick_bond_dark_right.name=Dark Right Brick Bond
+tile.contenttweaker.brick_combination_stack_bottom.name=Brick Combination Stack Bottom
+tile.contenttweaker.brick_combination_stack_top.name=Brick Combination Stack Top
+tile.contenttweaker.brick_double_basket.name=Brick Double Basket
+tile.contenttweaker.brick_double_basket_90.name=Brick Double Basket Rotated
+tile.contenttweaker.brick_herring.name=Brick Herring
+tile.contenttweaker.brick_soldier.name=Brick Soldier
+tile.contenttweaker.brick_stacked_bond.name=Brick Stacked Bond
+tile.contenttweaker.brick_spanish_bond_bottom_center.name=Brick Spanish Bond Bottom Middle
+tile.contenttweaker.brick_spanish_bond_bottom_left.name=Brick Spanish Bond Bottom Left
+tile.contenttweaker.brick_spanish_bond_bottom_right.name=Brick Spanish Bond Bottom Right
+tile.contenttweaker.brick_spanish_bond_center.name=Brick Spanish Bond Center Middle
+tile.contenttweaker.brick_spanish_bond_center_left.name=Brick Spanish Bond Center Left
+tile.contenttweaker.brick_spanish_bond_center_right.name=Brick Spanish Bond Center Right
+tile.contenttweaker.brick_spanish_bond_top_center.name=Brick Spanish Bond Top Middle
+tile.contenttweaker.brick_spanish_bond_top_left.name=Brick Spanish Bond Top Left
+tile.contenttweaker.brick_spanish_bond_top_right.name=Brick Spanish Bond Top Right
+
+#Lumber
+item.contenttweaker.lumber_greatwood.name=Greatwood Lumber
+item.contenttweaker.lumber_silverwood.name=Silverwood Lumber
+
+#Planed Lumber
+item.contenttweaker.planed_plank_acacia.name=Planed Acacia Lumber
+item.contenttweaker.planed_plank_ash.name=Planed Ash Lumber
+item.contenttweaker.planed_plank_aspen.name=Planed Aspen Lumber
+item.contenttweaker.planed_plank_birch.name=Planed Birch Lumber
+item.contenttweaker.planed_plank_blackwood.name=Planed Blackwood Lumber
+item.contenttweaker.planed_plank_chestnut.name=Planed Chestnut Lumber
+item.contenttweaker.planed_plank_douglas_fir.name=Planed Douglas Fir Lumber
+item.contenttweaker.planed_plank_greatwood.name=Planed Greatwood Lumber
+item.contenttweaker.planed_plank_hickory.name=Planed Hickory Lumber
+item.contenttweaker.planed_plank_kapok.name=Planed Kapok Lumber
+item.contenttweaker.planed_plank_maple.name=Planed Maple Lumber
+item.contenttweaker.planed_plank_oak.name=Planed Oak Lumber
+item.contenttweaker.planed_plank_palm.name=Planed Palm Lumber
+item.contenttweaker.planed_plank_pine.name=Planed Pine Lumber
+item.contenttweaker.planed_plank_rosewood.name=Planed Rosewood Lumber
+item.contenttweaker.planed_plank_sequoia.name=Planed Sequoia Lumber
+item.contenttweaker.planed_plank_silverwood.name=Planed Silverwood Lumber
+item.contenttweaker.planed_plank_spruce.name=Planed Spruce Lumber
+item.contenttweaker.planed_plank_sycamore.name=Planed Sycamore Lumber
+item.contenttweaker.planed_plank_white_cedar.name=Planed White Cedar Lumber
+item.contenttweaker.planed_plank_white_elm.name=Planed White Elm Lumber
+item.contenttweaker.planed_plank_willow.name=Planed Willow Lumber
+
+#Planer Tool
+item.contenttweaker.bismuth_bronze_planer.name=Bismuth Bronze Planer
+item.contenttweaker.black_bronze_planer.name=Black Bronze Planer
+item.contenttweaker.black_steel_planer.name=Black Steel Planer
+item.contenttweaker.blue_steel_planer.name=Blue Steel Planer
+item.contenttweaker.bronze_planer.name=Bronze Planer
+item.contenttweaker.copper_planer.name=Copper Planer
+item.contenttweaker.red_steel_planer.name=Red Steel Planer
+item.contenttweaker.steel_planer.name=Steel Planer
+item.contenttweaker.wrought_iron_planer.name=Wrought Iron Planer
+
+#Planer Blade
+item.contenttweaker.bismuth_bronze_planer_blade.name=Bismuth Bronze Planer Blade
+item.contenttweaker.black_bronze_planer_blade.name=Black Bronze Planer Blade
+item.contenttweaker.black_steel_planer_blade.name=Black Steel Planer Blade
+item.contenttweaker.blue_steel_planer_blade.name=Blue Steel Planer Blade
+item.contenttweaker.bronze_planer_blade.name=Bronze Planer Blade
+item.contenttweaker.copper_planer_blade.name=Copper Planer Blade
+item.contenttweaker.red_steel_planer_blade.name=Red Steel Planer Blade
+item.contenttweaker.steel_planer_blade.name=Steel Planer Blade
+item.contenttweaker.wrought_iron_planer_blade.name=Wrought Iron Planer Blade
+
+
+

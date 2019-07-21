@@ -1,0 +1,43 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "contenttweaker:ore_quartz_andesite:*",
+            "contenttweaker:ore_quartz_basalt:*",
+            "contenttweaker:ore_quartz_chalk:*",
+            "contenttweaker:ore_quartz_chert:*",
+            "contenttweaker:ore_quartz_claystone:*",
+            "contenttweaker:ore_quartz_conglomerate:*",
+            "contenttweaker:ore_quartz_dacite:*",
+            "contenttweaker:ore_quartz_diorite:*",
+            "contenttweaker:ore_quartz_dolomite:*",
+            "contenttweaker:ore_quartz_gabbro:*",
+            "contenttweaker:ore_quartz_gneiss:*",
+            "contenttweaker:ore_quartz_granite:*",
+            "contenttweaker:ore_quartz_limestone:*",
+            "contenttweaker:ore_quartz_marble:*",
+            "contenttweaker:ore_quartz_phyllite:*",
+            "contenttweaker:ore_quartz_quartzite:*",
+            "contenttweaker:ore_quartz_rhyolite:*",
+            "contenttweaker:ore_quartz_rock_salt:*",
+            "contenttweaker:ore_quartz_schist:*",
+            "contenttweaker:ore_quartz_shale:*",
+            "contenttweaker:ore_quartz_slate:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:quartz"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

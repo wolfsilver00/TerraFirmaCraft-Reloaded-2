@@ -1,0 +1,119 @@
+{
+	"name" : "loot4",
+	"loot_rules" : [
+		{	
+			"type" : "ARMOUR", 
+			"loot" : [
+				{"data" : {"name" : "tfc:metal/helmet/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/chestplate/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/greaves/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/boots/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/helmet/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/chestplate/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/greaves/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/boots/steel", "ench" : 30}, "weight" : 3}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "WEAPONS", 
+			"loot" : [
+				{"data" : {"name" : "tfc:metal/knife/wrought_iron", "ench" : 30}, "weight" : 6},
+				{"data" : {"name" : "tfc:metal/sword/black_steel", "ench" : 30}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/mace/black_steel", "ench" : 30}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/knife/black_steel", "ench" : 30}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/sword/steel", "ench" : 30}, "weight" : 2}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 2
+		},
+		{	
+			"type" : "TOOLS", 
+			"loot" : [
+				{"data" : {"name" : "tfc:metal/pick/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/axe/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/hammer/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/chisel/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/saw/wrought_iron", "ench" : 30}, "weight" : 2},
+				{"data" : {"name" : "tfc:metal/pick/black_steel", "ench" : 30}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/shovel/black_Steel", "ench" : 30}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/axe/black_steel", "ench" : 30}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/pick/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/axe/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/hammer/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/chisel/steel", "ench" : 30}, "weight" : 3},
+				{"data" : {"name" : "tfc:metal/saw/steel", "ench" : 30}, "weight" : 3}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "FOOD", 
+			"loot" : [
+				{"data" : {"name" : "golden_apple", "min" : 1, "max" : 1}}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 5
+		},
+		{	
+			"type" : "ORE", 
+			"loot" : [
+				{"data" : {"name" : "tfc:ore/bituminous_coal", "meta" : 0 , "min" : 1, "max" : 3}, "weight" : 2},
+				{"data" : {"name" : "tfc:ore/native_copper", "meta" : 0 , "min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/native_gold", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/native_platinum", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/hematite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/native_silver", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/cassiterite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/galena", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/bismuthinite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/garnierite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/malachite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/magnetite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/limonite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/sphalerite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:ore/tetrehedrite", "meta" : 0 ,"min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "tfc:gem/ruby", "meta" : 0, "min" : 1, "max" : 1}, "weight" : 2},
+				{"data" : {"name" : "tfc:gem/sapphire", "meta" : 0, "min" : 1, "max" : 1}, "weight" : 2},
+				{"data" : {"name" : "tfc:gem/emerald", "meta" : 0, "min" : 1, "max" : 1}, "weight" : 2},
+				{"data" : {"name" : "tfc:gem/topaz", "meta" : 0, "min" : 1, "max" : 1}, "weight" : 2},
+				{"data" : {"name" : "tfc:gem/tourmaline", "meta" : 0, "min" : 1, "max" : 1}, "weight" : 2},
+				{"data" : {"name" : "tfc:gem/diamond", "meta" : 0, "min" : 1, "max" : 1}, "weight" : 2}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 6
+		},
+		{	
+			"loot" : [
+				{"data" : {"name" : "minecraft:leather"}, "weight" : 3},			
+				{"data" : {"name" : "minecraft:potion", "meta" : 16449 }, "weight" : 1},
+				{"data" : {"name" : "minecraft:potion", "meta" : 16450 }, "weight" : 1},
+				{"data" : {"name" : "minecraft:potion", "meta" : 16451 }, "weight" : 1},
+				{"data" : {"name" : "minecraft:potion", "meta" : 16421 }, "weight" : 1},
+				{"data" : {"name" : "minecraft:potion", "meta" : 16454 }, "weight" : 1},
+				{"data" : {"name" : "minecraft:potion", "meta" : 16425 }, "weight" : 1},
+				{"data" : {"name" : "minecraft:arrow", "min" : 4, "max" : 14}, "weight" : 2},
+				{"data" : {"name" : "redstone"}, "weight" : 5},
+				{"data" : {"name" : "glowstone_dust"}, "weight" : 5},
+				{"data" : {"name" : "gunpowder", "min" : 1, "max" : 4}, "weight" : 1}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 6
+		},
+		{	
+			"loot" : [
+				{"data" : {"name" : "tfc:gem/diamond"}}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 5
+		}
+	]
+}

@@ -74,3 +74,6 @@ tfc:mountains_edge
 tfc:high_plains
 tfc:deep_ocean
 tfc:lake
+thaumcraft:magical_forest
+thaumcraft:eerie
+thaumcraft:eldritch

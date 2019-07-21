@@ -1,16 +1,1 @@
-[
-  {
-    "dimension": 0,
-	"maxheight": 256,
-    "block": "minecraft:netherrack",
-    "biome": ["TerraFirmaCraft High Hills", "TerraFirmaCraft Plains", "TerraFirmaCraft Swampland", "TerraFirmaCraft High Hills Edge", "TerraFirmaCraft Rolling Hills", "TerraFirmaCraft Mountains", "TerraFirmaCraft Mountains", "TerraFirmaCraft Mountains Edge", "TerraFirmaCraft High Plains"],
-    "mobs": [
-      {
-        "mob": "Blaze",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      }
-    ]
-  }
-]
+[]

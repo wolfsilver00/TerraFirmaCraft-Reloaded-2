@@ -1,0 +1,164 @@
+{
+	"name" : "mobs",
+	"levels" : {
+		"0" : {
+			"spawners" : {				
+				"BABYSPIDER" : [
+					{
+						"name" : "primitivemobs:baby_spider",
+						"equip" : false
+					}
+				],
+				"GOBLIN" : [
+					{
+						"name" : "primitivemobs:goblin",
+						"equip" : false
+					}
+				],
+				"SKELETON" : [
+					{
+						"name" : "minecraft:skeleton",
+						"equip" : false
+					}
+				],
+				"ZOMBIE" : [
+					{
+						"name" : "minecraft:zombie",
+						"equip" : false
+					}
+				],
+				"SILVERFISH" : [
+					{
+						"name" : "minecraft:silverfish",
+						"equip" : false
+					}
+				]
+				
+			}
+		},
+		"1" : {
+			"spawners" : {	
+				"SPIDER" : [
+					{"name" : "minecraft:spider",
+						"equip" : false}
+				],
+				"ZOMBIE" : [
+					{"name" : "minecraft:zombie",
+						"equip" : true}
+				],
+				"SKELETON" : [
+					{
+						"name" : "minecraft:skeleton",
+						"equip" : false
+					}
+				],
+				"WITCH" : [
+					{
+						"name" : "minecraft:witch",
+						"equip" : false
+					}
+				]
+			}
+		},
+		"2" : {
+			"spawners" : {
+				"SPIDER" : [
+					{"name" : "minecraft:spider",
+						"equip" : false}
+				],
+				"ZOMBIE" : [
+					{"name" : "minecraft:zombie",
+						"equip" : true}
+				],
+				"SKELETON" : [
+					{"name" : "minecraft:skeleton",
+						"equip" : true}
+				],
+				"SKELETONWARRIOR" : [
+					{"name" : "primitivemobs:skeleton_warrior",
+						"equip" : false}
+				],				
+				"MOTHERSPIDER" : [
+					{"name" : "primitivemobs:mother_spider",
+						"equip" : false}
+				],
+				"CAVESPIDER" : [
+					{"name" : "minecraft:cave_spider",
+						"equip" : false}
+				]
+			}
+		},
+		"3" : {
+			"spawners" : {
+				"BLAZINGJUGGARNAUT" : [
+					{"name" : "primitivemobs:blazing_juggernaut",
+						"equip" : false}
+				],
+				"MOTHERSPIDER" : [
+					{"name" : "primitivemobs:mother_spider",
+						"equip" : false}
+				],
+				"ZOMBIE" : [
+					{"name" : "minecraft:zombie",
+						"equip" : true}
+				],
+				"SKELETON" : [
+					{"name" : "minecraft:skeleton",
+						"equip" : true}
+				],
+				"SKELETONWARRIOR" : [
+					{"name" : "primitivemobs:skeleton_warrior",
+						"equip" : true}
+				],
+				"SILVERFISH" : [
+					{"name" : "minecraft:silverfish",
+						"equip" : false}
+				],
+				"ROCKETCREEPER" : [
+					{"name" : "primitivemobs:rocket_creeper",
+						"equip" : false}
+				],				
+				"TROLLAGER" : [
+					{"name" : "primitivemobs:trollager",
+						"equip" : false}
+				]
+			}
+		},
+		"4" : {
+			"spawners" : {
+				"BRAINSLIME" : [
+					{"name" : "primitivemobs:brain_slime",
+						"equip" : false}
+				],
+				"BLAZINGJUGGARNAUT" : [
+					{"name" : "primitivemobs:blazing_juggernaut",
+						"equip" : false}
+				],
+				"ZOMBIE" : [
+					{"name" : "minecraft:zombie",
+						"equip" : true}
+				],
+				"SKELETON" : [
+					{"name" : "minecraft:skeleton",
+						"equip" : true}
+				],
+				"ENDERMAN" : [
+					{"name" : "minecraft:enderman",
+						"equip" : false}
+				],
+				"SKELETONWARRIOR" : [
+					{"name" : "primitivemobs:skeleton_warrior",
+						"equip" : true}
+				],
+				"FESTIVECREEPER" : [
+					{"name" : "primitivemobs:festive_creeper",
+						"equip" : false}
+				],
+				"MOTHERSPIDER" : [
+					{"name" : "primitivemobs:mother_spider",
+						"equip" : false}
+				]
+			}
+		}
+	}
+}

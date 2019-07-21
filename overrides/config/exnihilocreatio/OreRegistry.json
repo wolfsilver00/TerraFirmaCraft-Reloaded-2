@@ -2,12 +2,12 @@
   {
     "name": "gold",
     "color": "ffff00",
-    "result": "minecraft:gold_ingot:-1"
+    "result": "tfc:metal/ingot/gold"
   },
   {
     "name": "iron",
     "color": "bf8040",
-    "result": "minecraft:iron_ingot:-1"
+    "result": "tfc:metal/ingot/wrought_iron"
   },
   {
     "name": "ardite",
