@@ -1,11 +1,41 @@
 [
   {
     "fluidName": "water",
-    "input": "ore:dust",
+    "input": "ore:blockDust",
+    "output": "minecraft:clay:0"
+  },
+  {
+    "fluidName": "salt_water",
+    "input": "ore:blockDust",
+    "output": "minecraft:clay:0"
+  },
+  {
+    "fluidName": "fresh_water",
+    "input": "ore:blockDust",
+    "output": "minecraft:clay:0"
+  },
+  {
+    "fluidName": "hot_water",
+    "input": "ore:blockDust",
     "output": "minecraft:clay:0"
   },
   {
     "fluidName": "water",
+    "input": "ore:blockSlime",
+    "output": "minecraft:sponge"
+  },
+  {
+    "fluidName": "salt_water",
+    "input": "ore:blockSlime",
+    "output": "minecraft:sponge"
+  },
+  {
+    "fluidName": "fresh_water",
+    "input": "ore:blockSlime",
+    "output": "minecraft:sponge"
+  },
+  {
+    "fluidName": "hot_water",
     "input": "ore:blockSlime",
     "output": "minecraft:sponge"
   },

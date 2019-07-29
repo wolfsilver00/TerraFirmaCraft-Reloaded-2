@@ -4,11 +4,31 @@
 //=======================================================================================================================================================================
 //Crusher
 
+	//Grain
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/barley_grain> * 1, <tfc:food/barley>, 4000, <tfc:food/barley_grain> * 1, 0.15);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/oat_grain> * 1, <tfc:food/oat>, 4000, <tfc:food/oat_grain> * 1, 0.15);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/rice_grain> * 1, <tfc:food/rice>, 4000, <tfc:food/rice_grain> * 1, 0.5);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/rye_grain> * 1, <tfc:food/rye>, 4000, <tfc:food/rye_grain> * 1, 0.15);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/wheat_grain> * 1, <tfc:food/wheat>, 4000, <tfc:food/wheat_grain> * 1, 0.15);
+	
+	//Flour
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/barley_flour> * 2, <tfc:food/barley_grain>, 4000, <tfc:food/barley_flour> * 1, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/cornmeal_flour> * 2, <tfc:food/maize>, 4000, <tfc:food/cornmeal_flour> * 1, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/oat_flour> * 2, <tfc:food/oat_grain>, 4000, <tfc:food/oat_flour> * 1, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/rice_flour> * 2, <tfc:food/rice_grain>, 4000, <tfc:food/rice_flour> * 1, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/rye_flour> * 2, <tfc:food/rye_grain>, 4000, <tfc:food/rye_flour> * 1, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/wheat_flour> * 2, <tfc:food/wheat_grain>, 4000, <tfc:food/wheat_flour> * 1, 0.1);
+	
+	//Minerals
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <tfc:ore/cinnabar>, 8000, <thaumcraft:nugget:5> * 4, 0.5);
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <tfc:ore/cryolite>, 8000, <thaumcraft:nugget:5> * 4, 0.5);
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <tfc:ore/selenite>, 8000, <thaumcraft:nugget:5> * 1, 0.5);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/salt> * 8, <tfc:ore/gypsum>, 8000, <minecraft:dye:15> * 3, 0.5);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 15, <tfc:ore/borax>, 8000, <minecraft:dye:15> * 3, 0.5);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/chalk>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/dolomite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/limestone>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/marble>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/kaolinite_powder> * 12, <tfc:ore/kaolinite>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/fertilizer> * 12, <tfc:ore/sylvite>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/graphite_powder> * 12, <tfc:ore/graphite>, 8000);

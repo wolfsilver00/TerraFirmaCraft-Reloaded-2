@@ -2,6 +2,8 @@
 //Vanilla Recipes
 	
 	//Remove
+	recipes.remove(<props:props:508>);
+	recipes.remove(<minecraft:chest>);
 	recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
 	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
 
@@ -52,6 +54,12 @@
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 	recipes.addShapeless(<tfc:metal/ingot/gold> * 9, [<ore:blockGold>]);
 	recipes.addShapeless(<tfc:metal/ingot/wrought_iron> * 9, [<ore:blockIron>]);
+	recipes.addShapeless(<props:clay:2>, [<ore:sand>, <ore:dirt>, <ore:dyeGreen>]);
+	recipes.addShapeless(<props:clay:1>, [<ore:sand>, <ore:dirt>, <ore:dyeBlue>]);
+	recipes.addShapeless(<props:clay>, [<ore:sand>, <ore:dirt>, <ore:dyeRed>]);
+	
+	//Buildcraft Framing Sheet
+	recipes.addShapeless(<bibliocraft:framingsheet> * 2, [<ore:plankWood>, <bibliocraft:framingsaw>.transformDamage(1)]);
 
 	//recipes.addShaped(<tfc:thatch>, [[<ore:listAllgrain>, <ore:listAllgrain>], [<ore:listAllgrain>, <ore:listAllgrain>]]);
 	recipes.addShaped(<minecraft:stone_slab> * 6, [[<ore:stone>, <ore:stone>, <ore:stone>]]);
@@ -61,6 +69,7 @@
 	recipes.addShaped(<minecraft:anvil>, [[<ore:doubleSheetWroughtIron>, <ore:doubleSheetWroughtIron>, <ore:doubleSheetWroughtIron>], [null, <ore:anvilWroughtIron>, null]]);
 	recipes.addShaped(<minecraft:sticky_piston>, [[<ore:slimeball>], [<minecraft:piston>]]);
 	recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:doubleSheetBrass>, <ore:wireCopper>, <ore:doubleSheetBrass>], [<ore:cobblestoneIgneousIntrusive>, <ore:dustRedstone>, <ore:cobblestoneIgneousIntrusive>]]);
+	recipes.addShaped(<props:props:508>, [[null, <ore:dyeRed>, null], [<ore:dyeGreen>, <ore:workbench>, <ore:dyeBlue>], [null, <ore:blockClay>, null]]);
 
 	//Better Storage Lockers
 	recipes.remove(<betterstorage:reinforced_locker:0>);
@@ -286,6 +295,13 @@
 	<tfc:ore/petrified_wood>.displayName = "Bauxite";
 	<tfc:ore/microcline>.displayName = "Cobaltite";
 	<tfc:ore/serpentine>.displayName = "Polarite";
+	<minecraft:iron_sword>.displayName = "Rusty Iron Sword";
+	<minecraft:iron_shovel>.displayName = "Rusty Iron Shovel";
+	<minecraft:iron_pickaxe>.displayName = "Rusty Iron Pickaxe";
+	<minecraft:iron_axe>.displayName = "Rusty Iron Axe";
+	<minecraft:iron_hoe>.displayName = "Rusty Iron Hoe";
+	<minecraft:chest>.displayName = "Stone Chest";
+	<minecraft:trapped_chest>.displayName = "Stone Trapped Chest";
 
 
 //=======================================================================================================================================================================
@@ -315,14 +331,36 @@
 	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodHickory>);
 	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
 	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+	
+	//Wood
+	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodDarkOakSimilar>);
+	
+	recipes.replaceAllOccurences(<minecraft:oak_stairs>, <ore:stairsWoodOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:spruce_stairs>, <ore:stairsWoodSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:birch_stairs>, <ore:stairsWoodBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:jungle_stairs>, <ore:stairsWoodJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:acacia_stairs>, <ore:stairsWoodAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:dark_oak_stairs>, <ore:stairsWoodDarkOakSimilar>);
+	
+	recipes.replaceAllOccurences(<minecraft:wooden_slab>, <ore:slabWoodOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:1>, <ore:slabWoodSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:2>, <ore:slabWoodBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:3>, <ore:slabWoodJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:4>, <ore:slabWoodAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:5>, <ore:slabWoodDarkOakSimilar>);
 
 	//Immersive Engineering
 	recipes.replaceAllOccurences(<immersiveengineering:metal>, <ore:ingotCopper>);
 	recipes.replaceAllOccurences(<immersiveengineering:metal:2>, <ore:ingotLead>);	
 	recipes.replaceAllOccurences(<immersiveengineering:metal:3>, <ore:ingotSilver>);	
 	recipes.replaceAllOccurences(<immersiveengineering:metal:4>, <ore:ingotNickel>);	
-	recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater
-	>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:8>, <ore:ingotSteel>);	
+	recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater>);
 
 	//Tinkers' Construct
 	recipes.replaceAllOccurences(<tconstruct:ingots:4>, <ore:ingotPigiron>);

@@ -11,9 +11,14 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TerraFirmaCraft Reloaded 2",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Verph",
   "files": [
+    {
+      "projectID": 246760,
+      "fileID": 2740253,
+      "required": true
+    },
     {
       "projectID": 253449,
       "fileID": 2568751,
@@ -21,7 +26,7 @@
     },
     {
       "projectID": 257356,
-      "fileID": 2736287,
+      "fileID": 2745849,
       "required": true
     },
     {
@@ -42,6 +47,11 @@
     {
       "projectID": 235107,
       "fileID": 2695044,
+      "required": true
+    },
+    {
+      "projectID": 292491,
+      "fileID": 2624871,
       "required": true
     },
     {
@@ -72,6 +82,11 @@
     {
       "projectID": 229060,
       "fileID": 2684000,
+      "required": true
+    },
+    {
+      "projectID": 255257,
+      "fileID": 2729616,
       "required": true
     },
     {
@@ -110,6 +125,11 @@
       "required": true
     },
     {
+      "projectID": 291499,
+      "fileID": 2685154,
+      "required": true
+    },
+    {
       "projectID": 79287,
       "fileID": 2481605,
       "required": true
@@ -126,7 +146,12 @@
     },
     {
       "projectID": 314904,
-      "fileID": 2716458,
+      "fileID": 2749104,
+      "required": true
+    },
+    {
+      "projectID": 228027,
+      "fileID": 2574880,
       "required": true
     },
     {
@@ -150,6 +175,11 @@
       "required": true
     },
     {
+      "projectID": 294335,
+      "fileID": 2624990,
+      "required": true
+    },
+    {
       "projectID": 231951,
       "fileID": 2676501,
       "required": true
@@ -170,6 +200,11 @@
       "required": true
     },
     {
+      "projectID": 291568,
+      "fileID": 2585537,
+      "required": true
+    },
+    {
       "projectID": 226406,
       "fileID": 2638282,
       "required": true
@@ -181,7 +216,7 @@
     },
     {
       "projectID": 250363,
-      "fileID": 2730480,
+      "fileID": 2746011,
       "required": true
     },
     {
@@ -231,7 +266,7 @@
     },
     {
       "projectID": 289412,
-      "fileID": 2738432,
+      "fileID": 2747799,
       "required": true
     },
     {
@@ -275,6 +310,11 @@
       "required": true
     },
     {
+      "projectID": 323993,
+      "fileID": 2722821,
+      "required": true
+    },
+    {
       "projectID": 237102,
       "fileID": 2734166,
       "required": true
@@ -297,6 +337,11 @@
     {
       "projectID": 227083,
       "fileID": 2518667,
+      "required": true
+    },
+    {
+      "projectID": 324007,
+      "fileID": 2722878,
       "required": true
     },
     {
@@ -326,7 +371,12 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2739267,
+      "fileID": 2747793,
+      "required": true
+    },
+    {
+      "projectID": 243298,
+      "fileID": 2704186,
       "required": true
     },
     {
@@ -361,7 +411,7 @@
     },
     {
       "projectID": 256141,
-      "fileID": 2670073,
+      "fileID": 2746408,
       "required": true
     },
     {
@@ -405,6 +455,11 @@
       "required": true
     },
     {
+      "projectID": 79616,
+      "fileID": 2621015,
+      "required": true
+    },
+    {
       "projectID": 32274,
       "fileID": 2738211,
       "required": true
@@ -431,7 +486,7 @@
     },
     {
       "projectID": 303557,
-      "fileID": 2726519,
+      "fileID": 2749818,
       "required": true
     },
     {

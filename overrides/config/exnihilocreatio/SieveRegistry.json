@@ -1420,7 +1420,7 @@
       "meshLevel": 4
     }
   ],
-  "ore:dust": [
+  "ore:blockDust": [
     {
       "drop": "minecraft:dye:15",
       "chance": 0.2,

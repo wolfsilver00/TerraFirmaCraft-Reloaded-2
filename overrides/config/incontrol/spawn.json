@@ -3,12 +3,11 @@
     "mob": [
 	"minecraft:wolf",
 	"minecraft:horse",
-	"minecraft:rabbit",
 	"minecraft:parrot",
 	"minecraft:donkey",
 	"minecraft:mule"
 	],
-    "weight": 5,
+    "weight": 10,
     "groupcountmin": 1,
     "groupcountmax": 5,
     "biome": [
@@ -33,7 +32,7 @@
     "mob": [
 	"minecraft:rabbit"
 	],
-    "weight": 200,
+    "weight": 50,
     "groupcountmin": 1,
     "groupcountmax": 8,
     "biome": [
@@ -56,95 +55,12 @@
   },
   {
     "mob": [
-	"minecraft:squid",
-	"minecraft:guardian"
+	"minecraft:squid"
 	],
+    "weight": 10,
 	"maxheight": 256,
 	"minheight": 1,
-	"block": [
-	"tfc:fluid/salt_water",
-	"tfc:fluid/fresh_water",
-	"minecraft:water"
-	],
     "biome": [
-	"tfc:ocean",
-	"tfc:deep_ocean",
-	"tfc:beach",
-	"tfc:gravel_beach"
-	],
-    "result": "allow"
-  },
-  {
-    "mob": [
-	"exoticbirds:bluejay",
-	"exoticbirds:cardinal",
-	"exoticbirds:cassowary",
-	"exoticbirds:gouldianfinch",
-	"exoticbirds:hummingbird",
-	"exoticbirds:kiwi",
-	"exoticbirds:kookaburra",
-	"exoticbirds:lyrebird",
-	"exoticbirds:magpie",
-	"exoticbirds:ostrich",
-	"exoticbirds:owl",
-	"exoticbirds:parrot",
-	"exoticbirds:peafowl",
-	"exoticbirds:pigeon",
-	"exoticbirds:roadrunner",
-	"exoticbirds:robin",
-	"exoticbirds:toucan",
-	"exoticbirds:vulture",
-	"exoticbirds:woodpecker",
-	"betteranimalsplus:songbird"
-	],
-    "weight": 500,
-    "groupcountmin": 1,
-    "groupcountmax": 5,
-    "biome": [
-	"TerraFirmaCraft Ocean", 
-	"TerraFirmaCraft Deep Ocean", 
-	"TerraFirmaCraft Lake", 
-	"TerraFirmaCraft River", 
-	"TerraFirmaCraft Beach", 
-	"TerraFirmaCraft Gravel Beach", 
-	"TerraFirmaCraft High Hills", 
-	"TerraFirmaCraft Plains", 
-	"TerraFirmaCraft Swampland", 
-	"TerraFirmaCraft High Hills Edge", 
-	"TerraFirmaCraft Rolling Hills", 
-	"TerraFirmaCraft Mountains", 
-	"TerraFirmaCraft Mountains", 
-	"TerraFirmaCraft Mountains Edge", 
-	"TerraFirmaCraft High Plains",
-	"tfc:high_hills",
-	"tfc:plains",
-	"tfc:swampland",
-	"tfc:high_hills_edge",
-	"tfc:rolling_hills",
-	"tfc:mountains",
-	"tfc:mountains_edge",
-	"tfc:high_plains"
-	],
-    "result": "allow"
-  },
-  {
-    "mob": [
-	"exoticbirds:booby",
-	"exoticbirds:crane",
-	"exoticbirds:duck",
-	"exoticbirds:flamingo",
-	"exoticbirds:heron",
-	"exoticbirds:kingfisher",
-	"exoticbirds:pelican",
-	"exoticbirds:seagull",
-	"exoticbirds:swan"
-	],
-    "weight": 5,
-    "groupcountmin": 1,
-    "groupcountmax": 5,
-    "biome": [
-	"tfc:river",
-	"tfc:lake",
 	"tfc:ocean",
 	"tfc:deep_ocean",
 	"tfc:beach",
@@ -159,7 +75,7 @@
 	"lumen:lightning_bug",
 	"lumen:psi_firefly"
 	],
-    "weight": 5,
+    "weight": 10,
     "groupcountmin": 1,
     "groupcountmax": 10,
     "biome": [

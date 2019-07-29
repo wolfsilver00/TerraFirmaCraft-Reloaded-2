@@ -479,6 +479,17 @@ var seedMelon = <ore:seedMelon>;
 //=======================================================================================================================================================================
 //Meats
 
+//Crab Meat
+var foodCrabraw = <ore:foodCrabraw>;
+    foodCrabraw.addItems([
+	<betteranimalsplus:crab_meat_raw>
+	]);
+	
+var foodCrabcooked = <ore:foodCrabcooked>;
+    foodCrabcooked.addItems([
+	<betteranimalsplus:crab_meat_cooked>
+	]);
+
 
 //Fish & Calamari
 var listAllfishraw = <ore:listAllfishraw>;

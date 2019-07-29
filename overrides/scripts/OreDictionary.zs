@@ -62,6 +62,11 @@ var itemCoal = <ore:itemCoal>;
 		<tfc:ore/lignite>,
 		<tfc:ore/bituminous_coal>
 	]);
+	
+var dustSulfur = <ore:dustSulfur>;
+    dustSulfur.addItems([
+		<tfc:powder/sulfur_powder>
+	]);
 
 var dustSaltpeter = <ore:dustSaltpeter>;
     dustSaltpeter.addItems([
@@ -349,6 +354,276 @@ var listAllwater = <ore:listAllwater>;
 var listAllmushroom = <ore:listAllmushroom>;
     listAllmushroom.addItems([
 		<tfc:plants/porcini>
+	]);
+
+var plankWoodOakSimilar = <ore:plankWoodOakSimilar>;
+    plankWoodOakSimilar.addItems([
+		<tfc:wood/planks/oak>,
+		<tfc:wood/planks/aspen>,
+		<tfc:wood/planks/maple>,
+		<minecraft:planks>
+	]);
+
+var plankWoodSpruceSimilar = <ore:plankWoodSpruceSimilar>;
+    plankWoodSpruceSimilar.addItems([
+		<tfc:wood/planks/spruce>,
+		<tfc:wood/planks/pine>,
+		<tfc:wood/planks/sequoia>,
+		<tfc:wood/planks/douglas_fir>,
+		<minecraft:planks:1>
+	]);
+
+var plankWoodBirchSimilar = <ore:plankWoodBirchSimilar>;
+    plankWoodBirchSimilar.addItems([
+		<tfc:wood/planks/birch>,
+		<tfc:wood/planks/sycamore>,
+		<tfc:wood/planks/white_cedar>,
+		<minecraft:planks:2>
+	]);
+
+var plankWoodJungleSimilar = <ore:plankWoodJungleSimilar>;
+    plankWoodJungleSimilar.addItems([
+		<tfc:wood/planks/kapok>,
+		<tfc:wood/planks/ash>,
+		<tfc:wood/planks/willow>,
+		<minecraft:planks:3>
+	]);
+
+var plankWoodAcaciaSimilar = <ore:plankWoodAcaciaSimilar>;
+    plankWoodAcaciaSimilar.addItems([
+		<tfc:wood/planks/acacia>,
+		<tfc:wood/planks/palm>,
+		<tfc:wood/planks/rosewood>,
+		<minecraft:planks:4>
+	]);
+
+var plankWoodDarkOakSimilar = <ore:plankWoodDarkOakSimilar>;
+    plankWoodDarkOakSimilar.addItems([
+		<tfc:wood/planks/blackwood>,
+		<tfc:wood/planks/chestnut>,
+		<tfc:wood/planks/hickory>,
+		<minecraft:planks:5>
+	]);
+
+var slabWoodOakSimilar = <ore:slabWoodOakSimilar>;
+    slabWoodOakSimilar.addItems([
+		<tfc:slab/wood/oak>,
+		<tfc:slab/wood/aspen>,
+		<tfc:slab/wood/maple>,
+		<minecraft:wooden_slab>
+	]);
+
+var slabWoodSpruceSimilar = <ore:slabWoodSpruceSimilar>;
+    slabWoodSpruceSimilar.addItems([
+		<tfc:slab/wood/spruce>,
+		<tfc:slab/wood/pine>,
+		<tfc:slab/wood/sequoia>,
+		<tfc:slab/wood/douglas_fir>,
+		<minecraft:wooden_slab:1>
+	]);
+
+var slabWoodBirchSimilar = <ore:slabWoodBirchSimilar>;
+    slabWoodBirchSimilar.addItems([
+		<tfc:slab/wood/birch>,
+		<tfc:slab/wood/sycamore>,
+		<tfc:slab/wood/white_cedar>,
+		<minecraft:wooden_slab:2>
+	]);
+
+var slabWoodJungleSimilar = <ore:slabWoodJungleSimilar>;
+    slabWoodJungleSimilar.addItems([
+		<tfc:slab/wood/kapok>,
+		<tfc:slab/wood/ash>,
+		<tfc:slab/wood/willow>,
+		<minecraft:wooden_slab:3>
+	]);
+
+var slabWoodAcaciaSimilar = <ore:slabWoodAcaciaSimilar>;
+    slabWoodAcaciaSimilar.addItems([
+		<tfc:slab/wood/acacia>,
+		<tfc:slab/wood/palm>,
+		<tfc:slab/wood/rosewood>,
+		<minecraft:wooden_slab:4>
+	]);
+
+var slabWoodDarkOakSimilar = <ore:slabWoodDarkOakSimilar>;
+    slabWoodDarkOakSimilar.addItems([
+		<tfc:slab/wood/blackwood>,
+		<tfc:slab/wood/chestnut>,
+		<tfc:slab/wood/hickory>,
+		<minecraft:wooden_slab:5>
+	]);
+
+var stairsWoodOakSimilar = <ore:stairsWoodOakSimilar>;
+    stairsWoodOakSimilar.addItems([
+		<tfc:stairs/wood/oak>,
+		<tfc:stairs/wood/aspen>,
+		<tfc:stairs/wood/maple>,
+		<minecraft:oak_stairs>
+	]);
+
+var stairsWoodSpruceSimilar = <ore:stairsWoodSpruceSimilar>;
+    stairsWoodSpruceSimilar.addItems([
+		<tfc:stairs/wood/spruce>,
+		<tfc:stairs/wood/pine>,
+		<tfc:stairs/wood/sequoia>,
+		<tfc:stairs/wood/douglas_fir>,
+		<minecraft:spruce_stairs>
+	]);
+
+var stairsWoodBirchSimilar = <ore:stairsWoodBirchSimilar>;
+    stairsWoodBirchSimilar.addItems([
+		<tfc:stairs/wood/birch>,
+		<tfc:stairs/wood/sycamore>,
+		<tfc:stairs/wood/white_cedar>,
+		<minecraft:birch_stairs>
+	]);
+
+var stairsWoodJungleSimilar = <ore:stairsWoodJungleSimilar>;
+    stairsWoodJungleSimilar.addItems([
+		<tfc:stairs/wood/kapok>,
+		<tfc:stairs/wood/ash>,
+		<tfc:stairs/wood/willow>,
+		<minecraft:jungle_stairs>
+	]);
+
+var stairsWoodAcaciaSimilar = <ore:stairsWoodAcaciaSimilar>;
+    stairsWoodAcaciaSimilar.addItems([
+		<tfc:stairs/wood/acacia>,
+		<tfc:stairs/wood/palm>,
+		<tfc:stairs/wood/rosewood>,
+		<minecraft:acacia_stairs>
+	]);
+
+var stairsWoodDarkOakSimilar = <ore:stairsWoodDarkOakSimilar>;
+    stairsWoodDarkOakSimilar.addItems([
+		<tfc:stairs/wood/blackwood>,
+		<tfc:stairs/wood/chestnut>,
+		<tfc:stairs/wood/hickory>,
+		<minecraft:dark_oak_stairs>
+	]);
+
+var lumberPlaned = <ore:lumberPlaned>;
+    lumberPlaned.addItems([
+		<contenttweaker:planed_plank_acacia>,
+		<contenttweaker:planed_plank_palm>,
+		<contenttweaker:planed_plank_chestnut>,
+		<contenttweaker:planed_plank_silverwood>,
+		<contenttweaker:planed_plank_pine>,
+		<contenttweaker:planed_plank_sequoia>,
+		<contenttweaker:planed_plank_oak>,
+		<contenttweaker:planed_plank_willow>,
+		<contenttweaker:planed_plank_birch>,
+		<contenttweaker:planed_plank_spruce>,
+		<contenttweaker:planed_plank_ash>,
+		<contenttweaker:planed_plank_rosewood>,
+		<contenttweaker:planed_plank_white_elm>,
+		<contenttweaker:planed_plank_hickory>,
+		<contenttweaker:planed_plank_blackwood>,
+		<contenttweaker:planed_plank_white_cedar>,
+		<contenttweaker:planed_plank_maple>,
+		<contenttweaker:planed_plank_greatwood>,
+		<contenttweaker:planed_plank_aspen>,
+		<contenttweaker:planed_plank_kapok>,
+		<contenttweaker:planed_plank_sycamore>,
+		<contenttweaker:planed_plank_douglas_fir>
+	]);
+
+var lumberOakSimilar = <ore:lumberOakSimilar>;
+    lumberOakSimilar.addItems([
+		<tfc:wood/lumber/oak>,
+		<tfc:wood/lumber/aspen>,
+		<tfc:wood/lumber/maple>
+	]);
+
+var lumberSpruceSimilar = <ore:lumberSpruceSimilar>;
+    lumberSpruceSimilar.addItems([
+		<tfc:wood/lumber/spruce>,
+		<tfc:wood/lumber/pine>,
+		<tfc:wood/lumber/sequoia>,
+		<tfc:wood/lumber/douglas_fir>
+	]);
+
+var lumberBirchSimilar = <ore:lumberBirchSimilar>;
+    lumberBirchSimilar.addItems([
+		<tfc:wood/lumber/birch>,
+		<tfc:wood/lumber/sycamore>,
+		<tfc:wood/lumber/white_cedar>
+	]);
+
+var lumberJungleSimilar = <ore:lumberJungleSimilar>;
+    lumberJungleSimilar.addItems([
+		<tfc:wood/lumber/kapok>,
+		<tfc:wood/lumber/ash>,
+		<tfc:wood/lumber/willow>
+	]);
+
+var lumberAcaciaSimilar = <ore:lumberAcaciaSimilar>;
+    lumberAcaciaSimilar.addItems([
+		<tfc:wood/lumber/acacia>,
+		<tfc:wood/lumber/palm>,
+		<tfc:wood/lumber/rosewood>
+	]);
+
+var lumberDarkOakSimilar = <ore:lumberDarkOakSimilar>;
+    lumberDarkOakSimilar.addItems([
+		<tfc:wood/lumber/blackwood>,
+		<tfc:wood/lumber/chestnut>,
+		<tfc:wood/lumber/hickory>
+	]);
+
+var planedLumberOakSimilar = <ore:planedLumberOakSimilar>;
+    planedLumberOakSimilar.addItems([
+		<contenttweaker:planed_plank_oak>,
+		<contenttweaker:planed_plank_aspen>,
+		<contenttweaker:planed_plank_maple>
+	]);
+
+var planedLumberSpruceSimilar = <ore:planedLumberSpruceSimilar>;
+    planedLumberSpruceSimilar.addItems([
+		<contenttweaker:planed_plank_spruce>,
+		<contenttweaker:planed_plank_pine>,
+		<contenttweaker:planed_plank_sequoia>,
+		<contenttweaker:planed_plank_douglas_fir>
+	]);
+
+var planedLumberBirchSimilar = <ore:planedLumberBirchSimilar>;
+    planedLumberBirchSimilar.addItems([
+		<contenttweaker:planed_plank_birch>,
+		<contenttweaker:planed_plank_sycamore>,
+		<contenttweaker:planed_plank_white_cedar>
+	]);
+
+var planedLumberJungleSimilar = <ore:planedLumberJungleSimilar>;
+    planedLumberJungleSimilar.addItems([
+		<contenttweaker:planed_plank_kapok>,
+		<contenttweaker:planed_plank_ash>,
+		<contenttweaker:planed_plank_willow>
+	]);
+
+var planedLumberAcaciaSimilar = <ore:planedLumberAcaciaSimilar>;
+    planedLumberAcaciaSimilar.addItems([
+		<contenttweaker:planed_plank_acacia>,
+		<contenttweaker:planed_plank_palm>,
+		<contenttweaker:planed_plank_rosewood>
+	]);
+
+var planedLumberDarkOakSimilar = <ore:planedLumberDarkOakSimilar>;
+    planedLumberDarkOakSimilar.addItems([
+		<contenttweaker:planed_plank_blackwood>,
+		<contenttweaker:planed_plank_chestnut>,
+		<contenttweaker:planed_plank_hickory>
+	]);
+
+var lumber = <ore:lumber>;
+    lumber.addItems([
+		<contenttweaker:lumber_greatwood>,
+		<contenttweaker:lumber_silverwood>
+	]);
+
+var blockDust = <ore:blockDust>;
+    blockDust.addItems([
+		<exnihilocreatio:block_dust>
 	]);
 
 

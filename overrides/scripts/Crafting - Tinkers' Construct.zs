@@ -8,6 +8,10 @@
 	recipes.remove(<tconstruct:seared_furnace_controller>);
 	recipes.remove(<tconstruct:smeltery_controller>);
 	
+	//Drying Leather
+	mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
+	
+	
 //=======================================================================================================================================================================
 //Recipes
 
