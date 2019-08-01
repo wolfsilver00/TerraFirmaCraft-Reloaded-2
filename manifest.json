@@ -11,12 +11,12 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TerraFirmaCraft Reloaded 2",
-  "version": "0.2",
+  "version": "0.3",
   "author": "Verph",
   "files": [
     {
       "projectID": 246760,
-      "fileID": 2740253,
+      "fileID": 2752301,
       "required": true
     },
     {
@@ -60,11 +60,6 @@
       "required": true
     },
     {
-      "projectID": 286941,
-      "fileID": 2528778,
-      "required": true
-    },
-    {
       "projectID": 243506,
       "fileID": 2733523,
       "required": true
@@ -101,7 +96,7 @@
     },
     {
       "projectID": 221857,
-      "fileID": 2717443,
+      "fileID": 2751199,
       "required": true
     },
     {
@@ -137,11 +132,6 @@
     {
       "projectID": 298747,
       "fileID": 2677608,
-      "required": true
-    },
-    {
-      "projectID": 286495,
-      "fileID": 2526081,
       "required": true
     },
     {
@@ -200,18 +190,13 @@
       "required": true
     },
     {
-      "projectID": 291568,
-      "fileID": 2585537,
-      "required": true
-    },
-    {
       "projectID": 226406,
       "fileID": 2638282,
       "required": true
     },
     {
       "projectID": 243121,
-      "fileID": 2739673,
+      "fileID": 2752297,
       "required": true
     },
     {
@@ -337,6 +322,11 @@
     {
       "projectID": 227083,
       "fileID": 2518667,
+      "required": true
+    },
+    {
+      "projectID": 283344,
+      "fileID": 2518068,
       "required": true
     },
     {

@@ -269,39 +269,55 @@ white_cedar.register();
 
 
 //Pink Cherry Tree
-var pink_cherry = TreeFactory.createTree("pink_cherry");
-pink_cherry.setTreeType("LARGE_OAK");
-pink_cherry.extraThick=false;
-pink_cherry.setLog("spookytree:spookytree_log");
-pink_cherry.setLeaf("redbudtree:redbudtree_leaves");
-pink_cherry.setGenFrequency(2);
-pink_cherry.setGenAttempts(10);
-pink_cherry.setMinHeight(6);
-pink_cherry.setExtraHeight(20);
+//var pink_cherry = TreeFactory.createTree("pink_cherry");
+//pink_cherry.setTreeType("LARGE_OAK");
+//pink_cherry.extraThick=false;
+//pink_cherry.setLog("spookytree:spookytree_log");
+//pink_cherry.setLeaf("redbudtree:redbudtree_leaves");
+//pink_cherry.setGenFrequency(2);
+//pink_cherry.setGenAttempts(10);
+//pink_cherry.setMinHeight(6);
+//pink_cherry.setExtraHeight(20);
 //pink_cherry.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
-pink_cherry.setBaseBlock("tfc:grass/chert");
-pink_cherry.setGenBiome("tfc:high_plains");
-pink_cherry.setDimWhitelist(0);
-pink_cherry.addSapling();
-pink_cherry.register();
+//pink_cherry.setBaseBlock("tfc:grass/chert");
+//pink_cherry.setGenBiome("tfc:high_plains");
+//pink_cherry.setDimWhitelist(0);
+//pink_cherry.addSapling();
+//pink_cherry.register();
 
 
 //White Cherry Tree
-var white_cherry = TreeFactory.createTree("white_cherry");
-white_cherry.setTreeType("LARGE_OAK");
-white_cherry.extraThick=false;
-white_cherry.setLog("spookytree:spookytree_log");
-white_cherry.setLeaf("spookytree:spookytree_leaves");
-white_cherry.setGenFrequency(2);
-white_cherry.setGenAttempts(10);
-white_cherry.setMinHeight(6);
-white_cherry.setExtraHeight(20);
+//var white_cherry = TreeFactory.createTree("white_cherry");
+//white_cherry.setTreeType("LARGE_OAK");
+//white_cherry.extraThick=false;
+//white_cherry.setLog("spookytree:spookytree_log");
+//white_cherry.setLeaf("spookytree:spookytree_leaves");
+//white_cherry.setGenFrequency(2);
+//white_cherry.setGenAttempts(10);
+//white_cherry.setMinHeight(6);
+//white_cherry.setExtraHeight(20);
 //white_cherry.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
-white_cherry.setBaseBlock("tfc:grass/chert");
-white_cherry.setGenBiome("tfc:high_plains");
-white_cherry.setDimWhitelist(0);
-white_cherry.addSapling();
-white_cherry.register();
+//white_cherry.setBaseBlock("tfc:grass/chert");
+//white_cherry.setGenBiome("tfc:high_plains");
+//white_cherry.setDimWhitelist(0);
+//white_cherry.addSapling();
+//white_cherry.register();
 
 
-//3274023677968028995
+//Pink Cherry Tree
+var pink_cherry_blossoming = TreeFactory.createTree("pink_cherry_blossoming");
+pink_cherry_blossoming.setTreeType("LARGE_OAK");
+pink_cherry_blossoming.extraThick=false;
+pink_cherry_blossoming.setLog("minecraft:log2");
+pink_cherry_blossoming.setLeaf("quark:variant_leaves:1");
+pink_cherry_blossoming.setGenFrequency(1);
+pink_cherry_blossoming.setGenAttempts(10);
+pink_cherry_blossoming.setMinHeight(7);
+pink_cherry_blossoming.setExtraHeight(17);
+//pink_cherry_blossoming.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
+pink_cherry_blossoming.setBaseBlock("tfc:grass/chert");
+pink_cherry_blossoming.setGenBiome("tfc:high_plains");
+pink_cherry_blossoming.setDimWhitelist(0);
+pink_cherry_blossoming.addSapling();
+pink_cherry_blossoming.register();
+

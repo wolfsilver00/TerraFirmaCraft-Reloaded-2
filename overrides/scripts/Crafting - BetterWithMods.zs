@@ -217,7 +217,7 @@
 	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:0>,[<tfc:wood/lumber/kapok> * 16]);
 	mods.betterwithmods.Saw.add(<thaumcraft:log_greatwood:0>,[<contenttweaker:lumber_greatwood> * 16]);
 	mods.betterwithmods.Saw.add(<thaumcraft:log_silverwood:0>,[<contenttweaker:lumber_silverwood> * 16]);
-	mods.betterwithmods.Saw.add(<spookytree:spookytree_log:0>,[<tfc:wood/lumber/rosewood> * 16]);
+	//mods.betterwithmods.Saw.add(<spookytree:spookytree_log:0>,[<tfc:wood/lumber/rosewood> * 16]);
 
 	mods.betterwithmods.Saw.add(<tfc:wood/log/acacia:1>,[<tfc:wood/lumber/acacia> * 16]);
 	mods.betterwithmods.Saw.add(<tfc:wood/log/ash:1>,[<tfc:wood/lumber/ash> * 16]);
@@ -262,7 +262,7 @@
 	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:2>,[<tfc:wood/lumber/kapok> * 16]);
 	mods.betterwithmods.Saw.add(<thaumcraft:log_greatwood:2>,[<contenttweaker:lumber_greatwood> * 16]);
 	mods.betterwithmods.Saw.add(<thaumcraft:log_silverwood:2>,[<contenttweaker:lumber_silverwood> * 16]);
-	mods.betterwithmods.Saw.add(<spookytree:spookytree_log:2>,[<tfc:wood/lumber/rosewood> * 16]);
+	//mods.betterwithmods.Saw.add(<spookytree:spookytree_log:2>,[<tfc:wood/lumber/rosewood> * 16]);
 
 	mods.betterwithmods.Saw.add(<tfc:wood/log/acacia:3>,[<tfc:wood/lumber/acacia> * 16]);
 	mods.betterwithmods.Saw.add(<tfc:wood/log/ash:3>,[<tfc:wood/lumber/ash> * 16]);
@@ -303,7 +303,7 @@
 	mods.betterwithmods.Saw.add(<tfc:wood/log/white_cedar:4>,[<tfc:wood/lumber/white_cedar> * 16]);
 	mods.betterwithmods.Saw.add(<tfc:wood/log/willow:4>,[<tfc:wood/lumber/willow> * 16]);
 	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:4>,[<tfc:wood/lumber/kapok> * 16]);
-	mods.betterwithmods.Saw.add(<spookytree:spookytree_log:4>,[<tfc:wood/lumber/rosewood> * 16]);
+	//mods.betterwithmods.Saw.add(<spookytree:spookytree_log:4>,[<tfc:wood/lumber/rosewood> * 16]);
 
 	mods.betterwithmods.Saw.add(<tfc:wood/log/acacia:5>,[<tfc:wood/lumber/acacia> * 16]);
 	mods.betterwithmods.Saw.add(<tfc:wood/log/ash:5>,[<tfc:wood/lumber/ash> * 16]);
@@ -345,5 +345,5 @@
 	mods.betterwithmods.Saw.add(<tfc:wood/log/willow:6>,[<tfc:wood/lumber/willow> * 16]);
 	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:6>,[<tfc:wood/lumber/kapok> * 16]);
 	
-	mods.betterwithmods.Saw.add(<spookytree:spookytree_log:8>,[<tfc:wood/lumber/rosewood> * 16]);
+	//mods.betterwithmods.Saw.add(<spookytree:spookytree_log:8>,[<tfc:wood/lumber/rosewood> * 16]);
 	

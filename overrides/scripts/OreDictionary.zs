@@ -356,6 +356,55 @@ var listAllmushroom = <ore:listAllmushroom>;
 		<tfc:plants/porcini>
 	]);
 
+var logOakSimilar = <ore:logOakSimilar>;
+    logOakSimilar.addItems([
+		<tfc:wood/log/oak>,
+		<tfc:wood/log/aspen>,
+		<tfc:wood/log/maple>,
+		<minecraft:log>
+	]);
+
+var logSpruceSimilar = <ore:logSpruceSimilar>;
+    logSpruceSimilar.addItems([
+		<tfc:wood/log/spruce>,
+		<tfc:wood/log/pine>,
+		<tfc:wood/log/sequoia>,
+		<tfc:wood/log/douglas_fir>,
+		<minecraft:log:1>
+	]);
+
+var logBirchSimilar = <ore:logBirchSimilar>;
+    logBirchSimilar.addItems([
+		<tfc:wood/log/birch>,
+		<tfc:wood/log/sycamore>,
+		<tfc:wood/log/white_cedar>,
+		<minecraft:log:2>
+	]);
+
+var logJungleSimilar = <ore:logJungleSimilar>;
+    logJungleSimilar.addItems([
+		<tfc:wood/log/kapok>,
+		<tfc:wood/log/ash>,
+		<tfc:wood/log/willow>,
+		<minecraft:log:3>
+	]);
+
+var logAcaciaSimilar = <ore:logAcaciaSimilar>;
+    logAcaciaSimilar.addItems([
+		<tfc:wood/log/acacia>,
+		<tfc:wood/log/palm>,
+		<tfc:wood/log/rosewood>,
+		<minecraft:log2>
+	]);
+
+var logDarkOakSimilar = <ore:logDarkOakSimilar>;
+    logDarkOakSimilar.addItems([
+		<tfc:wood/log/blackwood>,
+		<tfc:wood/log/chestnut>,
+		<tfc:wood/log/hickory>,
+		<minecraft:log2:1>
+	]);
+
 var plankWoodOakSimilar = <ore:plankWoodOakSimilar>;
     plankWoodOakSimilar.addItems([
 		<tfc:wood/planks/oak>,

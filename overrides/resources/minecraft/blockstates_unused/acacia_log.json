@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "item/generated",
+    "textures": {
+      "particle": "#side",
+      "north": "#side",
+      "south": "#side",
+      "east": "#side",
+      "west": "#side",
+      "up": "#end",
+      "down": "#end",
+      "end": "minecraft:textures/blocks/log_acacia_top",
+      "side": "minecraft:textures/blocks/log_acacia"
+    },
+    "model": "cube",
+    "uvlock": true
+  }
+}

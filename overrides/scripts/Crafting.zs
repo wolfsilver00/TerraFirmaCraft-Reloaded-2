@@ -31,8 +31,8 @@
 	recipes.addShapeless(<contenttweaker:planed_plank_acacia>, [<ore:lumberAcacia>, <ore:planer>.transformDamage(1)]);
 	
 	//Non-TFC wood to TFC lumber
-	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 4, [<spookytree:spookytree_planks>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 8, [<spookytree:spookytree_log>, <ore:saw>.transformDamage(1)]);
+	//recipes.addShapeless(<tfc:wood/lumber/rosewood> * 4, [<spookytree:spookytree_planks>, <ore:saw>.transformDamage(1)]);
+	//recipes.addShapeless(<tfc:wood/lumber/rosewood> * 8, [<spookytree:spookytree_log>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/oak> * 4, [<minecraft:planks>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/oak> * 8, [<minecraft:log>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/spruce> * 4, [<minecraft:planks:1>, <ore:saw>.transformDamage(1)]);
@@ -41,8 +41,8 @@
 	recipes.addShapeless(<tfc:wood/lumber/birch> * 8, [<minecraft:log:2>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/kapok> * 4, [<minecraft:planks:3>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/kapok> * 8, [<minecraft:log:3>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<tfc:wood/lumber/acacia> * 4, [<minecraft:planks:4>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<tfc:wood/lumber/acacia> * 8, [<minecraft:log2>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 4, [<minecraft:planks:4>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 8, [<minecraft:log2>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 4, [<minecraft:planks:5>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 8, [<minecraft:log2:1>, <ore:saw>.transformDamage(1)]);
 
@@ -292,16 +292,90 @@
 //=======================================================================================================================================================================
 //Rename Items
 
+	//Petrified Wood to Bauxite
 	<tfc:ore/petrified_wood>.displayName = "Bauxite";
+	<tfc:ore/petrified_wood/granite>.displayName = "Granite Bauxite";
+	<tfc:ore/petrified_wood/diorite>.displayName = "Diorite Bauxite";
+	<tfc:ore/petrified_wood/gabbro>.displayName = "Gabbro Bauxite";
+	<tfc:ore/petrified_wood/shale>.displayName = "Shale Bauxite";
+	<tfc:ore/petrified_wood/claystone>.displayName = "Claystone Bauxite";
+	<tfc:ore/petrified_wood/rocksalt>.displayName = "Rocksalt Bauxite";
+	<tfc:ore/petrified_wood/limestone>.displayName = "Limestone Bauxite";
+	<tfc:ore/petrified_wood/conglomerate>.displayName = "Conglomerate Bauxite";
+	<tfc:ore/petrified_wood/dolomite>.displayName = "Dolomite Bauxite";
+	<tfc:ore/petrified_wood/chert>.displayName = "Chert Bauxite";
+	<tfc:ore/petrified_wood/chalk>.displayName = "Chalk Bauxite";
+	<tfc:ore/petrified_wood/rhyolite>.displayName = "Rhyolite Bauxite";
+	<tfc:ore/petrified_wood/basalt>.displayName = "Basalt Bauxite";
+	<tfc:ore/petrified_wood/andesite>.displayName = "Andesite Bauxite";
+	<tfc:ore/petrified_wood/dacite>.displayName = "Dacite Bauxite";
+	<tfc:ore/petrified_wood/quartzite>.displayName = "Quartzite Bauxite";
+	<tfc:ore/petrified_wood/slate>.displayName = "Slate Bauxite";
+	<tfc:ore/petrified_wood/phyllite>.displayName = "Phyllite Bauxite";
+	<tfc:ore/petrified_wood/schist>.displayName = "Schist Bauxite";
+	<tfc:ore/petrified_wood/gneiss>.displayName = "Gneiss Bauxite";
+	<tfc:ore/petrified_wood/marble>.displayName = "Marble Bauxite";
+	
+	//Microcline to Cobaltite
 	<tfc:ore/microcline>.displayName = "Cobaltite";
+	<tfc:ore/microcline/granite>.displayName = "Granite Cobaltite";
+	<tfc:ore/microcline/diorite>.displayName = "Diorite Cobaltite";
+	<tfc:ore/microcline/gabbro>.displayName = "Gabbro Cobaltite";
+	<tfc:ore/microcline/shale>.displayName = "Shale Cobaltite";
+	<tfc:ore/microcline/claystone>.displayName = "Claystone Cobaltite";
+	<tfc:ore/microcline/rocksalt>.displayName = "Rocksalt Cobaltite";
+	<tfc:ore/microcline/limestone>.displayName = "Limestone Cobaltite";
+	<tfc:ore/microcline/conglomerate>.displayName = "Conglomerate Cobaltite";
+	<tfc:ore/microcline/dolomite>.displayName = "Dolomite Cobaltite";
+	<tfc:ore/microcline/chert>.displayName = "Chert Cobaltite";
+	<tfc:ore/microcline/chalk>.displayName = "Chalk Cobaltite";
+	<tfc:ore/microcline/rhyolite>.displayName = "Rhyolite Cobaltite";
+	<tfc:ore/microcline/basalt>.displayName = "Basalt Cobaltite";
+	<tfc:ore/microcline/andesite>.displayName = "Andesite Cobaltite";
+	<tfc:ore/microcline/dacite>.displayName = "Dacite Cobaltite";
+	<tfc:ore/microcline/quartzite>.displayName = "Quartzite Cobaltite";
+	<tfc:ore/microcline/slate>.displayName = "Slate Cobaltite";
+	<tfc:ore/microcline/phyllite>.displayName = "Phyllite Cobaltite";
+	<tfc:ore/microcline/schist>.displayName = "Schist Cobaltite";
+	<tfc:ore/microcline/gneiss>.displayName = "Gneiss Cobaltite";
+	<tfc:ore/microcline/marble>.displayName = "Marble Cobaltite";
+	
+	//Serpentine to Polarite
 	<tfc:ore/serpentine>.displayName = "Polarite";
+	<tfc:ore/serpentine/granite>.displayName = "Granite Polarite";
+	<tfc:ore/serpentine/diorite>.displayName = "Diorite Polarite";
+	<tfc:ore/serpentine/gabbro>.displayName = "Gabbro Polarite";
+	<tfc:ore/serpentine/shale>.displayName = "Shale Polarite";
+	<tfc:ore/serpentine/claystone>.displayName = "Claystone Polarite";
+	<tfc:ore/serpentine/rocksalt>.displayName = "Rocksalt Polarite";
+	<tfc:ore/serpentine/limestone>.displayName = "Limestone Polarite";
+	<tfc:ore/serpentine/conglomerate>.displayName = "Conglomerate Polarite";
+	<tfc:ore/serpentine/dolomite>.displayName = "Dolomite Polarite";
+	<tfc:ore/serpentine/chert>.displayName = "Chert Polarite";
+	<tfc:ore/serpentine/chalk>.displayName = "Chalk Polarite";
+	<tfc:ore/serpentine/rhyolite>.displayName = "Rhyolite Polarite";
+	<tfc:ore/serpentine/basalt>.displayName = "Basalt Polarite";
+	<tfc:ore/serpentine/andesite>.displayName = "Andesite Polarite";
+	<tfc:ore/serpentine/dacite>.displayName = "Dacite Polarite";
+	<tfc:ore/serpentine/quartzite>.displayName = "Quartzite Polarite";
+	<tfc:ore/serpentine/slate>.displayName = "Slate Polarite";
+	<tfc:ore/serpentine/phyllite>.displayName = "Phyllite Polarite";
+	<tfc:ore/serpentine/schist>.displayName = "Schist Polarite";
+	<tfc:ore/serpentine/gneiss>.displayName = "Gneiss Polarite";
+	<tfc:ore/serpentine/marble>.displayName = "Marble Polarite";
+	
+	//Other
 	<minecraft:iron_sword>.displayName = "Rusty Iron Sword";
 	<minecraft:iron_shovel>.displayName = "Rusty Iron Shovel";
 	<minecraft:iron_pickaxe>.displayName = "Rusty Iron Pickaxe";
 	<minecraft:iron_axe>.displayName = "Rusty Iron Axe";
 	<minecraft:iron_hoe>.displayName = "Rusty Iron Hoe";
 	<minecraft:chest>.displayName = "Stone Chest";
-	<minecraft:trapped_chest>.displayName = "Stone Trapped Chest";
+	
+	//Quark Trees
+	<quark:variant_leaves:1>.displayName = "Pink Cherry Leaves";
+	<quark:variant_sapling:1>.displayName = "Pink Cherry Sapling";
+	<minecraft:log2>.displayName = "Pink Cherry Log";
 
 
 //=======================================================================================================================================================================
@@ -333,6 +407,13 @@
 	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
 	
 	//Wood
+	recipes.replaceAllOccurences(<minecraft:log>, <ore:logOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log:1>, <ore:logSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log:2>, <ore:logBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log:3>, <ore:logJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log2>, <ore:logAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log2:1>, <ore:logDarkOakSimilar>);
+	
 	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOakSimilar>);
 	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruceSimilar>);
 	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirchSimilar>);

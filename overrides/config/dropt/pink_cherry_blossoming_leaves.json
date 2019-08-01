@@ -1,0 +1,50 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "quark:variant_leaves:1"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "treetweaker:pink_cherry_blossoming"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:variant_leaves:1"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
