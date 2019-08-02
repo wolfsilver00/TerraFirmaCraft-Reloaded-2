@@ -13,6 +13,7 @@
 	recipes.addShapeless(<contenttweaker:planed_plank_kapok>, [<ore:lumberKapok>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_willow>, [<ore:lumberWillow>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_white_cedar>, [<ore:lumberWhiteCedar>, <ore:planer>.transformDamage(1)]);
+	recipes.addShapeless(<contenttweaker:planed_plank_white_elm>, [<ore:lumberWhiteElm>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_sycamore>, [<ore:lumberSycamore>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_spruce>, [<ore:lumberSpruce>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_sequoia>, [<ore:lumberSequoia>, <ore:planer>.transformDamage(1)]);
@@ -39,8 +40,8 @@
 	recipes.addShapeless(<tfc:wood/lumber/spruce> * 8, [<minecraft:log:1>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/birch> * 4, [<minecraft:planks:2>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/birch> * 8, [<minecraft:log:2>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<tfc:wood/lumber/kapok> * 4, [<minecraft:planks:3>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<tfc:wood/lumber/kapok> * 8, [<minecraft:log:3>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<contenttweaker:lumber_white_elm> * 4, [<minecraft:planks:3>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<contenttweaker:lumber_white_elm> * 8, [<minecraft:log:3>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 4, [<minecraft:planks:4>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 8, [<minecraft:log2>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 4, [<minecraft:planks:5>, <ore:saw>.transformDamage(1)]);
@@ -372,10 +373,14 @@
 	<minecraft:iron_hoe>.displayName = "Rusty Iron Hoe";
 	<minecraft:chest>.displayName = "Stone Chest";
 	
-	//Quark Trees
+	//Trees
 	<quark:variant_leaves:1>.displayName = "Pink Cherry Leaves";
 	<quark:variant_sapling:1>.displayName = "Pink Cherry Sapling";
+	<minecraft:log:3>.displayName = "White Elm Log";
 	<minecraft:log2>.displayName = "Pink Cherry Log";
+	<minecraft:log2:1>.displayName = "Hickory Log";
+	<minecraft:leaves:3>.displayName = "White Elm Leaves";
+	<minecraft:leaves2:1>.displayName = "Hickory Leaves";
 
 
 //=======================================================================================================================================================================

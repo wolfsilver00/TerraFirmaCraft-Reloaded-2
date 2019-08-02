@@ -329,6 +329,11 @@ var lumberSilverwood = <ore:lumberSilverwood>;
 		<contenttweaker:lumber_silverwood>
 	]);
 
+var lumberWhiteElm = <ore:lumberWhiteElm>;
+    lumberWhiteElm.addItems([
+		<contenttweaker:lumber_white_elm>
+	]);
+
 var planer = <ore:planer>;
     planer.addItems([
 		<contenttweaker:bismuth_bronze_planer>,
@@ -597,7 +602,9 @@ var lumberBirchSimilar = <ore:lumberBirchSimilar>;
     lumberBirchSimilar.addItems([
 		<tfc:wood/lumber/birch>,
 		<tfc:wood/lumber/sycamore>,
-		<tfc:wood/lumber/white_cedar>
+		<tfc:wood/lumber/white_cedar>,
+		<contenttweaker:lumber_white_elm>,
+		<contenttweaker:lumber_silverwood>
 	]);
 
 var lumberJungleSimilar = <ore:lumberJungleSimilar>;
@@ -618,7 +625,8 @@ var lumberDarkOakSimilar = <ore:lumberDarkOakSimilar>;
     lumberDarkOakSimilar.addItems([
 		<tfc:wood/lumber/blackwood>,
 		<tfc:wood/lumber/chestnut>,
-		<tfc:wood/lumber/hickory>
+		<tfc:wood/lumber/hickory>,
+		<contenttweaker:lumber_greatwood>
 	]);
 
 var planedLumberOakSimilar = <ore:planedLumberOakSimilar>;
@@ -640,7 +648,9 @@ var planedLumberBirchSimilar = <ore:planedLumberBirchSimilar>;
     planedLumberBirchSimilar.addItems([
 		<contenttweaker:planed_plank_birch>,
 		<contenttweaker:planed_plank_sycamore>,
-		<contenttweaker:planed_plank_white_cedar>
+		<contenttweaker:planed_plank_white_cedar>,
+		<contenttweaker:planed_plank_white_elm>,
+		<contenttweaker:planed_plank_silverwood>
 	]);
 
 var planedLumberJungleSimilar = <ore:planedLumberJungleSimilar>;
@@ -661,13 +671,15 @@ var planedLumberDarkOakSimilar = <ore:planedLumberDarkOakSimilar>;
     planedLumberDarkOakSimilar.addItems([
 		<contenttweaker:planed_plank_blackwood>,
 		<contenttweaker:planed_plank_chestnut>,
-		<contenttweaker:planed_plank_hickory>
+		<contenttweaker:planed_plank_hickory>,
+		<contenttweaker:planed_plank_greatwood>
 	]);
 
 var lumber = <ore:lumber>;
     lumber.addItems([
 		<contenttweaker:lumber_greatwood>,
-		<contenttweaker:lumber_silverwood>
+		<contenttweaker:lumber_silverwood>,
+		<contenttweaker:lumber_white_elm>
 	]);
 
 var blockDust = <ore:blockDust>;

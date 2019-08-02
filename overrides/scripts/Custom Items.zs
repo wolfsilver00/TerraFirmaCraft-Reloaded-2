@@ -170,6 +170,12 @@ lumber_silverwood.maxStackSize = 32;
 lumber_silverwood.setCreativeTab(<creativetab:decorations>);
 lumber_silverwood.register();
 
+//White Elm Lumber
+var lumber_white_elm = VanillaFactory.createItem("lumber_white_elm");
+lumber_white_elm.maxStackSize = 32;
+lumber_white_elm.setCreativeTab(<creativetab:decorations>);
+lumber_white_elm.register();
+
 
 //=====================================================================================================================================================================
 //Wooden Planed Planks

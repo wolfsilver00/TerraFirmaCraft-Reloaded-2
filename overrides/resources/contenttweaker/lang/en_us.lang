@@ -346,6 +346,7 @@ tile.contenttweaker.brick_spanish_bond_top_right.name=Brick Spanish Bond Top Rig
 #Lumber
 item.contenttweaker.lumber_greatwood.name=Greatwood Lumber
 item.contenttweaker.lumber_silverwood.name=Silverwood Lumber
+item.contenttweaker.lumber_white_elm.name=White Elm Lumber
 
 #Planed Lumber
 item.contenttweaker.planed_plank_acacia.name=Planed Acacia Lumber

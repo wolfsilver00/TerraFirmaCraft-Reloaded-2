@@ -4,10 +4,10 @@
   "defaults": {
     "model": "item/generated",
     "textures": {
-      "particle": "tfc:blocks/wood/log/kapok",
-      "side": "tfc:blocks/wood/log/kapok",
-      "end": "tfc:blocks/wood/top/kapok",
-      "layer0": "tfc:items/wood/log/kapok"
+      "particle": "minecraft:blocks/log_jungle",
+      "side": "minecraft:blocks/log_jungle",
+      "end": "minecraft:blocks/log_jungle_top",
+      "layer0": "minecraft:items/white_elm"
     }
   },
   "variants": {
@@ -30,13 +30,13 @@
       "none": {
         "model": "cube_column",
         "textures": {
-          "end": "tfc:blocks/wood/log/kapok"
+          "end": "minecraft:items/white_elm"
         }
       }
     },
     "small": {
       "true": {
-        "model": "tfc:small_log"
+        "model": "minecraft:small_log"
       },
       "false": {}
     }

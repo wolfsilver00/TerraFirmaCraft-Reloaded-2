@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "minecraft:log:1"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "tfc:wood/log/spruce"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
