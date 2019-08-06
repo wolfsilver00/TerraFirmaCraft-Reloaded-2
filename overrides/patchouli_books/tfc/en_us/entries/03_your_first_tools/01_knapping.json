@@ -1,0 +1,46 @@
+{
+  "name": "Knapping",
+  "icon": "tfc:rock/granite",
+  "category": "03_your_first_tools",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Knapping is the process of using two rocks to create heads for stone tools. Right Click while holding a stack of two or more rocks to open the knapping interface."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping.png"
+	  ],
+	  "title": "Knapping",
+	  "border": true
+    },
+    {
+      "type": "text",
+      "text": "The interface is broken up into a 5x5 grid. Clicking on each square of the grid will remove the image of the stone, chipping the rock into the desired shape. Once a piece of the rock has been removed, it cannot be put back, so be careful where you click. Whether you achieve the desired shape or not, one of your rocks will be consumed in the process."
+    },
+    {
+      "type": "text",
+      "text": "If you successfully create a specific shape, a tool head will appear to the right which can then be attached to a stick or a bone in the crafting grid to create a stone tool."
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/axe/igneous_intrusive",
+	  "title": "Stone Axe"
+    },
+    {
+      "type": "text",
+      "text": "Tip: Completed stone tools do not stack, but tool heads will stack up to 32. At night when you are hiding from monsters, you can knap a handful of each tool head to keep in your inventory. Then during the day when your tool breaks, you can quickly combine another head with a stick or bone for a new tool."
+    },
+    {
+      "type": "text",
+      "text": "With the exception of stone hammers and stone knives, some types of rocks will result in slightly more durable and/or efficient tools than others. This is not immediately apparent, as all stone tool icons look the same."
+    },
+    {
+      "type": "text",
+      "text": "In order of increasing durability and efficiency: Sedimentary, Metamorphic, Igneous Intrusive, Igneous Extrusive. Note however that there is only a difference of 20 uses between the highest and lowest durability stone tools, and the difference in efficiency is barely noticeable.$(br)Tip: Some of the tools can be knapped out differently than the below forms, feel free to experiment."
+    }
+  ]
+}

@@ -42,6 +42,9 @@ val goat = goatBAP.getPool("goat");
 //Remove the entry named "minecraft:mutton" from "goat"
 goat.removeEntry("minecraft:mutton");
 
+//Remove the entry named "minecraft:leather" from "goat"
+goat.removeEntry("minecraft:leather");
+
 //Add a new pool called "goat" and store it for later use
 //val goat = goat.addPool("goat", 1, 1, 1, 1);
 
@@ -107,6 +110,9 @@ val reindeer = reindeerBAP.getPool("reindeer");
 
 //Remove the entry named "betteranimalsplus:venisonraw" from "reindeer"
 reindeer.removeEntry("betteranimalsplus:venisonraw");
+
+//Remove the entry named "minecraft:leather" from "reindeer"
+reindeer.removeEntry("minecraft:leather");
 
 //Add a new pool called "reindeer" and store it for later use
 //val reindeer = reindeer.addPool("reindeer", 1, 1, 1, 1);
@@ -361,3 +367,16 @@ main.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 3)],
 
 //Drop 2-6 bones
 main.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
+
+
+//=========================================================================================================
+//Add pelt to TFC bears
+
+//Get the bear loot table and store it for later use
+//val bearTFC = LootTables.getTable("tfc:animals/bear");
+
+//Get roll2 from the bear loot table and store it for later use
+//val roll2 = bearTFC.getPool("roll2");
+
+//Drop 1 brown bear cape
+//roll2.addItemEntryHelper(<betteranimalsplus:bear_cape_brown>, 1, 1, [Functions.setCount(1, 1)], []);

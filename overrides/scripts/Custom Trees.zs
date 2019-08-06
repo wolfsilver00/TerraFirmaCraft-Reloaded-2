@@ -114,8 +114,8 @@ douglas_fir.setLog("tfc:wood/log/douglas_fir:1");
 douglas_fir.setLeaf("tfc:wood/leaves/douglas_fir:1");
 douglas_fir.setGenFrequency(10);
 douglas_fir.setGenAttempts(1);
-douglas_fir.setMinHeight(6);
-douglas_fir.setExtraHeight(15);
+douglas_fir.setMinHeight(15);
+douglas_fir.setExtraHeight(25);
 //douglas_fir.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
 douglas_fir.setBaseBlock("tfc:grass/chalk");
 douglas_fir.setGenBiomeByTag("MOUNTAIN");
@@ -186,7 +186,7 @@ pine.setLog("tfc:wood/log/pine:1");
 pine.setLeaf("tfc:wood/leaves/pine:1");
 pine.setGenFrequency(8);
 pine.setGenAttempts(1);
-pine.setMinHeight(6);
+pine.setMinHeight(15);
 pine.setExtraHeight(25);
 //pine.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
 pine.setBaseBlock("tfc:grass/dacite");
@@ -204,7 +204,7 @@ spruce.setLog("tfc:wood/log/spruce:1");
 spruce.setLeaf("tfc:wood/leaves/spruce:1");
 spruce.setGenFrequency(15);
 spruce.setGenAttempts(1);
-spruce.setMinHeight(6);
+spruce.setMinHeight(15);
 spruce.setExtraHeight(25);
 //spruce.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
 spruce.setBaseBlock("tfc:grass/dacite");
@@ -320,4 +320,89 @@ pink_cherry_blossoming.setGenBiome("tfc:high_plains");
 pink_cherry_blossoming.setDimWhitelist(0);
 pink_cherry_blossoming.addSapling();
 pink_cherry_blossoming.register();
+
+
+//Large Olive Fruit Tree
+var large_olive_fruit_tree = TreeFactory.createTree("large_olive_fruit_tree");
+large_olive_fruit_tree.setTreeType("LARGE_OAK");
+large_olive_fruit_tree.extraThick=false;
+large_olive_fruit_tree.setLog("tfc:fruit_trees/trunk/olive:0");
+large_olive_fruit_tree.setLeaf("tfc:fruit_trees/leaves/olive:4");
+large_olive_fruit_tree.setGenFrequency(4);
+large_olive_fruit_tree.setGenAttempts(4);
+large_olive_fruit_tree.setMinHeight(5);
+large_olive_fruit_tree.setExtraHeight(14);
+large_olive_fruit_tree.setBaseBlock("tfc:grass/slate");
+large_olive_fruit_tree.setGenBiome("tfc:high_plains");
+large_olive_fruit_tree.setDimWhitelist(0);
+large_olive_fruit_tree.addSapling();
+large_olive_fruit_tree.register();
+
+
+//Large Cherry Fruit Tree
+var large_cherry_fruit_tree = TreeFactory.createTree("large_cherry_fruit_tree");
+large_cherry_fruit_tree.setTreeType("LARGE_OAK");
+large_cherry_fruit_tree.extraThick=false;
+large_cherry_fruit_tree.setLog("tfc:fruit_trees/trunk/cherry:0");
+large_cherry_fruit_tree.setLeaf("tfc:fruit_trees/leaves/cherry:4");
+large_cherry_fruit_tree.setGenFrequency(4);
+large_cherry_fruit_tree.setGenAttempts(4);
+large_cherry_fruit_tree.setMinHeight(5);
+large_cherry_fruit_tree.setExtraHeight(14);
+large_cherry_fruit_tree.setBaseBlock("tfc:grass/rhyolite");
+large_cherry_fruit_tree.setGenBiome("tfc:high_plains");
+large_cherry_fruit_tree.setDimWhitelist(0);
+large_cherry_fruit_tree.addSapling();
+large_cherry_fruit_tree.register();
+
+
+//Large Plum Tree
+var large_plum_fruit_tree = TreeFactory.createTree("large_plum_fruit_tree");
+large_plum_fruit_tree.setTreeType("LARGE_OAK");
+large_plum_fruit_tree.extraThick=false;
+large_plum_fruit_tree.setLog("tfc:fruit_trees/trunk/plum:0");
+large_plum_fruit_tree.setLeaf("tfc:fruit_trees/leaves/plum:4");
+large_plum_fruit_tree.setGenFrequency(4);
+large_plum_fruit_tree.setGenAttempts(4);
+large_plum_fruit_tree.setMinHeight(5);
+large_plum_fruit_tree.setExtraHeight(14);
+large_plum_fruit_tree.setBaseBlock("tfc:grass/andesite");
+large_plum_fruit_tree.setGenBiome("tfc:high_plains");
+large_plum_fruit_tree.setDimWhitelist(0);
+large_plum_fruit_tree.addSapling();
+large_plum_fruit_tree.register();
+
+
+//Large Green Apple Tree
+var large_green_apple_fruit_tree = TreeFactory.createTree("large_green_apple_fruit_tree");
+large_green_apple_fruit_tree.setTreeType("LARGE_OAK");
+large_green_apple_fruit_tree.extraThick=false;
+large_green_apple_fruit_tree.setLog("tfc:fruit_trees/trunk/green_apple:0");
+large_green_apple_fruit_tree.setLeaf("tfc:fruit_trees/leaves/green_apple:4");
+large_green_apple_fruit_tree.setGenFrequency(4);
+large_green_apple_fruit_tree.setGenAttempts(2);
+large_green_apple_fruit_tree.setMinHeight(5);
+large_green_apple_fruit_tree.setExtraHeight(14);
+large_green_apple_fruit_tree.setBaseBlock("tfc:grass/granite");
+large_green_apple_fruit_tree.setGenBiome("tfc:high_plains");
+large_green_apple_fruit_tree.setDimWhitelist(0);
+large_green_apple_fruit_tree.addSapling();
+large_green_apple_fruit_tree.register();
+
+
+//Large Red Apple Tree
+var large_red_apple_fruit_tree = TreeFactory.createTree("large_red_apple_fruit_tree");
+large_red_apple_fruit_tree.setTreeType("LARGE_OAK");
+large_red_apple_fruit_tree.extraThick=false;
+large_red_apple_fruit_tree.setLog("tfc:fruit_trees/trunk/red_apple:0");
+large_red_apple_fruit_tree.setLeaf("tfc:fruit_trees/leaves/red_apple:4");
+large_red_apple_fruit_tree.setGenFrequency(4);
+large_red_apple_fruit_tree.setGenAttempts(2);
+large_red_apple_fruit_tree.setMinHeight(5);
+large_red_apple_fruit_tree.setExtraHeight(14);
+large_red_apple_fruit_tree.setBaseBlock("tfc:grass/granite");
+large_red_apple_fruit_tree.setGenBiome("tfc:high_plains");
+large_red_apple_fruit_tree.setDimWhitelist(0);
+large_red_apple_fruit_tree.addSapling();
+large_red_apple_fruit_tree.register();
 

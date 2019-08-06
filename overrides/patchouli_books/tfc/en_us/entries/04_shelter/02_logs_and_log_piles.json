@@ -1,0 +1,19 @@
+{
+  "name": "Logs and Log Piles",
+  "icon": "tfc:wood/log/hickory",
+  "category": "04_shelter",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The logs you get from chopping down trees with an axe can be used to build both the walls and roof of a structure similar to a log cabin. You can also stack logs into log-piles by sneaking (Default: Shift) while placing the log. Log piles can be used for walls, and have the advantage of being very fast to break."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Log",
+	  "item": "tfc:wood/log/hickory",
+      "text": "However, log piles can only be placed on top of solid blocks, or a completely filled log pile, so it will take a lot more logs to create a wall out of log piles, and it would be very difficult to use log piles to create a ceiling."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Pottery",
+  "icon": "tfc:ceramics/unfired/vessel",
+  "category": "03_your_first_tools",
+  "sortnum" : "10",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Once you've gathered some clay, straw, and logs, you can start to make various pieces of pottery. Right Click while holding a stack of five or more pieces of clay to open the clay-forming interface."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pottery.png"
+	  ],
+	  "title": "Pottery",
+	  "border": true
+    },
+    {
+      "type": "text",
+      "text": "The interface is broken up into a 5x5 grid. Clicking on each square of the grid will change the image of the clay, forming into the desired shape. Once a piece of the clay has been changed, it cannot be changed back, so be careful where you click. Whether you achieve the desired shape or not, all five clay will be consumed in the process. If you successfully create a specific shape, a piece of pottery will appear to the right which can then be fired in a pit kiln."
+    },
+    {
+      "type": "text",
+      "text": "In order to create a pit kiln, you must first place the pottery in a 1-deep hole by holding it in your hand and using Right Click on the top of the block. You can place up to four small items or one large vessel in this manner. Then Right Click with eight pieces of straw, followed by eight logs and light the kiln using either a firestarter, a flint & steel, or by dropping a torch on the block. Once the fire finishes burning, you will be able to collect your ceramic items the same way you placed them down, or by simply breaking the block to collect all of them at once."
+    },
+    {
+      "type": "text",
+      "text": "Important: The pit kiln will not work as pictured on the next page. These images are in cross section, with the required surrounding blocks removed for visibility."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:PitKiln_items_cross.png"
+	  ],
+	  "title": "Adding Items",
+	  "border": true
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:PitKiln_straw_cross.png"
+	  ],
+	  "title": "Adding Straw",
+	  "border": true
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:PitKiln_logs_cross.png"
+	  ],
+	  "title": "Adding Logs",
+	  "border": true
+    },
+    {
+      "type": "text",
+      "text": "Tip: The fire from a pit kiln will light nearby flammable blocks on fire. For this reason, it is advised not to light pit kilns near wood, thatch, or other flammable blocks. Pit kilns will not be put out by rain, so you do not need to worry about putting them under a roof."
+    }
+  ]
+}

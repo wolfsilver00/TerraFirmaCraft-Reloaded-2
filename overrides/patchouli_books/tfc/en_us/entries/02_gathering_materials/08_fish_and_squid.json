@@ -1,0 +1,29 @@
+{
+  "name": "Fish & Squid",
+  "icon": "tfc:food/calamari",
+  "category": "02_gathering_materials",
+  "sortnum" : "8",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Fish",
+	  "item": "tfc:food/fish",
+      "text": "You are unable to craft a fishing rod while in the stone age, but it is still possible to get food from TerraFirmaCraft's water animals. Fish can be found swimming in lake biomes, and squid can be found swimming in saltwater."
+    },
+	{
+      "type": "spotlight",
+	  "title": "Squid",
+	  "item": "tfc:food/calamari",
+	  "text": "Both animals can be directly attacked using melee weapons or a javelin, and will drop food. The amount of food you get is once again dependent on your butchery skill, so you will not get much food at all from these small animals."
+    },
+    {
+      "type": "text",
+      "text": " Even with a high butchery skill, the amount of food dropped from these animals is fairly small."
+    },
+    {
+      "type": "text",
+      "text": "Tip: Since both fish and squid respawn, killing them is a quick and easy way to increase your butchery skill, so you will get more meat from killing larger animals."
+    }
+  ]
+}

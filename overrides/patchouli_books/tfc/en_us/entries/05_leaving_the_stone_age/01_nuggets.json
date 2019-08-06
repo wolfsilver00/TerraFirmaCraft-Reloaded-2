@@ -1,0 +1,28 @@
+{
+  "name": "Nuggets",
+  "icon": "tfc:ore/small/native_copper",
+  "category": "05_leaving_the_stone_age",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "To make your first metal tool head you will need to collect 10 pieces of small, copper-bearing ore:"
+    },
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/native_copper"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/tetrahedrite"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/malachite"
+	}
+  ]
+}

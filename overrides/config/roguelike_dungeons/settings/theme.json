@@ -1,0 +1,106 @@
+{
+	"name" : "tfcr:theme",
+	"themes" : [
+		{
+			"level" : 0,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone", "meta" : 2}, "weight" : 3},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone", "meta" : 3}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy1", "meta" : 9}, "weight" : 2}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/planks/hickory"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/log/hickory", "meta" : 5}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/wood/hickory"}}
+			}
+		},
+		{
+			"level" : 1,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/gneiss"}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_fancy_gneiss"}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_gneiss"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone", "meta" : 2}, "weight" : 3},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta" : 2}, "weight" : 4}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/planks/birch"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/log/hickory", "meta" : 5}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/wood/birch"}}
+			}
+		},
+		{
+			"level" : 2,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/gneiss"}, "weight" : 6},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:gravel/gneiss"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_gneiss"}, "weight" : 4},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_fancy_gneiss"}, "weight" : 2}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_diorite"}},
+				"door" : {"name" : "tfc:wood/door/birch"}
+			}
+		},
+		{
+			"level" : 3,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:gravel/gneiss"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "monster_egg", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "monster_egg", "meta" : 3}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta" : 2}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone", "meta" : 2}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:cobble/phyllite"}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy"}, "weight" : 4}
+					]
+				},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/cobble/gneiss"}},
+				"door" : {"name" : "tfc:wood/door/birch"}
+			}
+		},
+		{
+			"level" : 4,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/rhyolite"}, "weight" : 30},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_fancy_rhyolite"}, "weight" : 3},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:gravel/rhyolite"}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/gneiss"}, "weight" : 1}
+					]
+				},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/gabbro"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_shale"}}
+			},
+			"secondary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/shale"}, "weight" : 1}
+					]
+				},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/shale"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_chert"}}
+			}
+		}
+	]
+}

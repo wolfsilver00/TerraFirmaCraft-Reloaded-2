@@ -1,0 +1,21 @@
+{
+  "name": "Gravity",
+  "icon": "tfc:cobble/granite",
+  "category": "01_important_differences",
+  "sortnum" : "6",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+	  "title": "Dirt",
+	  "item": "tfc:dirt/granite",
+      "text": "In addition to sand and gravel, dirt, grass and cobblestone are also affected by gravity in TerraFirmaCraft. Unlike in vanilla, gravity-affected blocks are able to fall sideways in addition to straight down. This means that without a proper support system, you will not be able to create walls or ceilings out of these blocks."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Support Beam",
+	  "item": "tfc:wood/support/oak",
+      "text": "This means that without a proper support system, you will not be able to create walls or ceilings out of these blocks."
+    }
+  ]
+}

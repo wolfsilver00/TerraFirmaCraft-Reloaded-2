@@ -1,0 +1,23 @@
+{
+  "name": "Agriculture",
+  "icon": "tfc:food/barley",
+  "category": "02_gathering_materials",
+  "sortnum" : "4",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Crops",
+	  "item": "tfc:food/wheat",
+      "text": "Crops spawn randomly in the wild between the seasons of spring and late summer, and have a chance to regenerate during those seasons every year. Breaking a wild crop will give only seeds if it isn't fully mature, so you should wait until it has reached the last stage of growth before harvesting if you want food."
+    },
+    {
+      "type": "text",
+      "text": "Breaking a wild crop will give only seeds if it isn't fully mature, so you should wait until it has reached the last stage of growth before harvesting if you want food. Crop growth in TerraFirmaCraft is based off of how much time has passed since the crop was planted as well as some other factors, with many crops taking a few in-game months to reach maturity."
+    },
+    {
+      "type": "text",
+      "text": "It is possible for crops to freeze to death during the colder seasons.$(br2)Tip: You will always start a new world in the beginning of summer, so some of the seeds you gather during the first year likely will not reach maturity before freezing to death if they are planted before spring of the next year."
+    }
+  ]
+}

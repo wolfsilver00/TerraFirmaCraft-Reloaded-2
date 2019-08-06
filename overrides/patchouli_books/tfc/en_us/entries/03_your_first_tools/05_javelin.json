@@ -1,0 +1,38 @@
+{
+  "name": "Javelin",
+  "icon": "tfc:stone/javelin/igneous_intrusive",
+  "category": "03_your_first_tools",
+  "sortnum" : "5",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Javelins can be used as a melee weapon, but they are more effectively used as a throwing spear. Hold Right Click with a javelin to draw it like a bow, releasing to fire. Javelins deal piercing damage and pass through enemies so they can be recovered by picking them up off the block it was stuck into."
+    },
+    {
+      "type": "text",
+      "text": "Javelins will only take durability damage when they hit an entity. If you miss your target, no durability is lost. A javelin with low enough durability will break when hitting an entity."
+    },
+    {
+      "type": "text",
+      "text": "You can store your javelins in a quiver, or just in your inventory. When throwing a javelin, the slot will refill with another javelin if you have one."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping_javelin.png"
+	  ],
+	  "title": "Javelin Head Knapping",
+	  "border": true
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/javelin/igneous_intrusive",
+	  "title": "Stone Javelin"
+    },
+    {
+      "type": "text",
+      "text": "Tip: Javelins are completely useless against skeletons, so don't bother trying to use them when you are fighting one."
+    }
+  ]
+}

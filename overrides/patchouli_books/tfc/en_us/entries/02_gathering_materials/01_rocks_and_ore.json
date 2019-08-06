@@ -1,0 +1,19 @@
+{
+  "name": "Rocks & Ore",
+  "icon": "tfc:rock/granite",
+  "category": "02_gathering_materials",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Surface Rocks",
+	  "item": "tfc:rock/granite",
+      "text": "Laying scattered on the ground you will find pieces of rocks and ore. All you need to worry about starting out is gathering the rocks by either breaking the block, or using Right Click on it."
+    },
+    {
+      "type": "text",
+      "text": "The small pieces of ore indicate that there is a vein of that ore nearby underground, so it is important to take note of its location for when you later have a pickaxe and are ready to mine.$(br)Tip: Once a piece of ore or rock has been picked up from the ground, it cannot be placed back down, so only gather what you need to save on inventory space. A single stack of up to 64 rocks will be more than sufficient for your first few in-game days."
+    }
+  ]
+}

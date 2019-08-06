@@ -1,0 +1,30 @@
+{
+  "name": "Combat",
+  "icon": "tfc:stone/javelin/igneous_intrusive",
+  "category": "01_important_differences",
+  "sortnum" : "8",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "At the very beginning of the game, your best chance at surviving combat is if you avoid combat entirely, hiding and running away from any and all hostile mobs you come across. If you find yourself caught in a combat situation that you cannot escape, it is important to know that TerraFirmaCraft has implemented different damage types."
+    },
+	{
+      "type": "spotlight",
+	  "title": "Axe",
+	  "item": "tfc:stone/axe/igneous_intrusive",
+      "text": "Different weapons will do different types of damage, and certain mobs can be stronger or weaker against a specific damage type. For every mob except for skeletons, your best stone-age weapons are the axe and the javelin. Knives can also be used as a melee weapon, but don't deal much damage."
+    },
+	{
+      "type": "spotlight",
+	  "title": "Javelin",
+	  "item": "tfc:stone/javelin/igneous_intrusive",
+      "text": "Tip: For both standard and javelin skeletons, your most effective stone-age weapon is a hammer. Skeletons are completely immune to piercing damage, meaning that all ranged weapons are useless against them."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:arrow",
+      "text": "If you get lucky and kill a skeleton that drops a bow, you can craft arrows using flint, sticks and feathers. Arrows can be stored in a quiver or in your inventory."
+    }
+  ]
+}

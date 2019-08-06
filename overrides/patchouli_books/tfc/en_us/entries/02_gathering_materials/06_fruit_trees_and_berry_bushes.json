@@ -1,0 +1,27 @@
+{
+  "name": "Fruit Trees & Berry Bushes",
+  "icon": "tfc:fruit_trees/sapling/cherry",
+  "category": "02_gathering_materials",
+  "sortnum" : "6",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Saplings & Bushes",
+	  "item": "tfc:fruit_trees/sapling/cherry",
+      "text": "Fruit trees and berry bushes can be found scattered across the world in areas of warmer climate."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Fruits",
+	  "item": "tfc:food/orange",
+      "text": "Each type of tree and bush will only be ripe during specific seasons, and will not provide food for the rest of the year. Fruit trees are a renewable resource, providing saplings when their branches are broken with an axe."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Berries",
+	  "item": "tfc:food/raspberry",
+      "text": "Berry bushes are not renewable, and the bushes that you find while out exploring are the only ones that you can get. Berry bushes can be broken and replanted elsewhere."
+    }
+  ]
+}

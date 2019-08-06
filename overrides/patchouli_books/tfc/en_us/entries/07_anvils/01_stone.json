@@ -1,0 +1,15 @@
+{
+  "name": "Nuggets",
+  "icon": "tfc:raw/diorite",
+  "category": "07_anvils",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Stone Anvil",
+	  "item": "tfc:raw/diorite",
+	  "text": "By using a hammer on the top of a raw Igneous stone block that is in its natural spawning layer, you will open the anvil GUI, where you can weld Copper Ingots into Double Ingots."
+	}
+  ]
+}

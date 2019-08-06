@@ -1,0 +1,30 @@
+{
+  "name": "Hoe",
+  "icon": "tfc:stone/hoe/igneous_intrusive",
+  "category": "03_your_first_tools",
+  "sortnum" : "4",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "In the stone-age, hoes can be used to turn grass or dirt into farmland, as well as check the water levels of the farmland, and the harvest state of growing crops. The mode of the hoe can be changed by pressing the Cycle Tool Mold key (Default:M), while having the hoe equipped."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping_hoe.png"
+	  ],
+	  "title": "Hoe Head Knapping",
+	  "border": true
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/hoe/igneous_intrusive",
+	  "title": "Stone Hoe"
+    },
+    {
+      "type": "text",
+      "text": "Tip: Till grass blocks to get farmland plots will full nutrients. If you till a dirt block, it will have no nutrients and must lay fallow for a while before you can grow anything on it."
+    }
+  ]
+}

@@ -37,11 +37,14 @@ mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:10> * 2, <
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/nasturtium>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <quark:root_dye:2> * 2, <tfc:plants/oxeye_daisy>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:1> * 2, <tfc:plants/poppy>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <quark:root_dye:2> * 2, <tfc:plants/primrose>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:13> * 2, <tfc:plants/pulsatilla>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:9> * 2, <tfc:plants/sacred_datura>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:9> * 2, <tfc:plants/snapdragon_pink>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:1> * 2, <tfc:plants/snapdragon_red>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <quark:root_dye:2> * 2, <tfc:plants/snapdragon_white>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:11> * 2, <tfc:plants/snapdragon_yellow>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/strelitzia>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:plants/sword_fern>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:1> * 2, <tfc:plants/tropical_milkweed>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/tulip_orange>);
@@ -57,6 +60,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:12> * 2, <
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:plants/tree_fern>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:13> * 2, <tfc:plants/morning_glory>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:10> * 2, <tfc:plants/moss>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <quark:root_dye:2> * 2, <tfc:plants/reindeer_lichen>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:plants/spanish_moss>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:1> * 2, <tfc:plants/guzmania>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:1> * 2, <tfc:plants/vriesea>);

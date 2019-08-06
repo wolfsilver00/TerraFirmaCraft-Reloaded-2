@@ -1,0 +1,15 @@
+{
+  "name": "Seaweed",
+  "icon": "tfc:food/seaweed",
+  "category": "02_gathering_materials",
+  "sortnum" : "7",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Seaweed",
+	  "item": "tfc:food/seaweed",
+      "text": "Seaweed can be found growing in salt water. Seaweed blocks can very quickly be broken with a knife, giving 2 to 7 ounces of edible seaweed. Harvested seaweed will not grow back."
+    }
+  ]
+}

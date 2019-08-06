@@ -1,0 +1,26 @@
+{
+  "name": "Hammer",
+  "icon": "tfc:stone/hammer/igneous_intrusive",
+  "category": "03_your_first_tools",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "In the stone-age, hammers are used to smash flux-stone and borax to create flux, and to break logs, yielding 1-3 sticks.$(br)While the hammer is not technically a weapon, it can be used to deal crushing damage at the cost of using twice the durability per hit, making it the only stone-age tool that is effective against skeletons."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping_hammer.png"
+	  ],
+	  "title": "Hammer Head Knapping",
+	  "border": true
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/hammer/igneous_intrusive",
+	  "title": "Stone Hammer"
+    }
+  ]
+}

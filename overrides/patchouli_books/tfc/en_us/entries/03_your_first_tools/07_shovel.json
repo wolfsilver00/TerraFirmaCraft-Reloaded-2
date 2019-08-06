@@ -1,0 +1,26 @@
+{
+  "name": "Shovel",
+  "icon": "tfc:stone/shovel/igneous_intrusive",
+  "category": "03_your_first_tools",
+  "sortnum" : "7",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Shovels are used to harvest blocks of dirt, clay, gravel, and sand faster. They are also required to harvest charcoal from a charcoal pit."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping_shovel.png"
+	  ],
+	  "title": "Shovel Head Knapping",
+	  "border": true
+    },
+    {
+      "type": "crafting",
+	  "title": "Stone Shovel",
+      "recipe": "tfc:stone/shovel/igneous_intrusive"
+    }
+  ]
+}

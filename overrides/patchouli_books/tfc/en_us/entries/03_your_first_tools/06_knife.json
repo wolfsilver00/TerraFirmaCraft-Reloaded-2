@@ -1,0 +1,34 @@
+{
+  "name": "Knife",
+  "icon": "tfc:stone/knife/igneous_intrusive",
+  "category": "03_your_first_tools",
+  "sortnum" : "6",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Knives can be used as a weak melee weapon inflicting piercing damage, though their best use is in a crafting table to remove decay, process cereal crops, cut food into smaller pieces, and scrape sheepskin."
+    },
+    {
+      "type": "text",
+      "text": "Knives are also used to collect straw from tall and short grass, to create a meal prep area, to shear sheep, scrape soaked hides, and to open the leatherworking interface."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping_knife.png"
+	  ],
+	  "title": "Knife Head Knapping",
+	  "border": true
+    },
+    {
+      "type": "crafting",
+	  "title": "Stone Knife",
+      "recipe": "tfc:stone/knife/igneous_intrusive"
+    },
+    {
+      "type": "text",
+      "text": "Tip: If you mess up the double knife knapping pattern, you can still get a single knife blade by just doing one half of the pattern."
+    }
+  ]
+}

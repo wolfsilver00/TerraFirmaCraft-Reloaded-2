@@ -1,0 +1,31 @@
+{
+  "name": "Unshaped Ingot",
+  "icon": "tfc:ceramics/fired/vessel",
+  "category": "06_casting_age",
+  "sortnum" : "5",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+	  "title": "Ceramic Vessel",
+	  "item": "tfc:ceramics/fired/mold/ingot",
+      "text": "If the copper or bronze has already been turned into an ingot, simply heat it in a forge with an empty ingot mold in the appropriate slot to melt it."
+    },
+    {
+      "type": "text",
+      "text": "While the full, unshaped metal is at liquid temperature, right click with it in your hand to open the casting GUI. You will see an arrow with one slot to its left and two to its right. The leftmost slot will contain the filled mold."
+    },
+    {
+      "type": "text",
+      "text": "Place a $(o)single$() empty tool or weapon mold into the first slot on the right to begin the transfer. Once the transfer is complete the tool mold will move into the output slot and will show itself filled with metal."
+    },
+    {
+      "type": "text",
+      "text": "Retrieve the filled tool mold and the now-empty Ceramic Mold from the slots on the left. There is a chance that the Ceramic Ingot Mold will be broken and lost during this process."
+    },
+    {
+      "type": "text",
+      "text": "Once the mold is full, place it into your crafting area and retrieve the finished tool or weapon head from the output. The mold will be destroyed in the process."
+    }
+  ]
+}

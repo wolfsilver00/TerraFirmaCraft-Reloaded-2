@@ -1,0 +1,73 @@
+{
+  "name": "Iron Age",
+  "icon": "tfc:bloom/unrefined",
+  "category": "08_iron_age",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Hematite Ore",
+	  "item": "tfc:ore/hematite",
+	  "text": "Wrought Iron is obtained by working an Iron Bloom that has been created in a Bloomery."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Raw Iron Bloom >= 100%",
+	  "item": "tfc:bloom/unrefined",
+	  "text": "Work on at least a Tier 2 anvil.$(br2)Raw iron blooms that are less than 100% cannot be refined, and must be thrown back into the bloomery with more ore to create a larger bloom."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Refined Iron Bloom < 100%",
+	  "item": "tfc:bloom/refined",
+	  "text": "Only needed for blooms over 100%. If starting bloom isn't a multiple of 100%, it will split into as many 100% blooms as possible as well as a single bloom with the remaining %. For example: A 360% bloom will split into 3 100% blooms and a single 60% bloom."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Refined Iron Bloom 100%",
+	  "item": "tfc:bloom/refined",
+	  "text": "Wrought Iron is a Tier 3 metal obtained by refining an Iron Bloom that has been created in a Bloomery, and working the resulting refined bloom in an Anvil or melting it in a Crucible."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Refined Iron Bloom < 100%",
+	  "item": "tfc:bloom/refined",
+	  "text": "Melt refined iron bloom into wrought iron in the forge with a ceramic mold in the side slot, or in a crucible.$(br2)Melting refined iron blooms under 100% in the forge will give partial unshaped ingots, which can be combined if both are at liquid temperature by using the casting interface, or by using a crucible."
+	},
+    {
+      "type": "text",
+      "text": "WARNING: Melting a refined iron bloom over 100% in the forge will result in only 1 unshaped ingot. Any excess metal will be lost."
+    },
+	{
+      "type": "spotlight",
+	  "title": "Pig Iron Ingot",
+	  "item": "tfc:metal/ingot/pig_iron",
+	  "text": "Pig Iron is obtained by smelting the Iron Ore in a Blast Furnace."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Steel Ingot",
+	  "item": "tfc:metal/ingot/steel",
+	  "text": "Steel is a Tier 4 Metal. It is obtained by working Pig Iron on an anvil to get High-Carbon Steel, and then re-working to get Steel."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Black Steel Ingot",
+	  "item": "tfc:metal/ingot/black_steel",
+	  "text": "Black Steel is a Tier 5 Alloy. It is obtained by mixing liquid metals in a Crucible to produce Weak Steel.$(br2)Produces Weak Steel. Work into an Ingot and Weld with Pig Iron to create High Carbon Black Steel.$(br)Work again on the anvil to beat out the impurities and create Black Steel."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Red Steel Ingot",
+	  "item": "tfc:metal/ingot/red_steel",
+	  "text": "Red Steel is a Tier 6 Alloy. It is obtained by mixing ores in a Ceramic Vessel or liquid metals in a Crucible.$(br2)Produces Weak Red Steel. Work into an Ingot and Weld with Black Steel to create High Carbon Red Steel.$(br)Work again on the anvil to beat out the impurities and create Red Steel."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Blue Steel Ingot",
+	  "item": "tfc:metal/ingot/blue_steel",
+	  "text": "Blue Steel is a Tier 6 Alloy. It is obtained by mixing liquid metals in a Crucible.$(br2)Produces Weak Blue Steel. Work into an Ingot and Weld with Black Steel to create High Carbon Blue Steel.$(br)Work again on the anvil to beat out the impurities and create Blue Steel."
+	}
+  ]
+}

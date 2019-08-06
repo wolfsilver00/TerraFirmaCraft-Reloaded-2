@@ -1,0 +1,15 @@
+{
+  "name": "Vessel",
+  "icon": "tfc:ceramics/fired/vessel",
+  "category": "06_casting_age",
+  "sortnum" : "4",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+	  "title": "Ceramic Vessel",
+	  "item": "tfc:ceramics/fired/mold/axe_head",
+      "text": "Place an empty or partially filled Ceramic Tool, Weapon, or Ingot Mold into the slot to fill it with metal from the vessel. It takes 100 units of metal to completely fill an empty Ceramic Mold. The text in the vessel's GUI will be updated to show the amount of metal remaining in the vessel."
+    }
+  ]
+}

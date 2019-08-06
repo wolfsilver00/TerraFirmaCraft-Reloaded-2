@@ -1,0 +1,13 @@
+{
+  "name": "Natalie's HUD Textures",
+  "icon": "minecraft:knowledge_book",
+  "category": "99_credits",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Thank you to Natalie, for allowing the use of their custom textures for the TFC HUD."
+    }
+  ]
+}

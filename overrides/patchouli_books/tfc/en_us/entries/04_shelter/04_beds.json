@@ -1,0 +1,18 @@
+{
+  "name": "Bed",
+  "icon": "minecraft:bed:14",
+  "category": "04_shelter",
+  "sortnum" : "4",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "While you won't be able to sleep through the night during the stone-age, you are able to create a primitive bed that can be used to set your spawn point. You can make a straw & hide bed by placing two thatch blocks next to each other on the ground, and then using a large raw hide to Right Click on the thatch and create a bed."
+	},
+    {
+      "type": "crafting",
+      "recipe": "minecraft:bed",
+	  "title": "Bed"
+    }
+  ]
+}

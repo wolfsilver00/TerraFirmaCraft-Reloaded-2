@@ -1,0 +1,17 @@
+{
+  "name": "Mob Spawning",
+  "icon": "tfc:gem/tourmaline",
+  "category": "01_important_differences",
+  "sortnum" : "7",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "TerraFirmaCraft implements a hostile mob spawn protection system that prevents mobs from spawning in areas that you have spent a fair amount of time in. Areas with this hostile mob spawn protection will not spawn hostile mobs regardless of the current light level. With the removal of the light-level dependency for mob spawning, TerraFirmaCraft has also implemented the ability for torches to burn out."
+    },
+    {
+      "type": "text",
+      "text": "Livestock in TerraFirmaCraft, including cows, chickens, pigs, sheep, and horses only spawn on initial chunk generation. These animals do not despawn and will not respawn after they have been killed. Wild animals such as bears, pheasants, deer, squid, fish and untamed wolves can despawn and have the possibility to respawn using the vanilla friendly mob respawn mechanic."
+    }
+  ]
+}

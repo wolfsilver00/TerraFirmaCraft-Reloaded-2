@@ -1,0 +1,38 @@
+{
+  "name": "Hunger",
+  "icon": "tfc:gem/emerald",
+  "category": "01_important_differences",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:HungerBar.png"
+	  ],
+	  "title": "Hunger Bar",
+	  "border": true,
+      "text": "Instead of shanks of food, hunger is represented with a green bar."
+    },
+    {
+      "type": "text",
+      "text": "Rather than arbitrary filling values, the hunger system in TerraFirmaCraft is based off of food weight. TerraFirmaCraft uses the imperial measurement of ounces. However, this measurement does not relate to any other measurement in the game, so if the concept of ounces confuses you, you are welcome to instead think of them as generic food units or bites. Each stack of food in TerraFirmaCraft can weigh up to 160 ounces."
+    },
+    {
+      "type": "text",
+      "text": "Players have a stomach capacity of 24 oz. When eating almost any food, the player can consume a maximum of 5 oz at a time. The exception to this is sandwiches, which can be eaten in a single bite. It is impossible to over-eat in TerraFirmaCraft, meaning that you will only consume enough ounces to fill your stomach to the 24 oz capacity. The only way for you to gain saturation and therefore eat less often is to create salads and sandwiches."
+    },
+    {
+      "type": "text",
+      "text": "Unlike vanilla, the hunger bar does slowly deplete over time even while you are standing still, or even sleeping. In addition to the slow continuous drain, hunger is primarily depleted by performing actions such as breaking blocks or attacking. If you sleep through the night, your hunger bar will deplete half as much as if you had been awake the entire time."
+    },
+    {
+      "type": "text",
+      "text": "It is important to note that it is not possible to starve to death in TerraFirmaCraft. When your hunger bar reaches below 25%, you will get Mining Fatigue II and Weakness II potion effects. When your hunger bar is completely empty, your nutrition levels will drain at three times the normal rate, therefore quickly decreasing your max health."
+    },
+    {
+      "type": "text",
+      "text": "However, once all of your nutrition categories are completely empty, you will still have a maximum HP of 50. Note that 50 HP is a small enough value that taking damage from any outside source such as hostile mobs or fall damage will very likely kill you."
+    }
+  ]
+}

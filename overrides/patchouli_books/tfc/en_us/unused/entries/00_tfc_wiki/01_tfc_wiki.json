@@ -1,0 +1,14 @@
+{
+  "name": "TerraFirmaCraft Wikipedia",
+  "icon": "minecraft:knowledge_book",
+  "category": "00_tfc_wiki",
+  "sortnum" : "1",
+  "pages": [
+    {
+      "type": "link",
+      "text": "Reading the online wiki will prove very helpful to you, if you're new to TerraFirmaCraft.",
+	  "url": "https://1710-wiki.terrafirmacraft.com/Main_Page",
+      "link_text": "TerraFirmaCraft Wiki"
+	}
+  ]
+}

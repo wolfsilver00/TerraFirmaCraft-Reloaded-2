@@ -1,0 +1,17 @@
+{
+  "name": "Prospecting",
+  "icon": "tfc:metal/propick/copper",
+  "category": "05_leaving_the_stone_age",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "There are currently two stone-age methods of gathering ore. You can either collect them from the ground in the same manner that you gathered rocks and sticks, or by using a Gold Pan."
+    },
+    {
+      "type": "text",
+      "text": "Tip: Ore that is found laying on the ground indicates that there is a vein of that ore nearby, so you should always mark the location after picking up the ore piece so you can come back and find the vein once you have a pickaxe."
+    }
+  ]
+}

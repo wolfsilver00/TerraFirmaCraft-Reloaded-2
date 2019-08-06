@@ -1,0 +1,22 @@
+{
+  "name": "Health",
+  "icon": "tfc:gem/ruby",
+  "category": "01_important_differences",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:HealthBar.png"
+	  ],
+	  "title": "Health Bar",
+	  "border": true,
+      "text": "Instead of hearts, health is represented with a red bar."
+    },
+    {
+      "type": "text",
+      "text": "When you first spawn, you will have a maximum health value of 1,000 HP. This value will increase and decrease depending on your nutrition and experience levels. Health regenerates very slowly over time, as long as your hunger bar is at least 25% filled. Mob health is also increased, although not proportionally; creepers for instance have much less health relative to the player than in vanilla."
+    }
+  ]
+}

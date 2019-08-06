@@ -1,0 +1,43 @@
+{
+  "name": "Firepit",
+  "icon": "tfc:firestarter",
+  "category": "03_your_first_tools",
+  "sortnum" : "8",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "At the end of the first day, you will probably want to create a firepit to make some torches, and cook any meat you've collected so you can eat it. You'll need at least three sticks, one log to use as fuel, and optionally a piece of straw. First you'll need to put two sticks in the grafting grid in a diagonal pattern to make a firestarter."
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:firestarter",
+	  "title": "Firestarter"
+    },
+    {
+      "type": "text",
+      "text": "Once you have a firestarter, throw (Default: Q) three sticks on the ground or other non-flammable block so they are stacked together on the same block. Then with the firestarter in your hand target the block that the sticks are resting on and hold right-click."
+    },
+    {
+      "type": "text",
+      "text": "The firestarter will draw back and play a sound, simulating rubbing the two sticks together. It's possible that your first few tries will not be successful, and you may even have to make another firestarter, but you can throw a piece of straw in with the stack of sticks to increase your chances of it successfully lighting."
+    },
+    {
+      "type": "text",
+      "text": "Once the firepit appears, drop some logs on to it to quickly add fuel. You can Right Click on the firepit as long as you aren't holding a firestarter or flint & steel to open its interface. If the firepit goes out, you'll need to add some fuel and then Right Click on it with a firestarter to relight it."
+    },
+    {
+      "type": "text",
+      "text": "Relighting is instant, so don't worry when the drawing animation doesn't play.$(br)Tip: Rain or snow falling directly on a firepit will prevent you from lighting it and will extinguish a lit firepit. To avoid this, make your firepit below some tree-branches or a stone outcropping, where it will be protected from the rain."
+    },
+    {
+      "type": "text",
+      "text": "If you've acquired steel, then you can combine it with a piece of flint in the crafting grid to create a flint and steel that will always create a firepit on the first try, and has much more durability."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:flint_and_steel",
+	  "title": "Flint & Steel"
+    }
+  ]
+}

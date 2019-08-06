@@ -1,0 +1,19 @@
+{
+  "name": "Food",
+  "icon": "tfc:food/red_apple",
+  "category": "02_gathering_materials",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Food",
+	  "item": "tfc:food/red_apple",
+      "text": "While it is not possible to directly starve to death in TerraFirmaCraft, gathering food is still an important aspect to increase your chances of staying alive."
+    },
+    {
+      "type": "text",
+      "text": "Food does decay in TerraFirmaCraft, and will rot after a specific defined time. Therefor it's important to always have a sustainable source of food. Alternatively you can store the food in vessels, which will increase the time the food is edible in."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Logs",
+  "icon": "tfc:wood/log/ash",
+  "category": "02_gathering_materials",
+  "sortnum" : "11",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Logs",
+	  "item": "tfc:wood/log/oak",
+      "text": "Logs are gathered by chopping down trees with an axe. If you use your axe to break the bottom log of the tree, it will chop the entire tree down. If your axe does not have enough durability to fell the entire tree, as many logs as possible starting from the top of the tree will be chopped and the axe will break."
+    },
+    {
+      "type": "text",
+      "text": "It is important to note that while you are using a stone axe, each log block only has a 90% chance of dropping a log when broken.$(br)$(br)Tip: Trees of the same type that are close together will act as one combined tree and both will fall when breaking one of the bottom log blocks."
+    }
+  ]
+}

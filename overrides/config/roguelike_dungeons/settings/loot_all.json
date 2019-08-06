@@ -1,0 +1,232 @@
+{
+	"name" : "tfcr:loot_all",
+	"loot_rules" : [
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "FOOD",
+			"loot" : [
+				{"data" : {"name" : "minecraft:cookie", "min" : 2, "max" : 8}, "weight" : 1},
+				{"data" : {"name" : "tfc:food/oat_bread", "min" : 1, "max" : 3}, "weight" : 5},
+				{"data" : {"name" : "tfc:food/red_apple"}, "weight" : 2},
+				{"data" : {"name" : "tfc:food/green_apple"}, "weight" : 2},
+				{"data" : {"name" : "tfc:food/orange"}, "weight" : 1},
+				{"data" : {"name" : "tfc:food/lemon"}, "weight" : 1},
+				{"data" : {"name" : "tfc:food/raspberry"}, "weight" : 2},
+				{"data" : {"name" : "tfc:food/banana"}, "weight" : 2},
+				{"data" : {"name" : "tfc:food/cheese"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/tomato"}, "weight" : 2},
+				{"data" : {"name" : "tfc:crop/seeds/carrot"}, "weight" : 2},
+				{"data" : {"name" : "tfc:crop/seeds/cabbage"}, "weight" : 2},
+				{"data" : {"name" : "tfc:crop/seeds/potato"}, "weight" : 2}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "POTIONS",
+			"loot" : [
+				{"data" : {"type" : "potion", "name" : "strength"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "regeneration"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "leaping"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "night_vision"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "fire_resistance"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "swiftness"}, "weight" : 1},
+				{"data" : {"type" : "potion", "name" : "healing"}, "weight" : 1}
+				
+			],
+			"each" : true,
+			"quantity" : 4
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "MUSIC",
+			"loot" : [
+				{"data" : {"name" : "minecraft:record_13"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_cat"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_blocks"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_chirp"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_far"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_mall"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_mellohi"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_stal"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_strad"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_ward"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_11"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:record_wait"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "SUPPLIES",
+			"loot" : [
+				{"data" : {"name" : "tfc:crop/seeds/barley"}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/hoe/copper"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/maize"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/oat"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/wheat"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/rye"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/garlic"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/sugarcane"}, "weight" : 1},
+				{"data" : {"name" : "tfc:crop/seeds/jute"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "SMITH",
+			"loot" : [
+				{"data" : {"name" : "tfc:metal/helmet/copper"}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/chestplate/copper"}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/greaves/copper"}, "weight" : 1},
+				{"data" : {"name" : "tfc:metal/boots/copper"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"type" : "mixture", "name" : "coffee"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"type" : "specialty", "equipment" : "legs", "quality" : "wood", "level" : 1}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"type" : "tool", "level" : 1}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"type" : "weapon", "level" : 1}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"name" : "minecraft:stick", "nbt" : "{display:{Name:\"Twig\",Lore:[\"A little twiggy\"]}}"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "BLOCKS",
+			"loot" : [
+				{"data" : {"name" : "tfc:rock/granite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/diorite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/gabbro", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/shale", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/claystone", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/rocksalt", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/limestone", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/conglomerate", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/dolomite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/chert", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/chalk", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/rhyolite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/basalt", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/andesite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/dacite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/quartzite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/slate", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/phyllite", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/schist", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/gneiss", "min" : 20, "max" : 64}, "weight" : 1},
+				{"data" : {"name" : "tfc:rock/marble", "min" : 20, "max" : 64}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},		
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "BREWING",
+			"loot" : [
+				{"data" : {"name" : "minecraft:blaze_powder"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:fermented_spider_eye"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:spider_eye"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:magma_cream"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:speckled_melon"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:ghast_tear"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 8
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "BREWING",
+			"loot" : [
+				{"data" : {"name" : "minecraft:glass_bottle", "min" : 2, "max" : 7}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "ENCHANTING",
+			"loot" : [
+				{"data" : {"name" : "minecraft:experience_bottle", "min" : 5, "max" : 20}, "weight" : 2},
+				{"data" : {"name" : "minecraft:book", "min" : 1, "max" : 3}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "WEAPONS",
+			"loot" : [
+				{"data" : {"type" : "potion", "name" : "strong_strength"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"type" : "ARMOUR",
+			"loot" : [
+				{"data" : {"type" : "potion", "name" : "long_regeneration"}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"loot" : [
+				{"data" : {"name" : "minecraft:stick"}, "weight" : 2},
+				{"data" : {"name" : "minecraft:slime_ball"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:clay_ball"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:bone"}, "weight" : 1},
+				{"data" : {"name" : "tfc:animal/product/wool_yarn"}, "weight" : 1},
+				{"data" : {"name" : "tfc:ore/kaolinite", "min" : 1, "max" : 10}, "weight" : 1},
+				{"data" : {"name" : "tfc:ore/graphite", "min" : 1, "max" : 10}, "weight" : 1},
+				{"data" : {"name" : "minecraft:feather"}, "weight" : 1},
+				{"data" : {"name" : "tfc:torch", "min" : 1, "max" : 6}, "weight" : 3}
+			],
+			"each" : true,
+			"quantity" : 4
+		}
+	]
+}

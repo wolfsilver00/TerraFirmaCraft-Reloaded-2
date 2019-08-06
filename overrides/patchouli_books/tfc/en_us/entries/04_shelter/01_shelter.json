@@ -1,0 +1,17 @@
+{
+  "name": "Shelter",
+  "icon": "tfc:wood/lumber/oak",
+  "category": "04_shelter",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": " Since you cannot mine stone blocks at this stage you need to either find a cave or build a primitive shelter. Putting up some cobblestone blocks as the base of temporary walls might be a good extra protection in the early days, just remember that once you've placed a block of cobblestone you won't be able to break it until you have metals tools, so place them only where you need them (building near a cliff-face or on a hill may help you in designing early defenses)."
+	},
+    {
+      "type": "text",
+      "text": "You can break a cobblestone block with just your fist, but it will take an extremely long time to do so, and you will get nothing in return.$(br)Tip: Cobblestone falls sideways just like dirt, so it can't be used to make tall, 1 thick walls without proper support."
+	}
+  ]
+}

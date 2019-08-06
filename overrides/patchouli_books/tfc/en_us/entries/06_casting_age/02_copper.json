@@ -1,0 +1,23 @@
+{
+  "name": "Copper",
+  "icon": "tfc:metal/ingot/copper",
+  "category": "06_casting_age",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+	  "title": "Ceramic Vessel",
+	  "item": "tfc:ceramics/fired/vessel",
+      "text": "A Ceramic Vessel can be used to smelt Native Copper, Malachite and Tetrahedrite ore into pure molten copper metal. To do this, fill the vessel with ore (stacks of different ores may be placed together in the same vessel) and then fire it in a kiln."
+    },
+    {
+      "type": "text",
+      "text": "After the firing, retrieve the vessel from the kiln and right-click it to open up its GUI. You will see that now instead of the usual four slots the vessel has only one and contains text describing the amount of metal it contains. This metal will remain liquid for about 10 Minecraft hours, starting after the firing completes."
+    },
+    {
+      "type": "text",
+      "text": "If the metal inside solidifies, the GUI will not open and you must fire it in a pit kiln again to re-melt it.$(br2)Note: Vessels with molten metal inside will have a white, $(o)Liquid$() tooltip on them."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sticks & Saplings",
+  "icon": "tfc:wood/sapling/ash",
+  "category": "02_gathering_materials",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Sticks",
+	  "item": "minecraft:stick",
+      "text": "Similar to rocks and ores, sticks can be found laying on the ground underneath trees, or in beach and river biomes. You can also punch leaves which will have a chance to drop sticks and saplings when broken. It does not matter if you use your fist or a stone tool to break the leaves, the drop rate will be the same."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Saplings",
+	  "item": "tfc:wood/sapling/ash",
+      "text": "Tip: When a tree is chopped down, all leaves instantly despawn with it and they will not drop any sticks or saplings."
+    }
+  ]
+}

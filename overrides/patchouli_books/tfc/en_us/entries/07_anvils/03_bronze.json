@@ -1,0 +1,20 @@
+{
+  "name": "Bronze",
+  "icon": "tfc:metal/anvil/bronze",
+  "category": "07_anvils",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Bronze Anvil",
+	  "item": "tfc:metal/anvil/bronze",
+	  "text": "After you have obtained seven Bronze Double Ingots or seven Bismuth Bronze Double Ingots, craft them into an Anvil, where you can work Bronze Double Ingots into Sheets and weld Sheets into Double Sheets."
+	},
+    {
+      "type": "crafting",
+      "recipe": "tfc:metal/anvil/bronze",
+	  "title": "Bronze Anvil Crafting"
+    }
+  ]
+}

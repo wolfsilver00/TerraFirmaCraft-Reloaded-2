@@ -1,0 +1,61 @@
+{
+  "name": "Nuggets",
+  "icon": "tfc:ore/small/native_copper",
+  "category": "06_casting_age",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "There are currently two stone-age methods of gathering ore, running around and looking for them as items on the surface, or by using a Gold Pan.$(br)To make a single metal tool head you will need to collect 10 pieces of small, copper-bearing ore:"
+    },
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/native_copper"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/tetrahedrite"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/malachite"
+	},
+    {
+      "type": "text",
+      "text": "If you wish to make bronze tools, you can follow the alloy recipe and replace some of the copper ores with the following:"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/bismuthinite"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/cassiterite"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/sphalerite"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/native_gold"
+	},
+	{
+      "type": "spotlight",
+	  "title": "Native Copper Nugget",
+	  "item": "tfc:ore/small/native_silver"
+	},
+    {
+      "type": "text",
+      "text": "Note: Only metals that have the word bronze in their name are considered bronze. Other metals made out of the above ores that do not have bronze in their name, such as Brass, Rose Gold, and Sterling Silver are not bronzes or copper, and therefore cannot be made into tools."
+	}
+  ]
+}

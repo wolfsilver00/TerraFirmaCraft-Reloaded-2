@@ -1,0 +1,26 @@
+{
+  "name": "Axe",
+  "icon": "tfc:stone/axe/igneous_intrusive",
+  "category": "03_your_first_tools",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Axes are used to chop down trees, and acquire fruit tree saplings. Stone axes only have about a 90% chance of dropping a log item for each log block.$(br)While the axe is not technically a weapon, it can be used to deal slashing damage at the cost of using twice the durability per hit."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:knapping_axe.png"
+	  ],
+	  "title": "Axe Head Knapping",
+	  "border": true
+    },
+    {
+      "type": "crafting",
+      "recipe": "tfc:stone/axe/igneous_intrusive",
+	  "title": "Stone Axe"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Crafting",
+  "icon": "tfc:wood/workbench/oak",
+  "category": "01_important_differences",
+  "sortnum" : "9",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Just like in vanilla, you will start out with a 2x2 crafting grid in your inventory. However, as you can see there are additional greyed out slots showing that it is possible to expand this grid to the full 3x3. The crafting grid is expanded by making a crafting table with four planks, just like in vanilla."
+    },
+    {
+      "type": "crafting",
+	  "title": "Workbench Crafting",
+      "recipe": "tfc:wood/workbench/maple",
+      "text": "Doing so will consume the table, and your inventory crafting grid will be permanently expanded until you die."
+	},
+    {
+      "type": "text",
+      "text": "Tip: This is the only way to expand your crafting grid, and that making additional crafting tables is useless, as they cannot be used to access the interface when placed, and they cannot be consumed for expanding the grid after creation.$(br)$(br)The planks required for making a crafting table are made with metal tools, so you will not be able to expand your crafting grid while you are in the stone age."
+    },
+    {
+      "type": "crafting",
+	  "title": "Lumber Crafting",
+      "recipe": "tfc:wood/lumber/oak",
+      "text": "The planks required for making a crafting table are made with metal tools, so you will not be able to expand your crafting grid while you are in the stone age."
+	}
+  ]
+}

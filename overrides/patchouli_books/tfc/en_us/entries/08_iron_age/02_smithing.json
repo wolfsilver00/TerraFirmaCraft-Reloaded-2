@@ -1,0 +1,21 @@
+{
+  "name": "Smithing",
+  "icon": "tfc:metal/hammer/steel",
+  "category": "08_iron_age",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Stone Anvil",
+	  "item": "tfc:raw/diorite",
+      "text": "Stone anvils are created by right-clicking with a Hammer on the top of a Raw Igneous Stone block, distinguishable by its decreased height. Right click the anvil to open the GUI and place the hammer inside to keep the anvil from turning back into a regular stone block."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Metal Anvil",
+	  "item": "tfc:metal/anvil/wrought_iron",
+	  "text": "Metal Anvils are crafted with Double Ingots.$(br2)Anvils are the crafting interface for nearly all advanced tools and armors."
+	}
+  ]
+}

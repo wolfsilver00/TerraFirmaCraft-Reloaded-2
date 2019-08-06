@@ -1,0 +1,29 @@
+{
+  "name": "Bowls",
+  "icon": "tfc:ceramics/fired/bowl",
+  "category": "03_your_first_tools",
+  "sortnum" : "14",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ceramic Bowls are used in the creation of salads as well as to craft a gold pan. When eating a salad, the bowl is destroyed, so it is a good idea to make a lot of bowls if you plan on eating salads."
+	},
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pottery_bowl.png"
+	  ],
+	  "title": "Unfired Bowl",
+	  "border": true
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pitkiln_bowl.png"
+	  ],
+	  "title": "Ceramic Bowl",
+	  "border": true
+    }
+  ]
+}

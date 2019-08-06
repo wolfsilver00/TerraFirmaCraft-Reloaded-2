@@ -1,0 +1,49 @@
+{
+  "name": "Large Vessel",
+  "icon": "tfc:ceramics/fired/large_vessel",
+  "category": "03_your_first_tools",
+  "sortnum" : "13",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Large Vessels are a lower tier version of barrels. As you are unable to make a wooden bucket in the stone age, you will only be able to fill the large vessel with liquid by either using it like a bucket on a source block of salt or fresh water, or by leaving it unsealed and exposed to the sky while it is raining to slowly fill it with fresh water."
+	},
+    {
+      "type": "text",
+      "text": "Once sealed, a large vessel can be broken and moved around. It will keep its contents so that you can fill it in one location before moving it to another. If the large vessel is not sealed when it is broken, it will dump its items onto the ground, and the liquid inside will be deleted."
+	},
+    {
+      "type": "text",
+      "text": "Sealed large vessels must be carried one at a time in your back slot (located to the right of the chest armor slot). If you have a sealed large vessel in your inventory that is not located in the back slot, you will see a message stating, overburdened and will not be able to move."
+	},
+    {
+      "type": "text",
+      "text": "Large vessels can do all the same processing recipes as barrels, with the exception of creating alcohol or vinegar. While the large vessel can be used to make cheese, you will not be able to do so while in the stone-age because you cannot make the wooden bucket for collecting milk from a cow."
+	},
+    {
+      "type": "text",
+      "text": "Alternatively, large vessels have nine slots for storage of items and blocks, and can hold anything that has a size of medium or smaller. They can be placed on the ground and used in a manner similar to chests, or they can be sealed and carried on your back to indirectly expand your inventory's capacity."
+	},
+    {
+      "type": "text",
+      "text": "Tip: Unlike the other pottery items, unfired large ceramic vessels will take up the entire block and can only be fired one at a time."
+	},
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pottery_large_vessel.png"
+	  ],
+	  "title": "Unfired Large Vessel",
+	  "border": true
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pitkiln_large_vessel.png"
+	  ],
+	  "title": "Ceramic Large Vessel",
+	  "border": true
+    }
+  ]
+}

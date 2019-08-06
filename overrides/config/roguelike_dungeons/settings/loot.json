@@ -1,0 +1,11 @@
+{
+	"name" : "tfcr:loot",
+	"inherit" : [
+		"tfcr:loot0",
+		"tfcr:loot1",
+		"tfcr:loot2",
+		"tfcr:loot3",
+		"tfcr:loot4",
+		"tfcr:loot_all"
+	]
+}

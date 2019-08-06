@@ -4,9 +4,30 @@
 	//Remove
 	recipes.remove(<props:props:508>);
 	recipes.remove(<minecraft:chest>);
+	recipes.remove(<quark:dark_oak_button>);
+	recipes.remove(<quark:acacia_button>);
+	recipes.remove(<quark:jungle_button>);
+	recipes.remove(<quark:birch_button>);
+	recipes.remove(<quark:spruce_button>);
+	recipes.remove(<quark:dark_oak_trapdoor>);
+	recipes.remove(<quark:acacia_trapdoor>);
+	recipes.remove(<quark:jungle_trapdoor>);
+	recipes.remove(<quark:birch_trapdoor>);
+	recipes.remove(<quark:spruce_trapdoor>);
+	recipes.remove(<minecraft:trapdoor>);
+	recipes.remove(<minecraft:stone_button>);
 	recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
 	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
+	
+	recipes.removeShaped(<minecraft:leather_helmet>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null], [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null], [null, <harvestcraft:wovencottonitem>, null]]);
+	recipes.removeShaped(<minecraft:leather_helmet>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
+	recipes.removeShaped(<minecraft:leather_chestplate>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>]]);
+	recipes.removeShaped(<minecraft:leather_leggings>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
+	recipes.removeShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
 
+	//Ice Cubes
+	recipes.addShapeless(<toughasnails:ice_cube> * 4, [<ore:blockIce>, <ore:chisel>.transformDamage(1)]);
+	
 	//Planed Lumber
 	recipes.addShapeless(<contenttweaker:planed_plank_greatwood>, [<ore:lumberGreatwood>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_silverwood>, [<ore:lumberSilverwood>, <ore:planer>.transformDamage(1)]);
@@ -71,6 +92,9 @@
 	recipes.addShaped(<minecraft:sticky_piston>, [[<ore:slimeball>], [<minecraft:piston>]]);
 	recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:doubleSheetBrass>, <ore:wireCopper>, <ore:doubleSheetBrass>], [<ore:cobblestoneIgneousIntrusive>, <ore:dustRedstone>, <ore:cobblestoneIgneousIntrusive>]]);
 	recipes.addShaped(<props:props:508>, [[null, <ore:dyeRed>, null], [<ore:dyeGreen>, <ore:workbench>, <ore:dyeBlue>], [null, <ore:blockClay>, null]]);
+	recipes.addShaped(<minecraft:observer>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:dustRedstone>, <ore:dustRedstone>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+	recipes.addShaped(<minecraft:redstone_lamp>, [[null, <ore:dustRedstone>, null], [<ore:dustRedstone>, <ore:glowstone>, <ore:dustRedstone>], [null, <ore:dustRedstone>, null]]);
+	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>]]);
 
 	//Better Storage Lockers
 	recipes.remove(<betterstorage:reinforced_locker:0>);
@@ -381,6 +405,8 @@
 	<minecraft:log2:1>.displayName = "Hickory Log";
 	<minecraft:leaves:3>.displayName = "White Elm Leaves";
 	<minecraft:leaves2:1>.displayName = "Hickory Leaves";
+	<minecraft:sapling:3>.displayName = "White Elm Sapling";
+	<minecraft:sapling:5>.displayName = "Hickory Sapling";
 
 
 //=======================================================================================================================================================================

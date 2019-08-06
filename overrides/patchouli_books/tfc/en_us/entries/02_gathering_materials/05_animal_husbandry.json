@@ -1,0 +1,21 @@
+{
+  "name": "Animal Husbandry",
+  "icon": "minecraft:milk_bucket",
+  "category": "02_gathering_materials",
+  "sortnum" : "5",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The amount of meat that you get from killing animals is based on your butchery skill, so the first animals that you kill will drop very little meat. With each kill your butchery skill will increase, dropping more meat than the last."
+    },
+    {
+      "type": "text",
+      "text": "When killing animals for food, it is important to leave at least a breeding pair of one male and one female of any animals you come across that can be domesticated, as they will not respawn if you kill them. You are welcome to freely kill any wild animals which cannot be domesticated that you come across, as they will eventually respawn."
+    },
+    {
+      "type": "text",
+      "text": "Tip: The vanilla respawn mechanic of friendly mobs does not spawn new animals very often, and that any meat you do get from killing animals will start to decay, so it is better to keep the animal alive until you actually need the meat."
+    }
+  ]
+}

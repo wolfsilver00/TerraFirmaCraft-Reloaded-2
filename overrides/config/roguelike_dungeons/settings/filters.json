@@ -1,0 +1,11 @@
+{
+	"name" : "tfcr:filters",
+	"filters" : [
+		{"level" : 4, "name" : "cobweb"},
+		{"level" : 3, "name" : "vine"},
+		{"level" : 2, "name" : "cobweb"},
+		{"level" : 1, "name" : "mud"},
+		{"level" : 1, "name" : "vine"},
+		{"level" : 0, "name" : "vine"}
+	]
+}

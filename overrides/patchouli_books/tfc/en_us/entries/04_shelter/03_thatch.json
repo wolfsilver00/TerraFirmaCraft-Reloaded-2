@@ -1,0 +1,23 @@
+{
+  "name": "Thatch",
+  "icon": "tfc:thatch",
+  "category": "04_shelter",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Thatch is one of the earliest roofing blocks available in the game. Unlike dirt and cobblestone, thatch is not affected by gravity so you can use it to create a roof for your shelter. Thatch has an advantage over logs in that it can quickly and easily be removed by hand."
+	},
+    {
+      "type": "crafting",
+      "recipe": "tfc:thatch",
+	  "title": "Thatch",
+	  "text": "Players and mobs are able to move through thatch, making the block essentially useless for walls that do not contain at least one other material. You also cannot use thatch to pillar up to safety, as you will simply fall through the block when you try to jump on it."
+    },
+    {
+      "type": "text",
+      "text": "Hostile mobs will not be able to spot you if you are already hiding in a thatch enclosure, but they are able to follow you through thatch if they have been aggro'd while you were outside of the thatch.$(br)$(br)Tip: Thatch is also extremely flammable, and any thatch structures that are built near an open flame such as a pit kiln will quickly burn to the ground."
+	}
+  ]
+}

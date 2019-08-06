@@ -1,0 +1,33 @@
+{
+  "name": "Torches",
+  "icon": "tfc:torch",
+  "category": "03_your_first_tools",
+  "sortnum" : "9",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Once you have your first firepit, you'll be able to create some torches to light up the area around you. Simply put a stick in a firepit to get two torches. Note that you can only put the sticks in the firepit one at a time."
+    },
+    {
+      "type": "text",
+      "text": "Alternatively, once you've created some torches you can place one and Right Click it with a stick in your hand for quicker torch creation at the expense of only getting one torch per stick."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:firepit_torch.png"
+	  ],
+	  "title": "Torch Crafting",
+	  "border": true
+    },
+    {
+      "type": "text",
+      "text": "It's important to note that after a configurable amount of time (Default: 48 in-game hours), or if directly exposed to rain or snow, lit torches will burn out and no longer produce light. You can also manually extinguish a torch with a Right Click from an empty hand."
+    },
+    {
+      "type": "text",
+      "text": "Torches in your inventory will never burn out, and can be used to Right Click on placed torches to either relight burned out torches, or restart the countdown timer on lit torches."
+    }
+  ]
+}

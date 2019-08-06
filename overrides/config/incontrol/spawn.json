@@ -1,7 +1,6 @@
 [
   {
     "mob": [
-	"minecraft:wolf",
 	"minecraft:horse",
 	"minecraft:parrot",
 	"minecraft:donkey",
@@ -25,31 +24,6 @@
 	"tfc:high_plains",
 	"tfc:deep_ocean",
 	"tfc:lake"
-	],
-    "result": "allow"
-  },
-  {
-    "mob": [
-	"minecraft:rabbit"
-	],
-    "weight": 50,
-    "groupcountmin": 1,
-    "groupcountmax": 8,
-    "biome": [
-	"TerraFirmaCraft High Hills", 
-	"TerraFirmaCraft High Hills Edge", 
-	"TerraFirmaCraft Plains", 
-	"TerraFirmaCraft High Plains",
-	"TerraFirmaCraft Rolling Hills", 
-	"TerraFirmaCraft Mountains", 
-	"TerraFirmaCraft Mountains Edge", 
-	"tfc:high_hills",
-	"tfc:plains",
-	"tfc:high_hills_edge",
-	"tfc:rolling_hills",
-	"tfc:mountains",
-	"tfc:mountains_edge",
-	"tfc:high_plains"
 	],
     "result": "allow"
   },

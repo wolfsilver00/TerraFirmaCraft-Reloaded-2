@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_top",
+    "textures": {
+        "top": "contenttweaker:blocks/ores/amber/ore_amber_phyllite",
+        "side": "contenttweaker:blocks/ores/amber/ore_amber_phyllite"
+    }
+}

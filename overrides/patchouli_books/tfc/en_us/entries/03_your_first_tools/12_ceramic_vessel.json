@@ -1,0 +1,37 @@
+{
+  "name": "Ceramic Vessel",
+  "icon": "tfc:ceramics/fired/vessel",
+  "category": "03_your_first_tools",
+  "sortnum" : "12",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ceramic Vessels are a very versatile item, but in the stone-age you will simply use them for basic storage. You can use a ceramic vessel to store up to four stacks of items. However, ceramic vessels are only able to store items with a size of small, very small, or tiny."
+	},
+    {
+      "type": "text",
+      "text": "The size of every item in your inventory is displayed on the tooltip when you place your cursor over it.$(br)To place items into a vessel, Right Click with the vessel in hand to open up the interface. A ceramic vessel with items in it can still be stored in your inventory, or placed on the ground, thereby providing increased storage capacity."
+	},
+    {
+      "type": "text",
+      "text": "Tip: Food stored inside of a vessel will decay at 50% the normal rate. However, the food must have a weight of no more than 80 oz in order to fit in the vessel's small slots."
+	},
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pottery_vessel.png"
+	  ],
+	  "title": "Unfired Vessel",
+	  "border": true
+	},
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pitkiln_vessel.png"
+	  ],
+	  "title": "Ceramic Vessel",
+	  "border": true
+    }
+  ]
+}

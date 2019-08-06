@@ -272,6 +272,12 @@
 	//Poppy
 	<tfc:plants/poppy>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
 	
+	//Primrose
+	<tfc:plants/primrose>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
+	
+	//Pasque Flower
+	<tfc:plants/pulsatilla>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
+	
 	//Sacred Datura
 	<tfc:plants/sacred_datura>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
 	
@@ -286,6 +292,9 @@
 	
 	//Yellow Snapdragon
 	<tfc:plants/snapdragon_yellow>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
+	
+	//Bird of Paradise Flower
+	<tfc:plants/strelitzia>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
 	
 	//Tropical Milkweed
 	<tfc:plants/tropical_milkweed>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
@@ -319,6 +328,9 @@
 	
 	//Moss
 	<tfc:plants/moss>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
+	
+	//Reindeer Lichen
+	<tfc:plants/reindeer_lichen>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);
 	
 	//Spanish Moss
 	<tfc:plants/spanish_moss>.setAspects(<aspect:sensus> * 5, <aspect:victus> * 1, <aspect:herba> * 5);

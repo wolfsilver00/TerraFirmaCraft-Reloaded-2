@@ -1,0 +1,13 @@
+{
+  "name": "Experience",
+  "icon": "tfc:gem/jade",
+  "category": "01_important_differences",
+  "sortnum" : "4",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The experience system represents life experience, and so each level increases a player's maximum health, thirst, and alcohol tolerance, allowing them to take more hits, survive longer without drinking fresh water, and drink more alcohol before getting negative side effects."
+    }
+  ]
+}

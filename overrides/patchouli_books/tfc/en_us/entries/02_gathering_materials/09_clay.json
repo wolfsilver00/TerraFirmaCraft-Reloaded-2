@@ -1,0 +1,19 @@
+{
+  "name": "Clay",
+  "icon": "minecraft:clay_ball",
+  "category": "02_gathering_materials",
+  "sortnum" : "9",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Clay",
+	  "item": "minecraft:clay_ball",
+      "text": "Clay generates in areas with a rainfall value of at least 500, meaning that it cannot be found in areas covered with dry grass."
+    },
+    {
+      "type": "text",
+      "text": "Clay deposits range from four to thirty blocks wide, and two to six blocks deep, and will be marked by goldenrod flowers. Breaking the clay block will yield one to three clay items.$(br)$(br)Tip: A shovel is not required for harvesting clay, but will make the process faster."
+    }
+  ]
+}

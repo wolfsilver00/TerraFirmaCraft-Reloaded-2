@@ -1,0 +1,21 @@
+{
+  "name": "Punching Wood",
+  "icon": "tfc:wood/log/oak",
+  "category": "01_important_differences",
+  "sortnum" : "5",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+	  "title": "Wooden Axe",
+	  "item": "minecraft:wooden_axe",
+      "text": "The tech-tree in TerraFirmaCraft is a complete overhaul of the vanilla progression system. There are no such thing as wooden tools in TerraFirmaCraft, with your first tools being made of stone."
+    },
+    {
+      "type": "spotlight",
+	  "title": "Stone Axe",
+	  "item": "tfc:stone/axe/igneous_intrusive",
+      "text": "This means that you should not waste your time punching trees, as doing so will take a very long time to break the block, and will give you absolutely nothing in return."
+    }
+  ]
+}

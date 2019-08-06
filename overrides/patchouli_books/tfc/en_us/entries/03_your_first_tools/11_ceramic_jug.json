@@ -1,0 +1,42 @@
+{
+  "name": "Ceramic Jug",
+  "icon": "tfc:ceramics/fired/jug",
+  "category": "03_your_first_tools",
+  "sortnum" : "11",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ceramic Jugs are used to carry water. They can be filled with Right Click on a source block of fresh water, or on a large vessel that contains at least 1,000 mB of fresh water. Flowing water, salt water, and water from hot springs will not work."
+    },
+    {
+      "type": "text",
+      "text": "You can drink from a jug of water by holding down Right Click, the same as you would when eating food. Drinking will replenish three bars of thirst and completely empty the jug."
+    },
+    {
+      "type": "text",
+      "text": "Tip: There is a very small chance that the jug will break when you drink from it, so it is a good idea to make sure you always have a few around."
+    },
+    {
+      "type": "text",
+      "text": "If you Right Click an empty ceramic jug, you will blow into it and play a note. The pitch of the note played is dependent on the direction up or down you are currently looking."
+    },
+    {
+      "type": "image",
+	  "images": [
+		"patchouli_images:pottery_jug.png"
+	  ],
+	  "title": "Unfired Jug",
+	  "border": true
+    },
+    {
+      "type": "image",
+      "images": "patchouli_images:pitkiln_jug",
+	  "images": [
+		"patchouli_images:pitkiln_jug.png"
+	  ],
+	  "title": "Ceramic Jug",
+	  "border": true
+    }
+  ]
+}

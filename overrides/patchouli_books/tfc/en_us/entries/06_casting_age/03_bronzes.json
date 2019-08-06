@@ -1,0 +1,31 @@
+{
+  "name": "Bronzes",
+  "icon": "tfc:metal/ingot/bronze",
+  "category": "06_casting_age",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+	  "title": "Ceramic Vessel",
+	  "item": "tfc:ceramics/fired/vessel",
+      "text": "A Ceramic Vessel can also be used to create Bronze, Black Bronze and Bismuth Bronze."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Before Firing:$() Place the necessary ores into a Ceramic Vessel, in the proper proportions for the desired type of bronze. For example, if you wanted to create normal Bronze then you would put copper ore (any combination of Native Copper, Malachite or Tetrahedrite) and Cassiterite into the vessel."
+    },
+    {
+      "type": "text",
+      "text": "If the metal inside solidifies, the GUI will not open and you must fire it in a pit kiln again to re-melt it.$(br2)Note: Vessels with molten metal inside will have a white, $(o)Liquid$() tooltip on them.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)After Firing:$() If you got the proportions right then when you right-click the vessel it will open up the same single-slot GUI as described above for smelting pure ores. You can then transfer the molten bronze metal to a Ceramic Mold in the same way."
+    },
+    {
+      "type": "text",
+      "text": "If you got the proportions wrong then when you right-click the vessel you'll get the four-slot storage GUI showing the raw ores still sitting in the vessel, unchanged."
+    }
+  ]
+}

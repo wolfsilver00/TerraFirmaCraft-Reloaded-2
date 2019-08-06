@@ -1,0 +1,21 @@
+{
+  "name": "Straw",
+  "icon": "tfc:straw",
+  "category": "02_gathering_materials",
+  "sortnum" : "10",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Straw",
+	  "item": "tfc:straw",
+      "text": "Straw can be obtained by breaking tall or short grass with a knife, yielding a single piece of straw per block. Straw is also produced as a byproduct when refining grains."
+    },
+	{
+      "type": "spotlight",
+	  "title": "Knife",
+	  "item": "tfc:stone/knife/igneous_intrusive",
+      "text": "Tip: Tall grass will slowly grow back during warmer weather under the right conditions."
+    }
+  ]
+}

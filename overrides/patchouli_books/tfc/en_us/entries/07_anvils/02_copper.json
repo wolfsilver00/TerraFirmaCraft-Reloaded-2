@@ -1,0 +1,20 @@
+{
+  "name": "Copper",
+  "icon": "tfc:metal/anvil/copper",
+  "category": "07_anvils",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Copper Anvil",
+	  "item": "tfc:metal/anvil/copper",
+	  "text": "After you have obtained seven Copper Double Ingots, craft them into a Copper Anvil, where you can weld Bronze Ingots into Double Ingots."
+	},
+    {
+      "type": "crafting",
+      "recipe": "tfc:metal/anvil/copper",
+	  "title": "Copper Anvil Crafting"
+    }
+  ]
+}

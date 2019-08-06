@@ -1,0 +1,17 @@
+{
+  "name": "Climate & Seasons",
+  "icon": "tfc:gem/opal",
+  "category": "01_important_differences",
+  "sortnum" : "10",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Instead of traditional biomes, TerraFirmaCraft uses a climate system including rainfall, temperature, and evapotranspiration to determine where animals spawn, and what trees, crops, and other plant life grows in an area."
+    },
+    {
+      "type": "text",
+      "text": "There is also an in-game calendar complete with different seasons throughout the year. The game will always start in the year 1,000 on June 1st. Players will always spawn in the northern half of the map, so the starting season is early summer. Crossing the equator of Z = 0 will reverse the seasons to mimic earth's southern hemisphere."
+    }
+  ]
+}
