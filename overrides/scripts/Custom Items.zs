@@ -291,4 +291,98 @@ planed_plank_silverwood.setCreativeTab(<creativetab:decorations>);
 planed_plank_silverwood.register();
 
 
+//=====================================================================================================================================================================
+//Metal Items
+
+var aluminium_double_ingot = VanillaFactory.createItem("aluminium_double_ingot");
+aluminium_double_ingot.maxStackSize = 8;
+aluminium_double_ingot.setCreativeTab(<creativetab:decorations>);
+aluminium_double_ingot.register();
+
+var aluminium_sheet = VanillaFactory.createItem("aluminium_sheet");
+aluminium_sheet.maxStackSize = 16;
+aluminium_sheet.setCreativeTab(<creativetab:decorations>);
+aluminium_sheet.register();
+
+var aluminium_double_sheet = VanillaFactory.createItem("aluminium_double_sheet");
+aluminium_double_sheet.maxStackSize = 8;
+aluminium_double_sheet.setCreativeTab(<creativetab:decorations>);
+aluminium_double_sheet.register();
+
+var ardite_double_ingot = VanillaFactory.createItem("ardite_double_ingot");
+ardite_double_ingot.maxStackSize = 8;
+ardite_double_ingot.setCreativeTab(<creativetab:decorations>);
+ardite_double_ingot.register();
+
+var ardite_sheet = VanillaFactory.createItem("ardite_sheet");
+ardite_sheet.maxStackSize = 16;
+ardite_sheet.setCreativeTab(<creativetab:decorations>);
+ardite_sheet.register();
+
+var ardite_double_sheet = VanillaFactory.createItem("ardite_double_sheet");
+ardite_double_sheet.maxStackSize = 8;
+ardite_double_sheet.setCreativeTab(<creativetab:decorations>);
+ardite_double_sheet.register();
+
+var cobalt_double_ingot = VanillaFactory.createItem("cobalt_double_ingot");
+cobalt_double_ingot.maxStackSize = 8;
+cobalt_double_ingot.setCreativeTab(<creativetab:decorations>);
+cobalt_double_ingot.register();
+
+var cobalt_sheet = VanillaFactory.createItem("cobalt_sheet");
+cobalt_sheet.maxStackSize = 16;
+cobalt_sheet.setCreativeTab(<creativetab:decorations>);
+cobalt_sheet.register();
+
+var cobalt_double_sheet = VanillaFactory.createItem("cobalt_double_sheet");
+cobalt_double_sheet.maxStackSize = 8;
+cobalt_double_sheet.setCreativeTab(<creativetab:decorations>);
+cobalt_double_sheet.register();
+
+var manyullyn_double_ingot = VanillaFactory.createItem("manyullyn_double_ingot");
+manyullyn_double_ingot.maxStackSize = 8;
+manyullyn_double_ingot.setCreativeTab(<creativetab:decorations>);
+manyullyn_double_ingot.register();
+
+var manyullyn_sheet = VanillaFactory.createItem("manyullyn_sheet");
+manyullyn_sheet.maxStackSize = 16;
+manyullyn_sheet.setCreativeTab(<creativetab:decorations>);
+manyullyn_sheet.register();
+
+var manyullyn_double_sheet = VanillaFactory.createItem("manyullyn_double_sheet");
+manyullyn_double_sheet.maxStackSize = 8;
+manyullyn_double_sheet.setCreativeTab(<creativetab:decorations>);
+manyullyn_double_sheet.register();
+
+var constantan_double_ingot = VanillaFactory.createItem("constantan_double_ingot");
+constantan_double_ingot.maxStackSize = 8;
+constantan_double_ingot.setCreativeTab(<creativetab:decorations>);
+constantan_double_ingot.register();
+
+var constantan_sheet = VanillaFactory.createItem("constantan_sheet");
+constantan_sheet.maxStackSize = 16;
+constantan_sheet.setCreativeTab(<creativetab:decorations>);
+constantan_sheet.register();
+
+var constantan_double_sheet = VanillaFactory.createItem("constantan_double_sheet");
+constantan_double_sheet.maxStackSize = 8;
+constantan_double_sheet.setCreativeTab(<creativetab:decorations>);
+constantan_double_sheet.register();
+
+var electrum_double_ingot = VanillaFactory.createItem("electrum_double_ingot");
+electrum_double_ingot.maxStackSize = 8;
+electrum_double_ingot.setCreativeTab(<creativetab:decorations>);
+electrum_double_ingot.register();
+
+var electrum_sheet = VanillaFactory.createItem("electrum_sheet");
+electrum_sheet.maxStackSize = 16;
+electrum_sheet.setCreativeTab(<creativetab:decorations>);
+electrum_sheet.register();
+
+var electrum_double_sheet = VanillaFactory.createItem("electrum_double_sheet");
+electrum_double_sheet.maxStackSize = 8;
+electrum_double_sheet.setCreativeTab(<creativetab:decorations>);
+electrum_double_sheet.register();
+
+
 

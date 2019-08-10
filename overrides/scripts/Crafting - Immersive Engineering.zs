@@ -1,4 +1,32 @@
 //=======================================================================================================================================================================
+//Basic Recipes
+
+	//Remove
+	recipes.remove(<immersiveengineering:tool>);
+	recipes.remove(<immersiveengineering:tool:1>);
+	recipes.remove(<immersiveengineering:material:1>);
+	recipes.remove(<immersiveengineering:material:2>);
+	recipes.remove(<immersiveengineering:material:3>);
+	recipes.remove(<immersiveengineering:stone_decoration>);
+	recipes.remove(<immersiveengineering:stone_decoration:1>);
+	recipes.remove(<immersiveengineering:stone_decoration:2>);
+	recipes.remove(<immersiveengineering:stone_decoration:10>);
+	
+	//Add
+	recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:hammerHeadWroughtIron>, <ore:string>], [null, <ore:stickWood>, <ore:hammerHeadWroughtIron>], [<ore:stickWood>, null, null]]);
+	recipes.addShaped(<immersiveengineering:tool:1>, [[null, <ore:knifeBladeWroughtIron>, null], [<ore:knifeBladeWroughtIron>, <ore:string>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
+	recipes.addShaped(<immersiveengineering:stone_decoration> * 2, [[<ore:sand>, <tfc:ceramics/fired/fire_brick>, <ore:sand>], [<tfc:ceramics/fired/fire_brick>, <tfc:mortar>, <tfc:ceramics/fired/fire_brick>], [<ore:sand>, <tfc:ceramics/fired/fire_brick>, <ore:sand>]]);
+	recipes.addShaped(<immersiveengineering:stone_decoration:1> * 2, [[<ore:blockSand>, <tfc:ceramics/fired/fire_brick>, <ore:blockSand>], [<tfc:ceramics/fired/fire_brick>, <ore:blockSand>, <tfc:ceramics/fired/fire_brick>], [<ore:blockSand>, <tfc:ceramics/fired/fire_brick>, <ore:blockSand>]]);
+	recipes.addShaped(<immersiveengineering:stone_decoration:2> * 2, [[<tfc:mortar>, <tfc:ceramics/fired/fire_brick>, <tfc:mortar>], [<tfc:ceramics/fired/fire_brick>, <tfc:mortar>, <tfc:ceramics/fired/fire_brick>], [<tfc:mortar>, <tfc:ceramics/fired/fire_brick>, <tfc:mortar>]]);
+	recipes.addShaped(<immersiveengineering:stone_decoration:10> * 2, [[<tfc:ceramics/fired/fire_brick>, <tfc:ceramics/fired/fire_brick>, <tfc:ceramics/fired/fire_brick>], [<tfc:ceramics/fire_clay>, <tfc:mortar>, <tfc:ceramics/fire_clay>], [<tfc:ceramics/fired/fire_brick>, <tfc:ceramics/fired/fire_brick>, <tfc:ceramics/fired/fire_brick>]]);
+	recipes.addShapeless(<immersiveengineering:material:23>, [<ore:plateSteel>, <ore:shears>]);
+	recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateAluminum>, <ore:shears>]);
+	recipes.addShapeless(<immersiveengineering:material:21>, [<ore:plateElectrum>, <ore:shears>]);
+	recipes.addShapeless(<immersiveengineering:material:20>, [<ore:plateCopper>, <ore:shears>]);
+	recipes.replaceAllOccurences(<ore:blockSteel>, <ore:doubleIngotSteel>, <immersiveengineering:drillhead>);
+	recipes.replaceAllOccurences(<ore:blockIron>, <ore:doubleIngotWroughtIron>, <immersiveengineering:drillhead:1>);
+
+//=======================================================================================================================================================================
 //Immersive Engineering Machine Recipes
 
 //=======================================================================================================================================================================

@@ -62,7 +62,7 @@
        
         "public server":
         {
-            "text" : "Server",
+            "text" : "fml.menu.mods",
             "posX" : -92,
             "posY" : 33,
             "width" : 90,
@@ -73,12 +73,16 @@
             "texture" : "mainmenu:textures/button.png",
             "normalTextColor" : 16777215,
             "hoverTextColor" : 16777215,
-            "tooltip" : "Public Server",
+            //"tooltip" : "Public Server",
             "action" : 
             {
-                "type" : "connectToServer",
-                "ip" : "37.59.222.55:25567"
+                "type" : "openGui",
+                "gui" : "mods"
             },
+            //{
+            //    "type" : "connectToServer",
+            //    "ip" : "37.59.222.55:25567"
+            //},
             "shadow" : false,
 			"hoverSound" : "menu:sounds/hover",
 			"pressSound" : "menu:sounds/click"

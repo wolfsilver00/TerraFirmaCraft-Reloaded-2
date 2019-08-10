@@ -38,6 +38,26 @@ var fabricHemp = <ore:fabricHemp>;
 	<tfc:crop/product/burlap_cloth>
 	]);
 	
+var water_wooden = <ore:water_wooden>;
+    water_wooden.addItems([
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}),
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}),
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "hot_water", Amount: 1000}}),
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "salt_water", Amount: 1000}}),
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "dist_water", Amount: 1000}}),
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "purified_water", Amount: 1000}})
+	]);
+	
+var water_iron = <ore:water_iron>;
+    water_iron.addItems([
+		<minecraft:water_bucket>,
+		<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "salt_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "dist_water", Amount: 1000}),
+		<forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000})
+	]);
+	
 var gemCoal = <ore:gemCoal>;
     gemCoal.addItems([
 		<minecraft:coal>
@@ -116,6 +136,35 @@ var nuggetIron = <ore:nuggetIron>;
 var ingotPigiron = <ore:ingotPigiron>;
     ingotPigiron.addItems([
 	<tfc:metal/ingot/pig_iron>
+	]);
+
+var dustIron = <ore:dustIron>;
+    dustIron.addItems([
+	<tfc:metal/dust/wrought_iron>
+	]);
+
+var plateAluminum = <ore:plateAluminum>;
+    plateAluminum.addItems([
+	<immersiveengineering:metal:31>,
+	<contenttweaker:aluminium_sheet>
+	]);
+
+var plateAluminium = <ore:plateAluminium>;
+    plateAluminium.addItems([
+	<immersiveengineering:metal:31>,
+	<contenttweaker:aluminium_sheet>
+	]);
+
+var plateConstantan = <ore:plateConstantan>;
+    plateConstantan.addItems([
+	<immersiveengineering:metal:36>,
+	<contenttweaker:constantan_sheet>
+	]);
+
+var plateElectrum = <ore:plateElectrum>;
+    plateElectrum.addItems([
+	<immersiveengineering:metal:37>,
+	<contenttweaker:electrum_sheet>
 	]);
 
 var tfcLeaves = <ore:tfcLeaves>;
@@ -349,7 +398,7 @@ var planer = <ore:planer>;
 
 var listAllwater = <ore:listAllwater>;
     listAllwater.addItems([
-		<claybucket:claybucket:1>,
+		//<claybucket:claybucket:1>,
 		<forge:bucketfilled>.withTag({FluidName: "dist_water", Amount: 1000}),
 		<forge:bucketfilled>.withTag({FluidName: "salt_water", Amount: 1000}),
 		<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}),

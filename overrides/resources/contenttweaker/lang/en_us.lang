@@ -394,5 +394,30 @@ item.contenttweaker.red_steel_planer_blade.name=Red Steel Planer Blade
 item.contenttweaker.steel_planer_blade.name=Steel Planer Blade
 item.contenttweaker.wrought_iron_planer_blade.name=Wrought Iron Planer Blade
 
+#Metal Items
+item.contenttweaker.aluminium_double_ingot.name=Aluminium Double Ingot
+item.contenttweaker.aluminium_double_sheet.name=Aluminium Double Sheet
+item.contenttweaker.aluminium_sheet.name=Aluminium Sheet
+
+item.contenttweaker.ardite_double_ingot.name=Ardite Double Ingot
+item.contenttweaker.ardite_double_sheet.name=Ardite Double Sheet
+item.contenttweaker.ardite_sheet.name=Ardite Sheet
+
+item.contenttweaker.cobalt_double_ingot.name=Cobalt Double Ingot
+item.contenttweaker.cobalt_double_sheet.name=Cobalt Double Sheet
+item.contenttweaker.cobalt_sheet.name=Cobalt Sheet
+
+item.contenttweaker.constantan_double_ingot.name=Constantan Double Ingot
+item.contenttweaker.constantan_double_sheet.name=Constantan Double Sheet
+item.contenttweaker.constantan_sheet.name=Constantan Sheet
+
+item.contenttweaker.electrum_double_ingot.name=Electrum Double Ingot
+item.contenttweaker.electrum_double_sheet.name=Electrum Double Sheet
+item.contenttweaker.electrum_sheet.name=Electrum Sheet
+
+item.contenttweaker.manyullyn_double_ingot.name=Manyullyn Double Ingot
+item.contenttweaker.manyullyn_double_sheet.name=Manyullyn Double Sheet
+item.contenttweaker.manyullyn_sheet.name=Manyullyn Sheet
+
 
 
