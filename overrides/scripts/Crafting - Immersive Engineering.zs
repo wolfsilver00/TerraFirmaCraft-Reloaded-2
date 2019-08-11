@@ -32,6 +32,9 @@
 //=======================================================================================================================================================================
 //Crusher
 
+	//Crystal Flower
+	mods.immersiveengineering.Crusher.addRecipe(<ebwizardry:magic_crystal> * 4, <ebwizardry:crystal_flower>, 4000, <ebwizardry:magic_crystal> * 1, 0.25);
+
 	//Grain
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/barley_grain> * 1, <tfc:food/barley>, 4000, <tfc:food/barley_grain> * 1, 0.15);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/oat_grain> * 1, <tfc:food/oat>, 4000, <tfc:food/oat_grain> * 1, 0.15);

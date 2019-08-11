@@ -28,10 +28,84 @@
 	recipes.addShaped(<tconstruct:tinker_tank_controller>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSeared>, <minecraft:bucket>, <ore:blockSeared>], [<ore:blockSeared>, <tfc:crucible>, <ore:blockSeared>]]);
 	recipes.addShaped(<tconstruct:seared_furnace_controller>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<tfc:bellows>, <tfc:bloomery>, <tfc:bellows>], [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>]]);
 	recipes.addShaped(<tconstruct:smeltery_controller>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<tfc:bellows>, <tfc:blast_furnace>, <tfc:bellows>], [<ore:blockSeared>, <tfc:crucible>, <ore:blockSeared>]]);
+	
+	//Armor Forges
+	recipes.replaceAllOccurences(<ore:blockIron>, <ore:doubleIngotWroughtIron>, <conarm:armorforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockPigiron>, <ore:doubleIngotPigIron>, <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}));
+	recipes.replaceAllOccurences(<ore:blockArdite>, <ore:doubleIngotArdite>, <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}));
+	recipes.replaceAllOccurences(<ore:blockCobalt>, <ore:doubleIngotCobalt>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blockcobalt", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockManyullyn>, <ore:doubleIngotManyullyn>, <conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}));
+	recipes.replaceAllOccurences(<ore:blockCopper>, <ore:doubleIngotCopper>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blockcopper", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockBronze>, <ore:doubleIngotBronze>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blockbronze", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockLead>, <ore:doubleIngotLead>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blocklead", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockSilver>, <ore:doubleIngotSilver>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blocksilver", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockElectrum>, <ore:doubleIngotElectrum>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blockelectrum", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockSteel>, <ore:doubleIngotSteel>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blocksteel", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockGold>, <ore:doubleIngotGold>, <conarm:armorforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockBrass>, <ore:doubleIngotBrass>, <conarm:armorforge>.withTag({textureBlock: {id: "thaumcraft:metal_brass", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockTin>, <ore:doubleIngotTin>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blocktin", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockNickel>, <ore:doubleIngotNickel>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blocknickel", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockAluminum>, <ore:doubleIngotAluminum>, <conarm:armorforge>.withTag({textureBlock: {id: "chisel:blockaluminum", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockConstantan>, <ore:doubleIngotConstantan>, <conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 6 as short}}));
+	
+	//Tool Forges
+	recipes.replaceAllOccurences(<ore:blockIron>, <ore:doubleIngotWroughtIron>, <tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockPigiron>, <ore:doubleIngotPigIron>, <tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}));
+	recipes.replaceAllOccurences(<ore:blockArdite>, <ore:doubleIngotArdite>, <tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}));
+	recipes.replaceAllOccurences(<ore:blockCobalt>, <ore:doubleIngotCobalt>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blockcobalt", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockManyullyn>, <ore:doubleIngotManyullyn>, <tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}));
+	recipes.replaceAllOccurences(<ore:blockCopper>, <ore:doubleIngotCopper>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blockcopper", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockBronze>, <ore:doubleIngotBronze>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blockbronze", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockLead>, <ore:doubleIngotLead>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blocklead", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockSilver>, <ore:doubleIngotSilver>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blocksilver", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockElectrum>, <ore:doubleIngotElectrum>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blockelectrum", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockSteel>, <ore:doubleIngotSteel>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blocksteel", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockGold>, <ore:doubleIngotGold>, <tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockBrass>, <ore:doubleIngotBrass>, <tconstruct:toolforge>.withTag({textureBlock: {id: "thaumcraft:metal_brass", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockTin>, <ore:doubleIngotTin>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blocktin", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockNickel>, <ore:doubleIngotNickel>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blocknickel", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockAluminum>, <ore:doubleIngotAluminum>, <tconstruct:toolforge>.withTag({textureBlock: {id: "chisel:blockaluminum", Count: 1 as byte, Damage: 0 as short}}));
+	recipes.replaceAllOccurences(<ore:blockConstantan>, <ore:doubleIngotConstantan>, <tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 6 as short}}));
 
 
 //=======================================================================================================================================================================
 //TFC Metals to Smeltery
+
+	//Constantan
+
+	mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 576, <ore:doubleSheetConstantan>);
+	mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 288, <ore:sheetConstantan>);
+	mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 288, <ore:doubleIngotConstantan>);
+
+	//Electrum
+
+	mods.tconstruct.Melting.addRecipe(<liquid:electrum> * 576, <ore:doubleSheetElectrum>);
+	mods.tconstruct.Melting.addRecipe(<liquid:electrum> * 288, <ore:sheetElectrum>);
+	mods.tconstruct.Melting.addRecipe(<liquid:electrum> * 288, <ore:doubleIngotElectrum>);
+
+	//Aluminium
+
+	mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 576, <ore:doubleSheetAluminum>);
+	mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 288, <ore:sheetAluminum>);
+	mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 288, <ore:doubleIngotAluminum>);
+
+	//Ardite
+
+	mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 576, <ore:doubleSheetArdite>);
+	mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 288, <ore:sheetArdite>);
+	mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 288, <ore:doubleIngotArdite>);
+
+	//Cobalt
+
+	mods.tconstruct.Melting.addRecipe(<liquid:cobalt> * 576, <ore:doubleSheetCobalt>);
+	mods.tconstruct.Melting.addRecipe(<liquid:cobalt> * 288, <ore:sheetCobalt>);
+	mods.tconstruct.Melting.addRecipe(<liquid:cobalt> * 288, <ore:doubleIngotCobalt>);
+
+	//Manyullyn
+
+	mods.tconstruct.Melting.addRecipe(<liquid:manyullyn> * 576, <ore:doubleSheetManyullyn>);
+	mods.tconstruct.Melting.addRecipe(<liquid:manyullyn> * 288, <ore:sheetManyullyn>);
+	mods.tconstruct.Melting.addRecipe(<liquid:manyullyn> * 288, <ore:doubleIngotManyullyn>);
 
 	//Sterling Silver
 

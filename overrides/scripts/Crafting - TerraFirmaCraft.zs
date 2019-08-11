@@ -418,3 +418,5 @@
 	mods.terrafirmacraft.Quern.addRecipe("Sargassum", <tfc:plants/sargassum>, <minecraft:dye:3>);
 	mods.terrafirmacraft.Quern.addRecipe("Water Canna", <tfc:plants/water_canna>, <minecraft:dye:14> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Water Lily", <tfc:plants/water_lily>, <minecraft:dye:2>);
+	
+	mods.terrafirmacraft.Quern.addRecipe("Crystal Flower", <ebwizardry:crystal_flower>, <ebwizardry:magic_crystal> * 4);

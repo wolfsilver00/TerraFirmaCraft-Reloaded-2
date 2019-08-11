@@ -167,6 +167,134 @@ var plateElectrum = <ore:plateElectrum>;
 	<contenttweaker:electrum_sheet>
 	]);
 
+var plateArdite = <ore:plateArdite>;
+    plateArdite.addItems([
+	<contenttweaker:ardite_sheet>
+	]);
+
+var plateCobalt = <ore:plateCobalt>;
+    plateCobalt.addItems([
+	<contenttweaker:cobalt_sheet>
+	]);
+
+var plateManyullyn = <ore:plateManyullyn>;
+    plateManyullyn.addItems([
+	<contenttweaker:manyullyn_sheet>
+	]);
+
+var sheetAluminum = <ore:sheetAluminum>;
+    sheetAluminum.addItems([
+	<immersiveengineering:metal:31>,
+	<contenttweaker:aluminium_sheet>
+	]);
+
+var sheetAluminium = <ore:sheetAluminium>;
+    sheetAluminium.addItems([
+	<immersiveengineering:metal:31>,
+	<contenttweaker:aluminium_sheet>
+	]);
+
+var sheetConstantan = <ore:sheetConstantan>;
+    sheetConstantan.addItems([
+	<immersiveengineering:metal:36>,
+	<contenttweaker:constantan_sheet>
+	]);
+
+var sheetElectrum = <ore:sheetElectrum>;
+    sheetElectrum.addItems([
+	<immersiveengineering:metal:37>,
+	<contenttweaker:electrum_sheet>
+	]);
+
+var sheetArdite = <ore:sheetArdite>;
+    sheetArdite.addItems([
+	<contenttweaker:ardite_sheet>
+	]);
+
+var sheetCobalt = <ore:sheetCobalt>;
+    sheetCobalt.addItems([
+	<contenttweaker:cobalt_sheet>
+	]);
+
+var sheetManyullyn = <ore:sheetManyullyn>;
+    sheetManyullyn.addItems([
+	<contenttweaker:manyullyn_sheet>
+	]);
+
+var doubleIngotAluminum = <ore:doubleIngotAluminum>;
+    doubleIngotAluminum.addItems([
+	<contenttweaker:aluminium_double_ingot>
+	]);
+
+var doubleIngotAluminium = <ore:doubleIngotAluminium>;
+    doubleIngotAluminium.addItems([
+	<contenttweaker:aluminium_double_ingot>
+	]);
+
+var doubleIngotConstantan = <ore:doubleIngotConstantan>;
+    doubleIngotConstantan.addItems([
+	<contenttweaker:constantan_double_ingot>
+	]);
+
+var doubleIngotElectrum = <ore:doubleIngotElectrum>;
+    doubleIngotElectrum.addItems([
+	<contenttweaker:electrum_double_ingot>
+	]);
+
+var doubleIngotArdite = <ore:doubleIngotArdite>;
+    doubleIngotArdite.addItems([
+	<contenttweaker:ardite_double_ingot>
+	]);
+
+var doubleIngotCobalt = <ore:doubleIngotCobalt>;
+    doubleIngotCobalt.addItems([
+	<contenttweaker:cobalt_double_ingot>
+	]);
+
+var doubleIngotManyullyn = <ore:doubleIngotManyullyn>;
+    doubleIngotManyullyn.addItems([
+	<contenttweaker:manyullyn_double_ingot>
+	]);
+
+var doubleSheetAluminum = <ore:doubleSheetAluminum>;
+    doubleSheetAluminum.addItems([
+	<immersiveengineering:metal:31>,
+	<contenttweaker:aluminium_double_sheet>
+	]);
+
+var doubleSheetAluminium = <ore:doubleSheetAluminium>;
+    doubleSheetAluminium.addItems([
+	<immersiveengineering:metal:31>,
+	<contenttweaker:aluminium_double_sheet>
+	]);
+
+var doubleSheetConstantan = <ore:doubleSheetConstantan>;
+    doubleSheetConstantan.addItems([
+	<immersiveengineering:metal:36>,
+	<contenttweaker:constantan_double_sheet>
+	]);
+
+var doubleSheetElectrum = <ore:doubleSheetElectrum>;
+    doubleSheetElectrum.addItems([
+	<immersiveengineering:metal:37>,
+	<contenttweaker:electrum_double_sheet>
+	]);
+
+var doubleSheetArdite = <ore:doubleSheetArdite>;
+    doubleSheetArdite.addItems([
+	<contenttweaker:ardite_double_sheet>
+	]);
+
+var doubleSheetCobalt = <ore:doubleSheetCobalt>;
+    doubleSheetCobalt.addItems([
+	<contenttweaker:cobalt_double_sheet>
+	]);
+
+var doubleSheetManyullyn = <ore:doubleSheetManyullyn>;
+    doubleSheetManyullyn.addItems([
+	<contenttweaker:manyullyn_double_sheet>
+	]);
+
 var tfcLeaves = <ore:tfcLeaves>;
     tfcLeaves.addItems([
 		<tfc:wood/leaves/acacia>, 
@@ -734,6 +862,11 @@ var lumber = <ore:lumber>;
 var blockDust = <ore:blockDust>;
     blockDust.addItems([
 		<exnihilocreatio:block_dust>
+	]);
+
+var blockIce = <ore:blockIce>;
+    blockIce.addItems([
+		<tfc:sea_ice>
 	]);
 
 

@@ -1,5 +1,9 @@
 //=======================================================================================================================================================================
 //ItemRegistry
+	
+	//Paraglider Weight & Size
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider>, "LARGE", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider:1>, "LARGE", "MEDIUM");
 
 	//Vanilla Clay
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay_ball>, 0.14, 1540, true);

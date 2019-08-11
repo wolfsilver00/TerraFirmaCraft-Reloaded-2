@@ -2,6 +2,7 @@
 //Vanilla Recipes
 	
 	//Remove
+	recipes.remove(<ropebridge:rope>);
 	recipes.remove(<chisel:chisel_iron>);
 	recipes.remove(<chisel:chisel_diamond>);
 	recipes.remove(<chisel:offsettool>);
@@ -28,8 +29,12 @@
 	recipes.removeShaped(<minecraft:leather_leggings>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
 	recipes.removeShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
 
-	//Ice Cubes
+	//Rope
+	recipes.addShapeless(<ropebridge:rope>, [<betterwithmods:rope>]);
+	
+	//Tough As Nails
 	recipes.addShapeless(<toughasnails:ice_cube> * 4, [<ore:blockIce>, <ore:chisel>.transformDamage(1)]);
+	recipes.addShapeless(<toughasnails:magma_shard> * 4, [<minecraft:magma>, <ore:chisel>.transformDamage(1)]);
 	
 	//Other Recipes
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
@@ -98,6 +103,15 @@
 	recipes.addShaped(<betterstorage:reinforced_chest:7>, [[<ore:ingotZinc>, <ore:logWood>, <ore:ingotZinc>], [<ore:logWood>, <ore:chestWood>, <ore:logWood>], [<ore:ingotZinc>, <ore:doubleSheetZinc>, <ore:ingotZinc>]]);
 	recipes.addShaped(<betterstorage:reinforced_chest:8>, [[<ore:ingotSteel>, <ore:logWood>, <ore:ingotSteel>], [<ore:logWood>, <ore:chestWood>, <ore:logWood>], [<ore:ingotSteel>, <ore:doubleSheetSteel>, <ore:ingotSteel>]]);
 
+	//Paraglider
+	//recipes.replaceAllOccurences(<minecraft:leather>, <ore:clothHighQuality>, <paraglider:paraglider>);
+	recipes.replaceAllOccurences(<minecraft:leather>, <ore:clothHighQuality>, <paraglider:paraglider:1>);
+	recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:clothHighQuality>, <ore:stickWood>], [<ore:clothHighQuality>, <ore:stickWood>, <ore:clothHighQuality>], [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:fabricHemp>, <ore:stickWood>], [<ore:fabricHemp>, <ore:stickWood>, <ore:fabricHemp>], [<ore:stickWood>, null, <ore:stickWood>]]);
+
+	
+	//Rope Gun
+	recipes.replaceAllOccurences(<minecraft:planks>, <ore:lumber>, <ropebridge:bridge_builder_material.handle>);
 
 //=======================================================================================================================================================================
 //Rename Items

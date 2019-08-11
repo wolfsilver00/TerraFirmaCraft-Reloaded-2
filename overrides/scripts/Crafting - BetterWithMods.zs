@@ -198,6 +198,8 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/sargassum>], [<minecraft:dye:3>]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/water_canna>], [<minecraft:dye:14> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/water_lily>], [<minecraft:dye:2>]);
+	
+	mods.betterwithmods.Mill.addRecipe([<ebwizardry:crystal_flower>], [<ebwizardry:magic_crystal> * 4]);
 
 
 //=======================================================================================================================================================================
