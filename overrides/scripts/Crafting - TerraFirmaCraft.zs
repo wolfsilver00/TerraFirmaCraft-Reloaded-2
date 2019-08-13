@@ -8,8 +8,10 @@
 
 	recipes.addShapeless(<tfc:metal/ingot/gold> * 9, [<ore:blockGold>]);
 	recipes.addShapeless(<tfc:metal/ingot/wrought_iron> * 9, [<ore:blockIron>]);
+	recipes.addShapeless(<contenttweaker:glue> * 8, [<contenttweaker:dixie_glue>]);
+	recipes.addShapeless(<contenttweaker:vulcanizing_agents> * 4, [<ore:dustGraphitePowder>, <ore:dustKaolinitePowder>, <ore:dustChalkPowder>, <ore:dustSulfur>]);
 
-//Planed Lumber
+	//Planed Lumber
 	recipes.addShapeless(<contenttweaker:planed_plank_greatwood>, [<ore:lumberGreatwood>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_silverwood>, [<ore:lumberSilverwood>, <ore:planer>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:planed_plank_kapok>, [<ore:lumberKapok>, <ore:planer>.transformDamage(1)]);
@@ -58,6 +60,10 @@
 //Add Shaped Recipes
 
 	//recipes.addShaped(<tfc:thatch>, [[<ore:listAllgrain>, <ore:listAllgrain>], [<ore:listAllgrain>, <ore:listAllgrain>]]);
+	
+	//Dixie with bones
+	recipes.addShaped(<contenttweaker:dixie_bones>, [[<contenttweaker:dixie>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).giveBack(<tfc:wooden_bucket>)], [<ore:bone>, <ore:bone>], [<ore:bone>, <ore:bone>]]);
+	recipes.addShaped(<contenttweaker:dixie_bones>, [[<contenttweaker:dixie>, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}).giveBack(<minecraft:bucket>)], [<ore:bone>, <ore:bone>], [<ore:bone>, <ore:bone>]]);
 
 	//Stone Pillar
 	recipes.addShaped(<contenttweaker:pillar_slate> * 4, [[<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>], [<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>], [<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>]]);
@@ -314,9 +320,31 @@
 //=======================================================================================================================================================================
 //Add Fuel
 
-	furnace.setFuel(<tfc:ore/bituminous_coal>, 1400);
+	furnace.setFuel(<tfc:ore/bituminous_coal>, 1600);
 	furnace.setFuel(<tfc:ore/lignite>, 1200);
 	furnace.setFuel(<tfc:peat>, 800);
+	furnace.setFuel(<contenttweaker:firewood_acacia>, 800);
+	furnace.setFuel(<contenttweaker:firewood_ash>, 800);
+	furnace.setFuel(<contenttweaker:firewood_aspen>, 800);
+	furnace.setFuel(<contenttweaker:firewood_birch>, 800);
+	furnace.setFuel(<contenttweaker:firewood_blackwood>, 800);
+	furnace.setFuel(<contenttweaker:firewood_chestnut>, 800);
+	furnace.setFuel(<contenttweaker:firewood_douglas_fir>, 800);
+	furnace.setFuel(<contenttweaker:firewood_hickory>, 800);
+	furnace.setFuel(<contenttweaker:firewood_kapok>, 800);
+	furnace.setFuel(<contenttweaker:firewood_maple>, 800);
+	furnace.setFuel(<contenttweaker:firewood_oak>, 800);
+	furnace.setFuel(<contenttweaker:firewood_palm>, 800);
+	furnace.setFuel(<contenttweaker:firewood_pine>, 800);
+	furnace.setFuel(<contenttweaker:firewood_rosewood>, 800);
+	furnace.setFuel(<contenttweaker:firewood_sequoia>, 800);
+	furnace.setFuel(<contenttweaker:firewood_spruce>, 800);
+	furnace.setFuel(<contenttweaker:firewood_sycamore>, 800);
+	furnace.setFuel(<contenttweaker:firewood_white_cedar>, 800);
+	furnace.setFuel(<contenttweaker:firewood_white_elm>, 800);
+	furnace.setFuel(<contenttweaker:firewood_willow>, 800);
+	furnace.setFuel(<contenttweaker:firewood_greatwood>, 800);
+	furnace.setFuel(<contenttweaker:firewood_silverwood>, 800);
 
 
 //=======================================================================================================================================================================
@@ -342,6 +370,35 @@
 
 	mods.terrafirmacraft.Heating.addRecipe("Clay Brick Heating", <minecraft:clay_ball>, <minecraft:brick>, 900, 1200);
 	mods.terrafirmacraft.Heating.addRecipe("Terracotta Heating", <minecraft:clay>, <minecraft:hardened_clay>, 900, 1200);
+	
+	mods.terrafirmacraft.Heating.addRecipe("Dixie Glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
+	
+	mods.terrafirmacraft.Heating.addRecipe("Rubber", <contenttweaker:rubber_mix>, <contenttweaker:rubber>, 250, 250);
+	
+	mods.terrafirmacraft.Heating.addRecipe("Acacia Firewood Torch", <contenttweaker:firewood_acacia>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Ash Firewood Torch", <contenttweaker:firewood_ash>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Aspen Firewood Torch", <contenttweaker:firewood_aspen>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Birch Firewood Torch", <contenttweaker:firewood_birch>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Blackwood Firewood Torch", <contenttweaker:firewood_blackwood>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Chestnut Firewood Torch", <contenttweaker:firewood_chestnut>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Douglas Fir Firewood Torch", <contenttweaker:firewood_douglas_fir>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Hickory Firewood Torch", <contenttweaker:firewood_hickory>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Kapok Firewood Torch", <contenttweaker:firewood_kapok>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Maple Firewood Torch", <contenttweaker:firewood_maple>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Oak Firewood Torch", <contenttweaker:firewood_oak>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Palm Firewood Torch", <contenttweaker:firewood_palm>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Pine Firewood Torch", <contenttweaker:firewood_pine>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Rosewood Firewood Torch", <contenttweaker:firewood_rosewood>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Sequoia Firewood Torch", <contenttweaker:firewood_sequoia>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Spruce Firewood Torch", <contenttweaker:firewood_spruce>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Sycamore Firewood Torch", <contenttweaker:firewood_sycamore>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("White Cedar Firewood Torch", <contenttweaker:firewood_white_cedar>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("White Elm Firewood Torch", <contenttweaker:firewood_white_elm>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Willow Firewood Torch", <contenttweaker:firewood_willow>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Greatwood Firewood Torch", <contenttweaker:firewood_greatwood>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Silverwood Firewood Torch", <contenttweaker:firewood_silverwood>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Olive Firewood Torch", <contenttweaker:firewood_olive>, <tfc:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("Ironwood Firewood Torch", <contenttweaker:firewood_ironwood>, <tfc:torch> * 4, 40, 600);
 
 
 //=======================================================================================================================================================================
@@ -351,7 +408,16 @@
 
 
 //=======================================================================================================================================================================
+//Add Barrel Recipes
+
+	mods.terrafirmacraft.Barrel.addRecipe("Rubber", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+
+
+//=======================================================================================================================================================================
 //Add Quern Recipes
+
+	//Chalk Powder
+	mods.terrafirmacraft.Quern.addRecipe("Chalk Powder", <ore:rockChalk>, <contenttweaker:powder_chalk> * 4);
 
 	//Dyes
 	mods.terrafirmacraft.Quern.addRecipe("Allium", <tfc:plants/allium>, <minecraft:dye:5> * 2);

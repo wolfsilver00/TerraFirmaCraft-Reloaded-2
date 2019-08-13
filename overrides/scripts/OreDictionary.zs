@@ -28,6 +28,16 @@ var dyeBlack = <ore:dyeBlack>;
 	<tfc:powder/coke>
 	]);
 
+var glue = <ore:glue>;
+    glue.addItems([
+	<contenttweaker:glue>
+	]);
+
+var rubber = <ore:rubber>;
+    rubber.addItems([
+	<contenttweaker:rubber>
+	]);
+
 var fiberHemp = <ore:fiberHemp>;
     fiberHemp.addItems([
 	<tfc:crop/product/jute_fiber>
@@ -36,6 +46,68 @@ var fiberHemp = <ore:fiberHemp>;
 var fabricHemp = <ore:fabricHemp>;
     fabricHemp.addItems([
 	<tfc:crop/product/burlap_cloth>
+	]);
+	
+var latex = <ore:latex>;
+    latex.addItems([
+		<forge:bucketfilled>.withTag({FluidName: "latex", Amount: 1000}),
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "latex", Amount: 1000}})
+	]);
+	
+var firewood = <ore:firewood>;
+    firewood.addItems([
+		<contenttweaker:firewood_acacia>,
+		<contenttweaker:firewood_ash>,
+		<contenttweaker:firewood_aspen>,
+		<contenttweaker:firewood_birch>,
+		<contenttweaker:firewood_blackwood>,
+		<contenttweaker:firewood_chestnut>,
+		<contenttweaker:firewood_douglas_fir>,
+		<contenttweaker:firewood_hickory>,
+		<contenttweaker:firewood_kapok>,
+		<contenttweaker:firewood_maple>,
+		<contenttweaker:firewood_oak>,
+		<contenttweaker:firewood_palm>,
+		<contenttweaker:firewood_pine>,
+		<contenttweaker:firewood_rosewood>,
+		<contenttweaker:firewood_sequoia>,
+		<contenttweaker:firewood_spruce>,
+		<contenttweaker:firewood_sycamore>,
+		<contenttweaker:firewood_white_cedar>,
+		<contenttweaker:firewood_white_elm>,
+		<contenttweaker:firewood_willow>,
+		<contenttweaker:firewood_greatwood>,
+		<contenttweaker:firewood_silverwood>,
+		<contenttweaker:firewood_olive>,
+		<contenttweaker:firewood_ironwood>
+	]);
+	
+var kindling = <ore:kindling>;
+    kindling.addItems([
+		<contenttweaker:firewood_acacia>,
+		<contenttweaker:firewood_ash>,
+		<contenttweaker:firewood_aspen>,
+		<contenttweaker:firewood_birch>,
+		<contenttweaker:firewood_blackwood>,
+		<contenttweaker:firewood_chestnut>,
+		<contenttweaker:firewood_douglas_fir>,
+		<contenttweaker:firewood_hickory>,
+		<contenttweaker:firewood_kapok>,
+		<contenttweaker:firewood_maple>,
+		<contenttweaker:firewood_oak>,
+		<contenttweaker:firewood_palm>,
+		<contenttweaker:firewood_pine>,
+		<contenttweaker:firewood_rosewood>,
+		<contenttweaker:firewood_sequoia>,
+		<contenttweaker:firewood_spruce>,
+		<contenttweaker:firewood_sycamore>,
+		<contenttweaker:firewood_white_cedar>,
+		<contenttweaker:firewood_white_elm>,
+		<contenttweaker:firewood_willow>,
+		<contenttweaker:firewood_greatwood>,
+		<contenttweaker:firewood_silverwood>,
+		<contenttweaker:firewood_olive>,
+		<contenttweaker:firewood_ironwood>
 	]);
 	
 var water_wooden = <ore:water_wooden>;
@@ -81,6 +153,16 @@ var itemCoal = <ore:itemCoal>;
 		<minecraft:coal:1>,
 		<tfc:ore/lignite>,
 		<tfc:ore/bituminous_coal>
+	]);
+	
+var dustChalk = <ore:dustChalk>;
+    dustChalk.addItems([
+		<contenttweaker:powder_chalk>
+	]);
+	
+var dustChalkPowder = <ore:dustChalkPowder>;
+    dustChalkPowder.addItems([
+		<contenttweaker:powder_chalk>
 	]);
 	
 var dustSulfur = <ore:dustSulfur>;

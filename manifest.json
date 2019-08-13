@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TerraFirmaCraft Reloaded 2",
-  "version": "0.7.1",
+  "version": "0.8",
   "author": "Verph",
   "files": [
     {
@@ -92,11 +92,6 @@
     {
       "projectID": 255257,
       "fileID": 2729616,
-      "required": true
-    },
-    {
-      "projectID": 226294,
-      "fileID": 2497436,
       "required": true
     },
     {
@@ -297,6 +292,11 @@
     {
       "projectID": 285492,
       "fileID": 2705304,
+      "required": true
+    },
+    {
+      "projectID": 270466,
+      "fileID": 2705433,
       "required": true
     },
     {

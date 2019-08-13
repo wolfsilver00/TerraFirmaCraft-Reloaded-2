@@ -4,6 +4,8 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.SoundType;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
 
 
 //=====================================================================================================================================================================
@@ -47,6 +49,16 @@ jacaranda_leaves.blockSoundType = <soundtype:plant>;
 jacaranda_leaves.blockLayer = "TRANSLUCENT";
 jacaranda_leaves.setCreativeTab(<creativetab:decorations>);
 jacaranda_leaves.register();
+
+
+//=====================================================================================================================================================================
+//Latex Fluid
+
+var latex = VanillaFactory.createFluid("latex", Color.fromHex("ffffff"));
+latex.density = 10000;
+latex.stillLocation = "contenttweaker:fluids/latex_still";
+latex.flowingLocation = "contenttweaker:fluids/latex_flow";
+latex.register();
 
 
 //=====================================================================================================================================================================

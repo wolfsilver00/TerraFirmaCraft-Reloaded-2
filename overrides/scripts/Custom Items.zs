@@ -23,6 +23,215 @@ persimmon.register();
 
 
 //=====================================================================================================================================================================
+//Glue & Dixie buckets
+
+//Glue
+var glue = VanillaFactory.createItem("glue");
+glue.maxStackSize = 64;
+glue.setCreativeTab(<creativetab:decorations>);
+glue.register();
+
+//Dixie (Glue)
+var dixie_glue = VanillaFactory.createItem("dixie_glue");
+dixie_glue.maxStackSize = 16;
+dixie_glue.setCreativeTab(<creativetab:decorations>);
+dixie_glue.register();
+
+//Dixie (Water+Bones)
+var dixie_bones = VanillaFactory.createItem("dixie_bones");
+dixie_bones.maxStackSize = 16;
+dixie_bones.setCreativeTab(<creativetab:decorations>);
+dixie_bones.register();
+
+//Dixie
+var dixie = VanillaFactory.createItem("dixie");
+dixie.maxStackSize = 32;
+dixie.setCreativeTab(<creativetab:decorations>);
+dixie.register();
+
+
+//=====================================================================================================================================================================
+//Rubber
+
+//Rubber
+var rubber = VanillaFactory.createItem("rubber");
+rubber.maxStackSize = 64;
+rubber.setCreativeTab(<creativetab:decorations>);
+rubber.register();
+
+//Rubber Mix
+var rubber_mix = VanillaFactory.createItem("rubber_mix");
+rubber_mix.maxStackSize = 64;
+rubber_mix.setCreativeTab(<creativetab:decorations>);
+rubber_mix.register();
+
+//Vulcanizing Agents
+var vulcanizing_agents = VanillaFactory.createItem("vulcanizing_agents");
+vulcanizing_agents.maxStackSize = 64;
+vulcanizing_agents.setCreativeTab(<creativetab:decorations>);
+vulcanizing_agents.register();
+
+
+//=====================================================================================================================================================================
+//Chalk Powder
+
+//Chalk Powder
+var powder_chalk = VanillaFactory.createItem("powder_chalk");
+powder_chalk.maxStackSize = 64;
+powder_chalk.setCreativeTab(<creativetab:decorations>);
+powder_chalk.register();
+
+
+//=====================================================================================================================================================================
+//Firewood
+
+//Firewood Acacia
+var firewood_acacia = VanillaFactory.createItem("firewood_acacia");
+firewood_acacia.maxStackSize = 32;
+firewood_acacia.setCreativeTab(<creativetab:decorations>);
+firewood_acacia.register();
+
+//Firewood Ash
+var firewood_ash = VanillaFactory.createItem("firewood_ash");
+firewood_ash.maxStackSize = 32;
+firewood_ash.setCreativeTab(<creativetab:decorations>);
+firewood_ash.register();
+
+//Firewood Aspen
+var firewood_aspen = VanillaFactory.createItem("firewood_aspen");
+firewood_aspen.maxStackSize = 32;
+firewood_aspen.setCreativeTab(<creativetab:decorations>);
+firewood_aspen.register();
+
+//Firewood Birch
+var firewood_birch = VanillaFactory.createItem("firewood_birch");
+firewood_birch.maxStackSize = 32;
+firewood_birch.setCreativeTab(<creativetab:decorations>);
+firewood_birch.register();
+
+//Firewood Blackwood
+var firewood_blackwood = VanillaFactory.createItem("firewood_blackwood");
+firewood_blackwood.maxStackSize = 32;
+firewood_blackwood.setCreativeTab(<creativetab:decorations>);
+firewood_blackwood.register();
+
+//Firewood Chestnut
+var firewood_chestnut = VanillaFactory.createItem("firewood_chestnut");
+firewood_chestnut.maxStackSize = 32;
+firewood_chestnut.setCreativeTab(<creativetab:decorations>);
+firewood_chestnut.register();
+
+//Firewood Douglas Fir
+var firewood_douglas_fir = VanillaFactory.createItem("firewood_douglas_fir");
+firewood_douglas_fir.maxStackSize = 32;
+firewood_douglas_fir.setCreativeTab(<creativetab:decorations>);
+firewood_douglas_fir.register();
+
+//Firewood Hickory
+var firewood_hickory = VanillaFactory.createItem("firewood_hickory");
+firewood_hickory.maxStackSize = 32;
+firewood_hickory.setCreativeTab(<creativetab:decorations>);
+firewood_hickory.register();
+
+//Firewood Kapok
+var firewood_kapok = VanillaFactory.createItem("firewood_kapok");
+firewood_kapok.maxStackSize = 32;
+firewood_kapok.setCreativeTab(<creativetab:decorations>);
+firewood_kapok.register();
+
+//Firewood Maple
+var firewood_maple = VanillaFactory.createItem("firewood_maple");
+firewood_maple.maxStackSize = 32;
+firewood_maple.setCreativeTab(<creativetab:decorations>);
+firewood_maple.register();
+
+//Firewood Oak
+var firewood_oak = VanillaFactory.createItem("firewood_oak");
+firewood_oak.maxStackSize = 32;
+firewood_oak.setCreativeTab(<creativetab:decorations>);
+firewood_oak.register();
+
+//Firewood Palm
+var firewood_palm = VanillaFactory.createItem("firewood_palm");
+firewood_palm.maxStackSize = 32;
+firewood_palm.setCreativeTab(<creativetab:decorations>);
+firewood_palm.register();
+
+//Firewood Pine
+var firewood_pine = VanillaFactory.createItem("firewood_pine");
+firewood_pine.maxStackSize = 32;
+firewood_pine.setCreativeTab(<creativetab:decorations>);
+firewood_pine.register();
+
+//Firewood Rosewood
+var firewood_rosewood = VanillaFactory.createItem("firewood_rosewood");
+firewood_rosewood.maxStackSize = 32;
+firewood_rosewood.setCreativeTab(<creativetab:decorations>);
+firewood_rosewood.register();
+
+//Firewood Sequoia
+var firewood_sequoia = VanillaFactory.createItem("firewood_sequoia");
+firewood_sequoia.maxStackSize = 32;
+firewood_sequoia.setCreativeTab(<creativetab:decorations>);
+firewood_sequoia.register();
+
+//Firewood Spruce
+var firewood_spruce = VanillaFactory.createItem("firewood_spruce");
+firewood_spruce.maxStackSize = 32;
+firewood_spruce.setCreativeTab(<creativetab:decorations>);
+firewood_spruce.register();
+
+//Firewood Sycamore
+var firewood_sycamore = VanillaFactory.createItem("firewood_sycamore");
+firewood_sycamore.maxStackSize = 32;
+firewood_sycamore.setCreativeTab(<creativetab:decorations>);
+firewood_sycamore.register();
+
+//Firewood White Cedar
+var firewood_white_cedar = VanillaFactory.createItem("firewood_white_cedar");
+firewood_white_cedar.maxStackSize = 32;
+firewood_white_cedar.setCreativeTab(<creativetab:decorations>);
+firewood_white_cedar.register();
+
+//Firewood White Elm
+var firewood_white_elm = VanillaFactory.createItem("firewood_white_elm");
+firewood_white_elm.maxStackSize = 32;
+firewood_white_elm.setCreativeTab(<creativetab:decorations>);
+firewood_white_elm.register();
+
+//Firewood Willow
+var firewood_willow = VanillaFactory.createItem("firewood_willow");
+firewood_willow.maxStackSize = 32;
+firewood_willow.setCreativeTab(<creativetab:decorations>);
+firewood_willow.register();
+
+//Firewood Greatwood
+var firewood_greatwood = VanillaFactory.createItem("firewood_greatwood");
+firewood_greatwood.maxStackSize = 32;
+firewood_greatwood.setCreativeTab(<creativetab:decorations>);
+firewood_greatwood.register();
+
+//Firewood Silverwood
+var firewood_silverwood = VanillaFactory.createItem("firewood_silverwood");
+firewood_silverwood.maxStackSize = 32;
+firewood_silverwood.setCreativeTab(<creativetab:decorations>);
+firewood_silverwood.register();
+
+//Firewood Olive
+var firewood_olive = VanillaFactory.createItem("firewood_olive");
+firewood_olive.maxStackSize = 32;
+firewood_olive.setCreativeTab(<creativetab:decorations>);
+firewood_olive.register();
+
+//Firewood Ironwood
+var firewood_ironwood = VanillaFactory.createItem("firewood_ironwood");
+firewood_ironwood.maxStackSize = 32;
+firewood_ironwood.setCreativeTab(<creativetab:decorations>);
+firewood_ironwood.register();
+
+
+
+//=====================================================================================================================================================================
 //Planer
 
 //Planer Tool

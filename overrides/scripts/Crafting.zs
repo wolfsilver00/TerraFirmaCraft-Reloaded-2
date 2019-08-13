@@ -2,6 +2,9 @@
 //Vanilla Recipes
 	
 	//Remove
+	recipes.remove(<horsepower:hand_grindstone>);
+	recipes.remove(<horsepower:grindstone>);
+	recipes.remove(<minecraft:lead>);
 	recipes.remove(<ropebridge:rope>);
 	recipes.remove(<chisel:chisel_iron>);
 	recipes.remove(<chisel:chisel_diamond>);
@@ -60,6 +63,8 @@
 	recipes.addShaped(<minecraft:observer>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:dustRedstone>, <ore:dustRedstone>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 	recipes.addShaped(<minecraft:redstone_lamp>, [[null, <ore:dustRedstone>, null], [<ore:dustRedstone>, <ore:glowstone>, <ore:dustRedstone>], [null, <ore:dustRedstone>, null]]);
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>]]);
+	recipes.addShaped(<minecraft:lead>, [[<ore:fiberHemp>, <ore:fiberHemp>, null], [<ore:fiberHemp>, <ore:fiberHemp>, null], [null, null, <ore:fiberHemp>]]);
+	recipes.addShaped(<minecraft:lead>, [[<ore:string>, <ore:string>, null], [<ore:string>, <ore:string>, null], [null, null, <ore:string>]]);
 
 	//Better Storage Lockers
 	recipes.remove(<betterstorage:reinforced_locker:0>);
@@ -109,9 +114,12 @@
 	recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:clothHighQuality>, <ore:stickWood>], [<ore:clothHighQuality>, <ore:stickWood>, <ore:clothHighQuality>], [<ore:stickWood>, null, <ore:stickWood>]]);
 	recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:fabricHemp>, <ore:stickWood>], [<ore:fabricHemp>, <ore:stickWood>, <ore:fabricHemp>], [<ore:stickWood>, null, <ore:stickWood>]]);
 
-	
 	//Rope Gun
 	recipes.replaceAllOccurences(<minecraft:planks>, <ore:lumber>, <ropebridge:bridge_builder_material.handle>);
+
+	//Horse Grindstone
+	recipes.addShaped(<horsepower:grindstone>, [[null, <ore:stickWood>, null], [<minecraft:lead>, <ore:handstone>, <minecraft:lead>], [null, <tfc:quern>, null]]);
+
 
 //=======================================================================================================================================================================
 //Rename Items

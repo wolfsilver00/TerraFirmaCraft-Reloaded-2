@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_top",
-    "textures": {
-        "top": "contenttweaker:blocks/ores/amber/ore_amber_claystone",
-        "side": "contenttweaker:blocks/ores/amber/ore_amber_claystone"
-    }
-}

@@ -7,6 +7,48 @@ tile.contenttweaker.lavender.name=Lavender
 item.contenttweaker.jacaranda_lumber.name=Jacaranda Lumber
 item.contenttweaker.persimmon.name=Persimmon
 
+#Glue
+item.contenttweaker.glue.name=Glue
+item.contenttweaker.dixie_glue.name=Dixie (Glue)
+item.contenttweaker.dixie_bones.name=Dixie (Water+Bones)
+item.contenttweaker.dixie.name=Dixie
+
+#Rubber
+item.contenttweaker.rubber.name=Rubber
+item.contenttweaker.rubber_mix.name=Rubber Mix
+item.contenttweaker.vulcanizing_agents.name=Vulcanizing Agents
+
+#Chalk Powder
+item.contenttweaker.powder_chalk.name=Chalk Powder
+
+#Firewood
+item.contenttweaker.firewood_acacia.name=Acacia Firewood
+item.contenttweaker.firewood_ash.name=Ash Firewood
+item.contenttweaker.firewood_aspen.name=Aspen Firewood
+item.contenttweaker.firewood_birch.name=Birch Firewood
+item.contenttweaker.firewood_blackwood.name=Blackwood Firewood
+item.contenttweaker.firewood_chestnut.name=Chestnut Firewood
+item.contenttweaker.firewood_douglas_fir.name=Douglas Fir Firewood
+item.contenttweaker.firewood_hickory.name=Hickory Firewood
+item.contenttweaker.firewood_kapok.name=Kapok Firewood
+item.contenttweaker.firewood_maple.name=Maple Firewood
+item.contenttweaker.firewood_oak.name=Oak Firewood
+item.contenttweaker.firewood_palm.name=Palm Firewood
+item.contenttweaker.firewood_pine.name=Pine Firewood
+item.contenttweaker.firewood_rosewood.name=Rosewood Firewood
+item.contenttweaker.firewood_sequoia.name=Sequoia Firewood
+item.contenttweaker.firewood_spruce.name=Spruce Firewood
+item.contenttweaker.firewood_sycamore.name=Sycamore Firewood
+item.contenttweaker.firewood_white_cedar.name=White Cedar Firewood
+item.contenttweaker.firewood_white_elm.name=White Elm Firewood
+item.contenttweaker.firewood_willow.name=Willow Firewood
+item.contenttweaker.firewood_greatwood.name=Greatwood Firewood
+item.contenttweaker.firewood_silverwood.name=Silverwood Firewood
+
+#Latex
+fluid.latex.fluidname=Latex
+fluid.latex=Latex
+
 #Wood - Vertical Planks
 tile.contenttweaker.vertical_planks_acacia.name=Vertical Acacia Planks
 tile.contenttweaker.vertical_planks_ash.name=Vertical Ash Planks

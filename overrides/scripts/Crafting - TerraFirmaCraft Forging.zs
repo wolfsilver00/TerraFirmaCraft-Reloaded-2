@@ -1,15 +1,117 @@
 //=======================================================================================================================================================================
 //ItemRegistry
 	
+	//Dixie & Glue
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:glue>, "VERY_SMALL", "LIGHT");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:dixie_glue>, "LARGE", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:dixie_bones>, "LARGE", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:dixie>, "NORMAL", "MEDIUM");
+
+	//Dixie & Glue
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:glue>, 0.35, 400, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:dixie_glue>, 0.35, 400, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:dixie_bones>, 0.35, 400, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:dixie>, 0.35, 1535, true);
+	
+	//Rubber
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:rubber>, "VERY_SMALL", "LIGHT");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:rubber_mix>, "VERY_SMALL", "LIGHT");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:vulcanizing_agents>, "TINY", "LIGHT");
+
+	//Rubber
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:rubber>, 0.35, 250, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:rubber_mix>, 0.35, 250, true);
+	
+	//Firewood
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_acacia>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_ash>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_aspen>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_birch>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_blackwood>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_chestnut>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_douglas_fir>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_hickory>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_kapok>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_maple>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_oak>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_palm>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_pine>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_rosewood>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_sequoia>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_spruce>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_sycamore>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_white_cedar>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_white_elm>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_willow>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_greatwood>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_silverwood>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_olive>, "SMALL", "MEDIUM");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:firewood_ironwood>, "SMALL", "MEDIUM");
+
+	//Firewood
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_acacia>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_ash>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_aspen>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_birch>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_blackwood>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_chestnut>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_douglas_fir>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_hickory>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_kapok>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_maple>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_oak>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_palm>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_pine>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_rosewood>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_sequoia>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_spruce>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_sycamore>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_white_cedar>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_white_elm>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_willow>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_greatwood>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_silverwood>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_olive>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_ironwood>, 0.35, 80, true);
+
+	//Firewood
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_acacia>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ash>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_aspen>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_birch>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_blackwood>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_chestnut>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_douglas_fir>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_hickory>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_kapok>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_maple>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_oak>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_palm>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_pine>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_rosewood>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_sequoia>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_spruce>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_sycamore>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_white_cedar>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_white_elm>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_willow>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_greatwood>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_silverwood>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_olive>, 300, 600, true);
+	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ironwood>, 300, 600, true);
+
+	//Torch
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);
+	
 	//Paraglider Weight & Size
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider>, "LARGE", "MEDIUM");
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider:1>, "LARGE", "MEDIUM");
 
 	//Vanilla Clay
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay_ball>, 0.14, 1540, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:brick>, 0.14, 1540, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay>, 0.14, 1540, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:hardened_clay>, 0.14, 1540, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay_ball>, 0.14, 540, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:brick>, 0.14, 540, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay>, 0.14, 540, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:hardened_clay>, 0.14, 540, true);
 	
 	//Content Tweaker Metal Items - Size
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:aluminium_double_ingot>, "LARGE", "MEDIUM");
@@ -530,6 +632,9 @@
 
 //=======================================================================================================================================================================
 //Add Anvil Recipes
+
+	//Dixie
+	mods.terrafirmacraft.Anvil.addRecipe("Dixie", <tfc:metal/sheet/wrought_iron>, <contenttweaker:dixie>, 3, "BEND_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
 
 	//Rods
 	mods.terrafirmacraft.Anvil.addRecipe("Iron Rod", <tfc:metal/ingot/wrought_iron>, <immersiveengineering:material:1>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");

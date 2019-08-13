@@ -1,0 +1,9 @@
+//=======================================================================================================================================================================
+//Remove Recipes
+
+	mods.horsepower.ChoppingBlock.remove(<minecraft:planks>);
+	mods.horsepower.ChoppingBlock.remove(<minecraft:planks:1>);
+	mods.horsepower.ChoppingBlock.remove(<minecraft:planks:2>);
+	mods.horsepower.ChoppingBlock.remove(<minecraft:planks:3>);
+	mods.horsepower.ChoppingBlock.remove(<minecraft:planks:4>);
+	mods.horsepower.ChoppingBlock.remove(<minecraft:planks:5>);

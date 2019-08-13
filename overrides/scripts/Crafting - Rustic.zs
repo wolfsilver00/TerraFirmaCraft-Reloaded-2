@@ -1,8 +1,9 @@
 //=======================================================================================================================================================================
 //Crushing Tub
-
-mods.rustic.CrushingTub.addRecipe(<liquid:water> * 1000, <minecraft:sugar> * 10, <tfc:food/sugarcane> * 50);
-mods.rustic.CrushingTub.addRecipe(<liquid:water> * 1000, <minecraft:sugar> * 10, <tfc:plants/sugar_cane> * 50);
+mods.rustic.CrushingTub.removeRecipe(<liquid:water>, <minecraft:reeds>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <minecraft:reeds> * 5);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <tfc:food/sugarcane> * 5);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <tfc:plants/sugar_cane> * 5);
 mods.rustic.CrushingTub.addRecipe(<liquid:oliveoil> * 250, null, <tfc:food/olive>);
 mods.rustic.CrushingTub.addRecipe(<liquid:oliveoil> * 250, null, <harvestcraft:oliveitem>);
 mods.rustic.CrushingTub.addRecipe(<liquid:applejuice> * 250, null, <tfc:food/red_apple>);
