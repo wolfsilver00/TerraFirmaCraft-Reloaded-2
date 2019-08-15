@@ -3,10 +3,14 @@
 **Work in progress.**
 
 
+[Link to the modpack on CurseForge.](https://www.curseforge.com/minecraft/modpacks/terrafirmacraft-reloaded)
+
+
 ## How to use
 
 - Import this into the Twitch client in order to be able to play it. 
 - [Follow this guide to figure out how to do it.](https://help.twitch.tv/customer/en/portal/articles/2764215-guide-to-modpacks#Import)
+- Once the modpack goes public on CurseForge, then you can simply find it, download it and install it using the Twitch Client.
 
 
 ## Modlist
