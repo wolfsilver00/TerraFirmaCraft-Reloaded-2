@@ -10,8 +10,69 @@
 	
 	//Drying Leather
 	mods.tconstruct.Drying.removeRecipe(<minecraft:leather>);
-	
-	
+
+
+//=======================================================================================================================================================================
+//Remove Casting Recipes
+
+	//Remove Ingot Recipes
+	mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:5>);
+	mods.tconstruct.Casting.removeTableRecipe(<minecraft:gold_ingot>);
+	mods.tconstruct.Casting.removeTableRecipe(<minecraft:iron_ingot>);
+	mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:4>);
+
+	//Remove Sheet Recipes
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/bismuth>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/bismuth_bronze>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/black_bronze>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/brass>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/bronze>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/copper>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/gold>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/lead>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/nickel>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/rose_gold>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/silver>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/tin>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/zinc>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/sterling_silver>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/wrought_iron>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/pig_iron>);
+	mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/steel>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/platinum>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/black_steel>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/blue_steel>);
+	//mods.tconstruct.Casting.removeTableRecipe(<tfc:metal/sheet/red_steel>);
+	//mods.tconstruct.Casting.removeTableRecipe(<contenttweaker:aluminium_sheet>);
+	mods.tconstruct.Casting.removeTableRecipe(<contenttweaker:ardite_sheet>);
+	mods.tconstruct.Casting.removeTableRecipe(<contenttweaker:cobalt_sheet>);
+	//mods.tconstruct.Casting.removeTableRecipe(<contenttweaker:constantan_sheet>);
+	//mods.tconstruct.Casting.removeTableRecipe(<contenttweaker:electrum_sheet>);
+	mods.tconstruct.Casting.removeTableRecipe(<contenttweaker:manyullyn_sheet>);
+
+
+//=======================================================================================================================================================================
+//Remove Melting Recipes
+
+	mods.tconstruct.Melting.removeRecipe(<liquid:cobalt>, <contenttweaker:cobalt_sheet>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:ardite>, <contenttweaker:ardite_sheet>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:manyullyn>, <contenttweaker:manyullyn_sheet>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>, <contenttweaker:aluminium_sheet>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:electrum>, <contenttweaker:electrum_sheet>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:constantan>, <contenttweaker:constantan_sheet>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:brass>, <tfc:metal/sheet/brass>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:bronze>, <tfc:metal/sheet/bronze>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <tfc:metal/sheet/copper>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <tfc:metal/sheet/gold>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:lead>, <tfc:metal/sheet/lead>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:nickel>, <tfc:metal/sheet/nickel>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:silver>, <tfc:metal/sheet/silver>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:tin>, <tfc:metal/sheet/tin>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:zinc>, <tfc:metal/sheet/zinc>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <tfc:metal/sheet/wrought_iron>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <tfc:metal/sheet/steel>);
+
+
 //=======================================================================================================================================================================
 //Recipes
 
@@ -378,51 +439,57 @@
 //=======================================================================================================================================================================
 //Add Casting	
 
+	//Ingot Casting
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth>, <tconstruct:cast_custom>, <liquid:bismuth>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bismuth_bronze>, <tconstruct:cast_custom>, <liquid:bismuth_bronze>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_bronze>, <tconstruct:cast_custom>, <liquid:black_bronze>, 144, false, 40);
-
-	mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:5>);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/brass>, <tconstruct:cast_custom>, <liquid:brass>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/bronze>, <tconstruct:cast_custom>, <liquid:bronze>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/copper>, <tconstruct:cast_custom>, <liquid:copper>, 144, false, 40);
-	
-	mods.tconstruct.Casting.removeTableRecipe(<minecraft:gold_ingot>);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/gold>, <tconstruct:cast_custom>, <liquid:gold>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/lead>, <tconstruct:cast_custom>, <liquid:lead>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/nickel>, <tconstruct:cast_custom>, <liquid:nickel>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/rose_gold>, <tconstruct:cast_custom>, <liquid:rose_gold>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/silver>, <tconstruct:cast_custom>, <liquid:silver>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/tin>, <tconstruct:cast_custom>, <liquid:tin>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/zinc>, <tconstruct:cast_custom>, <liquid:zinc>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/sterling_silver>, <tconstruct:cast_custom>, <liquid:sterling_silver>, 144, false, 40);
-	
-	mods.tconstruct.Casting.removeTableRecipe(<minecraft:iron_ingot>);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/wrought_iron>, <tconstruct:cast_custom>, <liquid:iron>, 144, false, 40);
-	
-	mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:4>);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/pig_iron>, <tconstruct:cast_custom>, <liquid:pigiron>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/steel>, <tconstruct:cast_custom>, <liquid:steel>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/platinum>, <tconstruct:cast_custom>, <liquid:platinum>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/black_steel>, <tconstruct:cast_custom>, <liquid:black_steel>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/blue_steel>, <tconstruct:cast_custom>, <liquid:blue_steel>, 144, false, 40);
-	
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/ingot/red_steel>, <tconstruct:cast_custom>, <liquid:red_steel>, 144, false, 40);
+
+	//Sheet Casting
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/bismuth>, <tconstruct:cast_custom:3>, <liquid:bismuth>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/bismuth_bronze>, <tconstruct:cast_custom:3>, <liquid:bismuth_bronze>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/black_bronze>, <tconstruct:cast_custom:3>, <liquid:black_bronze>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/brass>, <tconstruct:cast_custom:3>, <liquid:brass>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/bronze>, <tconstruct:cast_custom:3>, <liquid:bronze>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/copper>, <tconstruct:cast_custom:3>, <liquid:copper>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/gold>, <tconstruct:cast_custom:3>, <liquid:gold>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/lead>, <tconstruct:cast_custom:3>, <liquid:lead>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/nickel>, <tconstruct:cast_custom:3>, <liquid:nickel>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/rose_gold>, <tconstruct:cast_custom:3>, <liquid:rose_gold>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/silver>, <tconstruct:cast_custom:3>, <liquid:silver>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/tin>, <tconstruct:cast_custom:3>, <liquid:tin>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/zinc>, <tconstruct:cast_custom:3>, <liquid:zinc>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/sterling_silver>, <tconstruct:cast_custom:3>, <liquid:sterling_silver>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/wrought_iron>, <tconstruct:cast_custom:3>, <liquid:iron>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/pig_iron>, <tconstruct:cast_custom:3>, <liquid:pigiron>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/steel>, <tconstruct:cast_custom:3>, <liquid:steel>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/platinum>, <tconstruct:cast_custom:3>, <liquid:platinum>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/black_steel>, <tconstruct:cast_custom:3>, <liquid:black_steel>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/blue_steel>, <tconstruct:cast_custom:3>, <liquid:blue_steel>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/sheet/red_steel>, <tconstruct:cast_custom:3>, <liquid:red_steel>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<contenttweaker:aluminium_sheet>, <tconstruct:cast_custom:3>, <liquid:aluminum>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<contenttweaker:ardite_sheet>, <tconstruct:cast_custom:3>, <liquid:ardite>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<contenttweaker:cobalt_sheet>, <tconstruct:cast_custom:3>, <liquid:cobalt>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<contenttweaker:constantan_sheet>, <tconstruct:cast_custom:3>, <liquid:constantan>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<contenttweaker:electrum_sheet>, <tconstruct:cast_custom:3>, <liquid:electrum>, 288, false, 80);
+	mods.tconstruct.Casting.addTableRecipe(<contenttweaker:manyullyn_sheet>, <tconstruct:cast_custom:3>, <liquid:manyullyn>, 288, false, 80);
 
 
 //=======================================================================================================================================================================

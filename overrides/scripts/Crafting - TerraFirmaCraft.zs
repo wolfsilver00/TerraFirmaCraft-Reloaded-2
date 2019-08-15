@@ -65,6 +65,29 @@
 	recipes.addShaped(<contenttweaker:dixie_bones>, [[<contenttweaker:dixie>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).giveBack(<tfc:wooden_bucket>)], [<ore:bone>, <ore:bone>], [<ore:bone>, <ore:bone>]]);
 	recipes.addShaped(<contenttweaker:dixie_bones>, [[<contenttweaker:dixie>, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}).giveBack(<minecraft:bucket>)], [<ore:bone>, <ore:bone>], [<ore:bone>, <ore:bone>]]);
 
+	//Stone Road
+	recipes.addShaped(<contenttweaker:road_slate> * 4, [[<ore:gravelSlate>, <ore:brickSlate>, <ore:gravelSlate>], [<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>], [<ore:gravelSlate>, <ore:brickSlate>, <ore:gravelSlate>]]);
+	recipes.addShaped(<contenttweaker:road_shale> * 4, [[<ore:gravelShale>, <ore:brickShale>, <ore:gravelShale>], [<ore:brickShale>, <tfc:mortar>, <ore:brickShale>], [<ore:gravelShale>, <ore:brickShale>, <ore:gravelShale>]]);
+	recipes.addShaped(<contenttweaker:road_schist> * 4, [[<ore:gravelSchist>, <ore:brickSchist>, <ore:gravelSchist>], [<ore:brickSchist>, <tfc:mortar>, <ore:brickSchist>], [<ore:gravelSchist>, <ore:brickSchist>, <ore:gravelSchist>]]);
+	recipes.addShaped(<contenttweaker:road_rock_salt> * 4, [[<ore:gravelRocksalt>, <ore:brickRocksalt>, <ore:gravelRocksalt>], [<ore:brickRocksalt>, <tfc:mortar>, <ore:brickRocksalt>], [<ore:gravelRocksalt>, <ore:brickRocksalt>, <ore:gravelRocksalt>]]);
+	recipes.addShaped(<contenttweaker:road_rhyolite> * 4, [[<ore:gravelRhyolite>, <ore:brickRhyolite>, <ore:gravelRhyolite>], [<ore:brickRhyolite>, <tfc:mortar>, <ore:brickRhyolite>], [<ore:gravelRhyolite>, <ore:brickRhyolite>, <ore:gravelRhyolite>]]);
+	recipes.addShaped(<contenttweaker:road_quartzite> * 4, [[<ore:gravelQuartzite>, <ore:brickQuartzite>, <ore:gravelQuartzite>], [<ore:brickQuartzite>, <tfc:mortar>, <ore:brickQuartzite>], [<ore:gravelQuartzite>, <ore:brickQuartzite>, <ore:gravelQuartzite>]]);
+	recipes.addShaped(<contenttweaker:road_phyllite> * 4, [[<ore:gravelPhyllite>, <ore:brickPhyllite>, <ore:gravelPhyllite>], [<ore:brickPhyllite>, <tfc:mortar>, <ore:brickPhyllite>], [<ore:gravelPhyllite>, <ore:brickPhyllite>, <ore:gravelPhyllite>]]);
+	recipes.addShaped(<contenttweaker:road_marble> * 4, [[<ore:gravelMarble>, <ore:brickMarble>, <ore:gravelMarble>], [<ore:brickMarble>, <tfc:mortar>, <ore:brickMarble>], [<ore:gravelMarble>, <ore:brickMarble>, <ore:gravelMarble>]]);
+	recipes.addShaped(<contenttweaker:road_limestone> * 4, [[<ore:gravelLimestone>, <ore:brickLimestone>, <ore:gravelLimestone>], [<ore:brickLimestone>, <tfc:mortar>, <ore:brickLimestone>], [<ore:gravelLimestone>, <ore:brickLimestone>, <ore:gravelLimestone>]]);
+	recipes.addShaped(<contenttweaker:road_granite> * 4, [[<ore:gravelGranite>, <ore:brickGranite>, <ore:gravelGranite>], [<ore:brickGranite>, <tfc:mortar>, <ore:brickGranite>], [<ore:gravelGranite>, <ore:brickGranite>, <ore:gravelGranite>]]);
+	recipes.addShaped(<contenttweaker:road_gneiss> * 4, [[<ore:gravelGneiss>, <ore:brickGneiss>, <ore:gravelGneiss>], [<ore:brickGneiss>, <tfc:mortar>, <ore:brickGneiss>], [<ore:gravelGneiss>, <ore:brickGneiss>, <ore:gravelGneiss>]]);
+	recipes.addShaped(<contenttweaker:road_gabbro> * 4, [[<ore:gravelGabbro>, <ore:brickGabbro>, <ore:gravelGabbro>], [<ore:brickGabbro>, <tfc:mortar>, <ore:brickGabbro>], [<ore:gravelGabbro>, <ore:brickGabbro>, <ore:gravelGabbro>]]);
+	recipes.addShaped(<contenttweaker:road_dolomite> * 4, [[<ore:gravelDolomite>, <ore:brickDolomite>, <ore:gravelDolomite>], [<ore:brickDolomite>, <tfc:mortar>, <ore:brickDolomite>], [<ore:gravelDolomite>, <ore:brickDolomite>, <ore:gravelDolomite>]]);
+	recipes.addShaped(<contenttweaker:road_diorite> * 4, [[<ore:gravelDiorite>, <ore:brickDiorite>, <ore:gravelDiorite>], [<ore:brickDiorite>, <tfc:mortar>, <ore:brickDiorite>], [<ore:gravelDiorite>, <ore:brickDiorite>, <ore:gravelDiorite>]]);
+	recipes.addShaped(<contenttweaker:road_dacite> * 4, [[<ore:gravelDacite>, <ore:brickDacite>, <ore:gravelDacite>], [<ore:brickDacite>, <tfc:mortar>, <ore:brickDacite>], [<ore:gravelDacite>, <ore:brickDacite>, <ore:gravelDacite>]]);
+	recipes.addShaped(<contenttweaker:road_conglomerate> * 4, [[<ore:gravelConglomerate>, <ore:brickConglomerate>, <ore:gravelConglomerate>], [<ore:brickConglomerate>, <tfc:mortar>, <ore:brickConglomerate>], [<ore:gravelConglomerate>, <ore:brickConglomerate>, <ore:gravelConglomerate>]]);
+	recipes.addShaped(<contenttweaker:road_claystone> * 4, [[<ore:gravelClaystone>, <ore:brickClaystone>, <ore:gravelClaystone>], [<ore:brickClaystone>, <tfc:mortar>, <ore:brickClaystone>], [<ore:gravelClaystone>, <ore:brickClaystone>, <ore:gravelClaystone>]]);
+	recipes.addShaped(<contenttweaker:road_chert> * 4, [[<ore:gravelChert>, <ore:brickChert>, <ore:gravelChert>], [<ore:brickChert>, <tfc:mortar>, <ore:brickChert>], [<ore:gravelChert>, <ore:brickChert>, <ore:gravelChert>]]);
+	recipes.addShaped(<contenttweaker:road_chalk> * 4, [[<ore:gravelChalk>, <ore:brickChalk>, <ore:gravelChalk>], [<ore:brickChalk>, <tfc:mortar>, <ore:brickChalk>], [<ore:gravelChalk>, <ore:brickChalk>, <ore:gravelChalk>]]);
+	recipes.addShaped(<contenttweaker:road_basalt> * 4, [[<ore:gravelBasalt>, <ore:brickBasalt>, <ore:gravelBasalt>], [<ore:brickBasalt>, <tfc:mortar>, <ore:brickBasalt>], [<ore:gravelBasalt>, <ore:brickBasalt>, <ore:gravelBasalt>]]);
+	recipes.addShaped(<contenttweaker:road_andesite> * 4, [[<ore:gravelAndesite>, <ore:brickAndesite>, <ore:gravelAndesite>], [<ore:brickAndesite>, <tfc:mortar>, <ore:brickAndesite>], [<ore:gravelAndesite>, <ore:brickAndesite>, <ore:gravelAndesite>]]);
+
 	//Stone Pillar
 	recipes.addShaped(<contenttweaker:pillar_slate> * 4, [[<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>], [<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>], [<ore:brickSlate>, <tfc:mortar>, <ore:brickSlate>]]);
 	recipes.addShaped(<contenttweaker:pillar_shale> * 4, [[<ore:brickShale>, <tfc:mortar>, <ore:brickShale>], [<ore:brickShale>, <tfc:mortar>, <ore:brickShale>], [<ore:brickShale>, <tfc:mortar>, <ore:brickShale>]]);
@@ -410,7 +433,8 @@
 //=======================================================================================================================================================================
 //Add Barrel Recipes
 
-	mods.terrafirmacraft.Barrel.addRecipe("Rubber", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("Rubber Latex", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("Rubber Oil", <contenttweaker:vulcanizing_agents>, <liquid:oil> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
 
 
 //=======================================================================================================================================================================

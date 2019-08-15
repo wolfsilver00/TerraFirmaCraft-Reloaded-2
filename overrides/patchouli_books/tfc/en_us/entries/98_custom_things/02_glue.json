@@ -1,0 +1,32 @@
+{
+  "name": "Glue",
+  "icon": "contenttweaker:glue",
+  "category": "98_custom_things",
+  "sortnum" : "2",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Glue",
+	  "item": "contenttweaker:glue",
+      "text": "Glue is made from heating up a dixie bucket filled with water and bones. The glue can then in turn be used as substitute for slimeballs in most cases."
+	},
+    {
+      "type": "crafting",
+      "recipe": "contenttweaker:glue",
+	  "title": "Crafting Glue"
+    },
+	{
+      "type": "spotlight",
+	  "title": "Dixie (Water+Bones)",
+	  "item": "contenttweaker:dixie_bones",
+      "text": "Before you can make the glue, you'll need to fill a dixie with bones and water. Which you'll then have to heat up over a fire to produce glue."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Dixie",
+	  "item": "contenttweaker:dixie",
+      "text": "A dixie is made from working a sheet of wrought iron on an anvil."
+	}
+  ]
+}

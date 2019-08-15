@@ -33,6 +33,11 @@ var glue = <ore:glue>;
 	<contenttweaker:glue>
 	]);
 
+var slimeball = <ore:slimeball>;
+    slimeball.addItems([
+	<contenttweaker:glue>
+	]);
+
 var rubber = <ore:rubber>;
     rubber.addItems([
 	<contenttweaker:rubber>

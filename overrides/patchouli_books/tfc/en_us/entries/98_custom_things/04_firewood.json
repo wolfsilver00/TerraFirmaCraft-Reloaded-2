@@ -1,0 +1,15 @@
+{
+  "name": "Firewood",
+  "icon": "contenttweaker:firewood_oak",
+  "category": "98_custom_things",
+  "sortnum" : "4",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Firewood",
+	  "item": "contenttweaker:firewood_oak",
+      "text": "Firewood is made from chopping logs on a chopping block using an axe. Firewood can be used as fuel in forges or made into torches in a firepit."
+	}
+  ]
+}

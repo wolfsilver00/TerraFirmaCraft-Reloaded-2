@@ -1,0 +1,38 @@
+{
+  "name": "Stone Block Decoration",
+  "icon": "contenttweaker:circle_granite",
+  "category": "98_custom_things",
+  "sortnum" : "5",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "These stone blocks are purely decorative."
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Circle Stone",
+      "recipe": "contenttweaker:circle_granite"
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Pillars",
+      "recipe": "contenttweaker:pillar_granite"
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Tiles",
+      "recipe": "contenttweaker:tile_granite"
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Fancy Tiles",
+      "recipe": "contenttweaker:tile_fancy_granite"
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Roads",
+      "recipe": "contenttweaker:road_granite"
+    }
+  ]
+}

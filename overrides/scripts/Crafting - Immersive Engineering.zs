@@ -36,6 +36,9 @@
 	//Crystal Flower
 	mods.immersiveengineering.Crusher.addRecipe(<ebwizardry:magic_crystal> * 4, <ebwizardry:crystal_flower>, 4000, <ebwizardry:magic_crystal> * 1, 0.25);
 
+	//Chalk
+	mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:powder_chalk> * 4, <tfc:rock/chalk>, 4000, <contenttweaker:powder_chalk> * 1, 0.25);
+
 	//Grain
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/barley_grain> * 1, <tfc:food/barley>, 4000, <tfc:food/barley_grain> * 1, 0.15);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:food/oat_grain> * 1, <tfc:food/oat>, 4000, <tfc:food/oat_grain> * 1, 0.15);
@@ -216,6 +219,7 @@
 	//Add
 	mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 1, 500, <tfc:ore/bituminous_coal>, 1000);
 	mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 1, 500, <tfc:ore/lignite>, 1200);
+	mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6> * 1, 500, <tfc:peat>, 1200);
 	
 
 //=======================================================================================================================================================================
@@ -378,6 +382,12 @@
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/double_ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/double_ingot/wrought_iron>, <tfc:metal/ingot/wrought_iron>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/double_ingot/black_bronze>, <tfc:metal/ingot/black_bronze>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminium_double_ingot>, <immersiveengineering:metal:1>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:ardite_double_ingot>, <tconstruct:ingots:1>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:cobalt_double_ingot>, <tconstruct:ingots>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:constantan_double_ingot>, <immersiveengineering:metal:6>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_double_ingot>, <immersiveengineering:metal:7>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_double_ingot>, <tconstruct:ingots:2>, <tfc:metal/hammer_head/steel>, 500, 2);
 
 
 //Metal Sheets
@@ -403,6 +413,12 @@
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/sheet/lead>, <tfc:metal/double_ingot/lead>, <tfc:metal/hammer_head/steel>, 500);
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/sheet/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>, <tfc:metal/hammer_head/steel>, 500);
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/sheet/black_bronze>, <tfc:metal/double_ingot/black_bronze>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminium_sheet>, <contenttweaker:aluminium_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:ardite_sheet>, <contenttweaker:ardite_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:constantan_sheet>, <contenttweaker:constantan_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_sheet>, <contenttweaker:electrum_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_sheet>, <contenttweaker:manyullyn_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
 
 
 //Metal Double Sheets
@@ -428,6 +444,12 @@
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/double_sheet/lead>, <tfc:metal/sheet/lead>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/double_sheet/wrought_iron>, <tfc:metal/sheet/wrought_iron>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/double_sheet/black_bronze>, <tfc:metal/sheet/black_bronze>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:aluminium_double_sheet>, <contenttweaker:aluminium_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:ardite_double_sheet>, <contenttweaker:ardite_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:cobalt_double_sheet>, <contenttweaker:cobalt_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:constantan_double_sheet>, <contenttweaker:constantan_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_double_sheet>, <contenttweaker:electrum_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_double_sheet>, <contenttweaker:manyullyn_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
 
 
 //=======================================================================================================================================================================

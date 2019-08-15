@@ -1,0 +1,27 @@
+{
+  "name": "Custom Ores",
+  "icon": "contenttweaker:ore_quartz_granite",
+  "category": "98_custom_things",
+  "sortnum" : "5",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Quartz Ore",
+	  "item": "contenttweaker:ore_quartz_granite",
+      "text": "Quartz ore can be found in any type of rock."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Amber Ore",
+	  "item": "contenttweaker:ore_amber_granite",
+      "text": "Amber ore can also be found in any type of rock."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Cinnabar Ore",
+	  "item": "contenttweaker:ore_cinnabar_quartzite",
+      "text": "Cinnabar ore can be found in some types of rock, these are the following: basalt, rhyolite, quartzite, andesite, dacite and shale.$(br2)These ores drop quicksilver, which are used in Thaumcraft."
+	}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Rubber",
+  "icon": "contenttweaker:rubber",
+  "category": "98_custom_things",
+  "sortnum" : "1",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Rubber",
+	  "item": "contenttweaker:rubber",
+      "text": "The rubber is acquired from heating up rubber mix in a fireplace or forge. The rubber can be used as substitute for leather, in the production of conveyer belts."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Rubber Mix",
+	  "item": "contenttweaker:rubber_mix",
+      "text": "The rubber mix is acquired from mixing vulcanizing agents with either crude oil or latex in a barrel, and letting it steep/mix for 8 in-game hours."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Vulcanizing Agents",
+	  "item": "contenttweaker:vulcanizing_agents",
+      "text": "Vulcanizing is used in the process of rubber making.$(br2)The vulcanizing agents are acquired from crafting kaolinite powder, sulfur powder, chalk powder and graphite powder together in a crafting grid."
+	},
+    {
+      "type": "crafting",
+      "recipe": "contenttweaker:vulcanizing_agents",
+	  "title": "Crafting Vulcanizing Agents"
+    },
+	{
+      "type": "spotlight",
+	  "title": "Chalk Powder",
+	  "item": "contenttweaker:powder_chalk",
+      "text": "Chalk powder that is used in the creation of vulcanizing agents. Grind a piece of chalk rock to get chalk powder."
+	},
+	{
+      "type": "spotlight",
+	  "title": "Latex",
+	  "item": "tfc:wooden_bucket",
+      "text": "Latex can be used for the production of rubber, which can be used as a substitute for leather in the creation of conveyer belts.$(br2)However, latex is currently not obtainable."
+	}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Planer",
+  "icon": "contenttweaker:wrought_iron_planer",
+  "category": "98_custom_things",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": [
+	{
+      "type": "spotlight",
+	  "title": "Planer",
+	  "item": "contenttweaker:wrought_iron_planer",
+      "text": "Planers are used for making planed lumber, which are used for certain types of decorative blocks."
+	},
+    {
+      "type": "crafting",
+      "recipe": "contenttweaker:wrought_iron_planer",
+	  "title": "Crafting a Planer"
+    },
+	{
+      "type": "spotlight",
+	  "title": "Planer Blade",
+	  "item": "contenttweaker:wrought_iron_planer_blade",
+      "text": "Planer blades are made from working ingots on an anvil."
+	},
+    {
+      "type": "crafting",
+	  "title": "Crafting Planed Lumber",
+      "recipe": "contenttweaker:planed_plank_oak",
+      "text": "Planed lumber is crafted like so."
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Parquet",
+      "recipe": "contenttweaker:parquet_oak"
+    },
+    {
+      "type": "crafting",
+	  "title": "Crafting Large Planks",
+      "recipe": "contenttweaker:large_planks_oak"
+    }
+  ]
+}

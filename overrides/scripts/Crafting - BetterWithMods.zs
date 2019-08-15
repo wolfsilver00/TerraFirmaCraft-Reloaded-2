@@ -101,8 +101,11 @@
 	//Salt
 	mods.betterwithmods.Mill.addRecipe([<tfc:rock/rocksalt>], [<tfc:powder/salt> * 8]);
 
-	//Salt
+	//Kimberlite
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/kimberlite>], [<tfc:gem/diamond:1> * 2]);
+
+	//Chalk
+	mods.betterwithmods.Mill.addRecipe([<tfc:rock/chalk>], [<contenttweaker:powder_chalk> * 4]);
 
 	//Hematite
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/small/hematite>], [<tfc:powder/hematite_powder> * 1]);

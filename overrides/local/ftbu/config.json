@@ -61,8 +61,6 @@
     "enable_motd": true,
     "enable_starting_items": true,
     "starting_items": [
-      "minecraft:apple 16 4",
-      "toughasnails:purified_water_bottle 1 5"
 	  ]
   },
   "ranks": {

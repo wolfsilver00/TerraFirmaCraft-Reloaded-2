@@ -1,0 +1,6 @@
+{
+  "name": "Custom Things",
+  "description": "TerraFirmaCraft Reloaded introduces it's own set of custom items and blocks, some of which are decorative, or have other purposeful usecases.",
+  "icon": "contenttweaker:glue",
+  "sortnum": 98
+}
