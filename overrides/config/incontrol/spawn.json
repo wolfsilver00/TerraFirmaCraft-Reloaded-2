@@ -1,34 +1,6 @@
 [
   {
     "mob": [
-	"minecraft:horse",
-	"minecraft:parrot",
-	"minecraft:donkey",
-	"minecraft:mule"
-	],
-    "weight": 10,
-    "groupcountmin": 1,
-    "groupcountmax": 5,
-    "biome": [
-	"tfc:ocean",
-	"tfc:river",
-	"tfc:beach",
-	"tfc:gravel_beach",
-	"tfc:high_hills",
-	"tfc:plains",
-	"tfc:swampland",
-	"tfc:high_hills_edge",
-	"tfc:rolling_hills",
-	"tfc:mountains",
-	"tfc:mountains_edge",
-	"tfc:high_plains",
-	"tfc:deep_ocean",
-	"tfc:lake"
-	],
-    "result": "allow"
-  },
-  {
-    "mob": [
 	"minecraft:squid"
 	],
     "weight": 10,
