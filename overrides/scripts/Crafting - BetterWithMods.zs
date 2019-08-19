@@ -78,10 +78,11 @@
 
 	//Flux
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 10]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:rock/chalk>],[<tfc:powder/flux> * 4]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:rock/dolomite>],[<tfc:powder/flux> * 4]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:rock/limestone>],[<tfc:powder/flux> * 4]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:rock/marble>],[<tfc:powder/flux> * 4]);
+	mods.betterwithmods.Mill.addRecipe([<ore:rockFlux>],[<tfc:powder/flux> * 4]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:rock/chalk>],[<tfc:powder/flux> * 4]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:rock/dolomite>],[<tfc:powder/flux> * 4]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:rock/limestone>],[<tfc:powder/flux> * 4]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:rock/marble>],[<tfc:powder/flux> * 4]);
 
 	//Coke
 	mods.betterwithmods.Mill.addRecipe([<immersiveengineering:material:6>],[<immersiveengineering:material:17>]);

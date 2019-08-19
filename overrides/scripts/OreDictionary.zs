@@ -1,6 +1,16 @@
 // ================================================================================
 //#Ore Dictionary
 
+//Remove
+
+var rockFlux = <ore:rockFlux>;
+    rockFlux.removeItems([
+		<tfc:rock/chalk>
+	]);
+
+
+
+//Add
 
 var dyeYellow = <ore:dyeYellow>;
     dyeYellow.addItems([

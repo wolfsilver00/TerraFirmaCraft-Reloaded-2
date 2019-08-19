@@ -60,10 +60,11 @@
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <tfc:ore/selenite>, 8000, <thaumcraft:nugget:5> * 1, 0.5);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/salt> * 8, <tfc:ore/gypsum>, 8000, <minecraft:dye:15> * 3, 0.5);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 15, <tfc:ore/borax>, 8000, <minecraft:dye:15> * 3, 0.5);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/chalk>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/dolomite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/limestone>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/marble>, 8000);
+	//mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/chalk>, 8000);
+	//mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/dolomite>, 8000);
+	//mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/limestone>, 8000);
+	//mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/marble>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <ore:rockFlux>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/kaolinite_powder> * 12, <tfc:ore/kaolinite>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/fertilizer> * 12, <tfc:ore/sylvite>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/graphite_powder> * 12, <tfc:ore/graphite>, 8000);
