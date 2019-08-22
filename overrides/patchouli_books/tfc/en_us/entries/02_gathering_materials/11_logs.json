@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "It is important to note that while you are using a stone axe, each log block only has a 90% chance of dropping a log when broken.$(br)$(br)Tip: Trees of the same type that are close together will act as one combined tree and both will fall when breaking one of the bottom log blocks."
+      "text": "It is important to note that while you are using a stone axe, each log block only has a 90% chance of dropping a log when broken.$(br2)Tip: Trees of the same type that are close together will act as one combined tree and both will fall when breaking one of the bottom log blocks."
     }
   ]
 }

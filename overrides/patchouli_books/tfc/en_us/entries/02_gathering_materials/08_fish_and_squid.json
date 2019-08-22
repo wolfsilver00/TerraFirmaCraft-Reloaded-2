@@ -19,11 +19,7 @@
     },
     {
       "type": "text",
-      "text": " Even with a high butchery skill, the amount of food dropped from these animals is fairly small."
-    },
-    {
-      "type": "text",
-      "text": "Tip: Since both fish and squid respawn, killing them is a quick and easy way to increase your butchery skill, so you will get more meat from killing larger animals."
+      "text": " Even with a high butchery skill, the amount of food dropped from these animals is fairly small.$(br2)Tip: Since both fish and squid respawn, killing them is a quick and easy way to increase your butchery skill, so you will get more meat from killing larger animals."
     }
   ]
 }

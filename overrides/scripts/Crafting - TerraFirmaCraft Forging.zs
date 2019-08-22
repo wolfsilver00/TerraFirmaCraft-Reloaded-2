@@ -101,7 +101,8 @@
 	mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ironwood>, 300, 600, true);
 
 	//Torch
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);
+	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:torch>, 0.35, 80, true);
 	
 	//Paraglider Weight & Size
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider>, "LARGE", "MEDIUM");
