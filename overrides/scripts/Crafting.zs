@@ -36,14 +36,15 @@
 	recipes.addShapeless(<ropebridge:rope>, [<betterwithmods:rope>]);
 	
 	//Tough As Nails
-	recipes.addShapeless(<toughasnails:ice_cube> * 4, [<ore:blockIce>, <ore:chisel>.transformDamage(1)]);
-	recipes.addShapeless(<toughasnails:magma_shard> * 4, [<minecraft:magma>, <ore:chisel>.transformDamage(1)]);
+	//recipes.addShapeless(<toughasnails:ice_cube> * 4, [<ore:blockIce>, <ore:chisel>.transformDamage(1)]);
+	//recipes.addShapeless(<toughasnails:magma_shard> * 4, [<minecraft:magma>, <ore:chisel>.transformDamage(1)]);
 	
 	//Other Recipes
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 	recipes.addShapeless(<props:clay:2>, [<ore:sand>, <ore:dirt>, <ore:dyeGreen>]);
 	recipes.addShapeless(<props:clay:1>, [<ore:sand>, <ore:dirt>, <ore:dyeBlue>]);
 	recipes.addShapeless(<props:clay>, [<ore:sand>, <ore:dirt>, <ore:dyeRed>]);
+	recipes.addShapeless(<minecraft:mossy_cobblestone>, [<ore:cobblestone>, <ore:moss>]);
 	
 	//Buildcraft Framing Sheet
 	recipes.addShapeless(<bibliocraft:framingsheet> * 2, [<ore:plankWood>, <bibliocraft:framingsaw>.transformDamage(1)]);

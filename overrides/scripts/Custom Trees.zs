@@ -108,20 +108,20 @@ chestnut.register();
 
 
 //Douglas Fir Tree
-var douglas_fir = TreeFactory.createTree("douglas_fir");
-douglas_fir.setTreeType("LARGE_SPRUCE");
-douglas_fir.setLog("tfc:wood/log/douglas_fir:1");
-douglas_fir.setLeaf("tfc:wood/leaves/douglas_fir:1");
-douglas_fir.setGenFrequency(10);
-douglas_fir.setGenAttempts(1);
-douglas_fir.setMinHeight(15);
-douglas_fir.setExtraHeight(25);
+//var douglas_fir = TreeFactory.createTree("douglas_fir");
+//douglas_fir.setTreeType("LARGE_SPRUCE");
+//douglas_fir.setLog("tfc:wood/log/douglas_fir:1");
+//douglas_fir.setLeaf("tfc:wood/leaves/douglas_fir:1");
+//douglas_fir.setGenFrequency(10);
+//douglas_fir.setGenAttempts(1);
+//douglas_fir.setMinHeight(15);
+//douglas_fir.setExtraHeight(25);
 //douglas_fir.setBaseBlock("tfc:grass/granite, tfc:grass/diorite, tfc:grass/gabbro, tfc:grass/shale, tfc:grass/claystone, tfc:grass/rocksalt, tfc:grass/limestone, tfc:grass/conglomerate, tfc:grass/dolomite, tfc:grass/chert, tfc:grass/chalk, tfc:grass/rhyolite, tfc:grass/basalt, tfc:grass/andesite, tfc:grass/dacite, tfc:grass/quartzite, tfc:grass/slate, tfc:grass/phyllite, tfc:grass/schist, tfc:grass/gneiss, tfc:grass/marble");
-douglas_fir.setBaseBlock("tfc:grass/chalk");
-douglas_fir.setGenBiomeByTag("MOUNTAIN");
-douglas_fir.setDimWhitelist(0);
-douglas_fir.addSapling();
-douglas_fir.register();
+//douglas_fir.setBaseBlock("tfc:grass/chalk");
+//douglas_fir.setGenBiomeByTag("MOUNTAIN");
+//douglas_fir.setDimWhitelist(0);
+//douglas_fir.addSapling();
+//douglas_fir.register();
 
 
 //Hickory Tree

@@ -109,24 +109,6 @@
 			"level" : [0, 1, 2, 3, 4],
 			"type" : "STARTER",
 			"loot" : [
-				{"data" : {"type" : "tool", "level" : 1}, "weight" : 1}
-			],
-			"each" : true,
-			"quantity" : 2
-		},
-		{
-			"level" : [0, 1, 2, 3, 4],
-			"type" : "STARTER",
-			"loot" : [
-				{"data" : {"type" : "weapon", "level" : 1}, "weight" : 1}
-			],
-			"each" : true,
-			"quantity" : 2
-		},
-		{
-			"level" : [0, 1, 2, 3, 4],
-			"type" : "STARTER",
-			"loot" : [
 				{"data" : {"name" : "minecraft:stick", "nbt" : "{display:{Name:\"Twig\",Lore:[\"A little twiggy\"]}}"}, "weight" : 1}
 			],
 			"each" : true,
@@ -223,7 +205,7 @@
 				{"data" : {"name" : "tfc:ore/kaolinite", "min" : 1, "max" : 10}, "weight" : 1},
 				{"data" : {"name" : "tfc:ore/graphite", "min" : 1, "max" : 10}, "weight" : 1},
 				{"data" : {"name" : "minecraft:feather"}, "weight" : 1},
-				{"data" : {"name" : "tfc:torch", "min" : 1, "max" : 6}, "weight" : 3}
+				{"data" : {"name" : "minecraft:torch", "min" : 1, "max" : 6}, "weight" : 3}
 			],
 			"each" : true,
 			"quantity" : 4

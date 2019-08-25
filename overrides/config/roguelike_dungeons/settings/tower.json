@@ -15,20 +15,22 @@
 						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta" : 3}, "weight" : 1},
 						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone", "meta" : 2}, "weight" : 3}
 					]
-				}
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gabbro"}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/gabbro"}}
 			},
 			"secondary" : {
 				"walls" : {
 					"type" : "METABLOCK",
-					"data" : {"name" : "tfc:wood/planks/hickory"}
+					"data" : {"name" : "tfc:wood/planks/birch"}
 				},
 				"pillar" : {
 					"type" : "METABLOCK",
-					"data" : {"name" : "tfc:wood/log/hickory", "meta" : 5}
+					"data" : {"name" : "tfc:wood/log/birch", "meta" : 5}
 				},
 				"stair" : {
 					"type" : "METABLOCK",
-					"data" : {"name" : "tfc:stairs/wood/hickory"}
+					"data" : {"name" : "tfc:stairs/wood/birch"}
 				}
 			}
 		}

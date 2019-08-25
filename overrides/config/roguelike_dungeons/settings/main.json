@@ -2,15 +2,11 @@
 	"name" : "tfcr:main",
 	"exclusive" : true,
 	"criteria" : {
-		"biomes" : [
-			"tfc:high_hills",
-			"tfc:plains",
-			"tfc:swampland",
-			"tfc:high_hills_edge",
-			"tfc:rolling_hills",
-			"tfc:mountains",
-			"tfc:mountains_edge",
-			"tfc:high_plains"
+		"biomeTypes" : [
+			"PLAINS",
+			"HILLS",
+			"SWAMP",
+			"MOUNTAIN"
 		]
 	},
 	"inherit" : [

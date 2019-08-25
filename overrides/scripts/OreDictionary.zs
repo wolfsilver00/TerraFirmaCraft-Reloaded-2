@@ -12,6 +12,15 @@ var rockFlux = <ore:rockFlux>;
 
 //Add
 
+var moss = <ore:moss>;
+    moss.addItems([
+	<tfc:plants/moss>,
+	<tfc:plants/reindeer_lichen>,
+	<tfc:plants/spanish_moss>,
+	<tconstruct:materials:18>,
+	<tconstruct:materials:19>
+	]);
+
 var dyeYellow = <ore:dyeYellow>;
     dyeYellow.addItems([
 	<tfc:powder/limonite_powder>,

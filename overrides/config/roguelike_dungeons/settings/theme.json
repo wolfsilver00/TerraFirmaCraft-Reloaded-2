@@ -12,12 +12,13 @@
 						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy1", "meta" : 9}, "weight" : 2}
 					]
 				},
-				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}}
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/gneiss"}}
 			},
 			"secondary" : {
-				"walls" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/planks/hickory"}},
-				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/log/hickory", "meta" : 5}},
-				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/wood/hickory"}}
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/planks/birch"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/log/birch", "meta" : 5}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/wood/birch"}}
 			}
 		},
 		{
@@ -33,7 +34,8 @@
 						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta" : 2}, "weight" : 4}
 					]
 				},
-				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}}
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/gneiss"}}
 			},
 			"secondary" : {
 				"walls" : {"type" : "METABLOCK", "data" : {"name" : "tfc:wood/planks/birch"}},
@@ -54,6 +56,7 @@
 					]
 				},
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_diorite"}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/diorite"}},
 				"door" : {"name" : "tfc:wood/door/birch"}
 			}
 		},
@@ -72,6 +75,7 @@
 						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy"}, "weight" : 4}
 					]
 				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/cobble/gneiss"}},
 				"door" : {"name" : "tfc:wood/door/birch"}
 			}
