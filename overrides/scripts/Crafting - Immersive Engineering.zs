@@ -13,7 +13,7 @@
 	recipes.remove(<immersiveengineering:stone_decoration:10>);
 	
 	//Add
-	recipes.addShaped(<immersiveengineering:conveyor> * 8, [[<ore:rubber>, <ore:rubber>, <ore:rubber>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+	recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[<ore:rubber>, <ore:rubber>, <ore:rubber>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 	recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:hammerHeadWroughtIron>, <ore:string>], [null, <ore:stickWood>, <ore:hammerHeadWroughtIron>], [<ore:stickWood>, null, null]]);
 	recipes.addShaped(<immersiveengineering:tool:1>, [[null, <ore:knifeBladeWroughtIron>, null], [<ore:knifeBladeWroughtIron>, <ore:string>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 	recipes.addShaped(<immersiveengineering:stone_decoration> * 2, [[<ore:sand>, <tfc:ceramics/fired/fire_brick>, <ore:sand>], [<tfc:ceramics/fired/fire_brick>, <tfc:mortar>, <tfc:ceramics/fired/fire_brick>], [<ore:sand>, <tfc:ceramics/fired/fire_brick>, <ore:sand>]]);

@@ -472,6 +472,7 @@
 	mods.terrafirmacraft.Quern.addRecipe("Allium", <tfc:plants/allium>, <minecraft:dye:5> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Athyrium Fern", <tfc:plants/athyrium_fern>, <minecraft:dye:13> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Blue Orchid", <tfc:plants/blue_orchid>, <quark:root_dye> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("Black Orchid", <tfc:plants/black_orchid>, <minecraft:dye:5> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Butterfly Milkweed", <tfc:plants/butterfly_milkweed>, <minecraft:dye:1> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Calendula", <tfc:plants/calendula>, <minecraft:dye:11> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Canna", <tfc:plants/canna>, <minecraft:dye:14> * 2);
@@ -480,6 +481,7 @@
 	mods.terrafirmacraft.Quern.addRecipe("Goldenrod", <tfc:plants/goldenrod>, <minecraft:dye:11> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Grape Hyacinth", <tfc:plants/grape_hyacinth>, <minecraft:dye:12> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Houstonia", <tfc:plants/houstonia>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("Labrador Tea", <tfc:plants/labrador_tea>, <minecraft:dye:12> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Lady Fern", <tfc:plants/lady_fern>, <minecraft:dye:2>);
 	mods.terrafirmacraft.Quern.addRecipe("Meads Milkweed", <tfc:plants/meads_milkweed>, <minecraft:dye:10> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("Nasturtium", <tfc:plants/nasturtium>, <minecraft:dye:14> * 2);

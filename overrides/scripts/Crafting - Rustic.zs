@@ -25,6 +25,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:wildberryjuice> * 250, null, <tfc:food
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:5> * 2, <tfc:plants/allium>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:13> * 2, <tfc:plants/athyrium_fern>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <quark:root_dye> * 2, <tfc:plants/blue_orchid>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:5> * 2, <tfc:plants/black_orchid>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:1> * 2, <tfc:plants/butterfly_milkweed>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:11> * 2, <tfc:plants/calendula>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/canna>);
@@ -33,6 +34,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:p
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:11> * 2, <tfc:plants/goldenrod>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:12> * 2, <tfc:plants/grape_hyacinth>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <quark:root_dye:2> * 2, <tfc:plants/houstonia>);
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:12> * 2, <tfc:plants/labrador_tea>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:plants/lady_fern>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:10> * 2, <tfc:plants/meads_milkweed>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/nasturtium>);
@@ -86,3 +88,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:p
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:3>, <tfc:plants/sargassum>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/water_canna>);
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:plants/water_lily>);
+
+//Magic Crystals
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <ebwizardry:magic_crystal> * 4, <ebwizardry:crystal_flower>);
+

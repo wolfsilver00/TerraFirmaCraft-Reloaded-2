@@ -79,10 +79,8 @@
 	//Shapeless Recipes
 
 	//TFC Moss to Tinkers' Moss Ball
-	recipes.addShapeless(<tconstruct:materials:18>, [<tfc:plants/moss>, <tfc:plants/moss>, <tfc:plants/moss>]);
-	recipes.addShapeless(<tconstruct:materials:18>, [<tfc:plants/spanish_moss>, <tfc:plants/spanish_moss>, <tfc:plants/spanish_moss>]);
-	
-	
+	recipes.addShapeless(<tconstruct:materials:18>, [<ore:moss>, <ore:moss>, <ore:moss>]);
+
 	//Shaped Recipes
 	
 	//Smeltery Controllers
