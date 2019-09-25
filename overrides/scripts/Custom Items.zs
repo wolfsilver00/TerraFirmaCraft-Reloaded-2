@@ -593,5 +593,574 @@ electrum_double_sheet.maxStackSize = 8;
 electrum_double_sheet.setCreativeTab(<creativetab:decorations>);
 electrum_double_sheet.register();
 
+var dragonsteel_fire_double_ingot = VanillaFactory.createItem("dragonsteel_fire_double_ingot");
+dragonsteel_fire_double_ingot.maxStackSize = 8;
+dragonsteel_fire_double_ingot.setCreativeTab(<creativetab:decorations>);
+dragonsteel_fire_double_ingot.register();
+
+var dragonsteel_fire_sheet = VanillaFactory.createItem("dragonsteel_fire_sheet");
+dragonsteel_fire_sheet.maxStackSize = 16;
+dragonsteel_fire_sheet.setCreativeTab(<creativetab:decorations>);
+dragonsteel_fire_sheet.register();
+
+var dragonsteel_fire_double_sheet = VanillaFactory.createItem("dragonsteel_fire_double_sheet");
+dragonsteel_fire_double_sheet.maxStackSize = 8;
+dragonsteel_fire_double_sheet.setCreativeTab(<creativetab:decorations>);
+dragonsteel_fire_double_sheet.register();
+
+var dragonsteel_ice_double_ingot = VanillaFactory.createItem("dragonsteel_ice_double_ingot");
+dragonsteel_ice_double_ingot.maxStackSize = 8;
+dragonsteel_ice_double_ingot.setCreativeTab(<creativetab:decorations>);
+dragonsteel_ice_double_ingot.register();
+
+var dragonsteel_ice_sheet = VanillaFactory.createItem("dragonsteel_ice_sheet");
+dragonsteel_ice_sheet.maxStackSize = 16;
+dragonsteel_ice_sheet.setCreativeTab(<creativetab:decorations>);
+dragonsteel_ice_sheet.register();
+
+var dragonsteel_ice_double_sheet = VanillaFactory.createItem("dragonsteel_ice_double_sheet");
+dragonsteel_ice_double_sheet.maxStackSize = 8;
+dragonsteel_ice_double_sheet.setCreativeTab(<creativetab:decorations>);
+dragonsteel_ice_double_sheet.register();
+
+var dragonsteel_fire_ingot_unrefined = VanillaFactory.createItem("dragonsteel_fire_ingot_unrefined");
+dragonsteel_fire_ingot_unrefined.maxStackSize = 32;
+dragonsteel_fire_ingot_unrefined.setCreativeTab(<creativetab:decorations>);
+dragonsteel_fire_ingot_unrefined.register();
+
+var dragonsteel_ice_ingot_unrefined = VanillaFactory.createItem("dragonsteel_ice_ingot_unrefined");
+dragonsteel_ice_ingot_unrefined.maxStackSize = 32;
+dragonsteel_ice_ingot_unrefined.setCreativeTab(<creativetab:decorations>);
+dragonsteel_ice_ingot_unrefined.register();
+
+
+//=====================================================================================================================================================================
+//Toolparts
+
+//Fire Dragonsteel Pickaxe
+var dragonsteel_fire_pick_head = VanillaFactory.createItem("dragonsteel_fire_pick_head");
+dragonsteel_fire_pick_head.maxStackSize = 32;
+dragonsteel_fire_pick_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_pick_head.register();
+
+//Fire Dragonsteel Shovel
+var dragonsteel_fire_shovel_head = VanillaFactory.createItem("dragonsteel_fire_shovel_head");
+dragonsteel_fire_shovel_head.maxStackSize = 32;
+dragonsteel_fire_shovel_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_shovel_head.register();
+
+//Fire Dragonsteel Axe
+var dragonsteel_fire_axe_head = VanillaFactory.createItem("dragonsteel_fire_axe_head");
+dragonsteel_fire_axe_head.maxStackSize = 8;
+dragonsteel_fire_axe_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_axe_head.register();
+
+//Fire Dragonsteel Axe Left
+var dragonsteel_fire_axe_head_left = VanillaFactory.createItem("dragonsteel_fire_axe_head_left");
+dragonsteel_fire_axe_head_left.maxStackSize = 32;
+dragonsteel_fire_axe_head_left.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_axe_head_left.register();
+
+//Fire Dragonsteel Axe Right
+var dragonsteel_fire_axe_head_right = VanillaFactory.createItem("dragonsteel_fire_axe_head_right");
+dragonsteel_fire_axe_head_right.maxStackSize = 32;
+dragonsteel_fire_axe_head_right.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_axe_head_right.register();
+
+//Fire Dragonsteel Hoe
+var dragonsteel_fire_hoe_head = VanillaFactory.createItem("dragonsteel_fire_hoe_head");
+dragonsteel_fire_hoe_head.maxStackSize = 32;
+dragonsteel_fire_hoe_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_hoe_head.register();
+
+//Fire Dragonsteel Sword
+var dragonsteel_fire_sword_blade = VanillaFactory.createItem("dragonsteel_fire_sword_blade");
+dragonsteel_fire_sword_blade.maxStackSize = 32;
+dragonsteel_fire_sword_blade.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_sword_blade.register();
+
+//Ice Dragonsteel Pickaxe
+var dragonsteel_ice_pick_head = VanillaFactory.createItem("dragonsteel_ice_pick_head");
+dragonsteel_ice_pick_head.maxStackSize = 32;
+dragonsteel_ice_pick_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_pick_head.register();
+
+//Ice Dragonsteel Shovel
+var dragonsteel_ice_shovel_head = VanillaFactory.createItem("dragonsteel_ice_shovel_head");
+dragonsteel_ice_shovel_head.maxStackSize = 32;
+dragonsteel_ice_shovel_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_shovel_head.register();
+
+//Ice Dragonsteel Axe
+var dragonsteel_ice_axe_head = VanillaFactory.createItem("dragonsteel_ice_axe_head");
+dragonsteel_ice_axe_head.maxStackSize = 8;
+dragonsteel_ice_axe_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_axe_head.register();
+
+//Ice Dragonsteel Axe Left
+var dragonsteel_ice_axe_head_left = VanillaFactory.createItem("dragonsteel_ice_axe_head_left");
+dragonsteel_ice_axe_head_left.maxStackSize = 32;
+dragonsteel_ice_axe_head_left.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_axe_head_left.register();
+
+//Ice Dragonsteel Axe Right
+var dragonsteel_ice_axe_head_right = VanillaFactory.createItem("dragonsteel_ice_axe_head_right");
+dragonsteel_ice_axe_head_right.maxStackSize = 32;
+dragonsteel_ice_axe_head_right.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_axe_head_right.register();
+
+//Ice Dragonsteel Hoe
+var dragonsteel_ice_hoe_head = VanillaFactory.createItem("dragonsteel_ice_hoe_head");
+dragonsteel_ice_hoe_head.maxStackSize = 32;
+dragonsteel_ice_hoe_head.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_hoe_head.register();
+
+//Ice Dragonsteel Sword
+var dragonsteel_ice_sword_blade = VanillaFactory.createItem("dragonsteel_ice_sword_blade");
+dragonsteel_ice_sword_blade.maxStackSize = 32;
+dragonsteel_ice_sword_blade.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_sword_blade.register();
+
+//Silver Pickaxe
+var silver_pick_head = VanillaFactory.createItem("silver_pick_head");
+silver_pick_head.maxStackSize = 32;
+silver_pick_head.setCreativeTab(<creativetab:tools>);
+silver_pick_head.register();
+
+//Silver Shovel
+var silver_shovel_head = VanillaFactory.createItem("silver_shovel_head");
+silver_shovel_head.maxStackSize = 32;
+silver_shovel_head.setCreativeTab(<creativetab:tools>);
+silver_shovel_head.register();
+
+//Silver Axe
+var silver_axe_head = VanillaFactory.createItem("silver_axe_head");
+silver_axe_head.maxStackSize = 32;
+silver_axe_head.setCreativeTab(<creativetab:tools>);
+silver_axe_head.register();
+
+//Silver Hoe
+var silver_hoe_head = VanillaFactory.createItem("silver_hoe_head");
+silver_hoe_head.maxStackSize = 32;
+silver_hoe_head.setCreativeTab(<creativetab:tools>);
+silver_hoe_head.register();
+
+//Silver Sword
+var silver_sword_blade = VanillaFactory.createItem("silver_sword_blade");
+silver_sword_blade.maxStackSize = 32;
+silver_sword_blade.setCreativeTab(<creativetab:tools>);
+silver_sword_blade.register();
+
+
+//=====================================================================================================================================================================
+//Scales
+
+//Red Dragonscale - Tanned
+var dragonscales_blue_tanned = VanillaFactory.createItem("dragonscales_blue_tanned");
+dragonscales_blue_tanned.maxStackSize = 64;
+dragonscales_blue_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_blue_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_bronze_tanned = VanillaFactory.createItem("dragonscales_bronze_tanned");
+dragonscales_bronze_tanned.maxStackSize = 64;
+dragonscales_bronze_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_bronze_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_gray_tanned = VanillaFactory.createItem("dragonscales_gray_tanned");
+dragonscales_gray_tanned.maxStackSize = 64;
+dragonscales_gray_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_gray_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_green_tanned = VanillaFactory.createItem("dragonscales_green_tanned");
+dragonscales_green_tanned.maxStackSize = 64;
+dragonscales_green_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_green_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_red_tanned = VanillaFactory.createItem("dragonscales_red_tanned");
+dragonscales_red_tanned.maxStackSize = 64;
+dragonscales_red_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_red_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_sapphire_tanned = VanillaFactory.createItem("dragonscales_sapphire_tanned");
+dragonscales_sapphire_tanned.maxStackSize = 64;
+dragonscales_sapphire_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_sapphire_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_silver_tanned = VanillaFactory.createItem("dragonscales_silver_tanned");
+dragonscales_silver_tanned.maxStackSize = 64;
+dragonscales_silver_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_silver_tanned.register();
+
+//Red Dragonscale - Tanned
+var dragonscales_white_tanned = VanillaFactory.createItem("dragonscales_white_tanned");
+dragonscales_white_tanned.maxStackSize = 64;
+dragonscales_white_tanned.setCreativeTab(<creativetab:tools>);
+dragonscales_white_tanned.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_blue_prepared = VanillaFactory.createItem("dragonscales_blue_prepared");
+dragonscales_blue_prepared.maxStackSize = 64;
+dragonscales_blue_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_blue_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_bronze_prepared = VanillaFactory.createItem("dragonscales_bronze_prepared");
+dragonscales_bronze_prepared.maxStackSize = 64;
+dragonscales_bronze_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_bronze_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_gray_prepared = VanillaFactory.createItem("dragonscales_gray_prepared");
+dragonscales_gray_prepared.maxStackSize = 64;
+dragonscales_gray_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_gray_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_green_prepared = VanillaFactory.createItem("dragonscales_green_prepared");
+dragonscales_green_prepared.maxStackSize = 64;
+dragonscales_green_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_green_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_red_prepared = VanillaFactory.createItem("dragonscales_red_prepared");
+dragonscales_red_prepared.maxStackSize = 64;
+dragonscales_red_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_red_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_sapphire_prepared = VanillaFactory.createItem("dragonscales_sapphire_prepared");
+dragonscales_sapphire_prepared.maxStackSize = 64;
+dragonscales_sapphire_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_sapphire_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_silver_prepared = VanillaFactory.createItem("dragonscales_silver_prepared");
+dragonscales_silver_prepared.maxStackSize = 64;
+dragonscales_silver_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_silver_prepared.register();
+
+//Red Dragonscale - Prepared
+var dragonscales_white_prepared = VanillaFactory.createItem("dragonscales_white_prepared");
+dragonscales_white_prepared.maxStackSize = 64;
+dragonscales_white_prepared.setCreativeTab(<creativetab:tools>);
+dragonscales_white_prepared.register();
+
+
+//=====================================================================================================================================================================
+//Troll Leather
+
+//Forest Troll Leather - Tanned
+var troll_leather_forest_tanned = VanillaFactory.createItem("troll_leather_forest_tanned");
+troll_leather_forest_tanned.maxStackSize = 64;
+troll_leather_forest_tanned.setCreativeTab(<creativetab:tools>);
+troll_leather_forest_tanned.register();
+
+//Frost Troll Leather - Tanned
+var troll_leather_frost_tanned = VanillaFactory.createItem("troll_leather_frost_tanned");
+troll_leather_frost_tanned.maxStackSize = 64;
+troll_leather_frost_tanned.setCreativeTab(<creativetab:tools>);
+troll_leather_frost_tanned.register();
+
+//Mountain Troll Leather - Tanned
+var troll_leather_mountain_tanned = VanillaFactory.createItem("troll_leather_mountain_tanned");
+troll_leather_mountain_tanned.maxStackSize = 64;
+troll_leather_mountain_tanned.setCreativeTab(<creativetab:tools>);
+troll_leather_mountain_tanned.register();
+
+//Forest Troll Leather - Prepared
+var troll_leather_forest_prepared = VanillaFactory.createItem("troll_leather_forest_prepared");
+troll_leather_forest_prepared.maxStackSize = 64;
+troll_leather_forest_prepared.setCreativeTab(<creativetab:tools>);
+troll_leather_forest_prepared.register();
+
+//Frost Troll Leather - Prepared
+var troll_leather_frost_prepared = VanillaFactory.createItem("troll_leather_frost_prepared");
+troll_leather_frost_prepared.maxStackSize = 64;
+troll_leather_frost_prepared.setCreativeTab(<creativetab:tools>);
+troll_leather_frost_prepared.register();
+
+//Mountain Troll Leather - Prepared
+var troll_leather_mountain_prepared = VanillaFactory.createItem("troll_leather_mountain_prepared");
+troll_leather_mountain_prepared.maxStackSize = 64;
+troll_leather_mountain_prepared.setCreativeTab(<creativetab:tools>);
+troll_leather_mountain_prepared.register();
+
+
+//=====================================================================================================================================================================
+//Armor
+
+//Fire Dragonsteel Unfinished Helmet
+var dragonsteel_fire_helmet_unfinished = VanillaFactory.createItem("dragonsteel_fire_helmet_unfinished");
+dragonsteel_fire_helmet_unfinished.maxStackSize = 1;
+dragonsteel_fire_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_helmet_unfinished.register();
+
+//Fire Dragonsteel Unfinished Chestplate
+var dragonsteel_fire_chestplate_unfinished = VanillaFactory.createItem("dragonsteel_fire_chestplate_unfinished");
+dragonsteel_fire_chestplate_unfinished.maxStackSize = 1;
+dragonsteel_fire_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_chestplate_unfinished.register();
+
+//Fire Dragonsteel Unfinished Leggings
+var dragonsteel_fire_leggings_unfinished = VanillaFactory.createItem("dragonsteel_fire_leggings_unfinished");
+dragonsteel_fire_leggings_unfinished.maxStackSize = 1;
+dragonsteel_fire_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_leggings_unfinished.register();
+
+//Fire Dragonsteel Unfinished Boots
+var dragonsteel_fire_boots_unfinished = VanillaFactory.createItem("dragonsteel_fire_boots_unfinished");
+dragonsteel_fire_boots_unfinished.maxStackSize = 1;
+dragonsteel_fire_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_fire_boots_unfinished.register();
+
+//Ice Dragonsteel Unfinished Helmet
+var dragonsteel_ice_helmet_unfinished = VanillaFactory.createItem("dragonsteel_ice_helmet_unfinished");
+dragonsteel_ice_helmet_unfinished.maxStackSize = 1;
+dragonsteel_ice_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_helmet_unfinished.register();
+
+//Ice Dragonsteel Unfinished Chestplate
+var dragonsteel_ice_chestplate_unfinished = VanillaFactory.createItem("dragonsteel_ice_chestplate_unfinished");
+dragonsteel_ice_chestplate_unfinished.maxStackSize = 1;
+dragonsteel_ice_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_chestplate_unfinished.register();
+
+//Ice Dragonsteel Unfinished Leggings
+var dragonsteel_ice_leggings_unfinished = VanillaFactory.createItem("dragonsteel_ice_leggings_unfinished");
+dragonsteel_ice_leggings_unfinished.maxStackSize = 1;
+dragonsteel_ice_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_leggings_unfinished.register();
+
+//Ice Dragonsteel Unfinished Boots
+var dragonsteel_ice_boots_unfinished = VanillaFactory.createItem("dragonsteel_ice_boots_unfinished");
+dragonsteel_ice_boots_unfinished.maxStackSize = 1;
+dragonsteel_ice_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonsteel_ice_boots_unfinished.register();
+
+//Silver Unfinished Helmet
+var silver_helmet_unfinished = VanillaFactory.createItem("silver_helmet_unfinished");
+silver_helmet_unfinished.maxStackSize = 1;
+silver_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+silver_helmet_unfinished.register();
+
+//Silver Unfinished Chestplate
+var silver_chestplate_unfinished = VanillaFactory.createItem("silver_chestplate_unfinished");
+silver_chestplate_unfinished.maxStackSize = 1;
+silver_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+silver_chestplate_unfinished.register();
+
+//Silver Unfinished Leggings
+var silver_leggings_unfinished = VanillaFactory.createItem("silver_leggings_unfinished");
+silver_leggings_unfinished.maxStackSize = 1;
+silver_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+silver_leggings_unfinished.register();
+
+//Silver Unfinished Boots
+var silver_boots_unfinished = VanillaFactory.createItem("silver_boots_unfinished");
+silver_boots_unfinished.maxStackSize = 1;
+silver_boots_unfinished.setCreativeTab(<creativetab:tools>);
+silver_boots_unfinished.register();
+
+//Blue Dragonscales Unfinished Helmet
+var dragonscales_blue_helmet_unfinished = VanillaFactory.createItem("dragonscales_blue_helmet_unfinished");
+dragonscales_blue_helmet_unfinished.maxStackSize = 1;
+dragonscales_blue_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_blue_helmet_unfinished.register();
+
+//Blue Dragonscales Unfinished Chestplate
+var dragonscales_blue_chestplate_unfinished = VanillaFactory.createItem("dragonscales_blue_chestplate_unfinished");
+dragonscales_blue_chestplate_unfinished.maxStackSize = 1;
+dragonscales_blue_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_blue_chestplate_unfinished.register();
+
+//Blue Dragonscales Unfinished Leggings
+var dragonscales_blue_leggings_unfinished = VanillaFactory.createItem("dragonscales_blue_leggings_unfinished");
+dragonscales_blue_leggings_unfinished.maxStackSize = 1;
+dragonscales_blue_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_blue_leggings_unfinished.register();
+
+//Blue Dragonscales Unfinished Boots
+var dragonscales_blue_boots_unfinished = VanillaFactory.createItem("dragonscales_blue_boots_unfinished");
+dragonscales_blue_boots_unfinished.maxStackSize = 1;
+dragonscales_blue_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_blue_boots_unfinished.register();
+
+//Bronze Dragonscales Unfinished Helmet
+var dragonscales_bronze_helmet_unfinished = VanillaFactory.createItem("dragonscales_bronze_helmet_unfinished");
+dragonscales_bronze_helmet_unfinished.maxStackSize = 1;
+dragonscales_bronze_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_bronze_helmet_unfinished.register();
+
+//Bronze Dragonscales Unfinished Chestplate
+var dragonscales_bronze_chestplate_unfinished = VanillaFactory.createItem("dragonscales_bronze_chestplate_unfinished");
+dragonscales_bronze_chestplate_unfinished.maxStackSize = 1;
+dragonscales_bronze_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_bronze_chestplate_unfinished.register();
+
+//Bronze Dragonscales Unfinished Leggings
+var dragonscales_bronze_leggings_unfinished = VanillaFactory.createItem("dragonscales_bronze_leggings_unfinished");
+dragonscales_bronze_leggings_unfinished.maxStackSize = 1;
+dragonscales_bronze_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_bronze_leggings_unfinished.register();
+
+//Bronze Dragonscales Unfinished Boots
+var dragonscales_bronze_boots_unfinished = VanillaFactory.createItem("dragonscales_bronze_boots_unfinished");
+dragonscales_bronze_boots_unfinished.maxStackSize = 1;
+dragonscales_bronze_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_bronze_boots_unfinished.register();
+
+//Gray Dragonscales Unfinished Helmet
+var dragonscales_gray_helmet_unfinished = VanillaFactory.createItem("dragonscales_gray_helmet_unfinished");
+dragonscales_gray_helmet_unfinished.maxStackSize = 1;
+dragonscales_gray_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_gray_helmet_unfinished.register();
+
+//Gray Dragonscales Unfinished Chestplate
+var dragonscales_gray_chestplate_unfinished = VanillaFactory.createItem("dragonscales_gray_chestplate_unfinished");
+dragonscales_gray_chestplate_unfinished.maxStackSize = 1;
+dragonscales_gray_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_gray_chestplate_unfinished.register();
+
+//Gray Dragonscales Unfinished Leggings
+var dragonscales_gray_leggings_unfinished = VanillaFactory.createItem("dragonscales_gray_leggings_unfinished");
+dragonscales_gray_leggings_unfinished.maxStackSize = 1;
+dragonscales_gray_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_gray_leggings_unfinished.register();
+
+//Gray Dragonscales Unfinished Boots
+var dragonscales_gray_boots_unfinished = VanillaFactory.createItem("dragonscales_gray_boots_unfinished");
+dragonscales_gray_boots_unfinished.maxStackSize = 1;
+dragonscales_gray_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_gray_boots_unfinished.register();
+
+//Green Dragonscales Unfinished Helmet
+var dragonscales_green_helmet_unfinished = VanillaFactory.createItem("dragonscales_green_helmet_unfinished");
+dragonscales_green_helmet_unfinished.maxStackSize = 1;
+dragonscales_green_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_green_helmet_unfinished.register();
+
+//Green Dragonscales Unfinished Chestplate
+var dragonscales_green_chestplate_unfinished = VanillaFactory.createItem("dragonscales_green_chestplate_unfinished");
+dragonscales_green_chestplate_unfinished.maxStackSize = 1;
+dragonscales_green_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_green_chestplate_unfinished.register();
+
+//Green Dragonscales Unfinished Leggings
+var dragonscales_green_leggings_unfinished = VanillaFactory.createItem("dragonscales_green_leggings_unfinished");
+dragonscales_green_leggings_unfinished.maxStackSize = 1;
+dragonscales_green_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_green_leggings_unfinished.register();
+
+//Green Dragonscales Unfinished Boots
+var dragonscales_green_boots_unfinished = VanillaFactory.createItem("dragonscales_green_boots_unfinished");
+dragonscales_green_boots_unfinished.maxStackSize = 1;
+dragonscales_green_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_green_boots_unfinished.register();
+
+//Red Dragonscales Unfinished Helmet
+var dragonscales_red_helmet_unfinished = VanillaFactory.createItem("dragonscales_red_helmet_unfinished");
+dragonscales_red_helmet_unfinished.maxStackSize = 1;
+dragonscales_red_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_red_helmet_unfinished.register();
+
+//Red Dragonscales Unfinished Chestplate
+var dragonscales_red_chestplate_unfinished = VanillaFactory.createItem("dragonscales_red_chestplate_unfinished");
+dragonscales_red_chestplate_unfinished.maxStackSize = 1;
+dragonscales_red_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_red_chestplate_unfinished.register();
+
+//Red Dragonscales Unfinished Leggings
+var dragonscales_red_leggings_unfinished = VanillaFactory.createItem("dragonscales_red_leggings_unfinished");
+dragonscales_red_leggings_unfinished.maxStackSize = 1;
+dragonscales_red_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_red_leggings_unfinished.register();
+
+//Red Dragonscales Unfinished Boots
+var dragonscales_red_boots_unfinished = VanillaFactory.createItem("dragonscales_red_boots_unfinished");
+dragonscales_red_boots_unfinished.maxStackSize = 1;
+dragonscales_red_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_red_boots_unfinished.register();
+
+//Sapphire Dragonscales Unfinished Helmet
+var dragonscales_sapphire_helmet_unfinished = VanillaFactory.createItem("dragonscales_sapphire_helmet_unfinished");
+dragonscales_sapphire_helmet_unfinished.maxStackSize = 1;
+dragonscales_sapphire_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_sapphire_helmet_unfinished.register();
+
+//Sapphire Dragonscales Unfinished Chestplate
+var dragonscales_sapphire_chestplate_unfinished = VanillaFactory.createItem("dragonscales_sapphire_chestplate_unfinished");
+dragonscales_sapphire_chestplate_unfinished.maxStackSize = 1;
+dragonscales_sapphire_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_sapphire_chestplate_unfinished.register();
+
+//Sapphire Dragonscales Unfinished Leggings
+var dragonscales_sapphire_leggings_unfinished = VanillaFactory.createItem("dragonscales_sapphire_leggings_unfinished");
+dragonscales_sapphire_leggings_unfinished.maxStackSize = 1;
+dragonscales_sapphire_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_sapphire_leggings_unfinished.register();
+
+//Sapphire Dragonscales Unfinished Boots
+var dragonscales_sapphire_boots_unfinished = VanillaFactory.createItem("dragonscales_sapphire_boots_unfinished");
+dragonscales_sapphire_boots_unfinished.maxStackSize = 1;
+dragonscales_sapphire_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_sapphire_boots_unfinished.register();
+
+//Silver Dragonscales Unfinished Helmet
+var dragonscales_silver_helmet_unfinished = VanillaFactory.createItem("dragonscales_silver_helmet_unfinished");
+dragonscales_silver_helmet_unfinished.maxStackSize = 1;
+dragonscales_silver_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_silver_helmet_unfinished.register();
+
+//Silver Dragonscales Unfinished Chestplate
+var dragonscales_silver_chestplate_unfinished = VanillaFactory.createItem("dragonscales_silver_chestplate_unfinished");
+dragonscales_silver_chestplate_unfinished.maxStackSize = 1;
+dragonscales_silver_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_silver_chestplate_unfinished.register();
+
+//Silver Dragonscales Unfinished Leggings
+var dragonscales_silver_leggings_unfinished = VanillaFactory.createItem("dragonscales_silver_leggings_unfinished");
+dragonscales_silver_leggings_unfinished.maxStackSize = 1;
+dragonscales_silver_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_silver_leggings_unfinished.register();
+
+//Silver Dragonscales Unfinished Boots
+var dragonscales_silver_boots_unfinished = VanillaFactory.createItem("dragonscales_silver_boots_unfinished");
+dragonscales_silver_boots_unfinished.maxStackSize = 1;
+dragonscales_silver_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_silver_boots_unfinished.register();
+
+//White Dragonscales Unfinished Helmet
+var dragonscales_white_helmet_unfinished = VanillaFactory.createItem("dragonscales_white_helmet_unfinished");
+dragonscales_white_helmet_unfinished.maxStackSize = 1;
+dragonscales_white_helmet_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_white_helmet_unfinished.register();
+
+//White Dragonscales Unfinished Chestplate
+var dragonscales_white_chestplate_unfinished = VanillaFactory.createItem("dragonscales_white_chestplate_unfinished");
+dragonscales_white_chestplate_unfinished.maxStackSize = 1;
+dragonscales_white_chestplate_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_white_chestplate_unfinished.register();
+
+//White Dragonscales Unfinished Leggings
+var dragonscales_white_leggings_unfinished = VanillaFactory.createItem("dragonscales_white_leggings_unfinished");
+dragonscales_white_leggings_unfinished.maxStackSize = 1;
+dragonscales_white_leggings_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_white_leggings_unfinished.register();
+
+//White Dragonscales Unfinished Boots
+var dragonscales_white_boots_unfinished = VanillaFactory.createItem("dragonscales_white_boots_unfinished");
+dragonscales_white_boots_unfinished.maxStackSize = 1;
+dragonscales_white_boots_unfinished.setCreativeTab(<creativetab:tools>);
+dragonscales_white_boots_unfinished.register();
+
+
+
+
 
 

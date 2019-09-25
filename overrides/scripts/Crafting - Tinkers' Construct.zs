@@ -130,6 +130,18 @@
 //=======================================================================================================================================================================
 //TFC Metals to Smeltery
 
+	//Fire Dragonsteel
+
+	mods.tconstruct.Melting.addRecipe(<liquid:dragonsteel_fire> * 576, <ore:doubleSheetArdite>);
+	mods.tconstruct.Melting.addRecipe(<liquid:dragonsteel_fire> * 288, <ore:sheetArdite>);
+	mods.tconstruct.Melting.addRecipe(<liquid:dragonsteel_fire> * 288, <ore:doubleIngotArdite>);
+
+	//Ice Dragonsteel
+
+	mods.tconstruct.Melting.addRecipe(<liquid:dragonsteel_ice> * 576, <ore:doubleSheetArdite>);
+	mods.tconstruct.Melting.addRecipe(<liquid:dragonsteel_ice> * 288, <ore:sheetArdite>);
+	mods.tconstruct.Melting.addRecipe(<liquid:dragonsteel_ice> * 288, <ore:doubleIngotArdite>);
+
 	//Constantan
 
 	mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 576, <ore:doubleSheetConstantan>);

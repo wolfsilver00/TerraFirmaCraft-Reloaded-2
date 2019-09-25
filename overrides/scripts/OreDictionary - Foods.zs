@@ -531,7 +531,8 @@ var listAllmeatraw = <ore:listAllmeatraw>;
 	<tfc:food/mutton>,
 	<tfc:food/horse_meat>,
 	<tfc:food/venison>,
-	<tfc:food/bear>
+	<tfc:food/bear>,
+	<iceandfire:fire_dragon_flesh>
 	]);
 
 var listAllporkraw = <ore:listAllporkraw>;

@@ -2,10 +2,10 @@
 //Remove Recipes
 
 
-
 //=======================================================================================================================================================================
 //Add Shapeless Recipes
 
+	recipes.addShapeless(<tfc:metal/nugget/gold>, [<ore:nuggetGold>]);
 	recipes.addShapeless(<tfc:metal/ingot/gold> * 9, [<ore:blockGold>]);
 	recipes.addShapeless(<tfc:metal/ingot/wrought_iron> * 9, [<ore:blockIron>]);
 	recipes.addShapeless(<contenttweaker:glue> * 8, [<contenttweaker:dixie_glue>]);
@@ -374,29 +374,30 @@
 //Add Welding Recipes
 
 	//Content Tweaker Metal Items - Welding
-	mods.terrafirmacraft.Welding.addRecipe("Aluminium Double Ingot", <immersiveengineering:metal:1>, <immersiveengineering:metal:1>, <contenttweaker:aluminium_double_ingot>, 2);
-	mods.terrafirmacraft.Welding.addRecipe("Aluminium Double Sheet", <contenttweaker:aluminium_sheet>, <contenttweaker:aluminium_sheet>, <contenttweaker:aluminium_double_sheet>, 2);
-	mods.terrafirmacraft.Welding.addRecipe("Ardite Double Ingot", <tconstruct:ingots:1>, <tconstruct:ingots:1>, <contenttweaker:ardite_double_ingot>, 5);
-	mods.terrafirmacraft.Welding.addRecipe("Ardite Double Sheet", <contenttweaker:ardite_sheet>, <contenttweaker:ardite_sheet>, <contenttweaker:ardite_double_sheet>, 5);
-	mods.terrafirmacraft.Welding.addRecipe("Cobalt Double Ingot", <tconstruct:ingots>, <tconstruct:ingots>, <contenttweaker:cobalt_double_ingot>, 5);
-	mods.terrafirmacraft.Welding.addRecipe("Cobalt Double Sheet", <contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_double_sheet>, 5);
-	mods.terrafirmacraft.Welding.addRecipe("Constantan Double Ingot", <immersiveengineering:metal:6>, <immersiveengineering:metal:6>, <contenttweaker:constantan_double_ingot>, 3);
-	mods.terrafirmacraft.Welding.addRecipe("Constantan Double Sheet", <contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_sheet>, <contenttweaker:constantan_double_sheet>, 3);
-	mods.terrafirmacraft.Welding.addRecipe("Electrum Double Ingot", <immersiveengineering:metal:7>, <immersiveengineering:metal:7>, <contenttweaker:electrum_double_ingot>, 3);
-	mods.terrafirmacraft.Welding.addRecipe("Electrum Double Sheet", <contenttweaker:electrum_sheet>, <contenttweaker:electrum_sheet>, <contenttweaker:electrum_double_sheet>, 3);
-	mods.terrafirmacraft.Welding.addRecipe("Manyullyn Double Ingot", <tconstruct:ingots:2>, <tconstruct:ingots:2>, <contenttweaker:manyullyn_double_ingot>, 5);
-	mods.terrafirmacraft.Welding.addRecipe("Manyullyn Double Sheet", <contenttweaker:manyullyn_sheet>, <contenttweaker:manyullyn_sheet>, <contenttweaker:manyullyn_double_sheet>, 5);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:aluminium_double_ingot", <immersiveengineering:metal:1>, <immersiveengineering:metal:1>, <contenttweaker:aluminium_double_ingot>, 2);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:aluminium_double_sheet", <contenttweaker:aluminium_sheet>, <contenttweaker:aluminium_sheet>, <contenttweaker:aluminium_double_sheet>, 2);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:ardite_double_ingot", <tconstruct:ingots:1>, <tconstruct:ingots:1>, <contenttweaker:ardite_double_ingot>, 5);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:ardite_double_sheet", <contenttweaker:ardite_sheet>, <contenttweaker:ardite_sheet>, <contenttweaker:ardite_double_sheet>, 5);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:cobalt_double_ingot", <tconstruct:ingots>, <tconstruct:ingots>, <contenttweaker:cobalt_double_ingot>, 5);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:cobalt_double_sheet", <contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_double_sheet>, 5);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:constantan_double_ingot", <immersiveengineering:metal:6>, <immersiveengineering:metal:6>, <contenttweaker:constantan_double_ingot>, 3);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:constantan_double_sheet", <contenttweaker:cobalt_sheet>, <contenttweaker:cobalt_sheet>, <contenttweaker:constantan_double_sheet>, 3);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:electrum_double_ingot", <immersiveengineering:metal:7>, <immersiveengineering:metal:7>, <contenttweaker:electrum_double_ingot>, 3);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:electrum_double_sheet", <contenttweaker:electrum_sheet>, <contenttweaker:electrum_sheet>, <contenttweaker:electrum_double_sheet>, 3);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:manyullyn_double_ingot", <tconstruct:ingots:2>, <tconstruct:ingots:2>, <contenttweaker:manyullyn_double_ingot>, 5);
+	mods.terrafirmacraft.Welding.addRecipe("tfcr:manyullyn_double_sheet", <contenttweaker:manyullyn_sheet>, <contenttweaker:manyullyn_sheet>, <contenttweaker:manyullyn_double_sheet>, 5);
 
 
 //=======================================================================================================================================================================
 //Add Heating/Cooking Recipes
 
-	mods.terrafirmacraft.Heating.addRecipe("Clay Brick Heating", <minecraft:clay_ball>, <minecraft:brick>, 900, 1200);
-	mods.terrafirmacraft.Heating.addRecipe("Terracotta Heating", <minecraft:clay>, <minecraft:hardened_clay>, 900, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:clay_brick_heating", <minecraft:clay_ball>, <minecraft:brick>, 900, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 900, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 1000, 1200);
 	
-	mods.terrafirmacraft.Heating.addRecipe("Dixie Glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:dixie_glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
 	
-	mods.terrafirmacraft.Heating.addRecipe("Rubber", <contenttweaker:rubber_mix>, <contenttweaker:rubber>, 250, 250);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:rubber", <contenttweaker:rubber_mix>, <contenttweaker:rubber>, 250, 250);
 	
 	//mods.terrafirmacraft.Heating.addRecipe("Acacia Firewood Torch", <contenttweaker:firewood_acacia>, <tfc:torch> * 4, 40, 600);
 	//mods.terrafirmacraft.Heating.addRecipe("Ash Firewood Torch", <contenttweaker:firewood_ash>, <tfc:torch> * 4, 40, 600);
@@ -423,117 +424,118 @@
 	//mods.terrafirmacraft.Heating.addRecipe("Olive Firewood Torch", <contenttweaker:firewood_olive>, <tfc:torch> * 4, 40, 600);
 	//mods.terrafirmacraft.Heating.addRecipe("Ironwood Firewood Torch", <contenttweaker:firewood_ironwood>, <tfc:torch> * 4, 40, 600);
 	
-	mods.terrafirmacraft.Heating.addRecipe("Acacia Firewood Torch", <contenttweaker:firewood_acacia>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Ash Firewood Torch", <contenttweaker:firewood_ash>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Aspen Firewood Torch", <contenttweaker:firewood_aspen>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Birch Firewood Torch", <contenttweaker:firewood_birch>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Blackwood Firewood Torch", <contenttweaker:firewood_blackwood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Chestnut Firewood Torch", <contenttweaker:firewood_chestnut>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Douglas Fir Firewood Torch", <contenttweaker:firewood_douglas_fir>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Hickory Firewood Torch", <contenttweaker:firewood_hickory>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Kapok Firewood Torch", <contenttweaker:firewood_kapok>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Maple Firewood Torch", <contenttweaker:firewood_maple>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Oak Firewood Torch", <contenttweaker:firewood_oak>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Palm Firewood Torch", <contenttweaker:firewood_palm>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Pine Firewood Torch", <contenttweaker:firewood_pine>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Rosewood Firewood Torch", <contenttweaker:firewood_rosewood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Sequoia Firewood Torch", <contenttweaker:firewood_sequoia>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Spruce Firewood Torch", <contenttweaker:firewood_spruce>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Sycamore Firewood Torch", <contenttweaker:firewood_sycamore>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("White Cedar Firewood Torch", <contenttweaker:firewood_white_cedar>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("White Elm Firewood Torch", <contenttweaker:firewood_white_elm>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Willow Firewood Torch", <contenttweaker:firewood_willow>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Greatwood Firewood Torch", <contenttweaker:firewood_greatwood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Silverwood Firewood Torch", <contenttweaker:firewood_silverwood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Olive Firewood Torch", <contenttweaker:firewood_olive>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("Ironwood Firewood Torch", <contenttweaker:firewood_ironwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:acacia_firewood_torch", <contenttweaker:firewood_acacia>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:ash_firewood_torch", <contenttweaker:firewood_ash>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:aspen_firewood_torch", <contenttweaker:firewood_aspen>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:birch_firewood_torch", <contenttweaker:firewood_birch>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:blackwood_firewood_torch", <contenttweaker:firewood_blackwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:chestnut_firewood_torch", <contenttweaker:firewood_chestnut>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:douglas_fir_firewood_torch", <contenttweaker:firewood_douglas_fir>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:hickory_firewood_torch", <contenttweaker:firewood_hickory>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:kapok_firewood_torch", <contenttweaker:firewood_kapok>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:maple_firewood_torch", <contenttweaker:firewood_maple>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:oak_firewood_torch", <contenttweaker:firewood_oak>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:palm_firewood_torch", <contenttweaker:firewood_palm>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:pine_firewood_torch", <contenttweaker:firewood_pine>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:rosewood_firewood_torch", <contenttweaker:firewood_rosewood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:sequoia_firewood_torch", <contenttweaker:firewood_sequoia>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:spruce_firewood_torch", <contenttweaker:firewood_spruce>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:sycamore_firewood_torch", <contenttweaker:firewood_sycamore>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:white_cedar_firewood_torch", <contenttweaker:firewood_white_cedar>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:white_elm_firewood_torch", <contenttweaker:firewood_white_elm>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:willow_firewood_torch", <contenttweaker:firewood_willow>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:greatwood_firewood_torch", <contenttweaker:firewood_greatwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:silverwood_firewood_torch", <contenttweaker:firewood_silverwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:olive_firewood_torch", <contenttweaker:firewood_olive>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:ironwood_firewood_torch", <contenttweaker:firewood_ironwood>, <minecraft:torch> * 4, 40, 600);
 
 
 //=======================================================================================================================================================================
 //Add Pit Kiln Recipes
 
-	//mods.terrafirmacraft.PitKiln.addRecipe("Clay Brick Pit Kiln", <minecraft:clay_ball>, <minecraft:brick>);
+	//mods.terrafirmacraft.PitKiln.addRecipe("tfcr:clay_brick_pit_kiln", <minecraft:clay_ball>, <minecraft:brick>);
+	//mods.terrafirmacraft.PitKiln.addRecipe("tfcr:necrotic_bone_pit_kiln", <minecraft:bone>, <tconstruct:materials:17>);
 
 
 //=======================================================================================================================================================================
 //Add Barrel Recipes
 
-	mods.terrafirmacraft.Barrel.addRecipe("Rubber Latex", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("Rubber Oil", <contenttweaker:vulcanizing_agents>, <liquid:oil> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("tfcr:rubber_latex", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("tfcr:rubber_oil", <contenttweaker:vulcanizing_agents>, <liquid:oil> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
 
 
 //=======================================================================================================================================================================
 //Add Quern Recipes
 	
 	//Chalk Powder
-	mods.terrafirmacraft.Quern.addRecipe("Chalk Powder", <ore:rockChalk>, <contenttweaker:powder_chalk> * 4);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:chalk_powder", <ore:rockChalk>, <contenttweaker:powder_chalk> * 4);
 
 	//Dyes
-	mods.terrafirmacraft.Quern.addRecipe("Allium", <tfc:plants/allium>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Athyrium Fern", <tfc:plants/athyrium_fern>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Blue Orchid", <tfc:plants/blue_orchid>, <quark:root_dye> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Black Orchid", <tfc:plants/black_orchid>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Butterfly Milkweed", <tfc:plants/butterfly_milkweed>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Calendula", <tfc:plants/calendula>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Canna", <tfc:plants/canna>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Dandelion", <tfc:plants/dandelion>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Field Horsetail", <tfc:plants/field_horsetail>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Goldenrod", <tfc:plants/goldenrod>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Grape Hyacinth", <tfc:plants/grape_hyacinth>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Houstonia", <tfc:plants/houstonia>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Labrador Tea", <tfc:plants/labrador_tea>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Lady Fern", <tfc:plants/lady_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Meads Milkweed", <tfc:plants/meads_milkweed>, <minecraft:dye:10> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Nasturtium", <tfc:plants/nasturtium>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Oxeye Daisy", <tfc:plants/oxeye_daisy>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Poppy", <tfc:plants/poppy>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Primrose", <tfc:plants/primrose>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Pulsatilla", <tfc:plants/pulsatilla>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Sacred Datura", <tfc:plants/sacred_datura>, <minecraft:dye:9> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Snapdragon Pink", <tfc:plants/snapdragon_pink>, <minecraft:dye:9> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Snapdragon Red", <tfc:plants/snapdragon_red>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Snapdragon White", <tfc:plants/snapdragon_white>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Snapdragon Yellow", <tfc:plants/snapdragon_yellow>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Strelitzia", <tfc:plants/strelitzia>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Sword Fern", <tfc:plants/sword_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Tropical Milkweed", <tfc:plants/tropical_milkweed>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Tulip Orange", <tfc:plants/tulip_orange>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Tulip Pink", <tfc:plants/tulip_pink>, <minecraft:dye:9> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Tulip Red", <tfc:plants/tulip_red>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Tulip White", <tfc:plants/tulip_white>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Perovskia", <tfc:plants/perovskia>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Sagebrush", <tfc:plants/sagebrush>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Barrel Cactus", <tfc:plants/barrel_cactus>, <minecraft:dye:2> * 3);
-	mods.terrafirmacraft.Quern.addRecipe("Yucca", <tfc:plants/yucca>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Ostrich Fern", <tfc:plants/ostrich_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Sapphire Tower", <tfc:plants/sapphire_tower>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Tree Fern", <tfc:plants/tree_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Morning Glory", <tfc:plants/morning_glory>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Moss", <tfc:plants/moss>, <minecraft:dye:10> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Reindeer Lichen", <tfc:plants/reindeer_lichen>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Spanish Moss", <tfc:plants/spanish_moss>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Guzmania", <tfc:plants/guzmania>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Vriesea", <tfc:plants/vriesea>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Licorice Fern", <tfc:plants/licorice_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Rough Horsetail", <tfc:plants/rough_horsetail>, <minecraft:dye:3>);
-	mods.terrafirmacraft.Quern.addRecipe("Bloody Lily", <tfc:plants/blood_lily>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Foxglove", <tfc:plants/foxglove>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Rose", <tfc:plants/rose>, <minecraft:dye:1> * 3);
-	mods.terrafirmacraft.Quern.addRecipe("Toquilla Palm", <tfc:plants/toquilla_palm>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Trillium", <tfc:plants/trillium>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Pampas Grass", <tfc:plants/pampas_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Ryegrass", <tfc:plants/ryegrass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Switchgrass", <tfc:plants/switchgrass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Fountain Grass", <tfc:plants/fountain_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Orchard Grass", <tfc:plants/orchard_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Scutch Grass", <tfc:plants/scutch_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Tall Fescue Grass", <tfc:plants/tall_fescue_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Timothy Grass", <tfc:plants/timothy_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Duckweed", <tfc:plants/duckweed>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Lotus", <tfc:plants/lotus>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Pistia", <tfc:plants/pistia>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("Sargassum", <tfc:plants/sargassum>, <minecraft:dye:3>);
-	mods.terrafirmacraft.Quern.addRecipe("Water Canna", <tfc:plants/water_canna>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("Water Lily", <tfc:plants/water_lily>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:allium", <tfc:plants/allium>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:athyrium_fern", <tfc:plants/athyrium_fern>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:blue_orchid", <tfc:plants/blue_orchid>, <quark:root_dye> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:black_orchid", <tfc:plants/black_orchid>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:butterfly_milkweed", <tfc:plants/butterfly_milkweed>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:calendula", <tfc:plants/calendula>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:canna", <tfc:plants/canna>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:dandelion", <tfc:plants/dandelion>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:field_horsetail", <tfc:plants/field_horsetail>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:goldenrod", <tfc:plants/goldenrod>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:grape_hyacinth", <tfc:plants/grape_hyacinth>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:houstonia", <tfc:plants/houstonia>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:labrador_tea", <tfc:plants/labrador_tea>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:lady_fern", <tfc:plants/lady_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:meads_milkweed", <tfc:plants/meads_milkweed>, <minecraft:dye:10> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:nasturtium", <tfc:plants/nasturtium>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:oxeye_daisy", <tfc:plants/oxeye_daisy>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:poppy", <tfc:plants/poppy>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:primrose", <tfc:plants/primrose>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:pulsatilla", <tfc:plants/pulsatilla>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:sacred_datura", <tfc:plants/sacred_datura>, <minecraft:dye:9> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:snapdragon_pink", <tfc:plants/snapdragon_pink>, <minecraft:dye:9> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:snapdragon_red", <tfc:plants/snapdragon_red>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:snapdragon_white", <tfc:plants/snapdragon_white>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:snapdragon_yellow", <tfc:plants/snapdragon_yellow>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:strelitzia", <tfc:plants/strelitzia>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:sword_fern", <tfc:plants/sword_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tropical_milkweed", <tfc:plants/tropical_milkweed>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tulip_orange", <tfc:plants/tulip_orange>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tulip_pink", <tfc:plants/tulip_pink>, <minecraft:dye:9> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tulip_red", <tfc:plants/tulip_red>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tulip_white", <tfc:plants/tulip_white>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:perovskia", <tfc:plants/perovskia>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:sagebrush", <tfc:plants/sagebrush>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:barrel_cactus", <tfc:plants/barrel_cactus>, <minecraft:dye:2> * 3);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:yucca", <tfc:plants/yucca>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:ostrich_fern", <tfc:plants/ostrich_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:sapphire_tower", <tfc:plants/sapphire_tower>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tree_fern", <tfc:plants/tree_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:morning_glory", <tfc:plants/morning_glory>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:moss", <tfc:plants/moss>, <minecraft:dye:10> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:reindeer_lichen", <tfc:plants/reindeer_lichen>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:spanish_moss", <tfc:plants/spanish_moss>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:guzmania", <tfc:plants/guzmania>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:vriesea", <tfc:plants/vriesea>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:licorice_fern", <tfc:plants/licorice_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:rough_horsetail", <tfc:plants/rough_horsetail>, <minecraft:dye:3>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:bloody_lily", <tfc:plants/blood_lily>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:foxglove", <tfc:plants/foxglove>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:rose", <tfc:plants/rose>, <minecraft:dye:1> * 3);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:toquilla_palm", <tfc:plants/toquilla_palm>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:trillium", <tfc:plants/trillium>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:pampas_grass", <tfc:plants/pampas_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:ryegrass", <tfc:plants/ryegrass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:switchgrass", <tfc:plants/switchgrass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:fountain_grass", <tfc:plants/fountain_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:orchard_grass", <tfc:plants/orchard_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:scutch_grass", <tfc:plants/scutch_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:tall_fescue_grass", <tfc:plants/tall_fescue_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:timothy_grass", <tfc:plants/timothy_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:duckweed", <tfc:plants/duckweed>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:lotus", <tfc:plants/lotus>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:pistia", <tfc:plants/pistia>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:sargassum", <tfc:plants/sargassum>, <minecraft:dye:3>);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:water_canna", <tfc:plants/water_canna>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:water_lily", <tfc:plants/water_lily>, <minecraft:dye:2>);
 	
-	mods.terrafirmacraft.Quern.addRecipe("Crystal Flower", <ebwizardry:crystal_flower>, <ebwizardry:magic_crystal> * 4);
+	mods.terrafirmacraft.Quern.addRecipe("tfcr:crystal_flower", <ebwizardry:crystal_flower>, <ebwizardry:magic_crystal> * 4);

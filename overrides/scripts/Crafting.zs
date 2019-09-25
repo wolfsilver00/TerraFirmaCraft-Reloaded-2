@@ -11,6 +11,7 @@
 	recipes.remove(<chisel:offsettool>);
 	recipes.remove(<props:props:508>);
 	recipes.remove(<minecraft:chest>);
+	recipes.remove(<minecraft:leather>);
 	recipes.remove(<quark:dark_oak_button>);
 	recipes.remove(<quark:acacia_button>);
 	recipes.remove(<quark:jungle_button>);
@@ -166,6 +167,7 @@
 	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
 	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
 	recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater>);
+	recipes.replaceAllOccurences(<minecraft:stonebrick>, <ore:stoneBrick>);
 	
 	//Wood
 	recipes.replaceAllOccurences(<minecraft:log>, <ore:logOakSimilar>);

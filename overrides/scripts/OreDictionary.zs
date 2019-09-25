@@ -21,6 +21,17 @@ var moss = <ore:moss>;
 	<tconstruct:materials:19>
 	]);
 
+var dragonBlood = <ore:dragonBlood>;
+    dragonBlood.addItems([
+	<iceandfire:fire_dragon_blood>,
+	<iceandfire:ice_dragon_blood>
+	]);
+
+var stoneBrick = <ore:stoneBrick>;
+    stoneBrick.addItems([
+	<minecraft:stonebrick>
+	]);
+
 var dyeYellow = <ore:dyeYellow>;
     dyeYellow.addItems([
 	<tfc:powder/limonite_powder>,
@@ -327,6 +338,16 @@ var sheetManyullyn = <ore:sheetManyullyn>;
 	<contenttweaker:manyullyn_sheet>
 	]);
 
+var sheetFireDragonsteel = <ore:sheetFireDragonsteel>;
+    sheetFireDragonsteel.addItems([
+	<contenttweaker:dragonsteel_fire_sheet>
+	]);
+
+var sheetIceDragonsteel = <ore:sheetIceDragonsteel>;
+    sheetIceDragonsteel.addItems([
+	<contenttweaker:dragonsteel_ice_sheet>
+	]);
+
 var doubleIngotAluminum = <ore:doubleIngotAluminum>;
     doubleIngotAluminum.addItems([
 	<contenttweaker:aluminium_double_ingot>
@@ -360,6 +381,16 @@ var doubleIngotCobalt = <ore:doubleIngotCobalt>;
 var doubleIngotManyullyn = <ore:doubleIngotManyullyn>;
     doubleIngotManyullyn.addItems([
 	<contenttweaker:manyullyn_double_ingot>
+	]);
+
+var doubleIngotFireDragonsteel = <ore:doubleIngotFireDragonsteel>;
+    doubleIngotFireDragonsteel.addItems([
+	<contenttweaker:dragonsteel_fire_double_ingot>
+	]);
+
+var doubleIngotIceDragonsteel = <ore:doubleIngotIceDragonsteel>;
+    doubleIngotIceDragonsteel.addItems([
+	<contenttweaker:dragonsteel_ice_double_ingot>
 	]);
 
 var doubleSheetAluminum = <ore:doubleSheetAluminum>;
@@ -399,6 +430,16 @@ var doubleSheetCobalt = <ore:doubleSheetCobalt>;
 var doubleSheetManyullyn = <ore:doubleSheetManyullyn>;
     doubleSheetManyullyn.addItems([
 	<contenttweaker:manyullyn_double_sheet>
+	]);
+
+var doubleSheetFireDragonsteel = <ore:doubleSheetFireDragonsteel>;
+    doubleSheetFireDragonsteel.addItems([
+	<contenttweaker:dragonsteel_fire_double_sheet>
+	]);
+
+var doubleSheetIceDragonsteel = <ore:doubleSheetIceDragonsteel>;
+    doubleSheetIceDragonsteel.addItems([
+	<contenttweaker:dragonsteel_ice_double_sheet>
 	]);
 
 var tfcLeaves = <ore:tfcLeaves>;

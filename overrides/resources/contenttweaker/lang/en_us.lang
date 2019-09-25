@@ -461,5 +461,141 @@ item.contenttweaker.manyullyn_double_ingot.name=Manyullyn Double Ingot
 item.contenttweaker.manyullyn_double_sheet.name=Manyullyn Double Sheet
 item.contenttweaker.manyullyn_sheet.name=Manyullyn Sheet
 
+item.contenttweaker.dragonsteel_fire_ingot_unrefined.name=Unrefined Fire Dragonsteel Ingot
+item.contenttweaker.dragonsteel_fire_double_ingot.name=Fire Dragonsteel Double Ingot
+item.contenttweaker.dragonsteel_fire_double_sheet.name=Fire Dragonsteel Double Sheet
+item.contenttweaker.dragonsteel_fire_sheet.name=Fire Dragonsteel Sheet
+
+item.contenttweaker.dragonsteel_ice_ingot_unrefined.name=Unrefined Ice Dragonsteel Ingot
+item.contenttweaker.dragonsteel_ice_double_ingot.name=Ice Dragonsteel Double Ingot
+item.contenttweaker.dragonsteel_ice_double_sheet.name=Ice Dragonsteel Double Sheet
+item.contenttweaker.dragonsteel_ice_sheet.name=Ice Dragonsteel Sheet
+
+#Armor
+item.contenttweaker.dragonsteel_fire_helmet_unfinished.name=Unfinished Fire Dragonsteel Helmet
+item.contenttweaker.dragonsteel_fire_chestplate_unfinished.name=Unfinished Fire Dragonsteel Chestplate
+item.contenttweaker.dragonsteel_fire_leggings_unfinished.name=Unfinished Fire Dragonsteel Leggings
+item.contenttweaker.dragonsteel_fire_boots_unfinished.name=Unfinished Fire Dragonsteel Boots
+
+item.contenttweaker.dragonsteel_ice_helmet_unfinished.name=Unfinished Ice Dragonsteel Helmet
+item.contenttweaker.dragonsteel_ice_chestplate_unfinished.name=Unfinished Ice Dragonsteel Chestplate
+item.contenttweaker.dragonsteel_ice_leggings_unfinished.name=Unfinished Ice Dragonsteel Leggings
+item.contenttweaker.dragonsteel_ice_boots_unfinished.name=Unfinished Ice Dragonsteel Boots
+
+item.contenttweaker.silver_helmet_unfinished.name=Unfinished Silver Helmet
+item.contenttweaker.silver_chestplate_unfinished.name=Unfinished Silver Chestplate
+item.contenttweaker.silver_leggings_unfinished.name=Unfinished Silver Leggings
+item.contenttweaker.silver_boots_unfinished.name=Unfinished Silver Boots
+
+item.contenttweaker.dragonscales_blue_helmet_unfinished.name=Unfinished Blue Dragon Scale Helmet
+item.contenttweaker.dragonscales_blue_chestplate_unfinished.name=Unfinished Blue Dragon Scale Chestplate
+item.contenttweaker.dragonscales_blue_leggings_unfinished.name=Unfinished Blue Dragon Scale Leggings
+item.contenttweaker.dragonscales_blue_boots_unfinished.name=Unfinished Blue Dragon Scale Boots
+
+item.contenttweaker.dragonscales_bronze_helmet_unfinished.name=Unfinished Bronze Dragon Scale Helmet
+item.contenttweaker.dragonscales_bronze_chestplate_unfinished.name=Unfinished Bronze Dragon Scale Chestplate
+item.contenttweaker.dragonscales_bronze_leggings_unfinished.name=Unfinished Bronze Dragon Scale Leggings
+item.contenttweaker.dragonscales_bronze_boots_unfinished.name=Unfinished Bronze Dragon Scale Boots
+
+item.contenttweaker.dragonscales_gray_helmet_unfinished.name=Unfinished Gray Dragon Scale Helmet
+item.contenttweaker.dragonscales_gray_chestplate_unfinished.name=Unfinished Gray Dragon Scale Chestplate
+item.contenttweaker.dragonscales_gray_leggings_unfinished.name=Unfinished Gray Dragon Scale Leggings
+item.contenttweaker.dragonscales_gray_boots_unfinished.name=Unfinished Gray Dragon Scale Boots
+
+item.contenttweaker.dragonscales_green_helmet_unfinished.name=Unfinished Green Dragon Scale Helmet
+item.contenttweaker.dragonscales_green_chestplate_unfinished.name=Unfinished Green Dragon Scale Chestplate
+item.contenttweaker.dragonscales_green_leggings_unfinished.name=Unfinished Green Dragon Scale Leggings
+item.contenttweaker.dragonscales_green_boots_unfinished.name=Unfinished Green Dragon Scale Boots
+
+item.contenttweaker.dragonscales_red_helmet_unfinished.name=Unfinished Red Dragon Scale Helmet
+item.contenttweaker.dragonscales_red_chestplate_unfinished.name=Unfinished Red Dragon Scale Chestplate
+item.contenttweaker.dragonscales_red_leggings_unfinished.name=Unfinished Red Dragon Scale Leggings
+item.contenttweaker.dragonscales_red_boots_unfinished.name=Unfinished Red Dragon Scale Boots
+
+item.contenttweaker.dragonscales_sapphire_helmet_unfinished.name=Unfinished Sapphire Dragon Scale Helmet
+item.contenttweaker.dragonscales_sapphire_chestplate_unfinished.name=Unfinished Sapphire Dragon Scale Chestplate
+item.contenttweaker.dragonscales_sapphire_leggings_unfinished.name=Unfinished Sapphire Dragon Scale Leggings
+item.contenttweaker.dragonscales_sapphire_boots_unfinished.name=Unfinished Sapphire Dragon Scale Boots
+
+item.contenttweaker.dragonscales_silver_helmet_unfinished.name=Unfinished Silver Dragon Scale Helmet
+item.contenttweaker.dragonscales_silver_chestplate_unfinished.name=Unfinished Silver Dragon Scale Chestplate
+item.contenttweaker.dragonscales_silver_leggings_unfinished.name=Unfinished Silver Dragon Scale Leggings
+item.contenttweaker.dragonscales_silver_boots_unfinished.name=Unfinished Silver Dragon Scale Boots
+
+item.contenttweaker.dragonscales_white_helmet_unfinished.name=Unfinished White Dragon Scale Helmet
+item.contenttweaker.dragonscales_white_chestplate_unfinished.name=Unfinished White Dragon Scale Chestplate
+item.contenttweaker.dragonscales_white_leggings_unfinished.name=Unfinished White Dragon Scale Leggings
+item.contenttweaker.dragonscales_white_boots_unfinished.name=Unfinished White Dragon Scale Boots
+
+#Scales
+item.contenttweaker.dragonscales_blue_prepared.name=Prepared Blue Dragon Scales
+item.contenttweaker.dragonscales_blue_tanned.name=Tanned Blue Dragon Scales
+
+item.contenttweaker.dragonscales_bronze_prepared.name=Prepared Bronze Dragon Scales
+item.contenttweaker.dragonscales_bronze_tanned.name=Tanned Bronze Dragon Scales
+
+item.contenttweaker.dragonscales_gray_prepared.name=Prepared Gray Dragon Scales
+item.contenttweaker.dragonscales_gray_tanned.name=Tanned Gray Dragon Scales
+
+item.contenttweaker.dragonscales_green_prepared.name=Prepared Green Dragon Scales
+item.contenttweaker.dragonscales_green_tanned.name=Tanned Green Dragon Scales
+
+item.contenttweaker.dragonscales_red_prepared.name=Prepared Red Dragon Scales
+item.contenttweaker.dragonscales_red_tanned.name=Tanned Red Dragon Scales
+
+item.contenttweaker.dragonscales_sapphire_prepared.name=Prepared Sapphire Dragon Scales
+item.contenttweaker.dragonscales_sapphire_tanned.name=Tanned Sapphire Dragon Scales
+
+item.contenttweaker.dragonscales_silver_prepared.name=Prepared Silver Dragon Scales
+item.contenttweaker.dragonscales_silver_tanned.name=Tanned Silver Dragon Scales
+
+item.contenttweaker.dragonscales_white_prepared.name=Prepared White Dragon Scales
+item.contenttweaker.dragonscales_white_tanned.name=Tanned White Dragon Scales
+
+#Troll Leather
+item.contenttweaker.troll_leather_forest_prepared.name=Prepared Forest Troll Hide
+item.contenttweaker.troll_leather_forest_tanned.name=Tanned Forest Troll Hide
+
+item.contenttweaker.troll_leather_frost_prepared.name=Prepared Frost Troll Hide
+item.contenttweaker.troll_leather_frost_tanned.name=Tanned Frost Troll Hide
+
+item.contenttweaker.troll_leather_mountain_prepared.name=Prepared Mountain Troll Hide
+item.contenttweaker.troll_leather_mountain_tanned.name=Tanned Mountain Troll Hide
+
+#Tool Parts
+item.contenttweaker.dragonsteel_fire_pick_head.name=Fire Dragonsteel Pickaxe Head
+item.contenttweaker.dragonsteel_fire_shovel_head.name=Fire Dragonsteel Shovel Head
+item.contenttweaker.dragonsteel_fire_axe_head.name=Fire Dragonsteel Axe Head
+item.contenttweaker.dragonsteel_fire_axe_head_left.name=Fire Dragonsteel Axe Head
+item.contenttweaker.dragonsteel_fire_axe_head_right.name=Fire Dragonsteel Axe Head
+item.contenttweaker.dragonsteel_fire_hoe_head.name=Fire Dragonsteel Hoe Head
+item.contenttweaker.dragonsteel_fire_sword_blade.name=Fire Dragonsteel Sword Blade
+
+item.contenttweaker.dragonsteel_ice_pick_head.name=Ice Dragonsteel Pickaxe Head
+item.contenttweaker.dragonsteel_ice_shovel_head.name=Ice Dragonsteel Shovel Head
+item.contenttweaker.dragonsteel_ice_axe_head.name=Ice Dragonsteel Axe Head
+item.contenttweaker.dragonsteel_ice_axe_head_left.name=Ice Dragonsteel Axe Head
+item.contenttweaker.dragonsteel_ice_axe_head_right.name=Ice Dragonsteel Axe Head
+item.contenttweaker.dragonsteel_ice_hoe_head.name=Ice Dragonsteel Hoe Head
+item.contenttweaker.dragonsteel_ice_sword_blade.name=Ice Dragonsteel Sword Blade
+
+item.contenttweaker.silver_pick_head.name=Silver Pickaxe Head
+item.contenttweaker.silver_shovel_head.name=Silver Shovel Head
+item.contenttweaker.silver_axe_head.name=Silver Axe Head
+item.contenttweaker.silver_hoe_head.name=Silver Hoe Head
+item.contenttweaker.silver_sword_blade.name=Silver Sword Blade
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

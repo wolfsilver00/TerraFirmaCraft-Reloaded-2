@@ -2,6 +2,10 @@
 //Basic Recipes
 
 	//Remove
+	recipes.remove(<immersiveengineering:pickaxe_steel>);
+	recipes.remove(<immersiveengineering:shovel_steel>);
+	recipes.remove(<immersiveengineering:axe_steel>);
+	recipes.remove(<immersiveengineering:sword_steel>);
 	recipes.remove(<immersiveengineering:tool>);
 	recipes.remove(<immersiveengineering:tool:1>);
 	recipes.remove(<immersiveengineering:material:1>);
@@ -30,7 +34,6 @@
 //=======================================================================================================================================================================
 //Immersive Engineering Machine Recipes
 
-//=======================================================================================================================================================================
 //Crusher
 
 	//Crystal Flower
@@ -388,7 +391,9 @@
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:cobalt_double_ingot>, <tconstruct:ingots>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:constantan_double_ingot>, <immersiveengineering:metal:6>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_double_ingot>, <immersiveengineering:metal:7>, <tfc:metal/hammer_head/steel>, 500, 2);
-	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_double_ingot>, <tconstruct:ingots:2>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_double_ingot>, <tconstruct:ingots:2>, <tfc:metal/hammer_head/steel>, 500, 2);	
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:dragonsteel_fire_double_ingot>, <iceandfire:dragonsteel_fire_ingot>, <tfc:metal/hammer_head/blue_steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:dragonsteel_ice_double_ingot>, <iceandfire:dragonsteel_ice_ingot>, <tfc:metal/hammer_head/blue_steel>, 500, 2);
 
 
 //Metal Sheets
@@ -420,6 +425,8 @@
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:constantan_sheet>, <contenttweaker:constantan_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_sheet>, <contenttweaker:electrum_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_sheet>, <contenttweaker:manyullyn_double_ingot>, <tfc:metal/hammer_head/steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:dragonsteel_fire_sheet>, <contenttweaker:dragonsteel_fire_double_ingot>, <tfc:metal/hammer_head/blue_steel>, 500);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:dragonsteel_ice_sheet>, <contenttweaker:dragonsteel_ice_double_ingot>, <tfc:metal/hammer_head/blue_steel>, 500);
 
 
 //Metal Double Sheets
@@ -451,6 +458,8 @@
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:constantan_double_sheet>, <contenttweaker:constantan_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:electrum_double_sheet>, <contenttweaker:electrum_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
 	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:manyullyn_double_sheet>, <contenttweaker:manyullyn_sheet>, <tfc:metal/hammer_head/steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:dragonsteel_fire_double_sheet>, <contenttweaker:dragonsteel_fire_sheet>, <tfc:metal/hammer_head/blue_steel>, 500, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:dragonsteel_ice_double_sheet>, <contenttweaker:dragonsteel_ice_sheet>, <tfc:metal/hammer_head/blue_steel>, 500, 2);
 
 
 //=======================================================================================================================================================================
@@ -533,40 +542,46 @@
 //Metal Alloys
 
 	//Bismuth Bronze
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 4, <ore:ingotBismuth>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotZinc>, <ore:ingotCopper>, <ore:ingotCopper>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 4, <ore:ingotBismuth>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotZinc>, <ore:ingotCopper>, <ore:ingotCopper>], "Alloying");
 
 	//Black Bronze
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze> * 4, <ore:ingotGold>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotSilver>, <ore:ingotCopper>, <ore:ingotCopper>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze> * 4, <ore:ingotGold>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotSilver>, <ore:ingotCopper>, <ore:ingotCopper>], "Alloying");
 
 	//Brass
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/brass> * 4, <ore:ingotZinc>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/brass> * 4, <ore:ingotZinc>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], "Alloying");
 
 	//Bronze
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 4, <ore:ingotTin>, <immersiveengineering:material:7> * 1, 512, 300, [<tfc:powder/flux>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 4, <ore:ingotTin>, <immersiveengineering:material:7> * 1, 512, 300, [<tfc:powder/flux>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], "Alloying");
 
 	//Rose Gold
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 4, <ore:ingotCopper>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 4, <ore:ingotCopper>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], "Alloying");
 
 	//Sterling Silver
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 4, <ore:ingotCopper>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 4, <ore:ingotCopper>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], "Alloying");
 
 	//Weak Steel
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/weak_steel> * 4, <ore:ingotSteel>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotSteel>, <ore:ingotBlackBronze>, <ore:ingotNickel>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/weak_steel> * 4, <ore:ingotSteel>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotSteel>, <ore:ingotBlackBronze>, <ore:ingotNickel>], "Alloying");
 
 	//Black High Carbon Steel
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/high_carbon_black_steel> * 2, <ore:ingotWeakSteel>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotPigIron>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/high_carbon_black_steel> * 2, <ore:ingotWeakSteel>, <immersiveengineering:material:7> * 1, 512, 200, [<tfc:powder/flux>, <ore:ingotPigIron>], "Alloying");
 
 	//Weak Red Steel
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/weak_red_steel> * 5, <ore:ingotSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<ore:ingotBrass>, <ore:ingotRoseGold>, <ore:ingotBlackSteel>, <ore:ingotBlackSteel>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/weak_red_steel> * 5, <ore:ingotSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<ore:ingotBrass>, <ore:ingotRoseGold>, <ore:ingotBlackSteel>, <ore:ingotBlackSteel>], "Alloying");
 
 	//Weak Blue Steel
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/weak_blue_steel> * 5, <ore:ingotSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<ore:ingotSterlingSilver>, <ore:ingotBismuthBronze>, <ore:ingotBlackSteel>, <ore:ingotBlackSteel>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/weak_blue_steel> * 5, <ore:ingotSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<ore:ingotSterlingSilver>, <ore:ingotBismuthBronze>, <ore:ingotBlackSteel>, <ore:ingotBlackSteel>], "Alloying");
 
 	//High Carbon Red Steel
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/high_carbon_red_steel> * 2, <ore:ingotWeakRedSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<tfc:powder/flux>, <ore:ingotBlackSteel>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/high_carbon_red_steel> * 2, <ore:ingotWeakRedSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<tfc:powder/flux>, <ore:ingotBlackSteel>], "Alloying");
 
 	//High Carbon Blue Steel
-	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/high_carbon_blue_steel> * 2, <ore:ingotWeakBlueSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<tfc:powder/flux>, <ore:ingotBlackSteel>]);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/high_carbon_blue_steel> * 2, <ore:ingotWeakBlueSteel>, <immersiveengineering:material:7> * 1, 512, 300, [<tfc:powder/flux>, <ore:ingotBlackSteel>], "Alloying");
+
+	//Dragonsteel Fire
+	mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:dragonsteel_fire_ingot_unrefined> * 5, <ore:ingotRedSteel>, <immersiveengineering:material:7> * 1, 512, 500, [<ore:ingotRedSteel>, <ore:ingotBlackSteel>, <ore:ingotPlatinum>, <ore:ingotRoseGold>], "Alloying");
+
+	//Dragonsteel Ice
+	mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:dragonsteel_ice_ingot_unrefined> * 5, <ore:ingotBlueSteel>, <immersiveengineering:material:7> * 1, 512, 500, [<ore:ingotBlueSteel>, <ore:ingotBlackSteel>, <ore:ingotPlatinum>, <ore:ingotSterlingSilver>], "Alloying");
 
 
 //Cobblestone to Raw Rock

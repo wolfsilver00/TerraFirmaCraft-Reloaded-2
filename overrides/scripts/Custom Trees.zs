@@ -405,5 +405,3 @@ large_red_apple_fruit_tree.setGenBiome("tfc:high_plains");
 large_red_apple_fruit_tree.setDimWhitelist(0);
 large_red_apple_fruit_tree.addSapling();
 large_red_apple_fruit_tree.register();
-
-//-6546296558281893508

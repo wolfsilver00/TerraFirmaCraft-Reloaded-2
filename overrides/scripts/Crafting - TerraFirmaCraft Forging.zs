@@ -1,6 +1,10 @@
 //=======================================================================================================================================================================
 //ItemRegistry
 	
+	//Bricks
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:brick>, "TINY", "LIGHT");
+	mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:netherbrick>, "TINY", "LIGHT");
+	
 	//Dixie & Glue
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:glue>, "VERY_SMALL", "LIGHT");
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:dixie_glue>, "LARGE", "MEDIUM");
@@ -107,6 +111,10 @@
 	//Paraglider Weight & Size
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider>, "LARGE", "MEDIUM");
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<paraglider:paraglider:1>, "LARGE", "MEDIUM");
+
+	//Bones
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:bone>, 0.14, 640, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tconstruct:materials:17>, 0.14, 640, true);
 
 	//Vanilla Clay
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay_ball>, 0.14, 540, true);
@@ -635,324 +643,324 @@
 //Add Anvil Recipes
 
 	//Dixie
-	mods.terrafirmacraft.Anvil.addRecipe("Dixie", <tfc:metal/sheet/wrought_iron>, <contenttweaker:dixie>, 3, "BEND_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:dixie", <tfc:metal/sheet/wrought_iron>, <contenttweaker:dixie>, 3, "BEND_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
 
 	//Rods
-	mods.terrafirmacraft.Anvil.addRecipe("Iron Rod", <tfc:metal/ingot/wrought_iron>, <immersiveengineering:material:1>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Rod", <tfc:metal/ingot/steel>, <immersiveengineering:material:2>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Aluminium Rod", <immersiveengineering:metal:1>, <immersiveengineering:material:3>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:iron_rod", <tfc:metal/ingot/wrought_iron>, <immersiveengineering:material:1>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_rod", <tfc:metal/ingot/steel>, <immersiveengineering:material:2>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:aluminium_rod", <immersiveengineering:metal:1>, <immersiveengineering:material:3>, 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
 
 	//Planer
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Planer Blade", <tfc:metal/ingot/steel>, <contenttweaker:steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Planer Blade", <tfc:metal/ingot/wrought_iron>, <contenttweaker:wrought_iron_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Black Bronze Planer Blade", <tfc:metal/ingot/black_bronze>, <contenttweaker:black_bronze_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Red Steel Planer Blade", <tfc:metal/ingot/red_steel>, <contenttweaker:red_steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Blue Steel Planer Blade", <tfc:metal/ingot/blue_steel>, <contenttweaker:blue_steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Planer Blade", <tfc:metal/ingot/copper>, <contenttweaker:copper_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Planer Blade", <tfc:metal/ingot/bronze>, <contenttweaker:bronze_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bismuth Bronze Planer Blade", <tfc:metal/ingot/bismuth_bronze>, <contenttweaker:bismuth_bronze_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Black Steel Planer Blade", <tfc:metal/ingot/black_steel>, <contenttweaker:black_steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_planer_blade", <tfc:metal/ingot/steel>, <contenttweaker:steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_planer_blade", <tfc:metal/ingot/wrought_iron>, <contenttweaker:wrought_iron_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:black_bronze_planer_blade", <tfc:metal/ingot/black_bronze>, <contenttweaker:black_bronze_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:red_steel_planer_blade", <tfc:metal/ingot/red_steel>, <contenttweaker:red_steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:blue_steel_planer_blade", <tfc:metal/ingot/blue_steel>, <contenttweaker:blue_steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_planer_blade", <tfc:metal/ingot/copper>, <contenttweaker:copper_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_planer_blade", <tfc:metal/ingot/bronze>, <contenttweaker:bronze_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bismuth_bronze_planer_blade", <tfc:metal/ingot/bismuth_bronze>, <contenttweaker:bismuth_bronze_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:black_steel_planer_blade", <tfc:metal/ingot/black_steel>, <contenttweaker:black_steel_planer_blade>, 4, "HIT_ANY", "DRAW_SECOND_LAST", "DRAW_LAST");
 
 	//Content Tweaker Metal Items - Sheets
-	mods.terrafirmacraft.Anvil.addRecipe("Aluminium Sheet", <contenttweaker:aluminium_double_ingot>, <contenttweaker:aluminium_sheet>, 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Sheet", <contenttweaker:ardite_double_ingot>, <contenttweaker:ardite_sheet>, 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Sheet", <contenttweaker:cobalt_double_ingot>, <contenttweaker:cobalt_sheet>, 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Sheet", <contenttweaker:constantan_double_ingot>, <contenttweaker:constantan_sheet>, 3, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Sheet", <contenttweaker:electrum_double_ingot>, <contenttweaker:electrum_sheet>, 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Sheet", <contenttweaker:manyullyn_double_ingot>, <contenttweaker:manyullyn_sheet>, 6, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:aluminium_sheet", <contenttweaker:aluminium_double_ingot>, <contenttweaker:aluminium_sheet>, 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_sheet", <contenttweaker:ardite_double_ingot>, <contenttweaker:ardite_sheet>, 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_sheet", <contenttweaker:cobalt_double_ingot>, <contenttweaker:cobalt_sheet>, 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_sheet", <contenttweaker:constantan_double_ingot>, <contenttweaker:constantan_sheet>, 3, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_sheet", <contenttweaker:electrum_double_ingot>, <contenttweaker:electrum_sheet>, 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_sheet", <contenttweaker:manyullyn_double_ingot>, <contenttweaker:manyullyn_sheet>, 6, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
 	
 
 	//Tinkers' Construct Head Toolparts
-	//Pickaxe
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Pickaxe Head", <tfc:metal/ingot/wrought_iron>, <tconstruct:pick_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Pickaxe Head", <tfc:metal/ingot/pig_iron>, <tconstruct:pick_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Pickaxe Head", <tconstruct:ingots>, <tconstruct:pick_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Pickaxe Head", <tconstruct:ingots:1>, <tconstruct:pick_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Pickaxe Head", <tconstruct:ingots:2>, <tconstruct:pick_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Pickaxe Head", <tfc:metal/ingot/copper>, <tconstruct:pick_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Pickaxe Head", <tfc:metal/ingot/bronze>, <tconstruct:pick_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Pickaxe Head", <tfc:metal/ingot/lead>, <tconstruct:pick_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Pickaxe Head", <tfc:metal/ingot/silver>, <tconstruct:pick_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Pickaxe Head", <immersiveengineering:metal:7>, <tconstruct:pick_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Pickaxe Head", <tfc:metal/ingot/steel>, <tconstruct:pick_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Pickaxe Head", <immersiveengineering:metal:6>, <tconstruct:pick_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	//pickaxe
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_pickaxe_head", <tfc:metal/ingot/wrought_iron>, <tconstruct:pick_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_pickaxe_head", <tfc:metal/ingot/pig_iron>, <tconstruct:pick_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_pickaxe_head", <tconstruct:ingots>, <tconstruct:pick_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_pickaxe_head", <tconstruct:ingots:1>, <tconstruct:pick_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_pickaxe_head", <tconstruct:ingots:2>, <tconstruct:pick_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_pickaxe_head", <tfc:metal/ingot/copper>, <tconstruct:pick_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_pickaxe_head", <tfc:metal/ingot/bronze>, <tconstruct:pick_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_pickaxe_head", <tfc:metal/ingot/lead>, <tconstruct:pick_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_pickaxe_head", <tfc:metal/ingot/silver>, <tconstruct:pick_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_pickaxe_head", <immersiveengineering:metal:7>, <tconstruct:pick_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_pickaxe_head", <tfc:metal/ingot/steel>, <tconstruct:pick_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_pickaxe_head", <immersiveengineering:metal:6>, <tconstruct:pick_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Shovel
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Shovel Head", <tfc:metal/ingot/wrought_iron>, <tconstruct:shovel_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Shovel Head", <tfc:metal/ingot/pig_iron>, <tconstruct:shovel_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Shovel Head", <tconstruct:ingots>, <tconstruct:shovel_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Shovel Head", <tconstruct:ingots:1>, <tconstruct:shovel_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Shovel Head", <tconstruct:ingots:2>, <tconstruct:shovel_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Shovel Head", <tfc:metal/ingot/copper>, <tconstruct:shovel_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Shovel Head", <tfc:metal/ingot/bronze>, <tconstruct:shovel_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Shovel Head", <tfc:metal/ingot/lead>, <tconstruct:shovel_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Shovel Head", <tfc:metal/ingot/silver>, <tconstruct:shovel_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Shovel Head", <immersiveengineering:metal:7>, <tconstruct:shovel_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Shovel Head", <tfc:metal/ingot/steel>, <tconstruct:shovel_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Shovel Head", <immersiveengineering:metal:6>, <tconstruct:shovel_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	//shovel
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_shovel_head", <tfc:metal/ingot/wrought_iron>, <tconstruct:shovel_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_shovel_head", <tfc:metal/ingot/pig_iron>, <tconstruct:shovel_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_shovel_head", <tconstruct:ingots>, <tconstruct:shovel_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_shovel_head", <tconstruct:ingots:1>, <tconstruct:shovel_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_shovel_head", <tconstruct:ingots:2>, <tconstruct:shovel_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_shovel_head", <tfc:metal/ingot/copper>, <tconstruct:shovel_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_shovel_head", <tfc:metal/ingot/bronze>, <tconstruct:shovel_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_shovel_head", <tfc:metal/ingot/lead>, <tconstruct:shovel_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_shovel_head", <tfc:metal/ingot/silver>, <tconstruct:shovel_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_shovel_head", <immersiveengineering:metal:7>, <tconstruct:shovel_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_shovel_head", <tfc:metal/ingot/steel>, <tconstruct:shovel_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_shovel_head", <immersiveengineering:metal:6>, <tconstruct:shovel_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
 
-	//Axe
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Axe Head", <tfc:metal/ingot/wrought_iron>, <tconstruct:axe_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Axe Head", <tfc:metal/ingot/pig_iron>, <tconstruct:axe_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Axe Head", <tconstruct:ingots>, <tconstruct:axe_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Axe Head", <tconstruct:ingots:1>, <tconstruct:axe_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Axe Head", <tconstruct:ingots:2>, <tconstruct:axe_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Axe Head", <tfc:metal/ingot/copper>, <tconstruct:axe_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Axe Head", <tfc:metal/ingot/bronze>, <tconstruct:axe_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Axe Head", <tfc:metal/ingot/lead>, <tconstruct:axe_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Axe Head", <tfc:metal/ingot/silver>, <tconstruct:axe_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Axe Head", <immersiveengineering:metal:7>, <tconstruct:axe_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Axe Head", <tfc:metal/ingot/steel>, <tconstruct:axe_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Axe Head", <immersiveengineering:metal:6>, <tconstruct:axe_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	//axe
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_axe_head", <tfc:metal/ingot/wrought_iron>, <tconstruct:axe_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_axe_head", <tfc:metal/ingot/pig_iron>, <tconstruct:axe_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_axe_head", <tconstruct:ingots>, <tconstruct:axe_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_axe_head", <tconstruct:ingots:1>, <tconstruct:axe_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_axe_head", <tconstruct:ingots:2>, <tconstruct:axe_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_axe_head", <tfc:metal/ingot/copper>, <tconstruct:axe_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_axe_head", <tfc:metal/ingot/bronze>, <tconstruct:axe_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_axe_head", <tfc:metal/ingot/lead>, <tconstruct:axe_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_axe_head", <tfc:metal/ingot/silver>, <tconstruct:axe_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_axe_head", <immersiveengineering:metal:7>, <tconstruct:axe_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_axe_head", <tfc:metal/ingot/steel>, <tconstruct:axe_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_axe_head", <immersiveengineering:metal:6>, <tconstruct:axe_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
 
-	//Broad Axe
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Broad Axe Head", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:broad_axe_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Broad Axe Head", <tfc:metal/double_ingot/pig_iron>, <tconstruct:broad_axe_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Broad Axe Head", <contenttweaker:cobalt_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Broad Axe Head", <contenttweaker:ardite_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Broad Axe Head", <contenttweaker:manyullyn_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Broad Axe Head", <tfc:metal/double_ingot/copper>, <tconstruct:broad_axe_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Broad Axe Head", <tfc:metal/double_ingot/bronze>, <tconstruct:broad_axe_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Broad Axe Head", <tfc:metal/double_ingot/lead>, <tconstruct:broad_axe_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Broad Axe Head", <tfc:metal/double_ingot/silver>, <tconstruct:broad_axe_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Broad Axe Head", <contenttweaker:electrum_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Broad Axe Head", <tfc:metal/double_ingot/steel>, <tconstruct:broad_axe_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Broad Axe Head", <contenttweaker:constantan_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	//broad_axe
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_broad_axe_head", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:broad_axe_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_broad_axe_head", <tfc:metal/double_ingot/pig_iron>, <tconstruct:broad_axe_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_broad_axe_head", <contenttweaker:cobalt_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_broad_axe_head", <contenttweaker:ardite_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_broad_axe_head", <contenttweaker:manyullyn_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_broad_axe_head", <tfc:metal/double_ingot/copper>, <tconstruct:broad_axe_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_broad_axe_head", <tfc:metal/double_ingot/bronze>, <tconstruct:broad_axe_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_broad_axe_head", <tfc:metal/double_ingot/lead>, <tconstruct:broad_axe_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_broad_axe_head", <tfc:metal/double_ingot/silver>, <tconstruct:broad_axe_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_broad_axe_head", <contenttweaker:electrum_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_broad_axe_head", <tfc:metal/double_ingot/steel>, <tconstruct:broad_axe_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_broad_axe_head", <contenttweaker:constantan_double_ingot>, <tconstruct:broad_axe_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
 
-	//Sword
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Sword Blade", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:sword_blade>.withTag({Material: "iron"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Sword Blade", <tfc:metal/double_ingot/pig_iron>, <tconstruct:sword_blade>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Sword Blade", <contenttweaker:cobalt_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Sword Blade", <contenttweaker:ardite_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "ardite"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Sword Blade", <contenttweaker:manyullyn_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Sword Blade", <tfc:metal/double_ingot/copper>, <tconstruct:sword_blade>.withTag({Material: "copper"}), 1, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Sword Blade", <tfc:metal/double_ingot/bronze>, <tconstruct:sword_blade>.withTag({Material: "bronze"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Sword Blade", <tfc:metal/double_ingot/lead>, <tconstruct:sword_blade>.withTag({Material: "lead"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Sword Blade", <tfc:metal/double_ingot/silver>, <tconstruct:sword_blade>.withTag({Material: "silver"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Sword Blade", <contenttweaker:electrum_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "electrum"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Sword Blade", <tfc:metal/double_ingot/steel>, <tconstruct:sword_blade>.withTag({Material: "steel"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Sword Blade", <contenttweaker:constantan_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "constantan"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	//sword
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_sword_blade", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:sword_blade>.withTag({Material: "iron"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_sword_blade", <tfc:metal/double_ingot/pig_iron>, <tconstruct:sword_blade>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_sword_blade", <contenttweaker:cobalt_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_sword_blade", <contenttweaker:ardite_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "ardite"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_sword_blade", <contenttweaker:manyullyn_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_sword_blade", <tfc:metal/double_ingot/copper>, <tconstruct:sword_blade>.withTag({Material: "copper"}), 1, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_sword_blade", <tfc:metal/double_ingot/bronze>, <tconstruct:sword_blade>.withTag({Material: "bronze"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_sword_blade", <tfc:metal/double_ingot/lead>, <tconstruct:sword_blade>.withTag({Material: "lead"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_sword_blade", <tfc:metal/double_ingot/silver>, <tconstruct:sword_blade>.withTag({Material: "silver"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_sword_blade", <contenttweaker:electrum_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "electrum"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_sword_blade", <tfc:metal/double_ingot/steel>, <tconstruct:sword_blade>.withTag({Material: "steel"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_sword_blade", <contenttweaker:constantan_double_ingot>, <tconstruct:sword_blade>.withTag({Material: "constantan"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
 
-	//Large Sword
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Large Sword Blade", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:large_sword_blade>.withTag({Material: "iron"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Large Sword Blade", <tfc:metal/double_sheet/pig_iron>, <tconstruct:large_sword_blade>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Large Sword Blade", <contenttweaker:cobalt_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Large Sword Blade", <contenttweaker:ardite_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "ardite"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Large Sword Blade", <contenttweaker:manyullyn_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Large Sword Blade", <tfc:metal/double_sheet/copper>, <tconstruct:large_sword_blade>.withTag({Material: "copper"}), 1, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Large Sword Blade", <tfc:metal/double_sheet/bronze>, <tconstruct:large_sword_blade>.withTag({Material: "bronze"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Large Sword Blade", <tfc:metal/double_sheet/lead>, <tconstruct:large_sword_blade>.withTag({Material: "lead"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Large Sword Blade", <tfc:metal/double_sheet/silver>, <tconstruct:large_sword_blade>.withTag({Material: "silver"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Large Sword Blade", <contenttweaker:electrum_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "electrum"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Large Sword Blade", <tfc:metal/double_sheet/steel>, <tconstruct:large_sword_blade>.withTag({Material: "steel"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Large Sword Blade", <contenttweaker:constantan_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "constantan"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	//large_sword
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_large_sword_blade", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:large_sword_blade>.withTag({Material: "iron"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_large_sword_blade", <tfc:metal/double_sheet/pig_iron>, <tconstruct:large_sword_blade>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_large_sword_blade", <contenttweaker:cobalt_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_large_sword_blade", <contenttweaker:ardite_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "ardite"}), 5, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_large_sword_blade", <contenttweaker:manyullyn_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_large_sword_blade", <tfc:metal/double_sheet/copper>, <tconstruct:large_sword_blade>.withTag({Material: "copper"}), 1, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_large_sword_blade", <tfc:metal/double_sheet/bronze>, <tconstruct:large_sword_blade>.withTag({Material: "bronze"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_large_sword_blade", <tfc:metal/double_sheet/lead>, <tconstruct:large_sword_blade>.withTag({Material: "lead"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_large_sword_blade", <tfc:metal/double_sheet/silver>, <tconstruct:large_sword_blade>.withTag({Material: "silver"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_large_sword_blade", <contenttweaker:electrum_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "electrum"}), 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_large_sword_blade", <tfc:metal/double_sheet/steel>, <tconstruct:large_sword_blade>.withTag({Material: "steel"}), 4, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_large_sword_blade", <contenttweaker:constantan_double_sheet>, <tconstruct:large_sword_blade>.withTag({Material: "constantan"}), 3, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
 
-	//Hammer
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Hammer Head", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:hammer_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Hammer Head", <tfc:metal/double_sheet/pig_iron>, <tconstruct:hammer_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Hammer Head", <contenttweaker:cobalt_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Hammer Head", <contenttweaker:ardite_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Hammer Head", <contenttweaker:manyullyn_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Hammer Head", <tfc:metal/double_sheet/copper>, <tconstruct:hammer_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Hammer Head", <tfc:metal/double_sheet/bronze>, <tconstruct:hammer_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Hammer Head", <tfc:metal/double_sheet/lead>, <tconstruct:hammer_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Hammer Head", <tfc:metal/double_sheet/silver>, <tconstruct:hammer_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Hammer Head", <contenttweaker:electrum_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Hammer Head", <tfc:metal/double_sheet/steel>, <tconstruct:hammer_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Hammer Head", <contenttweaker:constantan_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	//hammer
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_hammer_head", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:hammer_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_hammer_head", <tfc:metal/double_sheet/pig_iron>, <tconstruct:hammer_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_hammer_head", <contenttweaker:cobalt_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_hammer_head", <contenttweaker:ardite_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_hammer_head", <contenttweaker:manyullyn_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_hammer_head", <tfc:metal/double_sheet/copper>, <tconstruct:hammer_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_hammer_head", <tfc:metal/double_sheet/bronze>, <tconstruct:hammer_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_hammer_head", <tfc:metal/double_sheet/lead>, <tconstruct:hammer_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_hammer_head", <tfc:metal/double_sheet/silver>, <tconstruct:hammer_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_hammer_head", <contenttweaker:electrum_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_hammer_head", <tfc:metal/double_sheet/steel>, <tconstruct:hammer_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_hammer_head", <contenttweaker:constantan_double_sheet>, <tconstruct:hammer_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_ANY", "SHRINK_NOT_LAST");
 
-	//Excavator
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Excavator Head", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:excavator_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Excavator Head", <tfc:metal/double_sheet/pig_iron>, <tconstruct:excavator_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Excavator Head", <contenttweaker:cobalt_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Excavator Head", <contenttweaker:ardite_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Excavator Head", <contenttweaker:manyullyn_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Excavator Head", <tfc:metal/double_sheet/copper>, <tconstruct:excavator_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Excavator Head", <tfc:metal/double_sheet/bronze>, <tconstruct:excavator_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Excavator Head", <tfc:metal/double_sheet/lead>, <tconstruct:excavator_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Excavator Head", <tfc:metal/double_sheet/silver>, <tconstruct:excavator_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Excavator Head", <contenttweaker:electrum_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Excavator Head", <tfc:metal/double_sheet/steel>, <tconstruct:excavator_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Excavator Head", <contenttweaker:constantan_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	//excavator
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_excavator_head", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:excavator_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_excavator_head", <tfc:metal/double_sheet/pig_iron>, <tconstruct:excavator_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_excavator_head", <contenttweaker:cobalt_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_excavator_head", <contenttweaker:ardite_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_excavator_head", <contenttweaker:manyullyn_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_excavator_head", <tfc:metal/double_sheet/copper>, <tconstruct:excavator_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_excavator_head", <tfc:metal/double_sheet/bronze>, <tconstruct:excavator_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_excavator_head", <tfc:metal/double_sheet/lead>, <tconstruct:excavator_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_excavator_head", <tfc:metal/double_sheet/silver>, <tconstruct:excavator_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_excavator_head", <contenttweaker:electrum_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_excavator_head", <tfc:metal/double_sheet/steel>, <tconstruct:excavator_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_excavator_head", <contenttweaker:constantan_double_sheet>, <tconstruct:excavator_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
 
-	//Kama
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Kama Blade", <tfc:metal/sheet/wrought_iron>, <tconstruct:kama_head>.withTag({Material: "iron"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Kama Blade", <tfc:metal/sheet/pig_iron>, <tconstruct:kama_head>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Kama Blade", <contenttweaker:cobalt_sheet>, <tconstruct:kama_head>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Kama Blade", <contenttweaker:ardite_sheet>, <tconstruct:kama_head>.withTag({Material: "ardite"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Kama Blade", <contenttweaker:manyullyn_sheet>, <tconstruct:kama_head>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Kama Blade", <tfc:metal/sheet/copper>, <tconstruct:kama_head>.withTag({Material: "copper"}), 1, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Kama Blade", <tfc:metal/sheet/bronze>, <tconstruct:kama_head>.withTag({Material: "bronze"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Kama Blade", <tfc:metal/sheet/lead>, <tconstruct:kama_head>.withTag({Material: "lead"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Kama Blade", <tfc:metal/sheet/silver>, <tconstruct:kama_head>.withTag({Material: "silver"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Kama Blade", <contenttweaker:electrum_sheet>, <tconstruct:kama_head>.withTag({Material: "electrum"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Kama Blade", <tfc:metal/sheet/steel>, <tconstruct:kama_head>.withTag({Material: "steel"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Kama Blade", <contenttweaker:constantan_sheet>, <tconstruct:kama_head>.withTag({Material: "constantan"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	//kama
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_kama_blade", <tfc:metal/sheet/wrought_iron>, <tconstruct:kama_head>.withTag({Material: "iron"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_kama_blade", <tfc:metal/sheet/pig_iron>, <tconstruct:kama_head>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_kama_blade", <contenttweaker:cobalt_sheet>, <tconstruct:kama_head>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_kama_blade", <contenttweaker:ardite_sheet>, <tconstruct:kama_head>.withTag({Material: "ardite"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_kama_blade", <contenttweaker:manyullyn_sheet>, <tconstruct:kama_head>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_kama_blade", <tfc:metal/sheet/copper>, <tconstruct:kama_head>.withTag({Material: "copper"}), 1, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_kama_blade", <tfc:metal/sheet/bronze>, <tconstruct:kama_head>.withTag({Material: "bronze"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_kama_blade", <tfc:metal/sheet/lead>, <tconstruct:kama_head>.withTag({Material: "lead"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_kama_blade", <tfc:metal/sheet/silver>, <tconstruct:kama_head>.withTag({Material: "silver"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_kama_blade", <contenttweaker:electrum_sheet>, <tconstruct:kama_head>.withTag({Material: "electrum"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_kama_blade", <tfc:metal/sheet/steel>, <tconstruct:kama_head>.withTag({Material: "steel"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_kama_blade", <contenttweaker:constantan_sheet>, <tconstruct:kama_head>.withTag({Material: "constantan"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
 
-	//Scythe
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Scythe Blade", <tfc:metal/sheet/wrought_iron>, <tconstruct:scythe_head>.withTag({Material: "iron"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Scythe Blade", <tfc:metal/sheet/pig_iron>, <tconstruct:scythe_head>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Scythe Blade", <contenttweaker:cobalt_sheet>, <tconstruct:scythe_head>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Scythe Blade", <contenttweaker:ardite_sheet>, <tconstruct:scythe_head>.withTag({Material: "ardite"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Scythe Blade", <contenttweaker:manyullyn_sheet>, <tconstruct:scythe_head>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Scythe Blade", <tfc:metal/sheet/copper>, <tconstruct:scythe_head>.withTag({Material: "copper"}), 1, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Scythe Blade", <tfc:metal/sheet/bronze>, <tconstruct:scythe_head>.withTag({Material: "bronze"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Scythe Blade", <tfc:metal/sheet/lead>, <tconstruct:scythe_head>.withTag({Material: "lead"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Scythe Blade", <tfc:metal/sheet/silver>, <tconstruct:scythe_head>.withTag({Material: "silver"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Scythe Blade", <contenttweaker:electrum_sheet>, <tconstruct:scythe_head>.withTag({Material: "electrum"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Scythe Blade", <tfc:metal/sheet/steel>, <tconstruct:scythe_head>.withTag({Material: "steel"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Scythe Blade", <contenttweaker:constantan_sheet>, <tconstruct:scythe_head>.withTag({Material: "constantan"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	//scythe
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_scythe_blade", <tfc:metal/sheet/wrought_iron>, <tconstruct:scythe_head>.withTag({Material: "iron"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_scythe_blade", <tfc:metal/sheet/pig_iron>, <tconstruct:scythe_head>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_scythe_blade", <contenttweaker:cobalt_sheet>, <tconstruct:scythe_head>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_scythe_blade", <contenttweaker:ardite_sheet>, <tconstruct:scythe_head>.withTag({Material: "ardite"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_scythe_blade", <contenttweaker:manyullyn_sheet>, <tconstruct:scythe_head>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_scythe_blade", <tfc:metal/sheet/copper>, <tconstruct:scythe_head>.withTag({Material: "copper"}), 1, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_scythe_blade", <tfc:metal/sheet/bronze>, <tconstruct:scythe_head>.withTag({Material: "bronze"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_scythe_blade", <tfc:metal/sheet/lead>, <tconstruct:scythe_head>.withTag({Material: "lead"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_scythe_blade", <tfc:metal/sheet/silver>, <tconstruct:scythe_head>.withTag({Material: "silver"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_scythe_blade", <contenttweaker:electrum_sheet>, <tconstruct:scythe_head>.withTag({Material: "electrum"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_scythe_blade", <tfc:metal/sheet/steel>, <tconstruct:scythe_head>.withTag({Material: "steel"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_scythe_blade", <contenttweaker:constantan_sheet>, <tconstruct:scythe_head>.withTag({Material: "constantan"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "BEND_THIRD_LAST");
 
-	//Tool Rod
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Tool Rod", <tfc:metal/ingot/wrought_iron>, <tconstruct:tool_rod>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Tool Rod", <tfc:metal/ingot/pig_iron>, <tconstruct:tool_rod>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Tool Rod", <tconstruct:ingots>, <tconstruct:tool_rod>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Tool Rod", <tconstruct:ingots:1>, <tconstruct:tool_rod>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Tool Rod", <tconstruct:ingots:2>, <tconstruct:tool_rod>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Tool Rod", <tfc:metal/ingot/copper>, <tconstruct:tool_rod>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Tool Rod", <tfc:metal/ingot/bronze>, <tconstruct:tool_rod>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Tool Rod", <tfc:metal/ingot/lead>, <tconstruct:tool_rod>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Tool Rod", <tfc:metal/ingot/silver>, <tconstruct:tool_rod>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Tool Rod", <immersiveengineering:metal:7>, <tconstruct:tool_rod>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Tool Rod", <tfc:metal/ingot/steel>, <tconstruct:tool_rod>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Tool Rod", <immersiveengineering:metal:6>, <tconstruct:tool_rod>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	//tool_rod
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_tool_rod", <tfc:metal/ingot/wrought_iron>, <tconstruct:tool_rod>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_tool_rod", <tfc:metal/ingot/pig_iron>, <tconstruct:tool_rod>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_tool_rod", <tconstruct:ingots>, <tconstruct:tool_rod>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_tool_rod", <tconstruct:ingots:1>, <tconstruct:tool_rod>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_tool_rod", <tconstruct:ingots:2>, <tconstruct:tool_rod>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_tool_rod", <tfc:metal/ingot/copper>, <tconstruct:tool_rod>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_tool_rod", <tfc:metal/ingot/bronze>, <tconstruct:tool_rod>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_tool_rod", <tfc:metal/ingot/lead>, <tconstruct:tool_rod>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_tool_rod", <tfc:metal/ingot/silver>, <tconstruct:tool_rod>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_tool_rod", <immersiveengineering:metal:7>, <tconstruct:tool_rod>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_tool_rod", <tfc:metal/ingot/steel>, <tconstruct:tool_rod>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_tool_rod", <immersiveengineering:metal:6>, <tconstruct:tool_rod>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Tough Tool Rod
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Tough Tool Rod", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:tough_tool_rod>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Tough Tool Rod", <tfc:metal/double_ingot/pig_iron>, <tconstruct:tough_tool_rod>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Tough Tool Rod", <contenttweaker:cobalt_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Tough Tool Rod", <contenttweaker:ardite_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Tough Tool Rod", <contenttweaker:manyullyn_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Tough Tool Rod", <tfc:metal/double_ingot/copper>, <tconstruct:tough_tool_rod>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Tough Tool Rod", <tfc:metal/double_ingot/bronze>, <tconstruct:tough_tool_rod>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Tough Tool Rod", <tfc:metal/double_ingot/lead>, <tconstruct:tough_tool_rod>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Tough Tool Rod", <tfc:metal/double_ingot/silver>, <tconstruct:tough_tool_rod>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Tough Tool Rod", <contenttweaker:electrum_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Tough Tool Rod", <tfc:metal/double_ingot/steel>, <tconstruct:tough_tool_rod>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Tough Tool Rod", <contenttweaker:constantan_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	//Tough_tool_rod
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_Tough_tool_rod", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:tough_tool_rod>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_Tough_tool_rod", <tfc:metal/double_ingot/pig_iron>, <tconstruct:tough_tool_rod>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_Tough_tool_rod", <contenttweaker:cobalt_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_Tough_tool_rod", <contenttweaker:ardite_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_Tough_tool_rod", <contenttweaker:manyullyn_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_Tough_tool_rod", <tfc:metal/double_ingot/copper>, <tconstruct:tough_tool_rod>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_Tough_tool_rod", <tfc:metal/double_ingot/bronze>, <tconstruct:tough_tool_rod>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_Tough_tool_rod", <tfc:metal/double_ingot/lead>, <tconstruct:tough_tool_rod>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_Tough_tool_rod", <tfc:metal/double_ingot/silver>, <tconstruct:tough_tool_rod>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_Tough_tool_rod", <contenttweaker:electrum_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_Tough_tool_rod", <tfc:metal/double_ingot/steel>, <tconstruct:tough_tool_rod>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_Tough_tool_rod", <contenttweaker:constantan_double_ingot>, <tconstruct:tough_tool_rod>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Binding
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Binding", <tfc:metal/ingot/wrought_iron>, <tconstruct:binding>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Binding", <tfc:metal/ingot/pig_iron>, <tconstruct:binding>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Binding", <tconstruct:ingots>, <tconstruct:binding>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Binding", <tconstruct:ingots:1>, <tconstruct:binding>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Binding", <tconstruct:ingots:2>, <tconstruct:binding>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Binding", <tfc:metal/ingot/copper>, <tconstruct:binding>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Binding", <tfc:metal/ingot/bronze>, <tconstruct:binding>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Binding", <tfc:metal/ingot/lead>, <tconstruct:binding>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Binding", <tfc:metal/ingot/silver>, <tconstruct:binding>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Binding", <immersiveengineering:metal:7>, <tconstruct:binding>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Binding", <tfc:metal/ingot/steel>, <tconstruct:binding>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Binding", <immersiveengineering:metal:6>, <tconstruct:binding>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	//binding
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_binding", <tfc:metal/ingot/wrought_iron>, <tconstruct:binding>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_binding", <tfc:metal/ingot/pig_iron>, <tconstruct:binding>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_binding", <tconstruct:ingots>, <tconstruct:binding>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_binding", <tconstruct:ingots:1>, <tconstruct:binding>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_binding", <tconstruct:ingots:2>, <tconstruct:binding>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_binding", <tfc:metal/ingot/copper>, <tconstruct:binding>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_binding", <tfc:metal/ingot/bronze>, <tconstruct:binding>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_binding", <tfc:metal/ingot/lead>, <tconstruct:binding>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_binding", <tfc:metal/ingot/silver>, <tconstruct:binding>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_binding", <immersiveengineering:metal:7>, <tconstruct:binding>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_binding", <tfc:metal/ingot/steel>, <tconstruct:binding>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_binding", <immersiveengineering:metal:6>, <tconstruct:binding>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Tough Binding
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Tough Binding", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:tough_binding>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Tough Binding", <tfc:metal/double_ingot/pig_iron>, <tconstruct:tough_binding>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Tough Binding", <contenttweaker:cobalt_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Tough Binding", <contenttweaker:ardite_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Tough Binding", <contenttweaker:manyullyn_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Tough Binding", <tfc:metal/double_ingot/copper>, <tconstruct:tough_binding>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Tough Binding", <tfc:metal/double_ingot/bronze>, <tconstruct:tough_binding>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Tough Binding", <tfc:metal/double_ingot/lead>, <tconstruct:tough_binding>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Tough Binding", <tfc:metal/double_ingot/silver>, <tconstruct:tough_binding>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Tough Binding", <contenttweaker:electrum_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Tough Binding", <tfc:metal/double_ingot/steel>, <tconstruct:tough_binding>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Tough Binding", <contenttweaker:constantan_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	//tough_binding
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_tough_binding", <tfc:metal/double_ingot/wrought_iron>, <tconstruct:tough_binding>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_tough_binding", <tfc:metal/double_ingot/pig_iron>, <tconstruct:tough_binding>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_tough_binding", <contenttweaker:cobalt_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_tough_binding", <contenttweaker:ardite_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_tough_binding", <contenttweaker:manyullyn_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_tough_binding", <tfc:metal/double_ingot/copper>, <tconstruct:tough_binding>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_tough_binding", <tfc:metal/double_ingot/bronze>, <tconstruct:tough_binding>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_tough_binding", <tfc:metal/double_ingot/lead>, <tconstruct:tough_binding>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_tough_binding", <tfc:metal/double_ingot/silver>, <tconstruct:tough_binding>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_tough_binding", <contenttweaker:electrum_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_tough_binding", <tfc:metal/double_ingot/steel>, <tconstruct:tough_binding>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_tough_binding", <contenttweaker:constantan_double_ingot>, <tconstruct:tough_binding>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "DRAW_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Wide Guard
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Wide Guard", <tfc:metal/ingot/wrought_iron>, <tconstruct:wide_guard>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Wide Guard", <tfc:metal/ingot/pig_iron>, <tconstruct:wide_guard>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Wide Guard", <tconstruct:ingots>, <tconstruct:wide_guard>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Wide Guard", <tconstruct:ingots:1>, <tconstruct:wide_guard>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Wide Guard", <tconstruct:ingots:2>, <tconstruct:wide_guard>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Wide Guard", <tfc:metal/ingot/copper>, <tconstruct:wide_guard>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Wide Guard", <tfc:metal/ingot/bronze>, <tconstruct:wide_guard>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Wide Guard", <tfc:metal/ingot/lead>, <tconstruct:wide_guard>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Wide Guard", <tfc:metal/ingot/silver>, <tconstruct:wide_guard>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Wide Guard", <immersiveengineering:metal:7>, <tconstruct:wide_guard>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Wide Guard", <tfc:metal/ingot/steel>, <tconstruct:wide_guard>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Wide Guard", <immersiveengineering:metal:6>, <tconstruct:wide_guard>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	//wide_guard
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_wide_guard", <tfc:metal/ingot/wrought_iron>, <tconstruct:wide_guard>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_wide_guard", <tfc:metal/ingot/pig_iron>, <tconstruct:wide_guard>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_wide_guard", <tconstruct:ingots>, <tconstruct:wide_guard>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_wide_guard", <tconstruct:ingots:1>, <tconstruct:wide_guard>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_wide_guard", <tconstruct:ingots:2>, <tconstruct:wide_guard>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_wide_guard", <tfc:metal/ingot/copper>, <tconstruct:wide_guard>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_wide_guard", <tfc:metal/ingot/bronze>, <tconstruct:wide_guard>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_wide_guard", <tfc:metal/ingot/lead>, <tconstruct:wide_guard>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_wide_guard", <tfc:metal/ingot/silver>, <tconstruct:wide_guard>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_wide_guard", <immersiveengineering:metal:7>, <tconstruct:wide_guard>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_wide_guard", <tfc:metal/ingot/steel>, <tconstruct:wide_guard>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_wide_guard", <immersiveengineering:metal:6>, <tconstruct:wide_guard>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Hand Guard
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Hand Guard", <tfc:metal/ingot/wrought_iron>, <tconstruct:hand_guard>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Hand Guard", <tfc:metal/ingot/pig_iron>, <tconstruct:hand_guard>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Hand Guard", <tconstruct:ingots>, <tconstruct:hand_guard>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Hand Guard", <tconstruct:ingots:1>, <tconstruct:hand_guard>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Hand Guard", <tconstruct:ingots:2>, <tconstruct:hand_guard>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Hand Guard", <tfc:metal/ingot/copper>, <tconstruct:hand_guard>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Hand Guard", <tfc:metal/ingot/bronze>, <tconstruct:hand_guard>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Hand Guard", <tfc:metal/ingot/lead>, <tconstruct:hand_guard>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Hand Guard", <tfc:metal/ingot/silver>, <tconstruct:hand_guard>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Hand Guard", <immersiveengineering:metal:7>, <tconstruct:hand_guard>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Hand Guard", <tfc:metal/ingot/steel>, <tconstruct:hand_guard>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Hand Guard", <immersiveengineering:metal:6>, <tconstruct:hand_guard>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	//hand_guard
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_hand_guard", <tfc:metal/ingot/wrought_iron>, <tconstruct:hand_guard>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_hand_guard", <tfc:metal/ingot/pig_iron>, <tconstruct:hand_guard>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_hand_guard", <tconstruct:ingots>, <tconstruct:hand_guard>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_hand_guard", <tconstruct:ingots:1>, <tconstruct:hand_guard>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_hand_guard", <tconstruct:ingots:2>, <tconstruct:hand_guard>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_hand_guard", <tfc:metal/ingot/copper>, <tconstruct:hand_guard>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_hand_guard", <tfc:metal/ingot/bronze>, <tconstruct:hand_guard>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_hand_guard", <tfc:metal/ingot/lead>, <tconstruct:hand_guard>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_hand_guard", <tfc:metal/ingot/silver>, <tconstruct:hand_guard>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_hand_guard", <immersiveengineering:metal:7>, <tconstruct:hand_guard>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_hand_guard", <tfc:metal/ingot/steel>, <tconstruct:hand_guard>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_hand_guard", <immersiveengineering:metal:6>, <tconstruct:hand_guard>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Cross Guard
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Cross Guard", <tfc:metal/ingot/wrought_iron>, <tconstruct:cross_guard>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Cross Guard", <tfc:metal/ingot/pig_iron>, <tconstruct:cross_guard>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Cross Guard", <tconstruct:ingots>, <tconstruct:cross_guard>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Cross Guard", <tconstruct:ingots:1>, <tconstruct:cross_guard>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Cross Guard", <tconstruct:ingots:2>, <tconstruct:cross_guard>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Cross Guard", <tfc:metal/ingot/copper>, <tconstruct:cross_guard>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Cross Guard", <tfc:metal/ingot/bronze>, <tconstruct:cross_guard>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Cross Guard", <tfc:metal/ingot/lead>, <tconstruct:cross_guard>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Cross Guard", <tfc:metal/ingot/silver>, <tconstruct:cross_guard>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Cross Guard", <immersiveengineering:metal:7>, <tconstruct:cross_guard>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Cross Guard", <tfc:metal/ingot/steel>, <tconstruct:cross_guard>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Cross Guard", <immersiveengineering:metal:6>, <tconstruct:cross_guard>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	//cross_guard
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_cross_guard", <tfc:metal/ingot/wrought_iron>, <tconstruct:cross_guard>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_cross_guard", <tfc:metal/ingot/pig_iron>, <tconstruct:cross_guard>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_cross_guard", <tconstruct:ingots>, <tconstruct:cross_guard>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_cross_guard", <tconstruct:ingots:1>, <tconstruct:cross_guard>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_cross_guard", <tconstruct:ingots:2>, <tconstruct:cross_guard>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_cross_guard", <tfc:metal/ingot/copper>, <tconstruct:cross_guard>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_cross_guard", <tfc:metal/ingot/bronze>, <tconstruct:cross_guard>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_cross_guard", <tfc:metal/ingot/lead>, <tconstruct:cross_guard>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_cross_guard", <tfc:metal/ingot/silver>, <tconstruct:cross_guard>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_cross_guard", <immersiveengineering:metal:7>, <tconstruct:cross_guard>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_cross_guard", <tfc:metal/ingot/steel>, <tconstruct:cross_guard>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_cross_guard", <immersiveengineering:metal:6>, <tconstruct:cross_guard>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "BEND_NOT_LAST", "DRAW_NOT_LAST");
 
-	//Large Plate
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Large Plate", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:large_plate>.withTag({Material: "iron"}), 3, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Large Plate", <tfc:metal/double_sheet/pig_iron>, <tconstruct:large_plate>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Large Plate", <contenttweaker:cobalt_double_sheet>, <tconstruct:large_plate>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Large Plate", <contenttweaker:ardite_double_sheet>, <tconstruct:large_plate>.withTag({Material: "ardite"}), 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Large Plate", <contenttweaker:manyullyn_double_sheet>, <tconstruct:large_plate>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Large Plate", <tfc:metal/double_sheet/copper>, <tconstruct:large_plate>.withTag({Material: "copper"}), 1, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Large Plate", <tfc:metal/double_sheet/bronze>, <tconstruct:large_plate>.withTag({Material: "bronze"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Large Plate", <tfc:metal/double_sheet/lead>, <tconstruct:large_plate>.withTag({Material: "lead"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Large Plate", <tfc:metal/double_sheet/silver>, <tconstruct:large_plate>.withTag({Material: "silver"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Large Plate", <contenttweaker:electrum_double_sheet>, <tconstruct:large_plate>.withTag({Material: "electrum"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Large Plate", <tfc:metal/double_sheet/steel>, <tconstruct:large_plate>.withTag({Material: "steel"}), 4, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Large Plate", <contenttweaker:constantan_double_sheet>, <tconstruct:large_plate>.withTag({Material: "constantan"}), 3, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	//large_plate
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_large_plate", <tfc:metal/double_sheet/wrought_iron>, <tconstruct:large_plate>.withTag({Material: "iron"}), 3, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_large_plate", <tfc:metal/double_sheet/pig_iron>, <tconstruct:large_plate>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_large_plate", <contenttweaker:cobalt_double_sheet>, <tconstruct:large_plate>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_large_plate", <contenttweaker:ardite_double_sheet>, <tconstruct:large_plate>.withTag({Material: "ardite"}), 5, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_large_plate", <contenttweaker:manyullyn_double_sheet>, <tconstruct:large_plate>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_large_plate", <tfc:metal/double_sheet/copper>, <tconstruct:large_plate>.withTag({Material: "copper"}), 1, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_large_plate", <tfc:metal/double_sheet/bronze>, <tconstruct:large_plate>.withTag({Material: "bronze"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_large_plate", <tfc:metal/double_sheet/lead>, <tconstruct:large_plate>.withTag({Material: "lead"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_large_plate", <tfc:metal/double_sheet/silver>, <tconstruct:large_plate>.withTag({Material: "silver"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_large_plate", <contenttweaker:electrum_double_sheet>, <tconstruct:large_plate>.withTag({Material: "electrum"}), 2, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_large_plate", <tfc:metal/double_sheet/steel>, <tconstruct:large_plate>.withTag({Material: "steel"}), 4, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_large_plate", <contenttweaker:constantan_double_sheet>, <tconstruct:large_plate>.withTag({Material: "constantan"}), 3, "HIT_LAST", "HIT_SECOND_LAST", "HIT_THIRD_LAST");
 
-	//Knife
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Knife Blade", <tfc:metal/ingot/wrought_iron>, <tconstruct:knife_blade>.withTag({Material: "iron"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Knife Blade", <tfc:metal/ingot/pig_iron>, <tconstruct:knife_blade>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Knife Blade", <tconstruct:ingots>, <tconstruct:knife_blade>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Knife Blade", <tconstruct:ingots:1>, <tconstruct:knife_blade>.withTag({Material: "ardite"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Knife Blade", <tconstruct:ingots:2>, <tconstruct:knife_blade>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Knife Blade", <tfc:metal/ingot/copper>, <tconstruct:knife_blade>.withTag({Material: "copper"}), 1, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Knife Blade", <tfc:metal/ingot/bronze>, <tconstruct:knife_blade>.withTag({Material: "bronze"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Knife Blade", <tfc:metal/ingot/lead>, <tconstruct:knife_blade>.withTag({Material: "lead"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Knife Blade", <tfc:metal/ingot/silver>, <tconstruct:knife_blade>.withTag({Material: "silver"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Knife Blade", <immersiveengineering:metal:7>, <tconstruct:knife_blade>.withTag({Material: "electrum"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Knife Blade", <tfc:metal/ingot/steel>, <tconstruct:knife_blade>.withTag({Material: "steel"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Knife Blade", <immersiveengineering:metal:6>, <tconstruct:knife_blade>.withTag({Material: "constantan"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	//knife
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_knife_blade", <tfc:metal/ingot/wrought_iron>, <tconstruct:knife_blade>.withTag({Material: "iron"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_knife_blade", <tfc:metal/ingot/pig_iron>, <tconstruct:knife_blade>.withTag({Material: "pigiron"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_knife_blade", <tconstruct:ingots>, <tconstruct:knife_blade>.withTag({Material: "cobalt"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_knife_blade", <tconstruct:ingots:1>, <tconstruct:knife_blade>.withTag({Material: "ardite"}), 5, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_knife_blade", <tconstruct:ingots:2>, <tconstruct:knife_blade>.withTag({Material: "manyullyn"}), 6, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_knife_blade", <tfc:metal/ingot/copper>, <tconstruct:knife_blade>.withTag({Material: "copper"}), 1, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_knife_blade", <tfc:metal/ingot/bronze>, <tconstruct:knife_blade>.withTag({Material: "bronze"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_knife_blade", <tfc:metal/ingot/lead>, <tconstruct:knife_blade>.withTag({Material: "lead"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_knife_blade", <tfc:metal/ingot/silver>, <tconstruct:knife_blade>.withTag({Material: "silver"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_knife_blade", <immersiveengineering:metal:7>, <tconstruct:knife_blade>.withTag({Material: "electrum"}), 2, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_knife_blade", <tfc:metal/ingot/steel>, <tconstruct:knife_blade>.withTag({Material: "steel"}), 4, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_knife_blade", <immersiveengineering:metal:6>, <tconstruct:knife_blade>.withTag({Material: "constantan"}), 3, "HIT_LAST", "DRAW_SECOND_LAST", "DRAW_THIRD_LAST");
 
-	//Bow Limb
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Bow Limb", <tfc:metal/ingot/wrought_iron>, <tconstruct:bow_limb>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Bow Limb", <tfc:metal/ingot/pig_iron>, <tconstruct:bow_limb>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Bow Limb", <tconstruct:ingots>, <tconstruct:bow_limb>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Bow Limb", <tconstruct:ingots:1>, <tconstruct:bow_limb>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Bow Limb", <tconstruct:ingots:2>, <tconstruct:bow_limb>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Bow Limb", <tfc:metal/ingot/copper>, <tconstruct:bow_limb>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Bow Limb", <tfc:metal/ingot/bronze>, <tconstruct:bow_limb>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Bow Limb", <tfc:metal/ingot/lead>, <tconstruct:bow_limb>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Bow Limb", <tfc:metal/ingot/silver>, <tconstruct:bow_limb>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Bow Limb", <immersiveengineering:metal:7>, <tconstruct:bow_limb>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Bow Limb", <tfc:metal/ingot/steel>, <tconstruct:bow_limb>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Bow Limb", <immersiveengineering:metal:6>, <tconstruct:bow_limb>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	//bow_limb
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_bow_limb", <tfc:metal/ingot/wrought_iron>, <tconstruct:bow_limb>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_bow_limb", <tfc:metal/ingot/pig_iron>, <tconstruct:bow_limb>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_bow_limb", <tconstruct:ingots>, <tconstruct:bow_limb>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_bow_limb", <tconstruct:ingots:1>, <tconstruct:bow_limb>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_bow_limb", <tconstruct:ingots:2>, <tconstruct:bow_limb>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_bow_limb", <tfc:metal/ingot/copper>, <tconstruct:bow_limb>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_bow_limb", <tfc:metal/ingot/bronze>, <tconstruct:bow_limb>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_bow_limb", <tfc:metal/ingot/lead>, <tconstruct:bow_limb>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_bow_limb", <tfc:metal/ingot/silver>, <tconstruct:bow_limb>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_bow_limb", <immersiveengineering:metal:7>, <tconstruct:bow_limb>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_bow_limb", <tfc:metal/ingot/steel>, <tconstruct:bow_limb>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_bow_limb", <immersiveengineering:metal:6>, <tconstruct:bow_limb>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "BEND_NOT_LAST");
 
-	//Arrow Head
-	mods.terrafirmacraft.Anvil.addRecipe("Wrought Iron Arrow Head", <tfc:metal/ingot/wrought_iron>, <tconstruct:arrow_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Pig Iron Arrow Head", <tfc:metal/ingot/pig_iron>, <tconstruct:arrow_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Cobalt Arrow Head", <tconstruct:ingots>, <tconstruct:arrow_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Ardite Arrow Head", <tconstruct:ingots:1>, <tconstruct:arrow_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Manyullyn Arrow Head", <tconstruct:ingots:2>, <tconstruct:arrow_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Copper Arrow Head", <tfc:metal/ingot/copper>, <tconstruct:arrow_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Bronze Arrow Head", <tfc:metal/ingot/bronze>, <tconstruct:arrow_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Lead Arrow Head", <tfc:metal/ingot/lead>, <tconstruct:arrow_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Silver Arrow Head", <tfc:metal/ingot/silver>, <tconstruct:arrow_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Electrum Arrow Head", <immersiveengineering:metal:7>, <tconstruct:arrow_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Steel Arrow Head", <tfc:metal/ingot/steel>, <tconstruct:arrow_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("Constantan Arrow Head", <immersiveengineering:metal:6>, <tconstruct:arrow_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	//arrow_head
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:wrought_iron_arrow_head", <tfc:metal/ingot/wrought_iron>, <tconstruct:arrow_head>.withTag({Material: "iron"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:pig_iron_arrow_head", <tfc:metal/ingot/pig_iron>, <tconstruct:arrow_head>.withTag({Material: "pigiron"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:cobalt_arrow_head", <tconstruct:ingots>, <tconstruct:arrow_head>.withTag({Material: "cobalt"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ardite_arrow_head", <tconstruct:ingots:1>, <tconstruct:arrow_head>.withTag({Material: "ardite"}), 5, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:manyullyn_arrow_head", <tconstruct:ingots:2>, <tconstruct:arrow_head>.withTag({Material: "manyullyn"}), 6, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:copper_arrow_head", <tfc:metal/ingot/copper>, <tconstruct:arrow_head>.withTag({Material: "copper"}), 1, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:bronze_arrow_head", <tfc:metal/ingot/bronze>, <tconstruct:arrow_head>.withTag({Material: "bronze"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:lead_arrow_head", <tfc:metal/ingot/lead>, <tconstruct:arrow_head>.withTag({Material: "lead"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:silver_arrow_head", <tfc:metal/ingot/silver>, <tconstruct:arrow_head>.withTag({Material: "silver"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:electrum_arrow_head", <immersiveengineering:metal:7>, <tconstruct:arrow_head>.withTag({Material: "electrum"}), 2, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:steel_arrow_head", <tfc:metal/ingot/steel>, <tconstruct:arrow_head>.withTag({Material: "steel"}), 4, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:constantan_arrow_head", <immersiveengineering:metal:6>, <tconstruct:arrow_head>.withTag({Material: "constantan"}), 3, "PUNCH_LAST", "HIT_NOT_LAST", "HIT_ANY");
