@@ -15,6 +15,14 @@
 	recipes.remove(<immersiveengineering:stone_decoration:1>);
 	recipes.remove(<immersiveengineering:stone_decoration:2>);
 	recipes.remove(<immersiveengineering:stone_decoration:10>);
+	recipes.remove(<immersiveengineering:steel_armor_head>);
+	recipes.remove(<immersiveengineering:steel_armor_chest>);
+	recipes.remove(<immersiveengineering:steel_armor_legs>);
+	recipes.remove(<immersiveengineering:steel_armor_feet>);
+	recipes.remove(<immersiveengineering:faraday_suit_head>);
+	recipes.remove(<immersiveengineering:faraday_suit_chest>);
+	recipes.remove(<immersiveengineering:faraday_suit_legs>);
+	recipes.remove(<immersiveengineering:faraday_suit_feet>);
 	
 	//Add
 	recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[<ore:rubber>, <ore:rubber>, <ore:rubber>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
@@ -613,6 +621,14 @@
 
 	mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass> * 2, <ore:blockSand>, <immersiveengineering:material:7>, 1100, 100);
 
+
+//=======================================================================================================================================================================
+//Add Armor Forging
+
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_helmet", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_head>, 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_chestplate", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_chest>, 2, "HIT_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_leggings", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_legs>, 2, "BEND_ANY", "DRAW_ANY", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_boots", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_feet>, 2, "BEND_LAST", "BEND_SECOND_LAST", "SHRINK_THIRD_LAST");
 
 
 

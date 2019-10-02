@@ -1,36 +1,33 @@
 {
 	"name" : "tfcr:tower",
 	"tower" : {
-		"type" : "JUNGLE",
+		"type" : "ENIKO",
 		"theme" : {
-			"base" : "MOSSY",
 			"primary" : {
 				"walls" : {
 					"type" : "WEIGHTED",
 					"data" : [
-						{"type" : "METABLOCK", "data" : {"name" : "cobblestone", "meta" : 0}, "weight" : 5},
-						{"type" : "METABLOCK", "data" : {"name" : "mossy_cobblestone", "meta" : 0}, "weight" : 4},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta" : 6}, "weight" : 3},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy1", "meta" : 9}, "weight" : 2},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestonemossy", "meta" : 3}, "weight" : 1},
-						{"type" : "METABLOCK", "data" : {"name" : "chisel:cobblestone", "meta" : 2}, "weight" : 3}
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/gneiss"}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:road_gneiss"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:smooth/gneiss"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/diorite", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_gneiss"}, "weight" : 7},
+						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:road_diorite"}, "weight" : 1}
 					]
-				},
-				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gabbro"}},
-				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/gabbro"}}
+				}
 			},
 			"secondary" : {
 				"walls" : {
 					"type" : "METABLOCK",
-					"data" : {"name" : "tfc:wood/planks/birch"}
+					"data" : {"name" : "tfc:wood/planks/hickory", "meta" : 0}
 				},
 				"pillar" : {
 					"type" : "METABLOCK",
-					"data" : {"name" : "tfc:wood/log/birch", "meta" : 5}
+					"data" : {"name" : "tfc:wood/log/hickory", "meta" : 5}
 				},
 				"stair" : {
 					"type" : "METABLOCK",
-					"data" : {"name" : "tfc:stairs/wood/birch"}
+					"data" : {"name" : "tfc:stairs/wood/hickory"}
 				}
 			}
 		}

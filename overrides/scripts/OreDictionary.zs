@@ -395,25 +395,21 @@ var doubleIngotIceDragonsteel = <ore:doubleIngotIceDragonsteel>;
 
 var doubleSheetAluminum = <ore:doubleSheetAluminum>;
     doubleSheetAluminum.addItems([
-	<immersiveengineering:metal:31>,
 	<contenttweaker:aluminium_double_sheet>
 	]);
 
 var doubleSheetAluminium = <ore:doubleSheetAluminium>;
     doubleSheetAluminium.addItems([
-	<immersiveengineering:metal:31>,
 	<contenttweaker:aluminium_double_sheet>
 	]);
 
 var doubleSheetConstantan = <ore:doubleSheetConstantan>;
     doubleSheetConstantan.addItems([
-	<immersiveengineering:metal:36>,
 	<contenttweaker:constantan_double_sheet>
 	]);
 
 var doubleSheetElectrum = <ore:doubleSheetElectrum>;
     doubleSheetElectrum.addItems([
-	<immersiveengineering:metal:37>,
 	<contenttweaker:electrum_double_sheet>
 	]);
 

@@ -13,6 +13,7 @@ var listAllfruit = <ore:listAllfruit>;
 	<tfc:food/cranberry>,
 	<tfc:food/elderberry>,
 	<tfc:food/gooseberry>,
+	<tfc:food/red_apple>,
 	<tfc:food/green_apple>,
 	<tfc:food/lemon>,
 	<tfc:food/orange>,
@@ -322,6 +323,12 @@ var cropTomato = <ore:cropTomato>;
 //=======================================================================================================================================================================
 //Other Foods
 
+var foodApple = <ore:foodApple>;
+    foodApple.addItems([
+	<tfc:food/red_apple>,
+	<tfc:food/green_apple>
+	]);
+
 var foodCheese = <ore:foodCheese>;
     foodCheese.addItems([
 	<tfc:food/cheese>
@@ -335,6 +342,21 @@ var foodFriedegg = <ore:foodFriedegg>;
 var sugarcane = <ore:sugarcane>;
     sugarcane.addItems([
 	<tfc:food/sugarcane>
+	]);
+
+var foodGrapesPurple = <ore:foodGrapesPurple>;
+    foodGrapesPurple.addItems([
+	<rustic:grapes>
+	]);
+
+var foodGrapesGreen = <ore:foodGrapesGreen>;
+    foodGrapesGreen.addItems([
+	<harvestcraft:greengrapeitem>
+	]);
+
+var foodGrapesRed = <ore:foodGrapesRed>;
+    foodGrapesRed.addItems([
+	<harvestcraft:grapeitem>
 	]);
 
 
