@@ -11,10 +11,13 @@
 						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:road_gneiss"}, "weight" : 2},
 						{"type" : "METABLOCK", "data" : {"name" : "tfc:smooth/gneiss"}, "weight" : 2},
 						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/diorite", "meta" : 1}, "weight" : 1},
-						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:tile_gneiss"}, "weight" : 7},
+						{"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/gneiss"}, "weight" : 7},
 						{"type" : "METABLOCK", "data" : {"name" : "contenttweaker:road_diorite"}, "weight" : 1}
 					]
-				}
+				},
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "tfc:bricks/gneiss"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "contenttweaker:pillar_gneiss"}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "tfc:stairs/bricks/gneiss"}}
 			},
 			"secondary" : {
 				"walls" : {

@@ -88,16 +88,16 @@
 	mods.betterwithmods.Mill.addRecipe([<immersiveengineering:material:6>],[<immersiveengineering:material:17>]);
 
 	//Kaolinite
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/kaolinite>],[<tfc:powder/kaolinite_powder> * 8]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/kaolinite>],[<tfc:powder/kaolinite> * 8]);
 
 	//Graphite
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/graphite>],[<tfc:powder/graphite_powder> * 8]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/graphite>],[<tfc:powder/graphite> * 8]);
 
 	//Graphite
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/sulfur>],[<tfc:powder/sulfur_powder> * 8]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/sulfur>],[<tfc:powder/sulfur> * 8]);
 
 	//Saltpeter
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/saltpeter>],[<tfc:powder/saltpeter_powder> * 8]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/saltpeter>],[<tfc:powder/saltpeter> * 8]);
 
 	//Salt
 	mods.betterwithmods.Mill.addRecipe([<tfc:rock/rocksalt>], [<tfc:powder/salt> * 8]);
@@ -109,25 +109,25 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:rock/chalk>], [<contenttweaker:powder_chalk> * 4]);
 
 	//Hematite
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/small/hematite>], [<tfc:powder/hematite_powder> * 1]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/hematite:1>], [<tfc:powder/hematite_powder> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/hematite>], [<tfc:powder/hematite_powder> * 4]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/hematite:2>], [<tfc:powder/hematite_powder> * 6]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/small/hematite>], [<tfc:powder/hematite> * 1]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/hematite:1>], [<tfc:powder/hematite> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/hematite>], [<tfc:powder/hematite> * 4]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/hematite:2>], [<tfc:powder/hematite> * 6]);
 
 	//Lapis Lazuli
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/lapis_lazuli>], [<tfc:powder/lapis_lazuli_powder> * 8]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/lapis_lazuli>], [<tfc:powder/lapis_lazuli> * 8]);
 
 	//Limonite
-	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite_powder> * 1], [<tfc:ore/small/limonite>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite_powder> * 2], [<tfc:ore/limonite:1>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite_powder> * 4], [<tfc:ore/limonite>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite_powder> * 6], [<tfc:ore/limonite:2>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite> * 1], [<tfc:ore/small/limonite>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite> * 2], [<tfc:ore/limonite:1>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite> * 4], [<tfc:ore/limonite>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:powder/limonite> * 6], [<tfc:ore/limonite:2>]);
 
 	//Malachite
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/small/malachite>],[<tfc:powder/malachite_powder> * 1]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/malachite:1>],[<tfc:powder/malachite_powder> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/malachite>],[<tfc:powder/malachite_powder> * 4]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/malachite:2>], [<tfc:powder/malachite_powder> * 6]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/small/malachite>],[<tfc:powder/malachite> * 1]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/malachite:1>],[<tfc:powder/malachite> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/malachite>],[<tfc:powder/malachite> * 4]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/malachite:2>], [<tfc:powder/malachite> * 6]);
 
 	//Fertilizer
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/sylvite>], [<tfc:powder/fertilizer> * 8]);

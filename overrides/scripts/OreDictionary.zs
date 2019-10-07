@@ -21,6 +21,20 @@ var moss = <ore:moss>;
 	<tconstruct:materials:19>
 	]);
 
+var wildGrass = <ore:wildGrass>;
+    wildGrass.addItems([
+	<minecraft:tallgrass:1>,
+	<minecraft:double_plant:2>,
+	<tfc:plants/fountain_grass>,
+	<tfc:plants/orchard_grass>,
+	<tfc:plants/pampas_grass>,
+	<tfc:plants/ryegrass>,
+	<tfc:plants/scutch_grass>,
+	<tfc:plants/switchgrass>,
+	<tfc:plants/tall_fescue_grass>,
+	<tfc:plants/timothy_grass>
+	]);
+
 var dragonBlood = <ore:dragonBlood>;
     dragonBlood.addItems([
 	<iceandfire:fire_dragon_blood>,
@@ -34,23 +48,23 @@ var stoneBrick = <ore:stoneBrick>;
 
 var dyeYellow = <ore:dyeYellow>;
     dyeYellow.addItems([
-	<tfc:powder/limonite_powder>,
-	<tfc:powder/sulfur_powder>
+	<tfc:powder/limonite>,
+	<tfc:powder/sulfur>
 	]);
 
 var dyeRed = <ore:dyeRed>;
     dyeRed.addItems([
-	<tfc:powder/hematite_powder>
+	<tfc:powder/hematite>
 	]);
 
 var dyeGreen = <ore:dyeGreen>;
     dyeGreen.addItems([
-	<tfc:powder/malachite_powder>
+	<tfc:powder/malachite>
 	]);
 
 var dyeBlue = <ore:dyeBlue>;
     dyeBlue.addItems([
-	<tfc:powder/lapis_lazuli_powder>
+	<tfc:powder/lapis_lazuli>
 	]);
 
 var dyeBlack = <ore:dyeBlack>;
@@ -202,17 +216,17 @@ var dustChalkPowder = <ore:dustChalkPowder>;
 	
 var dustSulfur = <ore:dustSulfur>;
     dustSulfur.addItems([
-		<tfc:powder/sulfur_powder>
+		<tfc:powder/sulfur>
 	]);
 
 var dustSaltpeter = <ore:dustSaltpeter>;
     dustSaltpeter.addItems([
-	<tfc:powder/saltpeter_powder>
+	<tfc:powder/saltpeter>
 	]);
 
 var dustHOPGraphite = <ore:dustHOPGraphite>;
     dustHOPGraphite.addItems([
-	<tfc:powder/graphite_powder>
+	<tfc:powder/graphite>
 	]);
 
 var oreUranium = <ore:oreUranium>;

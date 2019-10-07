@@ -1,0 +1,23 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "minecraft:cobblestone:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "tfc:cobble/diorite"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

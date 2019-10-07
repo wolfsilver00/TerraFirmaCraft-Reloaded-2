@@ -76,28 +76,28 @@
 	//mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/limestone>, 8000);
 	//mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <tfc:rock/marble>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 6, <ore:rockFlux>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/kaolinite_powder> * 12, <tfc:ore/kaolinite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/kaolinite> * 12, <tfc:ore/kaolinite>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/fertilizer> * 12, <tfc:ore/sylvite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/graphite_powder> * 12, <tfc:ore/graphite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/saltpeter_powder> * 12, <tfc:ore/saltpeter>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/sulfur_powder> * 10, <tfc:ore/sulfur>, 8000, <minecraft:blaze_powder> * 2, 0.5);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli_powder> * 12, <tfc:ore/lapis_lazuli>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/graphite> * 12, <tfc:ore/graphite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/saltpeter> * 12, <tfc:ore/saltpeter>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/sulfur> * 10, <tfc:ore/sulfur>, 8000, <minecraft:blaze_powder> * 2, 0.5);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 12, <tfc:ore/lapis_lazuli>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/salt> * 8, <tfc:rock/rocksalt>, 8000);
 
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite_powder> * 2, <tfc:ore/small/hematite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite_powder> * 3, <tfc:ore/hematite:1>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite_powder> * 6, <tfc:ore/hematite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite_powder> * 8, <tfc:ore/hematite:2>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite> * 2, <tfc:ore/small/hematite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite> * 3, <tfc:ore/hematite:1>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite> * 6, <tfc:ore/hematite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/hematite> * 8, <tfc:ore/hematite:2>, 8000);
 
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite_powder> * 2, <tfc:ore/small/limonite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite_powder> * 3, <tfc:ore/limonite:1>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite_powder> * 6, <tfc:ore/limonite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite_powder> * 8, <tfc:ore/limonite:2>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite> * 2, <tfc:ore/small/limonite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite> * 3, <tfc:ore/limonite:1>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite> * 6, <tfc:ore/limonite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/limonite> * 8, <tfc:ore/limonite:2>, 8000);
 
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite_powder> * 2, <tfc:ore/small/malachite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite_powder> * 3, <tfc:ore/malachite:1>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite_powder> * 6, <tfc:ore/malachite>, 8000);
-	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite_powder> * 8, <tfc:ore/malachite:2>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite> * 2, <tfc:ore/small/malachite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite> * 3, <tfc:ore/malachite:1>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite> * 6, <tfc:ore/malachite>, 8000);
+	mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/malachite> * 8, <tfc:ore/malachite:2>, 8000);
 	
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bismuth> * 1, <tfc:metal/ingot/bismuth>, 8000);
 	mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bismuth_bronze> * 1, <tfc:metal/ingot/bismuth_bronze>, 8000);
@@ -623,12 +623,33 @@
 
 
 //=======================================================================================================================================================================
+//Heat Registry
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:faraday_suit_head>, 0.35, 660, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:faraday_suit_chest>, 0.35, 660, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:faraday_suit_legs>, 0.35, 660, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:faraday_suit_feet>, 0.35, 660, true);
+
+//Metal Registry
+	//mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:faraday_suit_head>, "ALUMINUM", 400, true);
+	//mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:faraday_suit_chest>, "ALUMINUM", 400, true);
+	//mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:faraday_suit_legs>, "ALUMINUM", 400, true);
+	//mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:faraday_suit_feet>, "ALUMINUM", 400, true);
+
+//Armor Registry
+
+	//Faraday
+	mods.terrafirmacraft.ItemRegistry.registerArmor(<immersiveengineering:faraday_suit_head>, 500, 330, 500);
+	mods.terrafirmacraft.ItemRegistry.registerArmor(<immersiveengineering:faraday_suit_chest>, 500, 330, 500);
+	mods.terrafirmacraft.ItemRegistry.registerArmor(<immersiveengineering:faraday_suit_legs>, 500, 330, 500);
+	mods.terrafirmacraft.ItemRegistry.registerArmor(<immersiveengineering:faraday_suit_feet>, 500, 330, 500);
+
 //Add Armor Forging
 
-	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_helmet", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_head>, 2, "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_chestplate", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_chest>, 2, "HIT_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
-	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_leggings", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_legs>, 2, "BEND_ANY", "DRAW_ANY", "HIT_ANY");
-	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_boots", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_feet>, 2, "BEND_LAST", "BEND_SECOND_LAST", "SHRINK_THIRD_LAST");
+	//Faraday
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_helmet", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_head>, 2, "armor", "HIT_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_chestplate", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_chest>, 2, "armor", "HIT_LAST", "HIT_SECOND_LAST", "UPSET_THIRD_LAST");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_leggings", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_legs>, 2, "armor", "BEND_ANY", "DRAW_ANY", "HIT_ANY");
+	mods.terrafirmacraft.Anvil.addRecipe("tfcr:ie_faraday_boots", <ore:doubleSheetAluminium>, <immersiveengineering:faraday_suit_feet>, 2, "armor", "BEND_LAST", "BEND_SECOND_LAST", "SHRINK_THIRD_LAST");
 
 
 

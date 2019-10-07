@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "minecraft:stone:*"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "tfc:rock/diorite"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
