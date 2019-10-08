@@ -27,6 +27,8 @@
 
 ## Modlist
 
+#### *Not Final* ####
+
 [CurseForge contains a list of the used mods as well as their respective authors. It'll update once this pack goes public there.](https://www.curseforge.com/minecraft/modpacks/terrafirmacraft-reloaded/relations/dependencies)
 
 
