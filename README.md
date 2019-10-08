@@ -128,6 +128,5 @@
 
 ## Credits
 
-- Ignafson for the GUI textures
 - Natalie for the HUD textures
 - Blade for helping with various textures including GUIs and items
