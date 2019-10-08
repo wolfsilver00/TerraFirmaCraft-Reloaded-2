@@ -14,11 +14,11 @@
 
 - Once the modpack goes public on CurseForge, then you can simply find it, download it and install it using the Twitch Client.
 
-#With Twitch
+###With Twitch###
 - Import this into the Twitch client in order to be able to play it. 
 - [Follow this guide to figure out how to do it.](https://help.twitch.tv/customer/en/portal/articles/2764215-guide-to-modpacks#Import)
 
-#With MultiMC
+###With MultiMC###
 
 - [Grab the MultiMC client from here.](https://multimc.org/)
 - [Follow this guide to figure out how to do it.](https://github.com/MultiMC/MultiMC5/wiki/Import-Instance)
