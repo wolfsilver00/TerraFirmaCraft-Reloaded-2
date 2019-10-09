@@ -1,3 +1,5 @@
+![Alt text](https://github.com/Verph/TerraFirmaCraft-Reloaded-2/blob/master/overrides/resources/mainmenu/textures/wordmark-2-crop.png?raw=true "Title")
+
 # TerraFirmaCraft Reloaded 2
 
 ##### This project is still beeing worked on!
