@@ -16,7 +16,9 @@
 
 ## How to use
 
-- Once the modpack goes public on CurseForge, then you can simply find it, download it and install it using the Twitch Client.
+Once the modpack goes public on CurseForge, then you can simply find it, download it and install it using the Twitch Client.
+
+Currently you'll have to grab the client package from the [latest](https://github.com/Verph/TerraFirmaCraft-Reloaded-2/releases/latest) release, and then import and install it, with one of the following clients.
 
 ### With Twitch ###
 - Import this into the Twitch client in order to be able to play it. 
