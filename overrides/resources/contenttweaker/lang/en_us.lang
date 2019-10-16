@@ -385,6 +385,29 @@ tile.contenttweaker.brick_spanish_bond_top_center.name=Brick Spanish Bond Top Mi
 tile.contenttweaker.brick_spanish_bond_top_left.name=Brick Spanish Bond Top Left
 tile.contenttweaker.brick_spanish_bond_top_right.name=Brick Spanish Bond Top Right
 
+#Mossy Cobblestone
+tile.contenttweaker.mossy_cobblestone_andesite.name=Mossy Andesite Cobblestone
+tile.contenttweaker.mossy_cobblestone_basalt.name=Mossy Basalt Cobblestone
+tile.contenttweaker.mossy_cobblestone_chalk.name=Mossy Chalk Cobblestone
+tile.contenttweaker.mossy_cobblestone_chert.name=Mossy Chert Cobblestone
+tile.contenttweaker.mossy_cobblestone_claystone.name=Mossy Claystone Cobblestone
+tile.contenttweaker.mossy_cobblestone_conglomerate.name=Mossy Conglomerate Cobblestone
+tile.contenttweaker.mossy_cobblestone_dacite.name=Mossy Dacite Cobblestone
+tile.contenttweaker.mossy_cobblestone_diorite.name=Mossy Diorite Cobblestone
+tile.contenttweaker.mossy_cobblestone_dolomite.name=Mossy Dolomite Cobblestone
+tile.contenttweaker.mossy_cobblestone_gabbro.name=Mossy Gabbro Cobblestone
+tile.contenttweaker.mossy_cobblestone_gneiss.name=Mossy Gneiss Cobblestone
+tile.contenttweaker.mossy_cobblestone_granite.name=Mossy Granite Cobblestone
+tile.contenttweaker.mossy_cobblestone_limestone.name=Mossy Limestone Cobblestone
+tile.contenttweaker.mossy_cobblestone_marble.name=Mossy Marble Cobblestone
+tile.contenttweaker.mossy_cobblestone_phyllite.name=Mossy Phyllite Cobblestone
+tile.contenttweaker.mossy_cobblestone_quartzite.name=Mossy Quartzite Cobblestone
+tile.contenttweaker.mossy_cobblestone_rhyolite.name=Mossy Rhyolite Cobblestone
+tile.contenttweaker.mossy_cobblestone_rock_salt.name=Mossy Rocksalt Cobblestone
+tile.contenttweaker.mossy_cobblestone_schist.name=Mossy Schist Cobblestone
+tile.contenttweaker.mossy_cobblestone_shale.name=Mossy Shale Cobblestone
+tile.contenttweaker.mossy_cobblestone_slate.name=Mossy Slate Cobblestone
+
 #Lumber
 item.contenttweaker.lumber_greatwood.name=Greatwood Lumber
 item.contenttweaker.lumber_silverwood.name=Silverwood Lumber

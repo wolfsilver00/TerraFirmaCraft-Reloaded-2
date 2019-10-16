@@ -1,6 +1,22 @@
 //=======================================================================================================================================================================
 //Thaumcraft Recipes
 
+
+//Remove Recipes
+
+	recipes.remove(<thaumcraft:plank_greatwood>);
+	recipes.remove(<thaumcraft:plank_silverwood>);
+
+//Add Recipes
+
+	//Thaumcraft Lumber
+	recipes.addShapeless(<contenttweaker:lumber_greatwood> * 4, [<thaumcraft:plank_greatwood>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<contenttweaker:lumber_greatwood> * 8, [<thaumcraft:log_greatwood>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<contenttweaker:lumber_silverwood> * 4, [<thaumcraft:plank_silverwood>, <ore:saw>.transformDamage(1)]);
+	recipes.addShapeless(<contenttweaker:lumber_silverwood> * 8, [<thaumcraft:log_silverwood>, <ore:saw>.transformDamage(1)]);
+	recipes.addShaped(<thaumcraft:plank_greatwood>, [[<ore:lumberGreatwood>, <ore:lumberGreatwood>], [<ore:lumberGreatwood>, <ore:lumberGreatwood>]]);
+	recipes.addShaped(<thaumcraft:plank_silverwood>, [[<ore:lumberSilverwood>, <ore:lumberSilverwood>], [<ore:lumberSilverwood>, <ore:lumberSilverwood>]]);
+
 //Arcane Workbench
 
 	mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:focus_pouch>);

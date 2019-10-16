@@ -24,6 +24,18 @@
 	recipes.remove(<quark:spruce_trapdoor>);
 	recipes.remove(<minecraft:trapdoor>);
 	recipes.remove(<minecraft:stone_button>);
+	recipes.remove(<minecraft:planks>);
+	recipes.remove(<minecraft:planks:1>);
+	recipes.remove(<minecraft:planks:2>);
+	recipes.remove(<minecraft:planks:3>);
+	recipes.remove(<minecraft:planks:4>);
+	recipes.remove(<minecraft:planks:5>);
+	recipes.remove(<minecraft:log>);
+	recipes.remove(<minecraft:log:1>);
+	recipes.remove(<minecraft:log:2>);
+	recipes.remove(<minecraft:log:3>);
+	recipes.remove(<minecraft:log2>);
+	recipes.remove(<minecraft:log2:1>);
 	recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
 	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
 	

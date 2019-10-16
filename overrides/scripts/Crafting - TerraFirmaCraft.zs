@@ -50,10 +50,29 @@
 	recipes.addShapeless(<tfc:wood/lumber/rosewood> * 8, [<minecraft:log2>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 4, [<minecraft:planks:5>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 8, [<minecraft:log2:1>, <ore:saw>.transformDamage(1)]);
-
-	//Thaumcraft Lumber
-	recipes.addShapeless(<contenttweaker:lumber_greatwood>, [<thaumcraft:log_greatwood>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<contenttweaker:lumber_silverwood>, [<thaumcraft:log_silverwood>, <ore:saw>.transformDamage(1)]);
+	
+	//Mossy Cobblestone
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_andesite>, [<ore:moss>, <ore:cobblestoneAndesite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_basalt>, [<ore:moss>, <ore:cobblestoneBasalt>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_chalk>, [<ore:moss>, <ore:cobblestoneChalk>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_chert>, [<ore:moss>, <ore:cobblestoneChert>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_claystone>, [<ore:moss>, <ore:cobblestoneClaystone>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_conglomerate>, [<ore:moss>, <ore:cobblestoneConglomerate>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_dacite>, [<ore:moss>, <ore:cobblestoneDacite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_diorite>, [<ore:moss>, <ore:cobblestoneDiorite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_dolomite>, [<ore:moss>, <ore:cobblestoneDolomite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_gabbro>, [<ore:moss>, <ore:cobblestoneGabbro>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_gneiss>, [<ore:moss>, <ore:cobblestoneGneiss>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_granite>, [<ore:moss>, <ore:cobblestonestoneGranite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_limestone>, [<ore:moss>, <ore:cobblestoneLimestone>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_marble>, [<ore:moss>, <ore:cobblestoneMarble>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_phyllite>, [<ore:moss>, <ore:cobblestonePhyllite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_quartzite>, [<ore:moss>, <ore:cobblestoneQuartzite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_rhyolite>, [<ore:moss>, <ore:cobblestoneRhyolite>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_rock_salt>, [<ore:moss>, <ore:cobblestoneRocksalt>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_schist>, [<ore:moss>, <ore:cobblestoneSchist>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_shale>, [<ore:moss>, <ore:cobblestoneShale>]);
+	recipes.addShapeless(<contenttweaker:mossy_cobblestone_slate>, [<ore:moss>, <ore:cobblestoneSlate>]);
 
 
 //=======================================================================================================================================================================
