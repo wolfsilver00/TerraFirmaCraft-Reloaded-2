@@ -1,0 +1,189 @@
+{
+	"populate": 
+	{
+		"sand_spikes": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/elderberry",
+							"weight": 50
+						},
+						{
+							"name": "tfc:berry_bush/cloud_berry",
+							"metadata": 2,
+							"weight": 40
+						},
+						{
+							"name": "tfc:berry_bush/snow_berry",
+							"metadata": 1,
+							"weight": 10
+						}
+					],
+					"material": [
+						"minecraft:sandstone",
+						"minecraft:sand",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat",
+						"tfc:grass/granite",
+						"tfc:dry_grass/granite",
+						"tfc:dirt/granite",
+						"tfc:gravel/granite",
+						"tfc:grass/conglomerate",
+						"tfc:dry_grass/conglomerate",
+						"tfc:dirt/conglomerate",
+						"tfc:gravel/conglomerate",
+						"tfc:grass/shale",
+						"tfc:dry_grass/shale",
+						"tfc:dirt/shale",
+						"tfc:gravel/shale",
+						"tfc:grass/slate",
+						"tfc:dry_grass/slate",
+						"tfc:dirt/slate",
+						"tfc:gravel/slate"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": true,
+					"min-height": 60,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				},
+				{
+					"weight": 30,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "contenttweaker:mossy_cobblestone_andesite",
+							"weight": 70
+						},
+						{
+							"name": "minecraft:obsidian",
+							"weight": 10
+						},
+						{
+							"name": "tfc:berry_bush/blackberry",
+							"weight": 20
+						}
+					],
+					"material": [
+						"minecraft:sandstone",
+						"minecraft:sand",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat",
+						"tfc:grass/granite",
+						"tfc:dry_grass/granite",
+						"tfc:dirt/granite",
+						"tfc:gravel/granite",
+						"tfc:grass/conglomerate",
+						"tfc:dry_grass/conglomerate",
+						"tfc:dirt/conglomerate",
+						"tfc:gravel/conglomerate",
+						"tfc:grass/shale",
+						"tfc:dry_grass/shale",
+						"tfc:dirt/shale",
+						"tfc:gravel/shale",
+						"tfc:grass/slate",
+						"tfc:dry_grass/slate",
+						"tfc:dirt/slate",
+						"tfc:gravel/slate"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": true,
+					"min-height": 10,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+			]
+		}
+	}
+}

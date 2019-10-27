@@ -40,6 +40,7 @@
 	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
 	
 	recipes.removeShaped(<minecraft:leather_helmet>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null], [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null], [null, <harvestcraft:wovencottonitem>, null]]);
+	recipes.removeShaped(<minecraft:leather_helmet>, [[<ore:materialCloth>, <ore:materialCloth>, null], [<ore:materialCloth>, <ore:materialCloth>, null], [null, <ore:materialCloth>, null]]);
 	recipes.removeShaped(<minecraft:leather_helmet>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
 	recipes.removeShaped(<minecraft:leather_chestplate>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>]]);
 	recipes.removeShaped(<minecraft:leather_leggings>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);

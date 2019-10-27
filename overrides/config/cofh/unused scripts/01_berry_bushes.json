@@ -1,0 +1,681 @@
+{
+    "populate":{
+		"bush_blackberry": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/blackberry"
+						}
+					],
+					"material": [
+						"tfc:grass/andesite",
+						"tfc:grass/basalt",
+						"tfc:grass/chalk",
+						"tfc:grass/chert",
+						"tfc:grass/claystone",
+						"tfc:grass/conglomerate",
+						"tfc:grass/dacite",
+						"tfc:grass/diorite",
+						"tfc:grass/dolomite",
+						"tfc:grass/gabbro",
+						"tfc:grass/gneiss",
+						"tfc:grass/granite",
+						"tfc:grass/limestone",
+						"tfc:grass/marble",
+						"tfc:grass/phyllite",
+						"tfc:grass/quartzite",
+						"tfc:grass/rhyolite",
+						"tfc:grass/rocksalt",
+						"tfc:grass/schist",
+						"tfc:grass/shale",
+						"tfc:grass/slate"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat"
+					],
+					"smooth": true,
+					"fat": true,
+					"min-height": 2,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 3,
+			"min-height": 50,
+			"max-height": 170,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"bush_blueberry": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/blueberry"
+						}
+					],
+					"material": [
+						"tfc:grass/andesite",
+						"tfc:grass/basalt",
+						"tfc:grass/chalk",
+						"tfc:grass/chert",
+						"tfc:grass/claystone",
+						"tfc:grass/conglomerate",
+						"tfc:grass/dacite",
+						"tfc:grass/diorite",
+						"tfc:grass/dolomite",
+						"tfc:grass/gabbro",
+						"tfc:grass/gneiss",
+						"tfc:grass/granite",
+						"tfc:grass/limestone",
+						"tfc:grass/marble",
+						"tfc:grass/phyllite",
+						"tfc:grass/quartzite",
+						"tfc:grass/rhyolite",
+						"tfc:grass/rocksalt",
+						"tfc:grass/schist",
+						"tfc:grass/shale",
+						"tfc:grass/slate"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat"
+					],
+					"smooth": true,
+					"fat": true,
+					"min-height": 2,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 3,
+			"min-height": 50,
+			"max-height": 170,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"bush_gooseberry": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/gooseberry"
+						}
+					],
+					"material": [
+						"tfc:grass/andesite",
+						"tfc:grass/basalt",
+						"tfc:grass/chalk",
+						"tfc:grass/chert",
+						"tfc:grass/claystone",
+						"tfc:grass/conglomerate",
+						"tfc:grass/dacite",
+						"tfc:grass/diorite",
+						"tfc:grass/dolomite",
+						"tfc:grass/gabbro",
+						"tfc:grass/gneiss",
+						"tfc:grass/granite",
+						"tfc:grass/limestone",
+						"tfc:grass/marble",
+						"tfc:grass/phyllite",
+						"tfc:grass/quartzite",
+						"tfc:grass/rhyolite",
+						"tfc:grass/rocksalt",
+						"tfc:grass/schist",
+						"tfc:grass/shale",
+						"tfc:grass/slate"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat"
+					],
+					"smooth": true,
+					"fat": true,
+					"min-height": 2,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 3,
+			"min-height": 50,
+			"max-height": 170,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"bush_cranberry": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/cranberry"
+						}
+					],
+					"material": [
+						"tfc:grass/andesite",
+						"tfc:grass/basalt",
+						"tfc:grass/chalk",
+						"tfc:grass/chert",
+						"tfc:grass/claystone",
+						"tfc:grass/conglomerate",
+						"tfc:grass/dacite",
+						"tfc:grass/diorite",
+						"tfc:grass/dolomite",
+						"tfc:grass/gabbro",
+						"tfc:grass/gneiss",
+						"tfc:grass/granite",
+						"tfc:grass/limestone",
+						"tfc:grass/marble",
+						"tfc:grass/phyllite",
+						"tfc:grass/quartzite",
+						"tfc:grass/rhyolite",
+						"tfc:grass/rocksalt",
+						"tfc:grass/schist",
+						"tfc:grass/shale",
+						"tfc:grass/slate"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat"
+					],
+					"smooth": true,
+					"fat": true,
+					"min-height": 2,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 3,
+			"min-height": 50,
+			"max-height": 170,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"bush_elderberry": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/elderberry"
+						}
+					],
+					"material": [
+						"tfc:grass/andesite",
+						"tfc:grass/basalt",
+						"tfc:grass/chalk",
+						"tfc:grass/chert",
+						"tfc:grass/claystone",
+						"tfc:grass/conglomerate",
+						"tfc:grass/dacite",
+						"tfc:grass/diorite",
+						"tfc:grass/dolomite",
+						"tfc:grass/gabbro",
+						"tfc:grass/gneiss",
+						"tfc:grass/granite",
+						"tfc:grass/limestone",
+						"tfc:grass/marble",
+						"tfc:grass/phyllite",
+						"tfc:grass/quartzite",
+						"tfc:grass/rhyolite",
+						"tfc:grass/rocksalt",
+						"tfc:grass/schist",
+						"tfc:grass/shale",
+						"tfc:grass/slate"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat"
+					],
+					"smooth": true,
+					"fat": true,
+					"min-height": 2,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 3,
+			"min-height": 50,
+			"max-height": 170,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"bush_raspberry": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "tfc:berry_bush/raspberry"
+						}
+					],
+					"material": [
+						"tfc:grass/andesite",
+						"tfc:grass/basalt",
+						"tfc:grass/chalk",
+						"tfc:grass/chert",
+						"tfc:grass/claystone",
+						"tfc:grass/conglomerate",
+						"tfc:grass/dacite",
+						"tfc:grass/diorite",
+						"tfc:grass/dolomite",
+						"tfc:grass/gabbro",
+						"tfc:grass/gneiss",
+						"tfc:grass/granite",
+						"tfc:grass/limestone",
+						"tfc:grass/marble",
+						"tfc:grass/phyllite",
+						"tfc:grass/quartzite",
+						"tfc:grass/rhyolite",
+						"tfc:grass/rocksalt",
+						"tfc:grass/schist",
+						"tfc:grass/shale",
+						"tfc:grass/slate"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"tfc:plants/field_horsetail",
+						"tfc:plants/lady_fern",
+						"tfc:plants/licorice_fern",
+						"tfc:plants/sword_fern",
+						"tfc:plants/toquilla_palm",
+						"tfc:plants/fountain_grass",
+						"tfc:plants/orchard_grass",
+						"tfc:plants/pampas_grass",
+						"tfc:plants/ryegrass",
+						"tfc:plants/scutch_grass",
+						"tfc:plants/switchgrass",
+						"tfc:plants/tall_fescue_grass",
+						"tfc:plants/timothy_grass",
+						"tfc:placed_item_flat"
+					],
+					"smooth": true,
+					"fat": true,
+					"min-height": 2,
+					"height-variance": 0,
+					"height-mod": 2,
+					"gen-size": 1,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 3,
+			"min-height": 50,
+			"max-height": 170,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

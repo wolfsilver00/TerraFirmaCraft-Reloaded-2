@@ -1,0 +1,128 @@
+{
+	"populate": {
+		"rock": {
+
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+                "block": [
+					{
+						"name": "contenttweaker:mossy_cobblestone_andesite",
+						"weight": 85
+					},
+					{
+						"name": "tfc:cobble/andesite",
+						"weight": 15
+					}
+                ],
+				"material": [
+					"minecraft:sandstone",
+					"minecraft:sand",
+					"tfc:grass/granite",
+					"tfc:dry_grass/granite",
+					"tfc:dirt/granite",
+					"tfc:gravel/granite",
+					"tfc:grass/conglomerate",
+					"tfc:dry_grass/conglomerate",
+					"tfc:dirt/conglomerate",
+					"tfc:gravel/conglomerate",
+					"tfc:grass/shale",
+					"tfc:dry_grass/shale",
+					"tfc:dirt/shale",
+					"tfc:gravel/shale",
+					"tfc:grass/slate",
+					"tfc:dry_grass/slate",
+					"tfc:dirt/slate",
+					"tfc:gravel/slate"
+				],
+				"diameter": 1,
+				"size-variance": 1,
+				"count": 1
+				"count-variance": 3,
+			},
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 170,
+			"material": [
+				"minecraft:dirt",
+				"minecraft:grass",
+				"minecraft:stone",
+				"minecraft:snow",
+				"minecraft:snow_layer",
+				"minecraft:sandstone",
+				"minecraft:sand",
+				"tfc:grass/granite",
+				"tfc:dry_grass/granite",
+				"tfc:dirt/granite",
+				"tfc:gravel/granite",
+				"tfc:grass/conglomerate",
+				"tfc:dry_grass/conglomerate",
+				"tfc:dirt/conglomerate",
+				"tfc:gravel/conglomerate",
+				"tfc:grass/shale",
+				"tfc:dry_grass/shale",
+				"tfc:dirt/shale",
+				"tfc:gravel/shale",
+				"tfc:grass/slate",
+				"tfc:dry_grass/slate",
+				"tfc:dirt/slate",
+				"tfc:gravel/slate"
+			],
+			"follow-terrain": true,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "HILLS"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
