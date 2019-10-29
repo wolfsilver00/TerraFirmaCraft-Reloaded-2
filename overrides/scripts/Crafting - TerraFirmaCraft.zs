@@ -364,29 +364,29 @@
 
 	furnace.setFuel(<tfc:ore/bituminous_coal>, 1600);
 	furnace.setFuel(<tfc:ore/lignite>, 1200);
-	furnace.setFuel(<tfc:peat>, 800);
-	furnace.setFuel(<contenttweaker:firewood_acacia>, 800);
-	furnace.setFuel(<contenttweaker:firewood_ash>, 800);
-	furnace.setFuel(<contenttweaker:firewood_aspen>, 800);
-	furnace.setFuel(<contenttweaker:firewood_birch>, 800);
-	furnace.setFuel(<contenttweaker:firewood_blackwood>, 800);
-	furnace.setFuel(<contenttweaker:firewood_chestnut>, 800);
-	furnace.setFuel(<contenttweaker:firewood_douglas_fir>, 800);
-	furnace.setFuel(<contenttweaker:firewood_hickory>, 800);
-	furnace.setFuel(<contenttweaker:firewood_kapok>, 800);
-	furnace.setFuel(<contenttweaker:firewood_maple>, 800);
-	furnace.setFuel(<contenttweaker:firewood_oak>, 800);
-	furnace.setFuel(<contenttweaker:firewood_palm>, 800);
-	furnace.setFuel(<contenttweaker:firewood_pine>, 800);
-	furnace.setFuel(<contenttweaker:firewood_rosewood>, 800);
-	furnace.setFuel(<contenttweaker:firewood_sequoia>, 800);
-	furnace.setFuel(<contenttweaker:firewood_spruce>, 800);
-	furnace.setFuel(<contenttweaker:firewood_sycamore>, 800);
-	furnace.setFuel(<contenttweaker:firewood_white_cedar>, 800);
-	furnace.setFuel(<contenttweaker:firewood_white_elm>, 800);
-	furnace.setFuel(<contenttweaker:firewood_willow>, 800);
-	furnace.setFuel(<contenttweaker:firewood_greatwood>, 800);
-	furnace.setFuel(<contenttweaker:firewood_silverwood>, 800);
+	//furnace.setFuel(<tfc:peat>, 800);
+	furnace.setFuel(<contenttweaker:firewood_acacia>, 930);
+	furnace.setFuel(<contenttweaker:firewood_ash>, 930);
+	furnace.setFuel(<contenttweaker:firewood_aspen>, 930);
+	furnace.setFuel(<contenttweaker:firewood_birch>, 930);
+	furnace.setFuel(<contenttweaker:firewood_blackwood>, 930);
+	furnace.setFuel(<contenttweaker:firewood_chestnut>, 930);
+	furnace.setFuel(<contenttweaker:firewood_douglas_fir>, 930);
+	furnace.setFuel(<contenttweaker:firewood_hickory>, 930);
+	furnace.setFuel(<contenttweaker:firewood_kapok>, 930);
+	furnace.setFuel(<contenttweaker:firewood_maple>, 930);
+	furnace.setFuel(<contenttweaker:firewood_oak>, 930);
+	furnace.setFuel(<contenttweaker:firewood_palm>, 930);
+	furnace.setFuel(<contenttweaker:firewood_pine>, 930);
+	furnace.setFuel(<contenttweaker:firewood_rosewood>, 930);
+	furnace.setFuel(<contenttweaker:firewood_sequoia>, 930);
+	furnace.setFuel(<contenttweaker:firewood_spruce>, 930);
+	furnace.setFuel(<contenttweaker:firewood_sycamore>, 930);
+	furnace.setFuel(<contenttweaker:firewood_white_cedar>, 930);
+	furnace.setFuel(<contenttweaker:firewood_white_elm>, 930);
+	furnace.setFuel(<contenttweaker:firewood_willow>, 930);
+	furnace.setFuel(<contenttweaker:firewood_greatwood>, 930);
+	furnace.setFuel(<contenttweaker:firewood_silverwood>, 930);
 
 
 //=======================================================================================================================================================================
@@ -410,9 +410,11 @@
 //=======================================================================================================================================================================
 //Add Heating/Cooking Recipes
 
-	mods.terrafirmacraft.Heating.addRecipe("tfcr:clay_brick_heating", <minecraft:clay_ball>, <minecraft:brick>, 900, 1200);
-	mods.terrafirmacraft.Heating.addRecipe("tfcr:terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 900, 1200);
-	mods.terrafirmacraft.Heating.addRecipe("tfcr:bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 1000, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:mud_brick_heating", <contenttweaker:mud_ball>, <contenttweaker:mud_brick>, 210, 1000);
+	
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:clay_brick_heating", <minecraft:clay_ball>, <minecraft:brick>, 300, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 300, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("tfcr:bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 480, 1200);
 	
 	mods.terrafirmacraft.Heating.addRecipe("tfcr:dixie_glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
 	

@@ -7,6 +7,13 @@ tile.contenttweaker.lavender.name=Lavender
 item.contenttweaker.jacaranda_lumber.name=Jacaranda Lumber
 item.contenttweaker.persimmon.name=Persimmon
 
+#Mud
+item.contenttweaker.mud_ball.name=Mud Ball
+item.contenttweaker.mud_brick.name=Mud Brick
+tile.contenttweaker.mud_block.name=Mud
+tile.contenttweaker.mud_brick_block.name=Mud Brick Block
+tile.contenttweaker.mud_bricks.name=Mud Bricks
+
 #Glue
 item.contenttweaker.glue.name=Glue
 item.contenttweaker.dixie_glue.name=Dixie (Glue)

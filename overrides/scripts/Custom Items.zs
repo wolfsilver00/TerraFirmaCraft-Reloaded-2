@@ -23,6 +23,23 @@ persimmon.register();
 
 
 //=====================================================================================================================================================================
+//Mud
+
+//Mud Ball
+var mud_ball = VanillaFactory.createItem("mud_ball");
+mud_ball.maxStackSize = 64;
+mud_ball.setCreativeTab(<creativetab:decorations>);
+mud_ball.register();
+
+
+//Mud Brick
+var mud_brick = VanillaFactory.createItem("mud_brick");
+mud_brick.maxStackSize = 64;
+mud_brick.setCreativeTab(<creativetab:decorations>);
+mud_brick.register();
+
+
+//=====================================================================================================================================================================
 //Glue & Dixie buckets
 
 //Glue

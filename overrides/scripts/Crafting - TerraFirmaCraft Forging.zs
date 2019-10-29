@@ -122,6 +122,10 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay>, 0.14, 540, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:hardened_clay>, 0.14, 540, true);
 	
+	//Mud
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:mud_ball>, 0.14, 540, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:mud_brick>, 0.14, 540, true);
+	
 	//Content Tweaker Metal Items - Size
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:aluminium_double_ingot>, "LARGE", "MEDIUM");
 	mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:aluminium_sheet>, "NORMAL", "MEDIUM");

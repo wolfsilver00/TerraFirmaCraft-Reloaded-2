@@ -46,6 +46,88 @@
 	recipes.removeShaped(<minecraft:leather_leggings>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
 	recipes.removeShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]]);
 
+
+//=======================================================================================================================================================================
+//Replace Items
+
+	//Vanilla
+	recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>);
+	recipes.replaceAllOccurences(<minecraft:gold_nugget>, <ore:nuggetGold>);
+	recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>);
+	recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotGold>);
+	recipes.replaceAllOccurences(<minecraft:diamond>, <ore:gemDiamond>);
+	recipes.replaceAllOccurences(<minecraft:trapdoor>, <ore:woodTrapdoor>);
+	recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>);
+	recipes.replaceAllOccurences(<minecraft:crafting_table>, <ore:workbench>);
+	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOak>);
+	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruce);
+	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirch>);
+	recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodKapok>);
+	recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcacia>);
+	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodHickory>);
+	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+	recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater>);
+	recipes.replaceAllOccurences(<minecraft:stonebrick>, <ore:stoneBrick>);
+	
+	//Wood
+	recipes.replaceAllOccurences(<minecraft:log>, <ore:logOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log:1>, <ore:logSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log:2>, <ore:logBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log:3>, <ore:logJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log2>, <ore:logAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:log2:1>, <ore:logDarkOakSimilar>);
+	
+	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodDarkOakSimilar>);
+	
+	recipes.replaceAllOccurences(<minecraft:oak_stairs>, <ore:stairsWoodOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:spruce_stairs>, <ore:stairsWoodSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:birch_stairs>, <ore:stairsWoodBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:jungle_stairs>, <ore:stairsWoodJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:acacia_stairs>, <ore:stairsWoodAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:dark_oak_stairs>, <ore:stairsWoodDarkOakSimilar>);
+	
+	recipes.replaceAllOccurences(<minecraft:wooden_slab>, <ore:slabWoodOakSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:1>, <ore:slabWoodSpruceSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:2>, <ore:slabWoodBirchSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:3>, <ore:slabWoodJungleSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:4>, <ore:slabWoodAcaciaSimilar>);
+	recipes.replaceAllOccurences(<minecraft:wooden_slab:5>, <ore:slabWoodDarkOakSimilar>);
+
+	//Immersive Engineering
+	recipes.replaceAllOccurences(<immersiveengineering:metal>, <ore:ingotCopper>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:2>, <ore:ingotLead>);	
+	recipes.replaceAllOccurences(<immersiveengineering:metal:3>, <ore:ingotSilver>);	
+	recipes.replaceAllOccurences(<immersiveengineering:metal:4>, <ore:ingotNickel>);	
+	recipes.replaceAllOccurences(<immersiveengineering:metal:8>, <ore:ingotSteel>);	
+	recipes.replaceAllOccurences(<immersiveengineering:metal:30>, <ore:plateCopper>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:31>, <ore:plateAluminum>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:32>, <ore:plateLead>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:33>, <ore:plateSilver>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:34>, <ore:plateNickel>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:35>, <ore:plateUranium>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:36>, <ore:plateConstantan>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:37>, <ore:plateElectrum>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:38>, <ore:plateSteel>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:39>, <ore:plateIron>);
+	recipes.replaceAllOccurences(<immersiveengineering:metal:40>, <ore:plateGold>);
+
+	//Tinkers' Construct
+	recipes.replaceAllOccurences(<tconstruct:ingots:4>, <ore:ingotPigiron>);
+	recipes.replaceAllOccurences(<tconstruct:ingots:5>, <ore:ingotBrass>);
+
+	//Thaumcraft
+	recipes.replaceAllOccurences(<thaumcraft:ingot:2>, <ore:ingotBrass>);
+
+
+//=======================================================================================================================================================================
+//Add Recipes
+
 	//Rope
 	recipes.addShapeless(<ropebridge:rope>, [<betterwithmods:rope>]);
 	
@@ -135,6 +217,19 @@
 	//Horse Grindstone
 	recipes.addShaped(<horsepower:grindstone>, [[null, <ore:stickWood>, null], [<minecraft:lead>, <ore:handstone>, <minecraft:lead>], [null, <tfc:quern>, null]]);
 
+	//Mud
+	recipes.addShapeless(<contenttweaker:mud_ball> * 4, [<contenttweaker:mud_block>]);
+	recipes.addShaped(<contenttweaker:mud_block>, [[<contenttweaker:mud_ball>, <contenttweaker:mud_ball>], [<contenttweaker:mud_ball>, <contenttweaker:mud_ball>]]);
+	recipes.addShaped(<contenttweaker:mud_brick_block>, [[<contenttweaker:mud_brick>, <contenttweaker:mud_ball>], [<contenttweaker:mud_ball>, <contenttweaker:mud_brick>]]);
+	recipes.addShaped(<contenttweaker:mud_bricks>, [[<contenttweaker:mud_brick>, <contenttweaker:mud_brick>], [<contenttweaker:mud_brick>, <contenttweaker:mud_brick>]]);
+
+	//Display Case
+	recipes.replaceAllOccurences(<ore:slabWoodOakSimilar>, <ore:lumber>, <butterflies:butterfly_case>);
+	
+	//Clay Wall
+	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumberPlaned>, <rustic:clay_wall_cross>);
+	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumberPlaned>, <rustic:clay_wall_diag>);
+	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumberPlaned>, <rustic:clay_wall>);
 
 //=======================================================================================================================================================================
 //Rename Items
@@ -157,84 +252,11 @@
 	<minecraft:leaves2:1>.displayName = "Hickory Leaves";
 	<minecraft:sapling:3>.displayName = "White Elm Sapling";
 	<minecraft:sapling:5>.displayName = "Hickory Sapling";
-
-
-//=======================================================================================================================================================================
-//Replace Items
-
-	//Vanilla
-	recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>);
-	recipes.replaceAllOccurences(<minecraft:gold_nugget>, <ore:nuggetGold>);
-	recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>);
-	recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotGold>);
-	recipes.replaceAllOccurences(<minecraft:diamond>, <ore:gemDiamond>);
-	recipes.replaceAllOccurences(<minecraft:trapdoor>, <ore:woodTrapdoor>);
-	recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>);
-	recipes.replaceAllOccurences(<minecraft:crafting_table>, <ore:workbench>);
-	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOak>);
-	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruce);
-	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirch>);
-	recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodKapok>);
-	recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcacia>);
-	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodHickory>);
-	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
-	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
-	recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater>);
-	recipes.replaceAllOccurences(<minecraft:stonebrick>, <ore:stoneBrick>);
 	
-	//Wood
-	recipes.replaceAllOccurences(<minecraft:log>, <ore:logOakSimilar>);
-	recipes.replaceAllOccurences(<minecraft:log:1>, <ore:logSpruceSimilar>);
-	recipes.replaceAllOccurences(<minecraft:log:2>, <ore:logBirchSimilar>);
-	recipes.replaceAllOccurences(<minecraft:log:3>, <ore:logJungleSimilar>);
-	recipes.replaceAllOccurences(<minecraft:log2>, <ore:logAcaciaSimilar>);
-	recipes.replaceAllOccurences(<minecraft:log2:1>, <ore:logDarkOakSimilar>);
+	//Flowers
+	<minecraft:red_flower:2>.displayName = "Lavender";
 	
-	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOakSimilar>);
-	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruceSimilar>);
-	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirchSimilar>);
-	recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodJungleSimilar>);
-	recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcaciaSimilar>);
-	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodDarkOakSimilar>);
-	
-	recipes.replaceAllOccurences(<minecraft:oak_stairs>, <ore:stairsWoodOakSimilar>);
-	recipes.replaceAllOccurences(<minecraft:spruce_stairs>, <ore:stairsWoodSpruceSimilar>);
-	recipes.replaceAllOccurences(<minecraft:birch_stairs>, <ore:stairsWoodBirchSimilar>);
-	recipes.replaceAllOccurences(<minecraft:jungle_stairs>, <ore:stairsWoodJungleSimilar>);
-	recipes.replaceAllOccurences(<minecraft:acacia_stairs>, <ore:stairsWoodAcaciaSimilar>);
-	recipes.replaceAllOccurences(<minecraft:dark_oak_stairs>, <ore:stairsWoodDarkOakSimilar>);
-	
-	recipes.replaceAllOccurences(<minecraft:wooden_slab>, <ore:slabWoodOakSimilar>);
-	recipes.replaceAllOccurences(<minecraft:wooden_slab:1>, <ore:slabWoodSpruceSimilar>);
-	recipes.replaceAllOccurences(<minecraft:wooden_slab:2>, <ore:slabWoodBirchSimilar>);
-	recipes.replaceAllOccurences(<minecraft:wooden_slab:3>, <ore:slabWoodJungleSimilar>);
-	recipes.replaceAllOccurences(<minecraft:wooden_slab:4>, <ore:slabWoodAcaciaSimilar>);
-	recipes.replaceAllOccurences(<minecraft:wooden_slab:5>, <ore:slabWoodDarkOakSimilar>);
 
-	//Immersive Engineering
-	recipes.replaceAllOccurences(<immersiveengineering:metal>, <ore:ingotCopper>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:2>, <ore:ingotLead>);	
-	recipes.replaceAllOccurences(<immersiveengineering:metal:3>, <ore:ingotSilver>);	
-	recipes.replaceAllOccurences(<immersiveengineering:metal:4>, <ore:ingotNickel>);	
-	recipes.replaceAllOccurences(<immersiveengineering:metal:8>, <ore:ingotSteel>);	
-	recipes.replaceAllOccurences(<immersiveengineering:metal:30>, <ore:plateCopper>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:31>, <ore:plateAluminum>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:32>, <ore:plateLead>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:33>, <ore:plateSilver>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:34>, <ore:plateNickel>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:35>, <ore:plateUranium>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:36>, <ore:plateConstantan>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:37>, <ore:plateElectrum>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:38>, <ore:plateSteel>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:39>, <ore:plateIron>);
-	recipes.replaceAllOccurences(<immersiveengineering:metal:40>, <ore:plateGold>);
-
-	//Tinkers' Construct
-	recipes.replaceAllOccurences(<tconstruct:ingots:4>, <ore:ingotPigiron>);
-	recipes.replaceAllOccurences(<tconstruct:ingots:5>, <ore:ingotBrass>);
-
-	//Thaumcraft
-	recipes.replaceAllOccurences(<thaumcraft:ingot:2>, <ore:ingotBrass>);
 
 
 

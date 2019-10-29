@@ -304,6 +304,9 @@
 	mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:brick>, <minecraft:clay_ball>, 600, null);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:netherbrick>, <minecraft:brick>, 600, null);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:hardened_clay>, <minecraft:clay>, 600, null);
+	
+	//Mud
+	mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:mud_brick>, <contenttweaker:mud_ball>, 400, null);
 
 
 //=======================================================================================================================================================================

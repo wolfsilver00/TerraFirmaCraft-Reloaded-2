@@ -1,47 +1,48 @@
 [
   {
     "mob": [
-	"minecraft:squid"
+		"minecraft:squid"
 	],
-    "weight": 10,
 	"maxheight": 256,
 	"minheight": 1,
-    "biome": [
-	"tfc:ocean",
-	"tfc:deep_ocean",
-	"tfc:beach",
-	"tfc:gravel_beach"
+    "biometype": [
+		"ocean",
+		"beach",
+		"river",
+		"wet"
 	],
     "result": "allow"
   },
   {
     "mob": [
-	"lumen:ember",
-	"lumen:firefly",
-	"lumen:lightning_bug",
-	"lumen:psi_firefly"
+		"lumen:ember",
+		"lumen:firefly",
+		"lumen:lightning_bug",
+		"lumen:psi_firefly"
 	],
-    "weight": 10,
-    "groupcountmin": 1,
-    "groupcountmax": 10,
     "biome": [
-	"tfc:high_hills",
-	"tfc:plains",
-	"tfc:swampland",
-	"tfc:high_hills_edge",
-	"tfc:rolling_hills",
-	"tfc:mountains",
-	"tfc:mountains_edge",
-	"tfc:high_plains",
-	"TerraFirmaCraft High Hills",
-	"TerraFirmaCraft Plains",
-	"TerraFirmaCraft Swampland",
-	"TerraFirmaCraft High Hills Edge",
-	"TerraFirmaCraft Rolling Hills",
-	"TerraFirmaCraft Mountains",
-	"TerraFirmaCraft Mountains Edge",
-	"TerraFirmaCraft High Plains"
+		"mountain",
+		"swamp",
+		"jungle"
 	],
+    "result": "allow"
+  },
+  {
+    "mob": [
+		"butterflies:butterfly"
+	],
+	"mincount": 3,
+	"maxcount": 10,
+	"biome": [
+		"forest",
+		"plains",
+		"wet",
+		"swamp",
+		"lush",
+		"hills",
+		"jungle"
+	],
+	"weight": 20,
     "result": "allow"
   }
 ]
